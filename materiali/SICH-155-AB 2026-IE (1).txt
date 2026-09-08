@@ -1,0 +1,2675 @@
+[2:55] Ciao ragazzi,
+[2:56] buongiorno.
+[2:58] Tutto bene?
+[3:00] Assolutamente sì. Ho sbagliato da poco
+[3:02] perché ho staccato all'una, però bene.
+[3:06] Ok, va bene.
+[3:08] Ciao.
+[3:10] Ciao.
+[3:12] Ma sì, dai, potrebbe andare meglio, ma
+[3:14] tutto bene.
+[3:19] Sono da tre, sono da tre settimane con
+[3:22] le colicheenali.
+[3:28] Come mai così dal nulla?
+[3:31] Eh, quelli carenali. Sì,
+[3:34] e quelle fanno male,
+[3:36] eh. Devo ancora espellere
+[3:39] il calcolo.
+[3:40] Ahi ahi ahi, mi fa male solo a sentirelo
+[3:44] dire.
+[3:46] Fanno male. Sì, sì. Quindi se in alcuni
+[3:49] momenti potrei sparire è per quello. Ah,
+[3:52] non ti preoccupare.
+[4:30] Buongiorno a tutti. Buongiorno.
+[4:33] Ciao.
+[4:34] Ciao. Buongiorno.
+[5:14] Aspettiamo ancora qualche minuto.
+[5:15] Dovremmo essere in sei o sette, adesso
+[5:17] non mi ricordo più utile. Quanti avete
+[5:18] preso
+[5:27] essere in sette più 8.
+[5:35] Tanto inizio a segnare le presenze così
+[5:37] mi tolgo sta roba. Allora, vediamo
+[5:40] Emanuele.
+[5:42] Ecco
+[5:47] Marco Gam
+[5:50] presente.
+[5:52] Salvatore della Gatta. Presente
+[6:01] Daniele Stringola,
+[6:04] presente.
+[6:08] Martina
+[6:11] presente. Ho solo qualche problema di
+[6:13] connessione.
+[6:15] Ok, poi sarà registrata comunque, però
+[6:19] nel caso se ti perdi
+[6:22] va bene, grazie.
+[6:24] E poi Andrea
+[6:27] Andrea Volpi, giusto? Sì,
+[6:29] sì, presente.
+[6:31] Perfetto.
+[6:39] E ne manca uno. Adesso aspettiamo ancora
+[6:41] qualche minuto.
+[6:46] Raul dovrebbe
+[6:49] essere segnato.
+[7:15] Vi ricordate che la scorsa lezione
+[7:17] avevamo parlato degli attacchi supply
+[7:19] chain, quella la catena dei fornitori.
+[7:21] Sì.
+[7:21] Eh,
+[7:22] beccatevi qua
+[7:25] proprio di due giorni fa ho messo in
+[7:27] chat il link dell'Agenzia per la
+[7:29] cybersicurezza nazionale italiana.
+[7:33] Vi messager questo qua?
+[7:34] Sì, quello che chato.
+[7:37] Ok. Ma NPM il modager cos'è? Sì, sì, sì,
+[7:43] hanno fatto Sì, hanno inserito lì un una
+[7:47] la una parte di codice malevole,
+[7:49] insomma, e hanno usato chiaramente Vi
+[7:52] ricordate anche la differenza tra virus
+[7:54] e
+[7:55] questa era anche un'altra domanda che
+[7:56] volevo farti durante la lezione scorsa
+[7:59] mentre ne parlavi, perché non è la prima
+[8:00] volta che mettono del codice malevolo
+[8:02] nei pacchetti NPM,
+[8:04] se non sbaglio, avevo già letto degli
+[8:06] articoli. Sì, sì, sì,
+[8:10] si fa. Ah, perché tutto tutto allora i
+[8:12] pacchetti NPM come tutto tutti i vari
+[8:14] servizi software
+[8:15] perché poi fanno da dipendenza per altre
+[8:17] applicazioni. Quindi era una domanda che
+[8:19] volevo chiedere se anche NPM poteva
+[8:20] essere un supply chain, ma questa qui ho
+[8:22] la mia risposta, insomma. Ottimo.
+[8:25] Assolutamente sì.
+[8:35] Ma npm, ma anche JavaScript classico è
+[8:38] stato vittima di, cioè ti attacchi
+[8:42] veramente,
+[8:43] tu importi la tua libreria e il giorno
+[8:46] la prima volta che aggiorni ti trovi la
+[8:47] sorpresa.
+[8:49] Eh, anche perché poi uno aggiorna
+[8:52] aggiorna una libreria, automaticamente
+[8:55] chissà quanti utilizzano la stessa
+[8:57] libreria e sono tutti fatti, insomma.
+[9:00] Esatto.
+[9:03] Allora, aspettiamo ancora un paio di
+[9:04] minuti. Se non arriva Raul direi che
+[9:06] cominciamo.
+[9:08] Ok.
+[9:51] Eh, ma son giorni che ne stanno uscendo
+[9:53] di articoli tutte ste vulnerabilità, eh,
+[9:55] anche su Linux.
+[9:58] Sì,
+[10:02] su Linux ne ho viste un po'. Sì, quello
+[10:04] è vero.
+[10:05] Il copy fail, il dirti freg stanno
+[10:07] uscendo di robe.
+[10:10] Sì,
+[10:15] allora
+[10:21] vediamolo.
+[10:27] Devo capire se la registrazione in
+[10:29] corso, così almeno penso di sì. Ti dice
+[10:32] registrazioni in corso. Anche voi lo
+[10:34] vedete giusto?
+[10:34] A me sembra di sì. Vedo il pallino in
+[10:36] alto. Boh.
+[10:43] Ah, mancava di sì.
+[11:21] Bene, allora direi che chiedo solo
+[11:24] conferma a coso
+[11:26] se non viene e poi partiamo.
+[11:37] Sì, sta registrando da 11 minuti, direi
+[11:39] di sì. Ok, allora continua
+[12:12] Ok,
+[12:14] allora
+[12:16] condivido
+[12:30] vedete?
+[12:32] Sì, sì, sì.
+[12:34] Ok, allora vi ricordate allora la prima
+[12:37] lezione è tutta ok, giusto? Avete visto
+[12:39] anche le slide?
+[12:41] Ok.
+[12:41] Sì.
+[12:43] eravamo arrivati quattro, quindi
+[12:44] continuiamo.
+[12:46] Eh, cercherò come l'altra volta di
+[12:48] rendere sempre interattiva, eh, quindi
+[12:50] un po' di teorie, un po' più di domande,
+[12:52] un po' di ragionamenti tutti assieme.
+[12:54] Allora, che cosa sono le vulnerabilità?
+[12:58] Eh, una vulnerabilità
+[13:00] è, diciamo, una debolezza sfruttabile.
+[13:05] Eh, in questa definizione la parola
+[13:06] chiave è sfruttabile perché se c'è un
+[13:10] difetto teorico che però nessuno può
+[13:14] sfruttare, quindi non può attivare, è in
+[13:17] pratica una non vulnerabilità in senso
+[13:19] operativo.
+[13:21] Quindi, anche se c'è il bug, ma se poi
+[13:24] non può essere, che ne so, eh,
+[13:27] weaponizzato con un RCE, quindi con un
+[13:31] remote code execution, quindi una
+[13:32] esecuzione di codice da remoto, allora
+[13:36] non è poi chiamata una vulnerabilità, ma
+[13:37] un bug, semplicemente un bug. Quindi lo
+[13:40] sfruttamento, in questo caso poi viene
+[13:42] definito in inglese exploit. Eh, userò
+[13:45] parole inglesi non perché fa figo, ma
+[13:47] perché il vostro esame sarà in inglese.
+[13:49] Eh, quindi ve lo ve lo ve l'avevo detto
+[13:50] l'altra volta, ma
+[13:53] è così, purtroppo.
+[13:55] Eh, come per fare sempre un'analogia
+[13:59] per per la definizione di vulnerabilità
+[14:01] anche fuori dall'informatica,
+[14:03] eh mettiamo così, la porta di casa ha
+[14:07] una serratura difettosa.
+[14:09] La vulnerabilità, in questo esempio, è
+[14:12] il difetto della serratura. L'exploit
+[14:16] sarà la tecnica con cui, che ne so, un
+[14:19] ladro la apre. Quindi, boh, exploit può
+[14:22] essere in questo esempio fisico,
+[14:25] sbloccarla con una carta di credito, se
+[14:27] una di quelle che si sbloccano con la
+[14:28] carta o che ne so con le con la forcina
+[14:32] dei capelli, una cosa simile. La
+[14:34] minaccia che cos'è? È l'esistenza dei
+[14:38] ladri in zona.
+[14:40] Il rischio, se vi ricordate dalla dalla
+[14:43] lezione precedente, è la combinazione di
+[14:45] tutto questo. Porta difettosa più ladri
+[14:48] attivi in zona più una casa che contiene
+[14:51] cose di valore, quindi degli asset.
+[14:54] Ci sono eh tre famiglie, tre grandi
+[14:59] famiglie di vulnerabilità. eh sono
+[15:02] vulnerabilità di rete, vulnerabilità dei
+[15:03] sistemi e vulnerabilità delle
+[15:05] applicazioni.
+[15:07] Per quanto riguarda quelle di rete eh
+[15:09] sono quelle che riguardano
+[15:11] l'infrastruttura di comunicazione,
+[15:13] quindi protocolli malconfigurati,
+[15:16] servizi esposti che dovevano essere
+[15:18] invece lasciati interni, segmentazione
+[15:21] assente della rete oppure direttamente
+[15:24] una cifratura debole. Quindi vedo in
+[15:26] chiaro quello che passa.
+[15:29] Ehm,
+[15:31] facciamo così, un tipico esempio di
+[15:33] magari un audit di rete andato male è la
+[15:36] stampante in condivisione di rete
+[15:38] dell'ufficio ha anche un'interfaccia web
+[15:40] amministrativa che purtroppo non è stata
+[15:43] configurata bene ed è raggiungibile dal
+[15:45] Wi-Fi degli ospiti magari anche la
+[15:47] password di default per capirci. Questo
+[15:50] è un esempio di audit di rete andato
+[15:51] male.
+[15:53] Eh, poi ci sono vulnerabilità dei
+[15:55] sistemi, eh, riguarda principalmente i
+[15:58] sistemi operativi e i software di
+[16:00] sistema, quindi possono esserci dei bug,
+[16:03] quindi delle falle nei kernel o nei
+[16:06] servizi software non aggiornati o
+[16:09] configurazioni di default insicure.
+[16:13] Queste sono, diciamo che le
+[16:14] vulnerabilità dei sistemi sono in larga
+[16:17] parte risolvibili con patch management
+[16:19] serio, quindi aggiornamenti pianificati
+[16:22] e continui.
+[16:24] Ehm,
+[16:26] diciamo che molto spesso nelle piccole
+[16:28] medie aziende il non avere aggiornato,
+[16:31] quindi un patch management non applicato
+[16:33] bene, è una delle cause principali che
+[16:36] causa poi la compromissione, perché
+[16:38] quindi un software non aggiornato
+[16:39] contiene falle che può magari nelle
+[16:41] versioni successive sono state chiuse,
+[16:44] ma se voi non avete aggiornato siete
+[16:45] vulnerabili e potete essere attaccabili.
+[16:49] vulnerabilità delle applicazioni.
+[16:52] Eh,
+[16:53] ci sono bug nelle applicazioni che
+[16:55] usate, poi ho detto semplicemente,
+[16:57] quindi dal gestionale interno al sito
+[16:58] web,
+[17:00] a del telefono, al vostro router, anche
+[17:04] nel firmware del router. Eh, le le più
+[17:07] classiche tra le vulnerabilità delle
+[17:09] applicazioni sono le sequel injection,
+[17:12] buffer, overflow, autenticazione
+[17:14] difettosa
+[17:15] e così via, insomma.
+[17:18] Eh,
+[17:20] diciamo che ehm
+[17:23] qual è il ciclo di vita di una
+[17:25] vulnerabilità, per capirci, eh viene
+[17:28] scoperto al tempo zero, viene scoperta,
+[17:30] quindi un ricercatore o un criminale, a
+[17:33] seconda di chi l'abbia scoperta, trova
+[17:35] questa falla, trova questo bug.
+[17:38] A questo punto la secondo il secondo c
+[17:40] la seconda il secondo step del ciclo di
+[17:42] vita della vulnerabilità è la
+[17:43] disclosure, quindi il ricercatore lo
+[17:46] comunica il produttore
+[17:48] se è un se è un ricercatore etico,
+[17:50] chiaramente o se è un criminale lo vende
+[17:52] sul dark web. Ok? Ci sono due strade, a
+[17:55] seconda di chi lo trova. Terzo step la
+[17:58] patch. Quindi il produttore rilascia una
+[18:01] correzione, quindi
+[18:03] scrive la parte di codice che chiude
+[18:05] questa falla e eh vi dice di aggiornare.
+[18:10] Poi c'è la pubblicazione, terzo quarto
+[18:13] step, quindi la vulnerabilità riceve un
+[18:16] un identificativo pubblico che vengono
+[18:18] chiamate CE e in base alla gravità
+[18:21] ottiene un punteggio da 0 a 10.
+[18:25] Eh, qual è la finestra di rischio
+[18:27] sostanzialmente?
+[18:28] Quando viene scoperta la vulnerabilità è
+[18:30] tra la patch disponibile e la patch
+[18:33] installata sui sistemi. È la vera
+[18:35] finestra in cui poi gli attaccanti
+[18:38] operano. Quindi finché voi non
+[18:40] aggiornate e da quale importanza del
+[18:43] patch management siete vulnerabili
+[18:45] questa cosa.
+[18:47] Eh, vi faccio ridere, su Cali fino a
+[18:50] settimana scorsa non c'era un
+[18:53] aggiornamento kernel per il copy fail,
+[18:57] quindi ho dovuto disinstallare, ho
+[19:00] dovuto bloccare io i servizi vulnerabili
+[19:03] perché sennò altrimenti sarei stato,
+[19:05] diciamo che è un work around quello che
+[19:07] ho fatto, ma fino a settimana scorsa non
+[19:09] ho trovato un aggiornamento valido sulla
+[19:11] editro di Cali. Poi in altri sistemi
+[19:14] Linux c'è già, eh, però sulla mia Cali
+[19:16] no, cioè su Cali in generale no.
+[19:19] Ehm, vabbè, il concetto di Zero Day è
+[19:22] una vulnerabilità che nota solo agli
+[19:24] attaccanti, quindi non è ancora stata
+[19:27] comunicata al produttore, quindi è
+[19:29] conosciuto dal dal da giorni zero al
+[19:32] produttore perché perché non lo conosce.
+[19:34] Questo è il significato di zero Day e lo
+[19:35] sentirete spesso
+[19:37] e sono chiaramente le più temute, sono
+[19:39] le più costose sul mercato anche nel
+[19:42] dark web, per capirci quelle eh sui
+[19:47] dispositivi mobili pagano anche fino a
+[19:49] milioni di dollari per un RCE 0 day,
+[19:53] zero click, quindi magari che sfrutta
+[19:55] proprio una vulnerabilità nel parser del
+[19:59] che ne so dei PDF di iPhone, quella è
+[20:01] pagata anche 2 o3 milioni di dollari,
+[20:03] Perché vuol dire che tu non devi fare
+[20:05] nulla, io ti mando il PDF e io sono
+[20:08] dentro perché è talmente grave questa
+[20:11] falla che poi della se riesce a fare
+[20:14] tutta una serie di altre chain, quindi
+[20:17] di incatenarla ad altre vulnerabilità,
+[20:20] riesci proprio a prendere il controllo
+[20:21] del telefonino senza che ci sia eh
+[20:24] l'utente che clicchi o senza che ci sia
+[20:28] nessuna interazione con l'utente.
+[20:33] ad esempio di vulnerabilità abbastanza
+[20:36] famose,
+[20:38] Log for Shell, se vi ricordate, nel 2021
+[20:42] dicembre,
+[20:44] eh
+[20:45] è una è una vulnerabilità critica in una
+[20:48] libreria Java che si chiama Logj, log
+[20:51] 4J, che è usata era almeno usata
+[20:55] praticamente ovunque, o meglio ovunque
+[20:58] venisse utilizzato Java e ha avuto uno
+[21:01] score di 10 su 10, quindi gravissima e
+[21:05] permetteva esecuzione remota di codice
+[21:08] con un manipolando un singolo log.
+[21:12] Eh, sostanzialmente quando è stata
+[21:14] pubblicata se non aggiornava
+[21:17] praticamente mezzo, non dico mezzo
+[21:19] mondo, ma era eravamo tutti esposti,
+[21:22] proprio tutti.
+[21:23] Eh, quindi diciamo che la lezione di
+[21:25] queste vulnerabilità, queste falle
+[21:27] grosse, sono che anche aziende che non
+[21:29] scrivono codice Java potenzialmente
+[21:31] erano vulnerabili perché perché magari
+[21:35] avevano dipendenze indirette che usavano
+[21:39] log for J, quindi avevano magari un
+[21:42] software installato
+[21:44] che utilizzava questa libreria di Java e
+[21:47] quindi avrebbe permesso esecuzione sui
+[21:49] loro sistemi di codice da remoto. Ok,
+[21:57] vediamo. Direi.
+[22:03] Secondo voi,
+[22:05] in quale fase è più facile fermare
+[22:10] un attacco di fishing?
+[22:16] In che senso? In che in quale fase?
+[22:19] Eh, allora le Non so se vi ricordate
+[22:22] dalla lezione precedente le le fasi su
+[22:25] vanno un attimo indietro con le slide
+[22:26] così.
+[22:28] Ah,
+[22:32] un po' troppo indietro forse.
+[22:35] Sì,
+[22:38] eh no, non era l'eser l'avevo accennato
+[22:40] io. Ok. Vabbè, la fasi c'era il
+[22:43] delivery, la weaponization eccetera, ve
+[22:45] lo ricordate?
+[22:48] che ne avevamo parlato la scorsa
+[22:50] lezione?
+[22:54] No, no, siamo vuoti.
+[22:55] Facciamo così, rispondo io. No, per le
+[22:57] per il fishing
+[22:59] la fase più facile è fermarlo nella fase
+[23:02] iniziale.
+[23:03] Vabbè, chiaro. Sì, certo.
+[23:05] Tutti sapende deliberi, no? accesso
+[23:07] iniziale.
+[23:12] Ok,
+[23:14] va bene.
+[23:16] Allora,
+[23:18] andiamo avanti.
+[23:24] Ecco qua
+[23:29] la cyber kill chain.
+[23:32] Allora,
+[23:34] eh
+[23:36] sostanzialmente
+[23:38] eh il modello da dove arriva? Allora, la
+[23:42] kill chain è un gergo militare, descrive
+[23:45] le fasi di un'operazione offensiva,
+[23:48] quindi identificare il bersaglio,
+[23:53] eh
+[23:55] schierarsi, decidere cosa fare, poi
+[23:58] colpire e poi valutare contro le le
+[24:02] risposte eccetera. Lockad Martin, che è
+[24:05] appunto una società attiva nella difesa,
+[24:07] il settore militare americano, ha
+[24:10] proposto nel 2011, quindi ormai già 15
+[24:13] anni fa, una versione
+[24:16] di questa killchain, però adattata allo
+[24:18] cybers spazio, quindi viene chiamata
+[24:20] cyber kill chain.
+[24:23] Sono sostanzialmente sette fasi
+[24:26] e in cui l'idea chiave da portar via da
+[24:29] questa da questa questo modello è che se
+[24:32] i difensori attaccanti hanno lo stesso
+[24:35] modello mentale,
+[24:37] i difensori possono spezzare la catena
+[24:41] in qualsiasi punto.
+[24:45] Ok? Cosa vuol dire questo? che è più
+[24:48] semplice fermare l'intera operazione,
+[24:51] hai più punti per muoverti e cercare di
+[24:55] bloccare un attacco. Diciamo che è uno
+[24:58] dei propri framework, secondo me, che
+[25:00] vale la pena memorizzare
+[25:02] ed è soprattutto un linguaggio comune in
+[25:05] cui tutti i vari analisti, sia i
+[25:07] researcher di cyber security è un
+[25:10] linguaggio che parlano tutti, quindi si
+[25:12] capisce in maniera trasversale.
+[25:15] Adesso vi elenco le fasi.
+[25:18] Allora, eh la prima fase, quella che
+[25:22] viene chiamata fase di ricognizione,
+[25:24] quindi reconnaissance dall'inglese,
+[25:26] l'attaccante è la fase in cui
+[25:28] l'attaccante studia il bersaglio,
+[25:31] quella che viene chiamata open source
+[25:33] intelligence, no? Quindi comincerà a
+[25:34] studiare che cosa
+[25:37] i primi dati che possono venire in mente
+[25:38] sono sito aziendale,
+[25:41] profili LinkedIn dei dipendenti, se
+[25:44] avete del codice su Gitab pubblico,
+[25:46] anche quello è molto utile per capire
+[25:48] che che software utilizzate, che
+[25:49] librerie utilizzate,
+[25:52] scansioni di rete passive,
+[25:55] questo abbiamo parlato settimana scorsa.
+[25:57] Sì. E poi ci sono dei motori di ricerca
+[26:00] specializzati per fare queste ricerche
+[26:02] Osint che sono Shodan, ad esempio, che è
+[26:05] un motore di ricerca
+[26:07] che vi permette di vedere quali
+[26:10] dispositivi sono esposti in rete, ok?
+[26:13] Quindi sono pubblici, pubblicamente
+[26:15] guardabili, quindi è regolare, non state
+[26:17] facendo nessun tipo di hacking perché
+[26:19] perché sono dispositivi che
+[26:22] sono o malconfigurati o volutamente
+[26:25] disposti in rete. Quindi se voi usate
+[26:26] Shodan e cercate Camere Web, posso
+[26:29] garantire che vedete anche le immagini
+[26:31] delle camere web.
+[26:33] Ehm, l'obiettivo di questa fase, quella
+[26:37] di ricognizione, è costruire un profilo,
+[26:40] ok? Quindi chi lavora dove, che
+[26:43] tecnologie vengono usate, quali mele
+[26:46] aziendali esistono, se ci sono
+[26:48] pubbliche, quali servizi sono esposti e
+[26:51] così via.
+[26:53] Eh, la seconda fase, quella che viene
+[26:56] chiamata weaponization, è in italiano
+[26:59] tradotto è molto cacofonico, armamento,
+[27:02] sostanzialmente quando l'attaccante sta
+[27:04] preparando le sue armi di attacco, no?
+[27:06] Quindi, tipicamente, stai preparando un
+[27:08] payload che è appunto un codice malevolo
+[27:12] eh abbinato a un veicolo. Il veicolo di
+[27:15] questo, ossia un veicolo tramite cui vi
+[27:18] fa arrivare il payload. Il veicolo può
+[27:20] essere un PDF,
+[27:22] un documento Office con delle macro o un
+[27:25] eseguibile mascherato. Ok? Questa fase
+[27:30] ancora, però bisogna essere chiari che
+[27:32] questa fase avviene nei sistemi
+[27:34] dell'attaccante, ok? Quindi lui sta
+[27:36] preparando
+[27:38] la puno sta preparando il materiale,
+[27:41] quindi il software per attaccarti, il
+[27:42] codice.
+[27:44] Quindi tu fino adesso non c'è niente che
+[27:47] tu possa fare per rilevarla perché lui
+[27:48] semplicemente dall'esterno ti ha
+[27:51] studiato,
+[27:52] ha capito come potrebbe attaccarti e sta
+[27:54] preparando l'attacco.
+[27:57] Poi la terza fase è la delivery,
+[28:00] quindi l'attaccante in questa fase è
+[28:02] quella la cosiddetta consegna del del
+[28:06] payload. Quindi l'attaccante recapita
+[28:10] la
+[28:12] il software malevolo alla vittima,
+[28:13] quindi invia, che ne so, un email con un
+[28:16] allegato, un link a un sito chiaramente
+[28:20] malevolo che ha scritto lui, una
+[28:22] chiavetta USB o un pacchetto di rete a
+[28:26] un servizio esposto, pacchetto di rete
+[28:28] malformato, chiaramente.
+[28:31] Questa la delivery, la consegna è la
+[28:33] prima fase rilevabile dei difensori,
+[28:37] ok? Quindi dalla terza fase in poi
+[28:38] adesso potete rilevare che qualcuno vi
+[28:41] sta attaccando.
+[28:44] Poi c'è la quarta fase che è
+[28:46] l'exploitation
+[28:48] e sostanzialmente è la fase in cui
+[28:50] l'arma viene attivata, ok? Quindi
+[28:52] l'utente,
+[28:54] che ne so, nei nostri esempi, apre
+[28:56] l'allegato oppure il browser, carica lo
+[28:59] script che tu inserito nel tuo sito.
+[29:02] Script malevolo, chiaramente.
+[29:04] Ehm,
+[29:06] sostanzialmente
+[29:09] l'exploitation, cioè questa fase, è il
+[29:12] momento vero in cui scatta
+[29:15] l'attacco, o meglio, l'attacco ha
+[29:17] successo o fallisce a seconda di se è
+[29:20] stato fatto bene o male e è il momento
+[29:22] in cui viene sfruttata la vulnerabilità.
+[29:26] Poi c'è la quinta fase che è quella che
+[29:28] viene chiamata installation o
+[29:30] installazione. Sostanzialmente una volta
+[29:32] che l'attaccante è entrato nel vostro
+[29:36] sistema, quindi ha fatto quello che
+[29:38] viene chiamato foot hold, cioè ha un
+[29:40] piede nel tuo nel tuo server, nella tua
+[29:43] rete, allora installa qualcosa che
+[29:46] serva, un software sostanzialmente che
+[29:49] permetta la persistenza.
+[29:52] Va bene? Quindi una cosiddetta backdoor
+[29:54] o un RAT, un remote accession, un
+[29:57] servizio fasullo o o ancora più
+[29:59] semplicemente task schedulato. Ok? Qual
+[30:03] è l'obiettivo di questa fase?
+[30:06] È sopravvivere a riavvi. Ok? In modo che
+[30:10] eh se tu spegni e riaccendi io sono
+[30:14] tutt'ora dentro dopo. Non è che basta un
+[30:16] riavvio e salta tutto. È la persistenza.
+[30:19] il punto chiave, l'obiettivo di questa
+[30:21] fase 5. Fase 6, quello che viene
+[30:24] chiamato C2 o command and control.
+[30:28] In questa fase sostanzialmente il
+[30:30] malware ormai ha installato, allora però
+[30:33] ha bisogno di comunicare con
+[30:35] l'attaccante
+[30:38] e quindi viene viene installato, cioè
+[30:40] viene installato, viene Sì, viene aperto
+[30:42] un canale di comunicazione verso un
+[30:45] server che però è controllato
+[30:47] dall'attaccante.
+[30:49] A questo server, tramite questo canale
+[30:52] arrivano i comandi,
+[30:54] quindi i comandi che lui fa eseguire sul
+[30:57] tuo dispositivo, sul tuo server, su
+[31:00] qualunque cosa ti abbia infettato, sul
+[31:01] tuo telefono e sullo stesso canale
+[31:06] tornano i dati, quindi vuol dire che se
+[31:07] lui volesse sfiltrare dei dati è questo
+[31:10] il canale che viene utilizzato. Ok?
+[31:13] Quindi è
+[31:15] con le comunicazioni sia in entrata che
+[31:16] in uscita.
+[31:19] Eh, quindi per capirci questa fase la è
+[31:22] molto importante avere una rilevazione
+[31:24] di traffico verso dei domini sospetti,
+[31:28] magari anche orari inattesi con
+[31:30] frequenze regolari. Questi sono degli
+[31:33] indicatori molto forti che sono usati
+[31:36] dai socre siete se avete subito una
+[31:40] un'infezione oppure no.
+[31:43] Punto 7, che è la parte finale,
+[31:45] sostanzialmente quella che viene
+[31:47] chiamata azioni e obiettivi, eh è
+[31:50] l'obiettivo finale, insomma, no, del
+[31:52] perché vi hanno attaccato, qual è lo
+[31:54] scopo.
+[31:55] Ehm quindi, appunto, è il momento in cui
+[31:57] l'attaccante fa ciò per cui è venuto.
+[31:59] Quindi se è un ransomware cifrerà i
+[32:02] vostri file, se era spionaggio
+[32:05] industriale vi ruberà i dati, se invece
+[32:08] voleva sabotarvi, quindi distruggere i
+[32:10] sistemi, inizierà a distruggere la che
+[32:13] ne so il vostro hardware.
+[32:16] E se invece era un studiare la
+[32:19] situazione a lungo termine, quindi i
+[32:22] famosi attacc
+[32:25] gli apt, allora comincerà a pivotare
+[32:28] verso altri bersagli, quindi fare quello
+[32:30] che viene chiamato in gergo lateral
+[32:31] movement, quindi comincia a vedere
+[32:33] all'interno della rete in cui sei che
+[32:36] con che dispositivi puoi comunicare e se
+[32:38] puoi infettare anche quelli. Ok? E e
+[32:42] quindi tra l'inizio di questa appunto
+[32:45] cyber kill chain, da quando
+[32:48] l'attaccante ha iniziato a studiarvi
+[32:50] alla fine, a questa ultima fase, possono
+[32:54] passare o pochi minuti, se un attacco è
+[32:57] veloce e lo scopo è semplicemente
+[32:58] cifrare, oppure mesi, se lo scopo è
+[33:01] studiarvi, se quindi è uno scopo proprio
+[33:05] più importante, mettiamola così, seè un
+[33:07] attacco voluto da uno stato, per
+[33:09] capirci,
+[33:11] Eh,
+[33:13] il punto chiave di questo modello è che
+[33:15] un attacco non è un evento istantaneo, è
+[33:18] un processo.
+[33:20] E così come avete visto che ci sono 6-
+[33:22] set fasi, per spezzarlo vi basta
+[33:25] interrompere una sola di queste sette
+[33:27] frasi, queste sette fasi, eh, quindi non
+[33:30] è importante che voi siate bravi solo a
+[33:33] fermare l'attacco,
+[33:35] devi essere bravo a rompere nel punto
+[33:37] più conveniente di questa catena
+[33:38] l'attacco, cioè devi essere e devi
+[33:41] cambiare proprio modo di ragionare.
+[33:44] E tutto questo, chiaramente, dipende
+[33:45] dalla visibilità e dai controlli che voi
+[33:48] avete della vostra rete, che controlli
+[33:51] avete disponibili.
+[33:53] Eh, diciamo che di solito per le piccole
+[33:56] medie imprese le fasi più alla portata
+[33:59] sono, non so, il delivery, quindi
+[34:02] filtrare le mail per il fishing, ok?
+[34:05] eh l'exploitation, quindi se fate un
+[34:08] patch management fatto bene, quindi
+[34:09] aggiornate il i vostri software
+[34:12] sistematicamente
+[34:14] è possibile che è più probabile che non
+[34:16] veniate eh attaccati o meglio che
+[34:19] attaccati che non che non riesca
+[34:21] l'attacco
+[34:23] e a livello di C2, quindi il comando, il
+[34:28] server tramite cui si comunica
+[34:31] l'attaccante e il vostro sistema filtri
+[34:34] DN NS o log di rete, in modo per
+[34:35] studiare, come ho detto prima, eh se ci
+[34:39] sono cose sospette, no? Se ci sono eh se
+[34:43] vedete traffico verso dei domini
+[34:44] sospetti a frequenze regolari, qualche
+[34:48] sospettino dovreste averlo,
+[34:52] eh. Ok.
+[34:54] Allora, date queste fasi,
+[34:57] se ehm
+[34:59] mettiamo così,
+[35:02] facciamo questa domanda. Allora, sì.
+[35:05] Se
+[35:08] come potreste rilevare
+[35:10] il C2? C2 è il server comand, ok? Quindi
+[35:14] il server da cui l'attaccante
+[35:17] eh
+[35:18] lancia gli ordini e importa poi i dati e
+[35:21] sfiltra i dati. Mettiamo che
+[35:23] l'attaccante utilizza dei servizi cloud
+[35:25] legittimi, ok? è abbastanza furbo e usa,
+[35:30] non so, come servizio eh, Dropbox o
+[35:34] Discord o Telegram, peggio ancora. Come
+[35:38] potreste rilevare voi questo traffico se
+[35:40] se foste l'IT manager di questa piccola
+[35:42] azienda? Ragioniamoci assieme, eh, cioè
+[35:43] nel senso le risposte possono essere
+[35:46] tante. Cosa fareste?
+[35:53] Io io vorrei rispondere con una domanda,
+[35:55] magari banale.
+[35:57] Ma un buon antivirus non potrebbe
+[36:01] rilevare queste questi accessi?
+[36:04] Allora, l'antivirus tendenzialmente, non
+[36:06] so se sapete come funziona, lavora sulle
+[36:09] firme, le firme di un software, quindi
+[36:12] di un malware, un genere, quindi sono
+[36:14] dei pattern riconoscibili
+[36:18] dei vari classi di di malware. Quindi
+[36:23] quando ci sono varie tecniche per
+[36:25] offuscare il codice, ok? Quindi non è
+[36:29] detto che l'antivirus lo prenda,
+[36:30] specialmente se questi virus vengono già
+[36:34] testati contro gli antivirus. Va bene?
+[36:37] Nel senso che se io scrivo un voglio
+[36:39] scrivere un malware, la prima cosa che
+[36:41] faccio è provare ad infettare me stesso,
+[36:44] ok?
+[36:45] E installo i principali antivirus. Una
+[36:48] volta che sono sicuro che non lo legge è
+[36:51] fatta, nel senso l'antivirus non ti
+[36:53] protegge. L'antivirus, ripeto, è una
+[36:56] buona idea averlo, ma non vi proteggerà,
+[36:58] nel senso che non potete vivere col
+[37:01] pensiero che l'antivirus vi risolva il
+[37:03] problema, perché, ripeto, lavora sulle
+[37:06] firme del codice, come si ha dei pattern
+[37:09] per cui lui è bravo a riconoscere se
+[37:11] questo software fa cose che non dovrebbe
+[37:13] fare, per capirci.
+[37:15] Ok.
+[37:16] Ok.
+[37:17] Eh, allora per tornare alla domanda, se
+[37:20] allora potremmo comincio io per darvi un
+[37:23] input, è chiaramente difficile in questo
+[37:25] caso, no? Se l'attaccante utilizza come
+[37:27] serve per comunicare cloud legittimi
+[37:30] come Dropbox, Telegram, eccetera perché
+[37:32] perché perché il traffico, se tu
+[37:34] analizzi il traffico, può sembrarti
+[37:36] normale, no? Anche i vostri utenti
+[37:39] parlano con cloud legittimi, no?
+[37:41] utilizzano magari Dropbox, i vostri
+[37:43] dipendenti, quindi non è che potete
+[37:44] bloccare al dominio, quindi dovete
+[37:46] osservare il comportamento, giusto?
+[37:49] Certo. Ok,
+[37:50] perfetto. Quindi anche qua, come abbiamo
+[37:52] detto nella slide precedente, in questa
+[37:54] slide sostanzialmente cosa fareste?
+[37:56] monitorereste il traffico anomalo.
+[37:59] Bisogna scansionare il traffico di reti.
+[38:02] Bravissimo. Esatto.
+[38:05] Anche può essere interessante il volume
+[38:06] dei dati.
+[38:08] Sì, anche l'orario. Anche orari bisogna
+[38:12] scansionare un po' tutto il volume,
+[38:13] anche se magari ci sono degli utilizzi
+[38:16] di determinati hardware che raggiungono
+[38:19] certi picchi in determinati orari,
+[38:20] magari dico eh così. Sì, esatto.
+[38:24] E da lì intuisci che poi magari se c'è
+[38:28] un una connessione a seppur un server
+[38:30] legittimo alle eh 3:00 di notte dove
+[38:33] normalmente o comunque in un orario dove
+[38:36] non c'è una normale attività, uno si fa
+[38:38] due domande e dice perché per dire
+[38:42] certo,
+[38:43] corretto.
+[38:45] Poi cos'altro si può fare?
+[38:51] M
+[38:52] direi ditemi voi, sennò rispondo io
+[38:56] se avete qualche idea.
+[39:01] Controllare i processi, ad esempio,
+[39:04] quale programma, quale software sta
+[39:06] comunicando effettivamente
+[39:08] con perché per chi quale software sta
+[39:11] appando su Dropbox o su Discord o su
+[39:14] Telegram, se è sconosciuto
+[39:17] è sospetto. Eh sì, anche perché se fa,
+[39:20] per dire, dei cron job per dire che lui
+[39:22] periodicamente scarica, eh, uno dice,
+[39:25] "Qual è il processo? Qual è o lo script
+[39:27] che si attiva in automatico per adesso
+[39:29] sparo a caso, eh,
+[39:30] no, è corretto. È corretto.
+[39:33] Quindi cosa potreste fare?
+[39:37] e si controllano i processi attivi. Ehm
+[39:42] perché se c'è un processo attivo che eh
+[39:45] esegue delle delle istruzioni, bisogna
+[39:48] anche capire con quale con quale poi
+[39:50] permission. Adesso poi non so quale
+[39:52] permission, quale utente, eh chi è chi è
+[39:56] il proprietario del processo, con quali
+[39:58] con quali permessi, che cosa va a fare e
+[40:02] a che ora, cioè poi uno mappa tutto, no?
+[40:04] Va a controllare che cosa fa.
+[40:07] Esatto.
+[40:07] Dov'è dov'è il processo, da dove parte,
+[40:09] qual è? Eh, insomma, tutti i vari
+[40:12] percorsi eccetera eccetera. Da dove
+[40:16] arriva poi quel processo? Da dove
+[40:17] arriva? Perché c'avrà una l'ultima
+[40:20] modifica, quindi quando è è approdato in
+[40:24] quel sistema, da dove arriva quel
+[40:27] processo? Perché perché esiste.
+[40:30] Esatto. E quindi a livello operativo
+[40:32] cosa faresti per evitare questa cosa?
+[40:37] faresti quello che viene chiamato un
+[40:38] allow applicativa, quindi consentire
+[40:41] solo applicazioni approvate,
+[40:44] ok? Per usare certi servizi. Quindi tu
+[40:47] hai proprio una lista di processi che
+[40:49] possono sono autorizzati a parlare con
+[40:51] questi servizi, quindi con Telegram, con
+[40:53] Drombox, solo quelli. Cioè se approda
+[40:56] qualcun altro che non è nella lista e
+[40:58] prova a parlare con quello, non ci devi
+[41:01] riuscire. Punto primo, se se hai fatto
+[41:03] una llist fatta bene, punto secondo te
+[41:05] arriva anche un alert. Ok, quindi
+[41:07] cioè è una cosa che con la se Linux si
+[41:09] può fare.
+[41:11] Sì,
+[41:12] giusto, no?
+[41:13] Mh mh. Sì.
+[41:18] Ok.
+[41:20] Io poi avevo una domanda e facendo un
+[41:23] passo indietro, visto che prima parlavi
+[41:25] del percorso che viene fatto, cioè che
+[41:28] prima c'è la scoperta della
+[41:30] vulnerabilità di un ricercatore, ok, ma
+[41:33] che poi la pubblicazione
+[41:35] solitamente avviene solo quando esiste
+[41:39] la patch.
+[41:41] Es
+[41:41] una cosa del genere. Esattamente la
+[41:44] Ma nel caso in cu ma nel caso di copy
+[41:46] fail dirti frag che sono state
+[41:49] pubblicate ma ancora la patch non c'era
+[41:51] che ho letto proprio l'articolo che
+[41:53] che diceva questo.
+[41:55] Allora, ci sono vari No, ci sono.
+[41:58] In quel caso lì è stata così eh tu ha tu
+[42:01] sei un ricercatore, te lo dico perché lo
+[42:02] faccio anche io di lavoro.
+[42:04] Io uso su varie le varie piattaforme
+[42:08] legalmente, quindi che ne so Acker One
+[42:11] eccetera. Tu trovi una falla
+[42:15] e può essere a livello critico, copy
+[42:17] fail era critica, ovviamente. E cosa
+[42:19] fai?
+[42:20] fai quella che viene chiamata la
+[42:23] responsible disclosure, quindi contatti
+[42:25] il vendor, gli dai il tuo report con il
+[42:29] proof of concept, quindi vuol dire gli
+[42:31] dai anche il codice eh che tu hai usato
+[42:36] per l'exploit, per capirci,
+[42:40] e gli fai vedere qual è solo la parte di
+[42:43] codice eh buggata, ma gli fai anche
+[42:47] vedere una sorta di come potresti
+[42:49] evitare questa cosa, la soluzione poi
+[42:51] chiaramente la implementerà il
+[42:52] proprietario, il vendor, non tu, però
+[42:54] questo è come funziona.
+[42:56] Sì.
+[42:56] E gli dai quello che viene chiamato
+[42:58] embargo time che sono 90 giorni di
+[43:00] solito, quindi 3 mesi.
+[43:03] In questi 3 mesi
+[43:06] il proprietario, il vendor eh ha tre
+[43:09] mesi, appunto, per risponderti, parlare
+[43:11] con te, chiederti eventuali informazioni
+[43:12] se non riesci a riprodurre il tuo proof
+[43:15] of concept eccetera e chiudere la fare
+[43:17] una patch.
+[43:19] Cosa è successo nel caso tipo Copy Fail
+[43:21] o quell'altra peggio ancora quella
+[43:23] successiva? È che qualcun altro
+[43:26] Ok, lui l'aveva cioè il ricercatore
+[43:30] l'aveva comunicato, ma qualche testa di
+[43:33] passatemi il termine M eh sì
+[43:36] ha pubblicato questa cosa,
+[43:38] ok?
+[43:39] E quindi è diventata di dominio
+[43:40] pubblico. Allora si è dovuti correre
+[43:42] velocissimi a dare una soluzione, quindi
+[43:45] fare una patch di emergenza. Sì, perché
+[43:47] avevo letto questa cosa qua, no, che era
+[43:49] stata pubblicata, ma senza accordi, una
+[43:52] roba del genere e appunto volevo
+[43:54] chiederti questa cosa qua, tipo, quindi
+[43:56] è un indipendente che semplicemente ha
+[43:58] detto "To, ho trovato sta roba".
+[44:00] Esatto. Però, ragazzi, vi voglio dire,
+[44:02] già adesso c'è il penale, eh, per questa
+[44:04] cosa, quindi nel senso, non è una bata
+[44:07] una ragazzata, eh, c'è la galera per
+[44:09] queste cose qua, quindi non è proprio
+[44:11] brillante.
+[44:13] Cioè, copy fail alla fine. Sì, è è un
+[44:15] modulo del kernel che basta
+[44:17] disattivarlo, probabilmente, cioè nel
+[44:19] senso banale, perché tu facevi credere
+[44:22] proprio a un processo che volevi
+[44:24] decrittare e invece gli gli buttavi
+[44:27] dentro eh gli buttavi dentro altra roba
+[44:30] perché proprio ho visto proprio la
+[44:31] spiegazione abbastanza dettagliata, no,
+[44:34] che corrompeva le pagine della Cash di
+[44:37] di Linux, però eh volevo chiedere
+[44:40] appunto sta cosa qua e Ok. E un'altra
+[44:44] cosa, perché determinate agenzie, cioè
+[44:46] quando esce la vulnerabilità, tipo, che
+[44:48] ne so, eh un'agenzia gli dà un rank 8.5
+[44:53] eh un'altra gli dà 9, Redat gli dà 7.
+[44:57] Allora, dico
+[44:59] il CE, quindi che poi è è il nome della,
+[45:04] cioè il nome è il codice della
+[45:06] vulnerabilità e poi il CVS che è il
+[45:09] gravità, il rating, no? da 0 a 10 cambia
+[45:12] perché perché chi è che chiede il CVE
+[45:16] è l'azienda. Ok? Quindi la
+[45:20] vulnerabilità, cioè quando, ad esempio,
+[45:23] quando io faccio un submit di un report
+[45:25] per una vulnerabilità, io gli do il
+[45:28] rating, ok? Quando loro trovano il CE
+[45:32] loro possono contrattare, cioè possono
+[45:34] ribattere e dire che secondo loro non è
+[45:35] critica, ma è semplicemente high per
+[45:37] dire perché e ti sparano magari una
+[45:40] super cazzola per abbassare perché
+[45:42] comunque è la questione di di di anche
+[45:45] di reputazione loro, no? e quindi
+[45:48] cercano di abbassare, limitare il
+[45:51] eccetto cose gravissime, eccetto cose
+[45:54] gravissime, quindi proprio falle che ne
+[45:56] so, art,
+[45:58] nel senso è stata una falla del 2014 nel
+[46:01] nel protocollo SSL che ti permetteva
+[46:07] praticamente di leggere in chiaro tutto
+[46:08] il traffico, quindi htps non funzionava
+[46:11] più e quindi lì non c'era da discutere,
+[46:13] però ci sono altre falle che si può
+[46:16] discutere quanto gravi vi siano e a
+[46:18] seconda di che ehm come vengono
+[46:22] classificate, allora viene dato un
+[46:24] punteggio. Però nel senso è sempre il
+[46:27] vendor, è raro che ci sia qualcuno
+[46:30] extra, perché nel senso che se il vendor
+[46:32] se ne frega allora tu puoi contattare
+[46:34] queste agenzie e allora danno loro un
+[46:36] rating, ma il percorso normale è che il
+[46:39] Civietolo lo apre il vendo.
+[46:42] Ok.
+[46:43] Ok.
+[46:43] Quindi a volte è solo una questione di
+[46:44] pura immagine.
+[46:46] Sì, sì, sì, sì. voler mantenere. Ok. Sì.
+[46:49] E ripeto, eccetto casi veramente
+[46:50] gravissime, lì non c'è proprio immagine
+[46:52] che tenga, nel senso, aspetta.
+[46:56] Ok, ci siamo. Possiamo andare avanti?
+[46:59] Sì,
+[46:59] sì, sì. Ok,
+[47:02] ora abbiamo tre definizioni che servono
+[47:04] per
+[47:06] questo esame di Cancel che sono
+[47:08] tattiche, tecniche e procedure.
+[47:11] Allora, sostanzialmente
+[47:14] eh le tattiche
+[47:16] eh rispondono anche il cosa, per
+[47:18] capirci, è l'obiettivo intermedio
+[47:20] dell'attaccante in una fase, ok? Faccio
+[47:24] l'esempio di prima, ottenere
+[47:26] persistenza. Quindi non ho fatto solo il
+[47:28] foot holdold, ma adesso voglio essere
+[47:30] sicuro che tu non è che fai il furbo,
+[47:31] spegni il PC e mi butti fuori. Devo devo
+[47:34] devo sopravvivere a un riavvio. Le
+[47:37] tecniche sono il come, quindi il
+[47:40] metotecnico metodo tecnico usato per
+[47:43] raggiungere questa tattica.
+[47:46] Ehm,
+[47:48] ad esempio, creo un task schedulato.
+[47:52] Eh, le procedure sono il il modo preciso
+[47:58] in cui eh per capirci un gruppo
+[48:01] criminale fa, cioè si comporta come
+[48:04] agisce. Faccio un esempio, il gruppo
+[48:06] apt29, che è una gang di hacker, eh
+[48:11] tipicamente nei suoi ransomware crea un
+[48:14] task schedulato che chiama Google update
+[48:18] che esegue uno script power shell che
+[48:21] viene poi affuscato in base 64. Adesso
+[48:23] non entriamo troppo nel tecnicismo, però
+[48:24] per dire se ottieni se tu vedi questa
+[48:27] cosa,
+[48:29] sai è una sorta di firma del gruppo,
+[48:32] quindi tu sai riconoscere questa cosa.
+[48:36] Eh,
+[48:39] per per capirci, eh, per fare un esempio
+[48:42] nel nella nel mondo reale, non
+[48:45] informatico,
+[48:46] eh facciamo un'analogia culinaria. La
+[48:49] tattica è fare il pranzo.
+[48:52] La tecnica può essere cuocere la pasta.
+[48:56] La procedura che cos'è? Mettere 5 L. La
+[48:59] ricetta, quindi mettere 5 l d'acqua, 50
+[49:01] g di sale grosso, buttare la pasta dopo
+[49:03] l'evoluzione, scolarla dopo 11 minuti,
+[49:05] eccetera eccetera eccetera. Diversi
+[49:08] attaccanti hanno tattiche tecniche
+[49:10] simili, ma procedure firmate, come
+[49:13] dicevo prima, che li rendono
+[49:14] riconoscibili, un po' come, non so, la
+[49:17] grafia di una persona quando scrivete
+[49:19] mano, ok? Quindi, come riconoscere un
+[49:22] attaccante con queste procedure?
+[49:25] Eh,
+[49:27] il c'è un framework per catalogare
+[49:30] queste
+[49:32] eh queste procedure
+[49:35] e si chiama MITR Attack, c'è il sito,
+[49:38] poi ve lo ve lo linko,
+[49:40] e è una matrice consultabile online che
+[49:42] cataloga centinaia di tecniche che sono
+[49:44] state osservate in attacchi reali e
+[49:47] vengono raggruppate proprio per tattica,
+[49:49] eh quindi per cercare la persistenza,
+[49:53] scalare i privilegi, eccetera. eccetera.
+[49:55] Diciamo che è lo strumento di lavoro
+[49:57] quotidiano di analisti che fanno questo
+[49:59] lavoro.
+[50:03] Eh,
+[50:06] vediamo,
+[50:16] diciamo così, pensiamo oh, pensate al
+[50:18] lavoro della polizia scientifica reale,
+[50:19] no? Del mondo reale. Polizia
+[50:21] scientifica.
+[50:23] Quali equivalenti vedete voi
+[50:26] tra questo questo framework, quindi
+[50:29] tattiche, tecniche, procedure e il modus
+[50:32] operanti modus operandi di un criminale?
+[50:39] Allora,
+[50:42] vabbè, la scena
+[50:44] quindi si va a valorizzare e e ci si e
+[50:46] ci si accinge sulla sulla scena del
+[50:49] crimine.
+[50:50] Sì. Quindi eh e cominciare a scrutare
+[50:54] tutti quelli che potrebbero essere gli
+[50:55] elementi utili al fine di avere un una
+[51:00] parbenza di indizio
+[51:02] tecniche.
+[51:03] Eh
+[51:05] sì, la raccolta di ogni oggetto
+[51:08] possibile
+[51:10] è correlato a all'eventuale crimine,
+[51:13] quindi al colpevole, per essere più
+[51:16] preciso.
+[51:17] E e alla fine come procedura,
+[51:21] esempio un po' pratico e e comunque di
+[51:25] di
+[51:27] conoscenza generica è la la ricerca
+[51:31] delle eventuali impronte digitali sui
+[51:33] oggetti, requisiti, no?
+[51:35] Sì, giusto.
+[51:39] E e che porta poi alla fine una ad una
+[51:42] conclusione.
+[51:44] Ok, perfetto. E appunto nel mondo cyber
+[51:48] cosa farebbero?
+[51:52] Eh,
+[51:54] come
+[51:54] requisire un PC? Un
+[51:57] Vai, vai.
+[51:58] Eh, requisire un PC dei cellulari. Sì,
+[52:02] vado vado un po' così in in maniera
+[52:05] molto aleatoria. eh
+[52:08] tecniche, affidarli ad esperti, quindi
+[52:11] provare ad accenderli, eh provare ad
+[52:14] entrare con soluzioni per sorvolare
+[52:17] quelle che possono essere le password
+[52:19] per l'utilizzo e procedura a estrapolare
+[52:22] tutto ciò che contiene, quindi i dati
+[52:26] dal del PC, del cellulare e e per poi
+[52:30] arrivare ad una comunque ad una
+[52:32] conclusione sotto questo punto di vista
+[52:35] mail il quindi fare un un controllo
+[52:38] anche
+[52:40] pregresso da una data X a la giornata in
+[52:44] cui si è svolto
+[52:47] delitto, omicidio o altro e cercare di
+[52:50] di cominciare a costruire quella che
+[52:52] potrebbe essere o quello che potrebbe
+[52:54] essere il percorso per arrivare poi al
+[52:57] colpevole, no?
+[52:59] Esatto. Quindi anche nel mondo nel mondo
+[53:02] cyber queste questo processo tecniche,
+[53:05] tattiche e procedure ti aiutano a capire
+[53:07] non solo che cosa è successo, ma come
+[53:09] ragione opera l'attaccante, giusto?
+[53:11] Esattamente come nel mondo reale.
+[53:15] Eh sì. Ok,
+[53:21] vediamo l'argomento successivo. Ditemi
+[53:23] se c'è qualcosa che volete che ripeta
+[53:26] che non
+[53:28] o se o va bene così per adesso. Ditemi
+[53:30] voi, vado avanti senò.
+[53:32] Sì, sì, sì, vai, vai,
+[53:34] vai pure. Sì, sì. Tutti. Ecco, ho visto
+[53:36] prima, non ho visto chi qualcuno che
+[53:38] aveva fatto una faccia, forse non aveva
+[53:41] capito quello che avevo detto.
+[53:43] Non riesco a vedere i nomi, ma
+[53:47] vabbè. Se avete domande comunque fatele,
+[53:49] eh, senza problemi.
+[53:51] Allora,
+[53:53] Disaster Recovery Plan, che cos'è?
+[53:58] sostanzialmente è ma maniera pratica e
+[54:01] concreta è un documento è che risponde a
+[54:04] tre domande molto semplici.
+[54:07] Che cosa facciamo
+[54:09] se domani, che ne so, il sistema X
+[54:12] smette di funzionare?
+[54:15] E qualora smettesse di funzionare, chi
+[54:17] fa cosa? Quindi quali sono eh i task di
+[54:21] ciascuno di noi, in quanto tempo
+[54:24] torniamo operativi? Ok?
+[54:28] Ovviamente questo documento va scritto
+[54:31] prima del disastro, quindi quando si è
+[54:34] lucidi, non durante, quando si affretta.
+[54:38] E per capirci, allora facciamo così,
+[54:41] sempre lì per fare un'analogia fuori dal
+[54:43] mondo informatico, so il piano di
+[54:45] evacuazione di un edificio, ok? Lo devi
+[54:48] scrivere in tempi non sospetti
+[54:50] chiaramente, e si prova con
+[54:52] esercitazioni periodiche. Non so quando,
+[54:54] almeno quando andavo io al liceo, c'era
+[54:56] la famosa prova antincendio, no? Quindi
+[54:58] suonavano le campanelle, dovevamo tutti
+[55:00] avevamo ognuno la propria uscita,
+[55:02] eccetera eccetera.
+[55:04] Ehm,
+[55:06] nessuno ovviamente deve improvvisare,
+[55:08] tutti sanno già domandare chi verifica i
+[55:10] piani, chiama i pompieri, eccetera
+[55:12] eccetera. Quindi un disgaster, un
+[55:15] disaster recovery plan ben fatto fa la
+[55:18] stessa cosa però per i sistemi
+[55:20] informatici.
+[55:22] Che cosa deve contenere
+[55:25] questo documento per essere minimamente
+[55:27] serio? Deve avere l'inventario degli
+[55:31] asset critici.
+[55:33] Ok? Quindi cosa c'è? Quali sono gli
+[55:35] asset? Dove stanno?
+[55:38] Chi è il responsabile, per capirci, di
+[55:40] questi asset. Poi classificazione per
+[55:44] importanza.
+[55:45] Anche qua è importante. Eh, qui una
+[55:48] slide propone una scala da 1 a 5, ma
+[55:50] possono esserci anche altre scale.
+[55:52] L'importante è che esista una scala,
+[55:54] appunto, l'importanza di questi asset.
+[55:58] Eh, quello che viene definito RPO
+[56:01] Recovery Point Objective, che è
+[56:03] sostanzialmente quanti dati possiamo
+[56:06] permetterci di perdere,
+[56:09] per quanto tempo? un'ora, un giorno, una
+[56:12] settimana.
+[56:14] Ovviamente tutto questo cosa fa? Eh,
+[56:17] determina la frequenza dei backup, per
+[56:19] capirci, no? Se perché se per voi è
+[56:21] un'ora non potete fare non potete avere
+[56:23] un sistema che vi fa un backup ogni qu 4
+[56:26] ore, dovete farlo a a
+[56:30] frequenza minimo oraria, sarebbe meglio
+[56:33] anche prima,
+[56:35] anche più frequente, insomma. Poi c'è
+[56:37] quello che viene chiamato eh RTO,
+[56:41] recovery time objective, che quindi è
+[56:44] quanto tempo possiamo
+[56:47] eh restare giù. Non è solo una questione
+[56:49] di cosa perdi, quanti dati, ma quanto
+[56:52] tempo, eh? E qua può variare anche qua
+[56:55] in base al business, quindi può essere
+[56:56] un'ora, 8 ore, 3 giorni. E qui
+[57:00] chiaramente determina la strategia di
+[57:03] data recovery, quindi il backup lo fai
+[57:06] in maniera tradizionale o lo fai su un
+[57:08] cluster eccetera eccetera. Poi devono
+[57:11] esserci le procedure operative,
+[57:14] quindi chi viene chiamato, in che
+[57:17] ordine,
+[57:19] chi autorizza il restore del backup,
+[57:22] ci devono essere proprio nomi, cognomi e
+[57:24] responsabilità.
+[57:27] eh chi parla coi clienti, anche quando
+[57:30] c'è un disastro, bisogna anche avere una
+[57:33] publication con i propri clienti.
+[57:36] Soprattutto un'altra cosa che è
+[57:39] importante e si tende a sottovalutare è
+[57:42] chi fa la comunicazione al garante se ci
+[57:44] sono dati dati personali,
+[57:48] perché anche questo è un obbligo.
+[57:51] e poi chiaramente i test periodici,
+[57:55] quindi
+[57:56] per capirci, un disaster recovery plan
+[57:58] che non è mai stato testato è
+[58:00] sostanzialmente carta straccia, perché
+[58:03] se voi avete messo
+[58:06] giù un ottimo disaster recovery plan, ma
+[58:09] poi non avete mai provato la procedura
+[58:10] di restore di un backup, quindi
+[58:15] e per qualunque motivo va storto, allora
+[58:19] sostanzialmente ente, cioè siete
+[58:21] colpevoli anche davanti al garante non è
+[58:25] difficile uscirne. Quindi questo questo
+[58:27] disaster recovery plan va simulato
+[58:29] almeno una volta all'anno.
+[58:37] Allora, facciamo un esempio tra RPO e
+[58:39] RTO, un esempio numerico, eh qui.
+[58:42] Quindi, se un'azienda ha un RPO di
+[58:44] un'ora e un RTO di 4 ore, cosa
+[58:47] significa?
+[58:49] significa che posso accettare di perdere
+[58:52] al massimo l'ultima ora di lavoro,
+[58:54] quindi RPO un'ora, e devo essere
+[58:57] ripartito entro 4 ore. RTO4,
+[59:01] quindi per rispettare l'RPO di un'ora
+[59:03] servono backup, come ho detto prima,
+[59:05] almeno orari
+[59:07] e per rispettare l'RTO di 4 ore, quindi
+[59:10] essere operativi entro le 4 ore, servono
+[59:13] per un'infrastruttura di riprischino
+[59:15] piuttosto veloce.
+[59:17] Ok?
+[59:18] Quindi, ovviamente degli R, se uno si
+[59:21] fissa un RPO più aggressivo, cosa
+[59:23] significa? Che ci saranno costi
+[59:25] infrastrutturali più elevati.
+[59:29] Eh, qual è la giusta soglia? Dipende dal
+[59:31] valore degli asset che viene valutato
+[59:34] poi nel da IBA. sostanzialmente,
+[59:40] diciamo così, uno una una domanda,
+[59:43] diciamo, personale, nel senso che per
+[59:45] capire il se avete capito il concetto
+[59:47] nella vostra vita personale. Adesso vi
+[59:49] faccio dei degli esempi, eh, e mi dite
+[59:53] voi quali, insomma, quali sono quali
+[59:56] quale RPO, RTO accetteresti, va bene? eh
+[1:00:01] dati personali, tipo, non so,
+[1:00:06] email,
+[1:00:08] ok? Che RPO RTO vi dareste? Se vi non vi
+[1:00:12] se non vi ricordate la la che cosa sono
+[1:00:14] ve le dico, eh? Email personale,
+[1:00:18] non vi funziona più la mail.
+[1:00:20] Per quanto tempo e entro quanto voi
+[1:00:24] vorreste riaverla?
+[1:00:26] Quindi che valore date? Che numeri
+[1:00:28] dareste?
+[1:00:31] Eh, la mail, eh, nel senso, ehm, diciamo
+[1:00:36] che a me anche se non mi funziona per un
+[1:00:38] giorno, non mi strappo i capelli, però
+[1:00:41] nel senso non la uso. Dipende uno che
+[1:00:43] lavoro fa, cioè io io io lavoro in
+[1:00:45] magazzino pure che la mail non mi
+[1:00:47] funziona per un giorno, non è un un
+[1:00:49] problema. Se parli di me personalmente,
+[1:00:52] eh, stai dicendo giusto? Sì, sì, certo.
+[1:00:54] Per ciascuno di voi in base al vostro
+[1:00:55] lavoro.
+[1:00:57] Eh, nel senso è chiaro che eh se io eh
+[1:01:02] aspetto la tua mail che mi confermi se
+[1:01:05] l'indomani c'è la lezione o meno e e
+[1:01:09] magari non ho WhatsApp perché nel senso
+[1:01:12] WhatsApp è una roba che se non mi
+[1:01:13] funziona per 3 ore può essere più
+[1:01:16] problematico rispetto alla casella di
+[1:01:17] post elettronica, per esempio.
+[1:01:21] Eh,
+[1:01:23] è un valore diverso, ma perché è
+[1:01:25] l'utilizzo che ne facciamo? Dipende.
+[1:01:27] Cioè lì poi magari va anche a livello
+[1:01:29] personale. Se uno invece lavora tanto
+[1:01:31] con le mail e dice "A me di WhatsApp non
+[1:01:32] me ne frega niente e però la mail se mi
+[1:01:35] funziona per 5 minuti l'ho fuori di
+[1:01:37] testa ne ho bisogno. Eh, però la mail
+[1:01:40] sì, anche se non mi va per una giornata,
+[1:01:42] non mi strappo i capelli io."
+[1:01:44] Ok, quindi hai avresti degli RTO RPO più
+[1:01:49] stringenti per WhatsApp e meno
+[1:01:51] stringenti per l'email.
+[1:01:53] Esatto.
+[1:01:54] Ok. Siete tutti d'accordo anche per il
+[1:01:56] vostro lavoro oppure
+[1:01:57] Sì, sì, sì, sì.
+[1:01:59] Beh, che poi c'è sempre l'alternativa.
+[1:02:01] Prendi un cellulare, un cellulare.
+[1:02:03] Vabbè, no, se non funziona la mail
+[1:02:05] direttamente dal mio cellulare non
+[1:02:07] funzionerebbe neanche eh utilizzando eh
+[1:02:11] utilizzandone un altro, però comunque ad
+[1:02:13] ogni modo non darei un peso così
+[1:02:15] importante.
+[1:02:17] Ok. Un'altra domanda invece immagino
+[1:02:20] appunto lavoriate tutti, quindi eh
+[1:02:22] parlando appunto di
+[1:02:25] test di disaster recovery, nelle vostre
+[1:02:27] aziende lo fanno? Sì, no? Per la vostra
+[1:02:31] esperienza per la prova antincendio, per
+[1:02:34] la prova antincendio classica
+[1:02:37] e basta.
+[1:02:37] Ok. Ok.
+[1:02:38] Ah, da questo punto di vista sì, sì. La
+[1:02:41] sicurezza sul lavoro è molto importante
+[1:02:43] dove lavoro io, per cui sì. Sì.
+[1:02:44] E a livello di IT sapete, magari non
+[1:02:46] l'avete vissuto voi se non lavorate
+[1:02:48] nell'IT di quell'azienda, ma sapete se
+[1:02:50] lo fanno?
+[1:02:51] No, lo fanno perché io in Amazon ho
+[1:02:54] fatto per 3 mesi l' support,
+[1:02:58] eh, e le fanno. Sono dei test che
+[1:03:03] in collaborazione, scusa, col team della
+[1:03:06] manutenzione perché magari necessitano
+[1:03:08] di staccare la corrente per tot tempo,
+[1:03:11] si devono coordinare, quindi staccano,
+[1:03:14] bisogno di staccare la corrente, magari
+[1:03:16] fanno delle manutenazioni sui server, su
+[1:03:20] MDF o IDF in generale, ma le fanno. Non
+[1:03:24] le ho fatte io direttamente, ma so che
+[1:03:25] le fanno. Eh, allora mi Meno male
+[1:03:28] un'azienda come Amazon il colosso lo fa.
+[1:03:31] Meno male
+[1:03:32] internamente a Vercelli poi penso che
+[1:03:34] ogni magazzino abbia i suoi i suoi
+[1:03:36] tempi, nel senso le sue non non credo
+[1:03:39] che siano in contemporanea sull'intero
+[1:03:42] nodo, che ne so, Vercelli, Novara,
+[1:03:44] Torrazza, Alessandria per vivere, però
+[1:03:46] magari eh Novara avrà dei loro
+[1:03:51] eh come dire delle loro cadenze
+[1:03:54] e Vercelli ne avrà altre per dire.
+[1:03:56] Adesso ti faccio l'esempio io che lavoro
+[1:03:57] a Vercelli, eh, poi non so gli altri,
+[1:04:00] magari su un robotico come Novara, eh, o
+[1:04:04] o come Torrazza hanno li fanno magari
+[1:04:07] più periodicamente rispetto a una sorte
+[1:04:09] che magari non è per che magari non è
+[1:04:11] completamente robotico. Eh, immagino,
+[1:04:14] ipotizzo.
+[1:04:15] Sì, sì, ci può stare. Diciamo che
+[1:04:18] tendenzialmente nei colossi, nelle
+[1:04:19] aziende grosse, viene fatto e viene
+[1:04:22] testato soprattutto quelle piccole non è
+[1:04:26] così comune, mettiamola così. Non è che
+[1:04:28] per forza non succede, ma viene visto
+[1:04:31] più come un costo che è sacrificabile,
+[1:04:33] no? come una cosa che sì si potrebbe
+[1:04:36] fare, ma peccato che poi quando succede
+[1:04:39] sono sono dolori.
+[1:04:41] Ok, allora se non avete altre domande
+[1:04:44] andiamo avanti.
+[1:04:47] Allora, per me è a posto.
+[1:04:50] Sì, per me anche.
+[1:04:52] Perfetto.
+[1:04:54] Gli altri? Tutto tutto a posto?
+[1:04:56] Sì,
+[1:04:59] sì, sta bene.
+[1:05:02] Ok. Sì.
+[1:05:03] Allora,
+[1:05:04] per quanto riguarda questa questa slide,
+[1:05:06] appunto, abbiamo quella che viene
+[1:05:07] chiamata la business impact.
+[1:05:10] Allora, la domanda che che la Bia cerca
+[1:05:12] di rispondere qual è?
+[1:05:15] E se questa cosa smette di funzionare,
+[1:05:18] cioè se questo servizio, questo sito
+[1:05:21] smette di funzionare,
+[1:05:24] quanto mi danneggia, quanto male fa
+[1:05:26] l'azienda,
+[1:05:28] quanto velocemente lo fa e soprattutto a
+[1:05:31] chi, quindi espone solo l'azienda o
+[1:05:33] anche i clienti. Quindi in la business
+[1:05:37] impact analysis non si occupa di chi
+[1:05:39] attacca o di quali siano le
+[1:05:41] vulnerabilità, si occupa esclusivamente
+[1:05:44] delle conseguenze, non so, di un fermo,
+[1:05:47] qualunque sia la causa, non per forza di
+[1:05:50] un attacco hacker, per capirci.
+[1:05:52] Eh,
+[1:05:54] se anche qua possiamo fare un'analogia
+[1:05:55] nel mondo reale è pensate a un ospedale.
+[1:05:59] Se va via la corrente per un'ora al bar
+[1:06:01] dell'ospedale,
+[1:06:03] amen, chiude, fa qualche euro di danno,
+[1:06:05] il mancato guadagno è ok. Ma se per
+[1:06:08] qualunque motivo eh non so va via la
+[1:06:11] corrente al reparto di rianimazione e
+[1:06:14] chi doveva proprio vedere ai
+[1:06:18] ai sistemi diesel di recovery non l'ha
+[1:06:21] fatto e quindi non ha la corrente, anche
+[1:06:23] sempre lì per solo un'ora nel reparto di
+[1:06:25] rianimazione qualcuno muore.
+[1:06:28] Quindi stesso evento, ma l'impatto è
+[1:06:31] incomparabile.
+[1:06:33] Da da questo punto di vista, appunto, la
+[1:06:35] BIA serve a capire sistema per sistema
+[1:06:38] quale categoria applicare. Quindi ci
+[1:06:41] sono tre passaggi operativi
+[1:06:43] sostanzialmente identificare le funzioni
+[1:06:45] critiche, quindi quali processi
+[1:06:47] aziendali devono assolutamente
+[1:06:50] continuare,
+[1:06:51] non so, vendite, produzione,
+[1:06:54] fatturazione,
+[1:06:56] supporto clienti,
+[1:06:58] poi classificarle queste funzioni
+[1:07:01] critiche per priorità, quindi in caso di
+[1:07:04] emergenza
+[1:07:06] su quali ci si concentra prima.
+[1:07:09] Quindi sostanzialmente la Bia forza il
+[1:07:11] management a fare una scelta esplicita,
+[1:07:13] quindi
+[1:07:15] ti li forza proprio a fare questa scelta
+[1:07:17] ed è una cosa che molte aziende
+[1:07:19] rimandano, tendono a rimandare fino al
+[1:07:21] disastro
+[1:07:22] e poi calcolare i tempi i tempi
+[1:07:24] tollerabili
+[1:07:26] per ogni funzione qual è il tempo
+[1:07:27] massimo di interruzione. Quindi, e da
+[1:07:30] qui nascono i concetti di eh RTO e RPO.
+[1:07:37] Allora, mettiamo più qua. Ok.
+[1:07:41] Eh,
+[1:07:42] facciamo, allora, vi faccio un esempio
+[1:07:44] pratico. Sempre, non so, un una facciamo
+[1:07:47] una mini via per un e-commerce, che ne
+[1:07:49] so, che fattura 5 milioni. Va bene?
+[1:07:53] Allora, dividiamo. Primo step, abbiamo
+[1:07:55] detto identificare le funzioni critiche.
+[1:07:58] Ok, per un per un un e-commerce cosa può
+[1:08:00] essere la funzione critica? saranno,
+[1:08:02] insomma, sito, e-commerce, chiaramente,
+[1:08:04] email aziendali,
+[1:08:06] un CMS interno, magari
+[1:08:09] CMS, il content management system e che
+[1:08:12] ne so delle stampanti.
+[1:08:14] Ok? Eh,
+[1:08:17] per ciascuna di queste funzioni facciamo
+[1:08:19] che il sito ha un impatto economico
+[1:08:21] abbastanza elevato, no? Perché se va giù
+[1:08:23] non guadagnate. Quindi se va giù per
+[1:08:25] un'ora facciamo che stimi, insomma, €570
+[1:08:28] di perdita, €600 di perdita. Se però
+[1:08:31] l'impatto ha un giorno, per un giorno di
+[1:08:33] down magari hai 13-15.000
+[1:08:37] che chiaramente per una settimana
+[1:08:39] moltiplicando tutto arrivi quasi a
+[1:08:41] 100.000 e inizia ad avere anche un danno
+[1:08:43] alla reputazione, no? Sei giù una
+[1:08:44] settimana il sito di e-commerce. Quindi
+[1:08:47] la priorità di questa funzione sarà
+[1:08:49] critica,
+[1:08:51] quindi è una cosa altissima.
+[1:08:54] Email aziendale invece secondo voi
+[1:08:56] sempre per questo sito di Comers, come
+[1:08:58] lo categor che priorità dareste?
+[1:09:03] Ma nel senso cinque come massima?
+[1:09:07] Sì, sì. Fai cinque 1 a C, quindi cinque
+[1:09:09] critica.
+[1:09:11] Ok. M aziendale direi
+[1:09:15] un un tre.
+[1:09:18] Sì.
+[1:09:19] Ok. Sì, perché è un disagio
+[1:09:21] sostanzialmente, no?
+[1:09:23] Ma recuperabile.
+[1:09:24] Esatto.
+[1:09:26] Il CMS.
+[1:09:29] La CMS5
+[1:09:31] sì,
+[1:09:33] è molto grave perché chiaramente non,
+[1:09:35] cioè non gli utenti non vedrebbero
+[1:09:39] il catalogo aggiornato, non sapre quanti
+[1:09:41] prodotti ci sono, quanti sono stati
+[1:09:42] venduti, eccetera, sarebbe un danno
+[1:09:44] veramente
+[1:09:45] Eh, sì, è sostanzialmente, sì, il CMS
+[1:09:49] proprio è il sito,
+[1:09:51] eh, sostanzialmente è il sito il CMS,
+[1:09:54] poi alla fine,
+[1:09:56] quindi Questo alta. Invece la stampante
+[1:09:59] dell'ufficio
+[1:10:01] stampante dell'ufficio uno chi se ne
+[1:10:04] frega. No, vabbè, nel senso ve lo dico
+[1:10:07] basso.
+[1:10:09] Esatto, esattamente così. Eh,
+[1:10:16] ok.
+[1:10:20] Allora, direi che andiamo avanti alla
+[1:10:22] slide successiva per il calcolo del di
+[1:10:25] business. Quindi,
+[1:10:28] come calcoliamo il rischio? Allora, ci
+[1:10:31] sono delle formule e delle delle degli
+[1:10:35] acronomi da memorizzare. Allora,
+[1:10:38] quello che viene chiamato SL, che è il
+[1:10:41] single loss expectancy, è
+[1:10:44] quanto perdo se l'evento accade una
+[1:10:47] volta.
+[1:10:49] Ok? Quindi one shot succede una volta
+[1:10:52] quanto perdo e viene calcolato come il
+[1:10:55] prodotto di due fattori che sono AV che
+[1:10:58] è l'asset value, quindi il valore del
+[1:11:00] bene dell'asset e moltiplicato per EF
+[1:11:04] che è exposure factor che è
+[1:11:06] sostanzialmente la frazione di valore di
+[1:11:09] quel bene che si perde nell'evento.
+[1:11:12] Poi facciamo degli esempi così almeno lo
+[1:11:14] capiamo bene. Poi abbiamo ARO che è
+[1:11:17] l'annualized rate of occurrence che è
+[1:11:20] quante volte l'anno mi aspetto che
+[1:11:23] questo evento succeda.
+[1:11:25] Quindi se se stabilisco che succede una
+[1:11:28] volta all'anno, Aro sarà uno. Se
+[1:11:32] stabilisco che è una cosa che può
+[1:11:34] succedere una volta ogni 5 anni,
+[1:11:38] l'aro sarà
+[1:11:42] una volta ogni
+[1:11:43] ogni 5 anni.
+[1:11:46] Ah, vabbè. Eh, basso.
+[1:11:50] Ok. Sì, quindi è 1/ 02, giusto?
+[1:11:53] Eh.
+[1:11:54] Ok. Se invece tre volte l'anno
+[1:11:59] sarà tre volte,
+[1:12:00] giusto?
+[1:12:01] Sarà tre.
+[1:12:02] Esatto.
+[1:12:02] Sì. Perfetto. E poi l'ultima definizione
+[1:12:06] è l'ale che è l'annualize loss
+[1:12:09] expectancy che è il risultato finale è
+[1:12:12] sostanzialmente quanto perdo l'anno in
+[1:12:14] media
+[1:12:16] e questo è dato da l'SLE per ARO. Ok?
+[1:12:20] Quindi quanto perdo se l'evento cade una
+[1:12:23] volta per la frequenza, ok? Quindi
+[1:12:26] quanto mi aspetto, quante volte mi
+[1:12:27] aspetto l'anno che capiti, ok?
+[1:12:30] Si parla di soldi sempre qua monetari.
+[1:12:33] Sì, monetari. Monetari, esatto. Sì. Eh,
+[1:12:36] facciamo un esempio. Allora, partiamo
+[1:12:39] dal automobile. Ok? Quindi, se diciamo
+[1:12:42] che il suo valore è di €20.000,
+[1:12:46] nel nostro esempio, sappiamo allora che
+[1:12:47] AV, come vedete nella slide, il valore
+[1:12:50] patrimoniale dell'asset sarà €20.000.
+[1:12:53] Ok?
+[1:12:54] Poi noi stimiamo che eh che ne so una
+[1:12:57] grossa grossa grandinata
+[1:13:01] ti danneggia. Adesso esageriamo,
+[1:13:03] facciamo il 30% del valore del mezzo,
+[1:13:06] giusto? Così la stiamo sparando. Eh, va
+[1:13:08] stimato bene ovviamente il valore, però
+[1:13:10] 30%.
+[1:13:11] Questo 30% che cos'è? È il nostro EF.
+[1:13:15] Ok.
+[1:13:16] Perfetto.
+[1:13:18] Quindi il nostro SL
+[1:13:21] che abbiamo detto essere il prodotto di
+[1:13:23] AV per F quanto sarà?
+[1:13:28] Vabbè, il valore iniziale è meno il 30%,
+[1:13:31] quindi 17.000
+[1:13:33] più o meno.
+[1:13:35] M allora e allora il nostro SLE sarà
+[1:13:40] 20.000 per il 30%.
+[1:13:43] è la moltiplicazione, non in meno.
+[1:13:45] Ah, ok, ok, ho capito. Ok, ho capito.
+[1:13:48] Perché non è non è Ok, perfetto. Quindi
+[1:13:50] è 6000.
+[1:13:52] Sì,
+[1:13:53] ok, perfetto. Eh, poi noi stimiamo che
+[1:13:58] so una grandinata del genere capita che
+[1:14:00] ne so una volta ogni 4 anni. Ok? Quindi
+[1:14:04] il nostro aro quanto sarà?
+[1:14:11] una volta ogni è uno su quattro, cioè
+[1:14:12] nel senso la divisione di Esatto. Quindi
+[1:14:16] 0,25.
+[1:14:17] Sì, 025 1/4. Sì,
+[1:14:20] perfetto. Quindi eh l'ale che è dato
+[1:14:25] appunto dalla moltiplicazione
+[1:14:28] di SL per aro, ok?
+[1:14:32] Quanto sarà? sarà €1500 sostanzialmente
+[1:14:36] perché
+[1:14:38] perché quei €6000 hanno una probabilità
+[1:14:40] di di
+[1:14:43] ricorrenza di 0,25, quindi 6000 * 0,25
+[1:14:46] €1500.
+[1:14:47] Va bene? Quindi mi aspetto di pagare
+[1:14:50] €1500 l'anno da questo esempio in danni
+[1:14:53] da grandine.
+[1:14:55] Questa è la stima dell'esempio. Quindi
+[1:14:57] facciamo così, se l'assicurazione ti
+[1:14:59] costa €1200 l'anno è un buon affare. Poi
+[1:15:02] è un è un calcolo molto semplificato
+[1:15:05] perché bisogb calcolare anche tutti gli
+[1:15:06] altre cose da cui ti copre
+[1:15:07] l'assicurazione eccetera eccetera, però
+[1:15:09] facendo solo l'esempio della grandine è
+[1:15:11] comunque un buon affare. Se ne costa
+[1:15:13] magari 2005 con magari tenere la
+[1:15:15] macchina sotto una tettoia per capirci.
+[1:15:18] Eh,
+[1:15:20] allora facciamo anche qui c'è un
+[1:15:21] esempio, è stato scritto in inglese
+[1:15:23] perché era preso dalle slide. Ah, ve lo
+[1:15:26] ve lo traduco in italiano e poi lo loemo
+[1:15:29] assieme. Sostanzialmente
+[1:15:31] eh se è l'amministratore di un web
+[1:15:33] server, ok? E questo web server genera
+[1:15:37] $25.000 l'ora di ricavi,
+[1:15:42] la probabilità che si guasti durante
+[1:15:44] l'anno
+[1:15:45] è del 25%.
+[1:15:49] Un guasto
+[1:15:51] causa 3 ore di downtime e $5.000 di
+[1:15:55] componenti per ripararlo.
+[1:15:57] Calcoliamo assieme l'ale.
+[1:16:02] Ok, partiamo passo passo. Da dove
+[1:16:04] partireste?
+[1:16:06] Partiamo da Immagino i costi, giusto?
+[1:16:12] Allora, genera $25.000 000 allora in
+[1:16:16] guadagno.
+[1:16:17] Sì.
+[1:16:20] Ok. E quindi quello lì è il valore,
+[1:16:22] diciamo,
+[1:16:23] ehm
+[1:16:25] eh oddio, aspetta, come si chiamava? Il
+[1:16:28] il valore
+[1:16:30] il valore patrimoniale, no? Perché
+[1:16:33] genera $25.000.
+[1:16:36] E e poi c'è la probabilità che il web
+[1:16:39] server fallisca durante un anno che è
+[1:16:41] stimato entro il 25%, quindi in un anno
+[1:16:45] eh il 25% quindi è la il Aspetta, adesso
+[1:16:50] non mi ricordo l'acronimo.
+[1:16:52] Allora,
+[1:16:52] cos'è? L' giusto?
+[1:16:55] SL, sì, qui. Eh, vabbè, a parte che c'è
+[1:16:59] già l'operazione sotto, però vabbè.
+[1:17:02] era per ragionarci assieme. Non era la
+[1:17:04] soluzione perché metto la mano e copro.
+[1:17:08] No, vabbè, scherzo. E no, comunque sì,
+[1:17:09] ho capito. C cè c'è la moltiplicazione
+[1:17:12] perché in un anno e poi dopo fa ehm
+[1:17:17] sostanzialmente allora tu devi calcolare
+[1:17:19] i costi totali che sono se tu fatturi
+[1:17:23] $25.000 l'ora e il downtime dura 3 ore,
+[1:17:28] tu perdi
+[1:17:29] Eccolo qua. Sì, 3 ore, eh. 75.000,
+[1:17:32] giusto?
+[1:17:34] 25.000 per 3 ore.
+[1:17:36] Sì, sì.
+[1:17:36] Oltre a questo hai $5.000 di componenti,
+[1:17:39] quindi altri 5.000 devi aggiungerli,
+[1:17:42] otterrai il tuo SLE che sarà appunto la
+[1:17:44] somma di 75.000 più 80.000.
+[1:17:48] L'ARO sappiamo che ce lo dice
+[1:17:51] l'esercizio,
+[1:17:53] quant'è?
+[1:17:54] Il 25%.
+[1:17:56] 25%. Sì,
+[1:17:57] perfetto. Quindi 0,25.
+[1:18:00] Dalla formuletta sopra sappiamo appunto
+[1:18:02] che come calcoliamo l'area moltiplicando
+[1:18:04] i due, quindi 80.000* 0,25 $20.000
+[1:18:09] perché una volta che sai il one shot poi
+[1:18:13] eh sai
+[1:18:15] lo moltiplichi per per la probabilità
+[1:18:18] che si fa annualmente hai la e hai
+[1:18:21] l'ale, giusto? No.
+[1:18:22] Esatto. Questa cosa perché serve? per
+[1:18:24] capire, cioè non è un semplice calcolo
+[1:18:26] numerico
+[1:18:28] mentale, ma è per il management è
+[1:18:31] importante perché perché se una
+[1:18:33] contromisura
+[1:18:35] a questo evento costa meno di $20.000
+[1:18:37] l'anno, ma ti riduce appunto l'ARO a
+[1:18:40] zero, quindi la probabilità a zero, che
+[1:18:42] succeda, conviene
+[1:18:44] m
+[1:18:44] se costa di più va valutata perché
+[1:18:48] comunque ci possono essere altri
+[1:18:49] aspetti, no? non economici, ma magari
+[1:18:51] reputazionali
+[1:18:53] o lavori in un settore in cui hai degli
+[1:18:55] obblighi normativi particolari, quindi
+[1:18:57] sei obbligato
+[1:18:59] a fare di tutto perché un evento non
+[1:19:02] succede. Ok?
+[1:19:09] Quindi facciamo un esempio,
+[1:19:12] una domanda per voi. Se l'ale
+[1:19:15] eh è di $20.000,
+[1:19:19] Voi comprereste un sistema di ridondanze
+[1:19:21] che costa $10.000 l'anno?
+[1:19:32] Allora, se l'ale è $20.000.
+[1:19:38] Boh, io sì.
+[1:19:40] Bravo. Esatto.
+[1:19:43] Sì, perché perché l'ale è la quanto
+[1:19:47] pensi, cioè la tua stima di perdita
+[1:19:50] annua. Ok?
+[1:19:53] Quindi è una media, è un valore medio.
+[1:19:56] Credi che data la probabilità, dato
+[1:19:58] quanto ti costa, tutto quello che
+[1:20:00] abbiamo detto fino adesso, mediamente
+[1:20:02] perdi $20.000 l'anno. Ok? Quindi $10.000
+[1:20:05] 000 ovviamente è in senda inferiore
+[1:20:08] e conviene.
+[1:20:10] Esattamente.
+[1:20:11] E se invece costa 30.000 ma riduce
+[1:20:15] drasticamente l'impatto reputazionale,
+[1:20:22] vabbè, è sempre legato al fattore di
+[1:20:25] frequenza di di
+[1:20:27] un blocco, no?
+[1:20:28] Facciamo, facciamo che è uguale e tutti
+[1:20:30] gli stessi dati di questo esercizio,
+[1:20:32] solo che allora l'ale abbiamo detto è
+[1:20:34] 20.000.
+[1:20:35] stessa frequenza, stessi costi,
+[1:20:37] eccetera, però il sistema, la tua
+[1:20:40] soluzione per portare l'aro a zero, ok,
+[1:20:45] è 30.000 all'anno,
+[1:20:48] quindi sostanzialmente tu stimi di
+[1:20:49] perdere $20.000 l'anno, ma un sistema te
+[1:20:52] ne costa 30.000.
+[1:20:55] Eh, dipende quant magari ti fa
+[1:20:57] guadagnare di più, però
+[1:21:00] dipende quanta reputazione perdi, cioè
+[1:21:02] se è una roba tanto impattante.
+[1:21:06] Esattamente. Quindi dal punto di vista
+[1:21:08] numerico un sistema da 30.000
+[1:21:11] non è conveniente economicamente, questo
+[1:21:12] è sicuro, però l'ale questa questa
+[1:21:16] formula qua, chiaramente sottostima
+[1:21:19] spesso dei danni che sono difficili da
+[1:21:21] misurare, per capirci, danni che possono
+[1:21:24] essere, non so, la perdita di fiducia
+[1:21:26] dei clienti, no? Se tu stai fermo la
+[1:21:28] settimana, eh il danno al brand,
+[1:21:33] eh eventuali contenziosi legali
+[1:21:38] o anche a questo punto se la cosa è
+[1:21:40] stata abbastanza grave potresti anche
+[1:21:42] avere delle perdite di quota di mercato,
+[1:21:44] quindi magari una spesa maggiore
+[1:21:48] è un costo d'esercizio più accettabile
+[1:21:51] rispetto al rischio.
+[1:21:53] Quindi diciamo che potrebbe uno può sono
+[1:21:57] valutazioni che devre fare ogni
+[1:21:58] management in base al suo appetito al
+[1:22:01] rischio e la sua azienda,
+[1:22:03] però se il rischio reputazionale è
+[1:22:05] strategico
+[1:22:08] forse ne valebb la pena. Quindi non c'è
+[1:22:10] una risposta proprio
+[1:22:12] automatica
+[1:22:14] per queste cose.
+[1:22:17] Diciamo che stai comprando non solo
+[1:22:18] ridondanza tecnica in un esempio così
+[1:22:21] importante a livello reputazionale, ma
+[1:22:22] più la protezione al alla fiducia che i
+[1:22:27] tuoi clienti o i tuoi partner hanno
+[1:22:29] verso di te.
+[1:22:33] Diciamo che ci sono aziende che magari
+[1:22:35] un fermo pubblico vale anche più di
+[1:22:36] $20.000, 000, nel senso per loro
+[1:22:39] mettiamo Google.
+[1:22:41] Mh.
+[1:22:42] Se Google smette di funzionare per due
+[1:22:44] giorni,
+[1:22:46] Certo.
+[1:22:46] Madonna,
+[1:22:49] cioè
+[1:22:51] loro sono disposti a spendere l'infinito
+[1:22:53] per avere sempre on il loro motore del
+[1:22:55] centro.
+[1:22:55] Ok, quindi la proporzionalità è diversa.
+[1:22:58] Esatto, bravissimo. Quindi non è solo un
+[1:23:00] Questo è un numero importante, ma il
+[1:23:02] concetto che volevo far passare è che
+[1:23:05] ehm non è solo quello, nel senso è un
+[1:23:08] valore importante, è una stima,
+[1:23:12] ma bisogna comunque essere elastici nel
+[1:23:16] ragionamento, eh. Ok.
+[1:23:20] Ora c'è un altro esercizio.
+[1:23:23] Questo esercizio
+[1:23:24] per la felicità.
+[1:23:29] Vi Dove siete?
+[1:23:33] In che senso? Dove siamo?
+[1:23:34] Non vi vedo più.
+[1:23:37] Allora,
+[1:23:39] voi mi vedete? Non vi vedo più.
+[1:23:42] Eh, io la tua condivisione la vedo.
+[1:23:43] Adesso vedo il tuo desktop vuoto, però.
+[1:23:46] Sì, no, perfetto. Li cercavo, ma non di
+[1:23:52] Bene. E
+[1:23:56] Allora, facciamo così. Ok. E ci risiamo
+[1:23:59] adesso.
+[1:24:02] Sì, sì, ma io vi vedo, ve vedo tutto.
+[1:24:05] Ok. No, io non vi vedevo proprio più,
+[1:24:07] erate spariti. Neanche la condivisione
+[1:24:09] non mi Vabbè, l'importante è che mi dite
+[1:24:11] che c'è. A posto. Allora, questo
+[1:24:13] esercizio, dicevo, per la felicità di di
+[1:24:16] Emanuele non ha i numeri scritti sotto
+[1:24:18] delle soluzione. Così
+[1:24:22] così non puoi imbrogliare.
+[1:24:24] Allora,
+[1:24:26] allora vediamo così ve lo ve lo traduco
+[1:24:28] un po' in italiano, così almeno è più
+[1:24:30] semplice. Magari lavorate all'Helpdk di
+[1:24:33] una piccola azienda, ok?
+[1:24:36] Eh, una delle richieste più comuni che
+[1:24:38] vi viene fatto è il recupero di un file
+[1:24:40] cancellato per errore da parte di un
+[1:24:42] utente.
+[1:24:44] Bene, in mediast questa cosa succede una
+[1:24:48] volta alla settimana,
+[1:24:51] ok? E ci sono due casi. Il caso A che è
+[1:24:55] circa il 60% degli incidenti,
+[1:24:59] il file è stato creato e poi è stato
+[1:25:01] cancellato sul server, quindi si
+[1:25:04] recupera in pochi minuti senza perdita
+[1:25:06] di dati. Il caso B invece, che è il 40%
+[1:25:10] degli incidenti, il file è stato creato
+[1:25:14] sulla workstation proprio sul PC
+[1:25:15] dell'utente ed è stato cancellato e
+[1:25:17] vabbè, da lì non è recuperabile e
+[1:25:19] l'utente impiega in media 2 ore per
+[1:25:21] ricrearlo a un costo orario di $12
+[1:25:24] l'ora. Ok? Questo è l'esercizio. La
+[1:25:28] domanda è: qual è l'ale in questo caso?
+[1:25:35] Oh, partiamo.
+[1:25:38] Ragioniamoci tutti assieme, eh? Non non
+[1:25:39] è una domanda Emanuele, basta,
+[1:25:41] ovviamente.
+[1:25:47] Allora, calcoliamo la la frequenza. Qual
+[1:25:50] è?
+[1:25:50] Cominciamo dalla frequenza, dai.
+[1:25:54] Vabbè, una volta a settimana.
+[1:25:56] Ok, quindi all'anno cosa vuol dire? E
+[1:26:00] all'anno vuol dire una marea di volte
+[1:26:02] sostanzi adesso non sta
+[1:26:04] quante settimane ci sono in un anno?
+[1:26:08] Eh,
+[1:26:12] 52, quindi
+[1:26:14] perfetto. Quindi una volta settimana per
+[1:26:16] 50 settimane sono 52 incidenti l'anno.
+[1:26:20] Ok.
+[1:26:23] Ok. Questo sappiamo questa cosa. Poi
+[1:26:29] parliamo dei costi per ogni evento.
+[1:26:31] Abbiamo due casi, giusto? Abbiamo detto
+[1:26:33] caso A e caso B. Uno succede al 60%
+[1:26:35] delle volte, l'altro è 40. Ok? Nel caso
+[1:26:39] Abiamo detto che il costo è
+[1:26:43] quello che il file viene cancellato da
+[1:26:46] server. Abbiamo detto zero, giusto? Eh,
+[1:26:49] zero perché viene perché viene
+[1:26:51] recuperato
+[1:26:53] facilmente moment, quindi sì,
+[1:26:56] delle cagle. Ok. Poi
+[1:26:58] bra
+[1:26:59] nel caso due invece
+[1:27:01] nel caso due, eh per essere recuperato,
+[1:27:04] allora nel 40% degli incidenti
+[1:27:07] e impiega una media di 2 ore per
+[1:27:11] ricrearlo, quindi lo deve riscrivere
+[1:27:13] perché non è più recuperabile il file a
+[1:27:16] $12 l'ora.
+[1:27:18] Perfetto. Quindi il costo sarà
+[1:27:21] 2 ore 24. Ok,
+[1:27:23] bravissimo. Quindi abbiamo lo SL del
+[1:27:25] caso A 0 e l'SL del caso B 24.
+[1:27:30] Sì,
+[1:27:31] perfetto. Ora possiamo calcolare
+[1:27:34] l'ARO, no?
+[1:27:36] Quindi che non è 52 perché è abbiamo due
+[1:27:39] casi, no? 52 sono gli incidenti annui,
+[1:27:43] ma sappiamo che uno succede il 60% delle
+[1:27:45] volte, l'altro 40.
+[1:27:48] Giusto?
+[1:27:49] Sì. E quindi bisogna vedere quello che
+[1:27:52] accade quattro volte su 10, diciamo,
+[1:27:56] eh, che è quello in cui che che è quello
+[1:27:58] che ehm genera la perdita, no? Diciamo
+[1:28:01] perché perché l'altro costa zero.
+[1:28:04] Mh mh.
+[1:28:05] Perché sei volte su 10 costa zero,
+[1:28:08] quattro volte su 10 costa $24.
+[1:28:11] l'ora e in 2 ore, scusami, in 2 ore che
+[1:28:14] servono per ricrearlo gli costa $24.
+[1:28:18] Quindi l'importante è la RodB del
+[1:28:20] secondo caso.
+[1:28:22] Eh sì, sì, perché perché genera dei
+[1:28:26] costi.
+[1:28:27] Bravissimo. Quindi abbiamo detto che
+[1:28:29] succedono 52 volte l'anno il 40% delle
+[1:28:33] volte. È il caso B, quindi hai 20,8
+[1:28:36] incidenti l'anno. 8 è giusto per essere
+[1:28:39] precisi nei conti, ma l'idea è quella.
+[1:28:41] 20 20 centi l'anale. Bene, quindi l'ale
+[1:28:45] come lo calcoleremo?
+[1:28:48] Come siccome diamo 220
+[1:28:53] hai lo SL abbiamo detto l'SL di A per a
+[1:28:56] di A più SL di B* Aro di B giusto?
+[1:29:02] Quindi facciamo la somma di tutti e due.
+[1:29:04] Bravissimo. Però uno è zero,
+[1:29:07] però se l'altro è zero e rimane solo
+[1:29:09] quella del 40%. Esatto, ma io la formula
+[1:29:12] corretta è comunque la somma perché in
+[1:29:14] questo caso qua è zero, ma in altri casi
+[1:29:17] avresti dovuto calcolare, sarebbero
+[1:29:18] stati semplicemente conti più
+[1:29:20] complicati, insomma. Ma l'idea è quella.
+[1:29:22] Quindi sostanzialmente $500, ok? Non sto
+[1:29:25] lì a farvi fare i conti $500.
+[1:29:28] M
+[1:29:29] quindi, eh
+[1:29:33] conviene comprare uno strumento di
+[1:29:35] backup automatico delle workstation, in
+[1:29:37] questo caso, che costa, non so, $800
+[1:29:40] l'anno
+[1:29:45] 800 e eh
+[1:29:47] questo il costo l'ale 500.
+[1:29:50] No, no, ma costa molto di più il, cioè
+[1:29:55] nel senso rispetto alla per che hai.
+[1:29:59] Ok, quindi la risposta economica è no
+[1:30:01] sicuro.
+[1:30:04] E vi faccio un ragionamento e se uno dei
+[1:30:07] file che vengono persi è il che ne so il
+[1:30:09] preventivo da €200.000 di un commerciale
+[1:30:12] col vostro cliente più importante,
+[1:30:14] è quello, eh. Capito? Perché poi se un
+[1:30:16] file che viene perso è magari di
+[1:30:18] un'importanza, cioè qui non viene
+[1:30:19] specificato, no? Uno dice, "Ma sì, ma
+[1:30:21] per $300
+[1:30:23] metti che eh io ho quello che mi
+[1:30:26] cancella il preventivo della vita.
+[1:30:29] Eh, non lo so, lì devono valutarlo
+[1:30:31] internamente uno lo valuta. Beh, ma
+[1:30:34] comunque ci mette ci mette 2 ore a
+[1:30:36] rifarlo, quindi
+[1:30:38] Sì, però dico
+[1:30:41] se uno se uno dice "Ma sì, spendiamo sti
+[1:30:44] $300" li spende, io per due ore che ci
+[1:30:47] metto a rifarlo non lo farei, però senso
+[1:30:54] quindi dipende molto da
+[1:30:57] da anche un'analisi qualitativa, non
+[1:30:59] solo quantitativa, quindi
+[1:31:02] bisogna Bisogna pensarla in base a,
+[1:31:06] diciamo, quanto valuti probabile questo
+[1:31:09] evento,
+[1:31:11] diciamo così, eventi nella coda della
+[1:31:13] distribuzione, no? Eventi rari, però
+[1:31:15] tenete conto che però l'ale è una media,
+[1:31:18] una media ponderata, ok?
+[1:31:20] Non cattura eventi rari ad alto impatto.
+[1:31:25] Ok? Quindi questi 500 che sono usciti da
+[1:31:27] qua significa che tu mediamente
+[1:31:31] ti aspetti di perdere 500 l'anno,
+[1:31:35] ok?
+[1:31:35] Ma ci può essere l'anno appunto sfigato
+[1:31:37] in cui hai perso quel preventivo lì e
+[1:31:42] magari quel preventivo lì non ti metti 2
+[1:31:44] ore a farlo, oltre che il danno
+[1:31:45] reputazionale col vostro più grande
+[1:31:47] cliente
+[1:31:49] e magari per quell'anno invece i 500
+[1:31:52] sono 5.000. Adesso, adesso stiamo
+[1:31:54] sparando numeri a casaccio, però per
+[1:31:55] dire bisogna sempre essere elastici, no?
+[1:31:58] Non non focalizzarsi solo su un singolo
+[1:32:00] numero.
+[1:32:05] Ok, questo esercizio era abbastanza
+[1:32:07] semplice, no? La parte numeri era
+[1:32:10] abbastanza
+[1:32:12] Ok.
+[1:32:13] Allora, le risposte a rischi, finora
+[1:32:15] abbiamo parlato di rischi. Quali ci
+[1:32:17] quali sono le strategie che si possono
+[1:32:20] utilizzare per rispondere, no, ai
+[1:32:24] rischi? Quindi, una volta che abbiamo
+[1:32:26] identificato e quantificato il rischio,
+[1:32:30] diciamo che ci sono quattro le scelte
+[1:32:32] possibili, no?
+[1:32:34] Eh,
+[1:32:35] sono qui in inglese, adesso le traduco
+[1:32:37] in italiano, ma sono evitare il rischio,
+[1:32:39] mitigarlo, accettarlo, trasferirlo.
+[1:32:42] Allora, parliamo di ciascuna di queste.
+[1:32:45] Eh, eliminare il rischio a void.
+[1:32:48] Mh,
+[1:32:49] quindi eliminare la causa del rischio,
+[1:32:53] quindi, ad esempio, si rinuncia
+[1:32:55] all'attività che genera il rischio.
+[1:32:59] Vogliamo fare un esempio pratico? Non
+[1:33:02] so, decido di non offrire un servizio
+[1:33:04] cloud perché non ho le competenze per
+[1:33:07] metterlo in sicurezza.
+[1:33:09] Ok, questa è una delle strategie.
+[1:33:12] mitigare.
+[1:33:14] Mitigare significa ridurre la
+[1:33:17] probabilità o l'impatto, quindi ed è
+[1:33:21] sostanzialmente una delle strategie più
+[1:33:23] utilizzate. Eh,
+[1:33:25] ad esempio, quando fate il famoso patch
+[1:33:27] management, quindi gli aggiornamenti,
+[1:33:29] state mitigando il rischio, non lo state
+[1:33:32] riducendo, lo state riducendo, non a
+[1:33:34] zero, ma lo state significativamente
+[1:33:36] riducendo. O la multifactor
+[1:33:38] authentication, no? quando vi
+[1:33:41] autenticate con due dispositivi, quindi
+[1:33:42] non solo il vostro login online, ma il
+[1:33:45] messaggino sul telefono, la notifica.
+[1:33:48] Quando segmentate la rete,
+[1:33:51] quando fate formazione ai vostri
+[1:33:54] dipendenti contro il fishing, state
+[1:33:56] mitigando. Sono tutte strategie di di
+[1:33:59] mitigazione.
+[1:34:01] Quindi si accetta di convivere con il
+[1:34:03] rischio, ma si cerca di tenerlo basso.
+[1:34:08] Terza strada, terza risposta possibile è
+[1:34:10] accettarlo. Quindi si decide
+[1:34:12] consapevolmente di convivere con questo
+[1:34:14] rischio.
+[1:34:16] Tipicamente quando viene utilizzata
+[1:34:18] questa strategia per rischi che hanno
+[1:34:20] veramente un impatto basso o quando il
+[1:34:23] costo della mitigazione supera il danno
+[1:34:26] atteso.
+[1:34:28] Ok?
+[1:34:30] E poi c'è la quarta strategia che è il
+[1:34:32] trasferire il rischio che
+[1:34:35] è il caso più comune. Vi faccio
+[1:34:37] l'esempio, l'assicurazione cyber, no?
+[1:34:40] Quando voi avete un'attività è buona
+[1:34:42] cosa che vi facciate questa
+[1:34:45] assicurazione che si chiama cyber, che è
+[1:34:47] quella che copre voi da eventuali
+[1:34:50] eh
+[1:34:52] danni da attacchi informatici. Ok?
+[1:34:55] Quindi, eh voi sostanzialmente pagate un
+[1:34:58] canone annuo all'assicurazione che lei
+[1:35:00] vi assicura fino a ammontare lì,
+[1:35:02] chiaramente contrattato nel contratto e
+[1:35:07] voi ovviamente però dovete fare i
+[1:35:09] compiti a casa, nel senso che quando
+[1:35:11] firmate questi contratti assicurazione
+[1:35:13] voi state dicendo che comunque avete,
+[1:35:15] che ne so, il vostro sistema di backup
+[1:35:17] giornaliero, avete l'antivirus, bla bla
+[1:35:19] bla, tutte ste cose, altrimenti
+[1:35:21] chiaramente l'assicurazione poi potrebbe
+[1:35:24] rifiutarsi di pagare.
+[1:35:26] Ma la domanda è come si sceglie come
+[1:35:29] comportarsi, come si sceglie la
+[1:35:31] strategia, dato che ci sono quattro
+[1:35:32] tipologie di risposte,
+[1:35:35] diciamo che la la regola operativa di
+[1:35:37] solito è questa:
+[1:35:40] se
+[1:35:42] un evento ha un un evento un danno ha
+[1:35:46] probabilità alta,
+[1:35:48] se ha un impatto basso sulla tua azienda
+[1:35:51] si tende a mitigare. Ok?
+[1:35:54] Se sempre questo evento ha sempre
+[1:35:56] probabilità alta, ma l'impatto è alto,
+[1:36:00] ovviamente un evento che può succedere
+[1:36:04] con altissima probabilità e ti può fare
+[1:36:06] molto male, si tende a mitigare insieme
+[1:36:08] al trasferire, ok? Quindi tu farai di
+[1:36:11] tutto per mitigare questo rischio,
+[1:36:12] tenerlo contenerlo o contenere almeno
+[1:36:15] l'impatto e più anche cerchi di
+[1:36:18] trasferirne parte, quindi ti assicuri.
+[1:36:20] In questo caso
+[1:36:21] vai a rimediare il danno praticamente.
+[1:36:23] Esatto. Cerchi di fare di Sì, esatto.
+[1:36:26] Vabbè, esattamente così.
+[1:36:29] Eh, poi invece se la probabilità è bassa
+[1:36:33] di questo rischio, allora se anche
+[1:36:36] l'impatto è basso, cioè il danno che ti
+[1:36:38] può causare è basso, lo si tende ad
+[1:36:40] accettare. Convivi con questo rischio.
+[1:36:42] Probabilità molto bassa, ti può fare
+[1:36:44] poco male, accetti così, senza spendere
+[1:36:47] e risorse.
+[1:36:50] Se la probabilità è sempre bassa, ma
+[1:36:53] l'impatto è alto, si tende a fare due
+[1:36:56] cose. O trasferire assicurazione,
+[1:37:00] eh, per capirci, attacco ransomware.
+[1:37:05] Eh, o eviti, non fai il servizio oppure
+[1:37:09] trasferisci, quindi ti assicuri contro
+[1:37:12] questa tipologia di di attacc.
+[1:37:16] Eh, facciamo un esempio allora più
+[1:37:18] pratico. Allora,
+[1:37:21] una una PMI italiana, piccola media
+[1:37:23] impresa, viene colpita da un ransomware
+[1:37:26] e ha fatto un'assicurazione cyber.
+[1:37:30] Quindi con questa polizza, eh se non
+[1:37:33] avesse fatto la polizza, la compagnia
+[1:37:35] avrebbe dovuto pagare ore di consulenza
+[1:37:38] forense, quindi qualcuno che viene fuori
+[1:37:40] e verifica quello che è successo.
+[1:37:42] €70.000 000 di fermo di danno, quindi il
+[1:37:45] tuo sistema produttivo è bloccato e hai
+[1:37:47] stimato €70.000 di danni e in più ti
+[1:37:50] devi rifinanziare i sistemi, quindi devi
+[1:37:53] ripartire da zero.
+[1:37:55] Eh, quindi costo dell'incidente stimato
+[1:37:58] senza polizza, €180.000.
+[1:38:00] Ok? Per un caso del genere una polizza
+[1:38:03] annua ti costa all'incirca €4.500, €500,
+[1:38:07] quindi ti assicuri, paghi questo €4.500
+[1:38:10] l'anno all'assicurazione.
+[1:38:13] Il trasferimento del rischio direi che
+[1:38:14] ha funzionato, però ci sono dei però,
+[1:38:17] nel senso che eh la polizza, come vi ho
+[1:38:20] detto prima, non è che mi fido
+[1:38:24] ciecamente, qualunque cosa succeda io ti
+[1:38:26] pago, ok? Tu devi comunque avere dei
+[1:38:30] controlli minimi. Da quale importanza di
+[1:38:33] tutto quello che stiamo studiando.
+[1:38:34] Quindi devi fare dei backup una certa
+[1:38:37] frequenza, devi avere sistemi magari
+[1:38:40] cifrati, fare la multifactor
+[1:38:42] authentication, eccetera eccetera
+[1:38:44] eccetera. E qualora tu non avessi
+[1:38:46] implementato azienda queste cose,
+[1:38:50] l'assicurazione avrebbe legalmente
+[1:38:53] potuto rifiutare il rimborso.
+[1:38:56] Quindi tu finisci che paghi hai pagato
+[1:38:58] €4.500
+[1:39:00] e il danno sono 180.000,
+[1:39:03] quindi non hai il rimborso della
+[1:39:04] simulazione.
+[1:39:06] Quindi trasferire
+[1:39:08] non è un sostituto vero del mitigare, è
+[1:39:11] un complemento. Ok? In queste quattro
+[1:39:14] strategie
+[1:39:16] è buona cosa questo metterselo in mente
+[1:39:19] perché poi sennò si finisce in cose poco
+[1:39:22] belle.
+[1:39:24] Allora, facciamo così, faccio un altro
+[1:39:28] esempio.
+[1:39:34] Esistono secondo voi rischi che sarebbe
+[1:39:37] etico non poter trasferire?
+[1:39:42] Cioè, facciamo un esempio, magari rischi
+[1:39:44] che ricadono sui clienti.
+[1:39:48] Sì.
+[1:39:52] Ok. Quindi ci sono anche dei vincoli
+[1:39:55] nelle esterni alla scelta della
+[1:39:57] strategia.
+[1:39:59] Beh, certo.
+[1:40:01] Ok.
+[1:40:03] Ehm,
+[1:40:04] soprattutto quando poi si parla di
+[1:40:06] clienti, quindi persone esterne.
+[1:40:09] Esatto. E norme anche, non solo clienti,
+[1:40:12] ma anche normative.
+[1:40:13] Sì.
+[1:40:15] Perfetto.
+[1:40:18] Faccio un esempio. Tu non un portale di
+[1:40:23] dati sensibili non è che può fregarsene
+[1:40:26] e dice "Io mi assicuro se mi fanno un
+[1:40:28] attacco e trasferisco rischi
+[1:40:31] sull'assicurazione e il rischio è sono i
+[1:40:33] dati dei miei clienti e evito proprio di
+[1:40:36] mitigare
+[1:40:37] per capirci perché sennò sono veramente
+[1:40:39] danni enormi. Certo danni enormi proprio
+[1:40:42] non solo i clienti che ti fanno causa,
+[1:40:44] ma pure l'assicurazione che non paga, il
+[1:40:46] garante che ti multa e fai prima
+[1:40:48] chiuderla. Ok?
+[1:40:52] Allora, questa era la prima la prima
+[1:40:56] parte del primo modulo. Qua in fondo c'è
+[1:40:59] un glossario sostanzialmente di
+[1:41:02] definizioni. Ve le lascio se volete che
+[1:41:04] ne discutiamo qualcuna ne possiamo fare,
+[1:41:07] senò la prossima volta mi mi pingate,
+[1:41:09] insomma, e ne parliamo bene assieme.
+[1:41:12] Sono appunto glossario di di di
+[1:41:15] definizioni che possono servire durante
+[1:41:17] l'esame, no?
+[1:41:19] sono in inglese, ovviamente. Eh, diciamo
+[1:41:22] che le più importanti sono quelle che vi
+[1:41:25] ho detto nel anche nelle slide
+[1:41:26] precedenti, no? Quindi vulnerabilità,
+[1:41:28] minaccia, rischio, asset, RPRTO,
+[1:41:32] slea arroale, ok? Quindi il trasferire
+[1:41:36] il rischio, mitigare
+[1:41:38] eh come si calcola, appunto, vabbè
+[1:41:40] l'asset value, tutte queste cose qua
+[1:41:42] sono le principali.
+[1:41:44] Eh, se c'è qualche imparare bene a
+[1:41:47] memoria tutti questi acronimi, eh,
+[1:41:49] perché uno a mettersi lì proprio a
+[1:41:53] impararli bene bene a memoria, RTO,
+[1:41:56] tutte queste cose qua vuoi impararle
+[1:41:57] bene. Tanto comunque abbiamo cioè nel
+[1:42:00] nel materiale, quindi e me le ripeto
+[1:42:04] miliardi di volte nella testa finché non
+[1:42:07] finché non va la memoria.
+[1:42:09] Assolutamente.
+[1:42:11] E allora vado avanti con iniziamo, visto
+[1:42:12] che abbiamo ancora 20 minuti, un quarto
+[1:42:14] d'ora, vado avanti con le second la
+[1:42:16] seconda parte del primo modulo. Allora,
+[1:42:18] dai. M
+[1:42:19] se ci sono domande ovviamente fermatemi
+[1:42:22] così finiamo questo modulo e poi andiamo
+[1:42:24] avanti. Qualcuno ha domande?
+[1:42:27] No, no, no.
+[1:42:30] Ok.
+[1:42:34] Sì.
+[1:42:36] Ok,
+[1:42:43] ci siamo. Sì. Allora,
+[1:42:58] allora l'information assurance qua è una
+[1:43:02] parte un po' più legale, però fa parte
+[1:43:05] dell'esame, quindi
+[1:43:07] dovremo comunque
+[1:43:09] affrontarla. Allora, che cos'è
+[1:43:11] l'information assurance e in che cosa
+[1:43:15] differisce dalla cyburity?
+[1:43:18] Allora, l'information assurance è un
+[1:43:21] termine più ampio della cyb security,
+[1:43:24] nel senso che comprende tutte le
+[1:43:26] pratiche che garantiscono, quindi non
+[1:43:28] solo proteggono, ma garantiscono le
+[1:43:31] proprietà chiave dell'informazione,
+[1:43:33] quindi confidenzialità, integrità,
+[1:43:35] disponibilità, autenticità, non ripudio,
+[1:43:37] se vi ricordate dal primo modulo, tutto
+[1:43:40] questo lungo l'intero ciclo di vita, ok?
+[1:43:43] quindi dalla creazione, l'uso,
+[1:43:45] trasmissione, archiviazione, distruzione
+[1:43:48] delle informazioni.
+[1:43:51] Eh,
+[1:43:53] la distinzione chiave è che la cyb
+[1:43:55] seccurity si occupa delle minacce
+[1:43:57] informatiche,
+[1:43:59] ok? L'information assurance si occupa di
+[1:44:02] garantire l'affidabilità di queste
+[1:44:05] informazioni a prescindere dalla loro
+[1:44:07] forma.
+[1:44:08] Quindi non so, un documento cartaceo
+[1:44:11] sensibile lasciato in una fotocopiatrice
+[1:44:15] è un problema non di cyb security di
+[1:44:17] information assurance.
+[1:44:19] Ok?
+[1:44:22] Eh, facciamo un esempio anche qua nella
+[1:44:24] vita reale. Eh, m cyber security può
+[1:44:28] essere il vigilante armato all'ingresso
+[1:44:30] del museo. Ok? L'Information Assurance è
+[1:44:35] il direttore del museo che si si
+[1:44:37] preoccupa di tutto, il vigilante, le
+[1:44:41] telecamere, ma anche i restauratori, no?
+[1:44:43] L'integrità delle opere, gli orari di
+[1:44:46] apertura,
+[1:44:47] le politiche su chi può toccare cosa,
+[1:44:49] no? I registri, chi ha rimosso questo
+[1:44:53] quadro, quando, quindi non ripudio,
+[1:44:56] la formazione del personale, le
+[1:44:58] assicurazioni,
+[1:45:00] eccetera eccetera, insomma.
+[1:45:02] Eh, diciamo che è tutto ciò che concorre
+[1:45:06] a garantire che le opere siano là dove
+[1:45:08] devono essere integre e nessuno possa eh
+[1:45:12] rovinarle. Per capirci,
+[1:45:15] ci sono sostanzialmente eh tre famiglie
+[1:45:19] di controlli,
+[1:45:22] eh controlli fisici, amministrativi e
+[1:45:25] tecnici.
+[1:45:28] Per ciascuno di questi abbiamo ehm
+[1:45:32] non so fisici possono essere il
+[1:45:34] firewall, l'antivirus,
+[1:45:37] eh il backup, eccetera.
+[1:45:41] Eh,
+[1:45:43] quelli amministrativi sono, non so,
+[1:45:46] formazione, audit, separazione dei
+[1:45:49] processi,
+[1:45:51] eh, scusa, separazione dei processi di
+[1:45:53] onboarding, offboarding, quindi quando
+[1:45:54] assumi una persona come qual è la
+[1:45:56] procedura, quando la licenzi o si
+[1:45:59] dimette, qual è la procedura? Perché
+[1:46:01] anche qua è molto sensibile come cosa,
+[1:46:03] perché quando una persona si dimette ha
+[1:46:06] tutta una serie di dati sensibili
+[1:46:07] dell'azienda.
+[1:46:08] Certo.
+[1:46:09] Che se questa procedura non è creata,
+[1:46:11] studiata e provata bene, potrebbe creare
+[1:46:14] incidenti molto perniciosi, mettiamola
+[1:46:17] così.
+[1:46:18] Eh sì.
+[1:46:20] Ehm
+[1:46:23] Ok.
+[1:46:27] Secondo voi, di queste famiglie di
+[1:46:29] controlli, quindi fisiche,
+[1:46:31] amministrative, tecniche, qual è eh
+[1:46:34] quella che è più trascurata dalle
+[1:46:35] piccole aziende?
+[1:46:39] Allora, eh fisiche, tecniche e
+[1:46:41] amministrative, hai detto, no?
+[1:46:43] Sì, sì. Fisiche tecniche possono essere,
+[1:46:44] appunto, abbiamo detto Fire, antivirus,
+[1:46:46] serrature, telecamere, invece quelle
+[1:46:49] amministrative, le procedure, contratti,
+[1:46:51] formazione,
+[1:46:53] NBA, eccetera.
+[1:46:56] Ma e mi vien da dire amministrative.
+[1:47:01] Bravo. Esattamente.
+[1:47:03] Perché si tende a pensare anche la
+[1:47:05] domanda che mi è stata fatta prima
+[1:47:07] sull'antivirus
+[1:47:08] era chiave, nel senso che è importante
+[1:47:10] avere l'antivirus. Assolutamente.
+[1:47:13] Ma se non hai tutta una serie di policy
+[1:47:16] amministrative che ti tutelano,
+[1:47:19] l'antivirus non ti salva.
+[1:47:22] No, no. Eh, poi vabbè, anche il caso
+[1:47:25] degli offboarding, no? Come hai detto
+[1:47:26] te, magari ci sono persone che magari
+[1:47:28] all'interno di un'azienda hanno il PC
+[1:47:30] personale
+[1:47:31] con magari le estensioni aziendali che
+[1:47:34] li mettono dentro che possono accedere
+[1:47:36] alla rete aziendale da fuori, per dire.
+[1:47:39] Eh, quindi magari se uno eh non cioè non
+[1:47:43] c'è magari una policy di proprio
+[1:47:45] riconsegna del materiale
+[1:47:47] attinente, tutto quanto, uno può
+[1:47:50] lasciarsi a casa.
+[1:47:52] le informazioni magari aziendali, no?
+[1:47:55] Assolutamente.
+[1:47:58] E
+[1:47:58] anche se anche se
+[1:48:01] chiedo scusa se interrompo è un po'
+[1:48:04] credo che sia vabbè lavorando nel
+[1:48:06] pubblico presumo che i concetti di
+[1:48:09] tutela eh informatica siano siano
+[1:48:13] uguali, ma probabilmente un qualcosa si
+[1:48:16] andranno a differenziare. però sul
+[1:48:18] fattore amministrativo resto perplesso
+[1:48:21] perché comunque ehm riguardano ad ogni
+[1:48:24] modo dei dati legati a a a spese
+[1:48:27] economiche,
+[1:48:29] stipendi, eh quindi si va un po' ad
+[1:48:32] interferire su quello che è anche la
+[1:48:35] privacy di ogni membro o dipendente, no?
+[1:48:40] Sì, sì, sì,
+[1:48:42] sono Sì, sì.
+[1:48:49] Possiamo andare avanti?
+[1:48:50] Sì, sì, sì. Perfetto. Allora,
+[1:48:54] policy aziendali, quindi parliamo
+[1:48:56] appunto della parte più amministrativa.
+[1:48:59] Allora, una policy è una decisione
+[1:49:01] scritta,
+[1:49:03] ok, dell'azienda su come deve
+[1:49:05] comportarsi un certo aspetto della vita
+[1:49:08] aziendale.
+[1:49:10] Allora, ehm ci sono tre caratteristiche,
+[1:49:15] appunto, che definiscono la policy. ci
+[1:49:17] deve essere scritta, quindi una regola
+[1:49:19] che tutti sanno ma non è scritta non è
+[1:49:22] una policy, è una consuetudine,
+[1:49:25] un'abitudine
+[1:49:27] e quindi in caso di contestazione non
+[1:49:29] vale niente,
+[1:49:30] deve essere approvata dal management,
+[1:49:33] quindi una policy nasce dal vertice.
+[1:49:37] Se la scrive responsabile T da solo e
+[1:49:41] nessuno l'ha vista, per capirci, non
+[1:49:42] sarà mai applicata m
+[1:49:44] e deve essere comunicata ovviamente.
+[1:49:46] Quindi una policy che esiste solo in un
+[1:49:49] cassetto, per capirci, è inutile, va
+[1:49:53] distribuita, fatta firmare per presa
+[1:49:55] visione e perché no, magari anche
+[1:49:58] periodicamente aggiornata.
+[1:50:01] Eh, possiamo fare anche qua un esemplice
+[1:50:04] un esempio molto semplice come
+[1:50:06] un'analogia il codice della strada, no?
+[1:50:08] Esiste in forma scritta, è stato
+[1:50:10] approvato dal Parlamento e viene
+[1:50:12] comunicato a chi deve prendere la
+[1:50:13] patente.
+[1:50:15] Quindi le strade italiane funzionano,
+[1:50:18] vabbè, odio per quanto imperfette, ma
+[1:50:21] perché? Perché funzionano? Perché c'è
+[1:50:23] questa c'è questa triade, no? Se il
+[1:50:26] codice fosse solo nella testa del
+[1:50:27] ministro dei trasporti, cioè l'Italia,
+[1:50:30] le strade italiane sarebbero un caos,
+[1:50:32] no? E nelle aziende è la stesso
+[1:50:34] concetto. Se sta solo nella testa del
+[1:50:37] management la policy non esiste. È come
+[1:50:39] se non non
+[1:50:41] avesse alcun valore, che in realtà non
+[1:50:43] ha alcun valore. Così ci sono sei
+[1:50:46] famiglie di policy. Ok,
+[1:50:50] spieghiamo per capirci una a una.
+[1:50:52] Allora, la policy per i vendor
+[1:50:55] sostanzialmente è come ci rapportiamo
+[1:50:58] con i fornitori esterni che hanno
+[1:51:01] accesso ai nostri sistemi o dati, ok?
+[1:51:04] Quindi che cosa che clausole
+[1:51:06] contrattuali gli facciamo firmare, no?
+[1:51:08] Che non disclosure agreement, che slap.
+[1:51:13] Poi abbiamo le policy per il personale,
+[1:51:16] ad esempio, come gestiamo le persone
+[1:51:20] interne,
+[1:51:22] eh assunzione,
+[1:51:24] formazione,
+[1:51:26] m ferie, come le gestiamo, la
+[1:51:30] separazione dei doveri, i licenziamenti
+[1:51:33] e queste sono tutte le policy che
+[1:51:34] riguardano il personale, quello di cui
+[1:51:35] parlava prima, i documenti sensibili
+[1:51:38] Salvatore, per capirci.
+[1:51:41] Poi ci sono le acceptable use policy.
+[1:51:44] Che cosa sono? Sono eh che cosa i
+[1:51:47] dipendenti possono e non possono fare
+[1:51:51] con gli strumenti aziendali. So l'email
+[1:51:56] puoi usarla per gli affari tuoi. Quella
+[1:51:57] aziendale? Non credo. Internet
+[1:52:02] ti puoi che ne so collegare al tuo
+[1:52:05] account Facebook. Di solito no.
+[1:52:09] I siti web uguale software personale,
+[1:52:12] ovviamente non puoi installare, che ne
+[1:52:15] so, torrent sul PC aziendale per
+[1:52:17] scaricarti film, per sfruttare la rete.
+[1:52:19] Direi che no?
+[1:52:21] Queste queste sono le acceptable use
+[1:52:23] policy, per capirci. M mh.
+[1:52:25] Poi abbiamo le adverse actions che sono
+[1:52:29] che cosa succede a chi viola le regole,
+[1:52:32] quindi le punizioni, passatemi il
+[1:52:34] termine, senza questa parte, per
+[1:52:36] capirci, le altre policy diventano veri
+[1:52:39] consigli, chiaro? Perché se non c'è una
+[1:52:41] minaccia vera, poi non diventa un mero
+[1:52:46] consiglio, non una policy.
+[1:52:49] Poi abbiamo, scusate, poi abbiamo il
+[1:52:52] General Security Policy, che è il
+[1:52:55] documento che definisce la la postura di
+[1:53:00] sicurezza dell'azienda. Ok? Quindi
+[1:53:03] principi, ruoli e responsabilità
+[1:53:07] proprio a livello di azienda globale.
+[1:53:09] Poi c'è il cosiddetto disaster recovery
+[1:53:12] plan che abbiamo discusso prima, no?
+[1:53:13] Quindi cosa facciamo se qualcosa va
+[1:53:15] molto male? E va trattato con tutti i
+[1:53:18] crismi, come abbiamo già detto prima,
+[1:53:20] quindi non ne riparliamo una seconda
+[1:53:23] volta.
+[1:53:27] per il contesto italiano, eh
+[1:53:30] di quello che viene chiamato il sistema
+[1:53:32] ISO 27001, no? Non so se avete già
+[1:53:34] conoscete bene, immagino per chi ha se
+[1:53:36] hanno avete fatto dei corsi a riguardo
+[1:53:39] di compliance che è quasi sempre
+[1:53:42] richiesto in Italia, soprattutto se
+[1:53:44] siete fornitori della pubblica
+[1:53:46] amministrazione, no? E tutte queste
+[1:53:49] policy fanno parte di un sistema anche
+[1:53:51] internazionale che si chiama Information
+[1:53:53] Security Management System.
+[1:53:55] Quindi è tutta normativa sia italiana
+[1:53:58] che europea.
+[1:54:01] Allora,
+[1:54:03] allora abbiamo queste sei famiglie, no,
+[1:54:05] che vi ho detto. Facciamo un esempio. In
+[1:54:06] quale di queste sei famiglie
+[1:54:08] collochereste una regola che dice, non
+[1:54:10] so, non si possono lasciare i PC accesi
+[1:54:13] durante la pausa pranzo?
+[1:54:17] È per il personale, no? Sì,
+[1:54:21] è una pollicy per
+[1:54:27] io. Mi son perso qualcosa. No,
+[1:54:31] allora
+[1:54:33] io la metterei più nel ner policy.
+[1:54:37] Eh sì, perché che cose dipendenti
+[1:54:40] possono e non possono fare con gli
+[1:54:42] strumenti aziendali?
+[1:54:44] Sì, sì, sì.
+[1:54:45] Ok.
+[1:54:49] Eh, quale secondo voi di queste famiglie
+[1:54:51] di policy, di queste sei, serve dal
+[1:54:54] primo giorno di vita di un'azienda e
+[1:54:56] quale invece può aspettare secondo voi?
+[1:55:00] Il tema è il
+[1:55:04] General Security Policy.
+[1:55:07] Sì,
+[1:55:08] sì.
+[1:55:11] E quale può aspettare?
+[1:55:15] Ehm
+[1:55:19] m
+[1:55:19] quale può aspettare nel senso un tempo
+[1:55:21] ragionevole?
+[1:55:24] Un temp Non ho capito, scusa, non ho
+[1:55:26] sentito.
+[1:55:27] Quale può aspettare? In che senso? Un
+[1:55:28] tempo ragionevole? Sì, certo. Nel senso
+[1:55:31] che non è dal giorno uno,
+[1:55:33] eh nel senso nel senso può aspettare
+[1:55:37] se vogliamo intenderla come che prima
+[1:55:39] devono calcolare un po' eh tutto il
+[1:55:42] valore di tutto quello che hanno. una
+[1:55:44] Disaster Recovery,
+[1:55:46] però può attendere, nel senso che prima
+[1:55:49] devono un attimino, tu dici
+[1:55:50] dall'apertura di un'azienda, devono
+[1:55:53] prima magari fare dei calcoli del delle
+[1:55:56] prima di strutturare, scrivere tutto un
+[1:55:59] piano,
+[1:55:59] magari il punto potrebbe potrebbe essere
+[1:56:02] eh fatto successivamente un piano di
+[1:56:06] punto se
+[1:56:08] Sì, recover dite
+[1:56:11] sì
+[1:56:12] sì, quello sicuramente.
+[1:56:16] e tutte quelle
+[1:56:18] e anche decidere un adverctions
+[1:56:21] può essere poi stipulato
+[1:56:22] secondariamente. Uno può intanto dire
+[1:56:24] che cosa e cioè sono tutte cose che
+[1:56:27] possono essere fatte secondariamente,
+[1:56:29] no?
+[1:56:30] Sì.
+[1:56:32] Quindi sostanzialmente dite la cinque,
+[1:56:35] quindi la postura, no, la postura di
+[1:56:38] sicurezza dell'azienda, fondamentale.
+[1:56:40] Sì, sì, nell'apertura, sì. Ok.
+[1:56:45] E poi invece come gestire recovery o
+[1:56:49] gestire le adverse actions, quindi cosa
+[1:56:51] succede a chi vi le regole può
+[1:56:53] aspettare.
+[1:56:55] Giusto? Ho capito bene?
+[1:56:57] Sì, sì.
+[1:56:58] Ok.
+[1:56:58] Eh, io sono d'accordo. Non metterei che
+[1:57:01] possa aspettare troppo il disaster
+[1:57:03] recovery plan sulle infatti.
+[1:57:05] Adverse action. Sì, va bene, ci sta. Eh,
+[1:57:10] fondamentali anche però le acceptable
+[1:57:12] use policy, eh, perché sennò è vero, non
+[1:57:14] dal giorno zero, però dico dal giorno
+[1:57:16] due, magari, perché se cominciamo a
+[1:57:19] poter far scaricare qualunque cosa sul
+[1:57:20] PC aziendale,
+[1:57:22] aspettate che un virus o un runware in
+[1:57:26] un paio di mesi,
+[1:57:28] specialmente al giorno d'oggi, eh,
+[1:57:29] specialmente a maggio nel 2026 in cui
+[1:57:32] sta diventando con l'A molto facile
+[1:57:35] creare email di fishing molto credibili
+[1:57:37] e quindi cliccare dove Non dovresti.
+[1:57:42] Ok.
+[1:57:45] Eh, conoscete aziende dove queste policy
+[1:57:48] sono scritte sostanzialmente, ma nessuno
+[1:57:50] le rispetta?
+[1:57:52] Se sì, secondo voi che cosa manca in
+[1:57:54] questo caso?
+[1:57:56] Anche se non le conoscete di persone,
+[1:57:58] eh, sicuramente ci saranno. Ma secondo
+[1:58:01] voi in casi come questi
+[1:58:03] che cosa manca? Perché succede questo?
+[1:58:08] perché non si forma il personale o non
+[1:58:11] si sceglie adeguatamente,
+[1:58:14] ok?
+[1:58:16] Perché il più delle volte alla fine,
+[1:58:18] come dicevi anche nella prima lezione, è
+[1:58:21] sbadataggine
+[1:58:23] di chi ci lavora dentro. Determinati
+[1:58:25] errori sono frutto di
+[1:58:27] sbadataggine,
+[1:58:29] mi vien da dire sta parola.
+[1:58:31] Sì, sì. No, ci sta. Sbadataggine o
+[1:58:34] superficialità. Super. Ecco, bravo. Sì,
+[1:58:37] superficialità è una parola migliore.
+[1:58:39] Sì, esatto. Superficialità di chi di chi
+[1:58:42] ci lavora dentro a dar per scontate cose
+[1:58:45] che a volte non dovrebbero esserlo.
+[1:58:48] Assolutamente sì.
+[1:58:50] E ok, quindi ci sta. Direi che
+[1:58:53] magari le policy ci sono, ma
+[1:58:57] a seconda di chi ci lavora dentro,
+[1:58:58] magari dicono "Ma sì, tanto l'ho sempre
+[1:59:02] fatto, non ho mai detto niente a
+[1:59:03] nessuno." Sì, finché non capita. Poi
+[1:59:05] quando capita
+[1:59:06] piangi,
+[1:59:07] magari eh
+[1:59:08] eh poi quando capita magari è la volta
+[1:59:10] buona che o ti cacciano
+[1:59:13] o no. Vabbè, adesso così è per fare la
+[1:59:15] battuta, no? Però dico o ti cacciano
+[1:59:17] dall'azienda perché l'hai sempre perché
+[1:59:20] già dici che l'hai sempre fatto, no? già
+[1:59:23] dice, "Ok, sempre fatto cagate per anni,
+[1:59:25] no? Per dire, magari eh, però anzi
+[1:59:30] è un aggravante dicendo che l'hai sempre
+[1:59:32] eh diventa un aggravante."
+[1:59:34] Però tanti tanti ci sono tante persone
+[1:59:36] che dicono "Ah, cosa vuoi che succeda?
+[1:59:38] Ho sempre fatto". è la frase tipica, no,
+[1:59:40] di tante persone che magari sono
+[1:59:43] all'interno di determinate aziende che
+[1:59:46] magari e poi dopo accadono determinate
+[1:59:49] cose e e vabbè, però dico era così
+[1:59:53] vivere. Eh,
+[1:59:54] esattamente. No, no, no, certo, ma è
+[1:59:56] giusto. E vi dico di più. Allora, ci
+[1:59:58] sono varie aziende, alcune a seconda di
+[2:00:00] vari eh regimi legislativi che ad
+[2:00:03] esempio dal 2024 è stata varato un
+[2:00:07] decreto legislativo che quello che viene
+[2:00:09] soprannominato MIS 2 e ci sono
+[2:00:11] determinati soggetti aziendali che eh
+[2:00:14] sono obbligati a ad avere delle policy,
+[2:00:17] queste policy sostanzialmente e di sono
+[2:00:20] proprio obblighi di legge, quindi non
+[2:00:22] sono solo buone pratiche, non sono
+[2:00:24] consigli e e la differenza è
+[2:00:26] sostanziale. qua perché se non queste
+[2:00:28] aziende determinate aziende eh
+[2:00:30] importanti, strategiche, se non
+[2:00:33] rispettano queste policy, puoi incorrere
+[2:00:35] a sanzioni amministrative che impattano
+[2:00:38] fino al 2% del fatturato globale.
+[2:00:42] Minchia,
+[2:00:43] quindi non è che si scherza, si gioca,
+[2:00:46] sono cose che vanno prese molto sul
+[2:00:48] serio anche a livello normativo, perché
+[2:00:52] anche se non tu se tu sei il soggetto
+[2:00:55] all'anispettare l'aniscano,
+[2:00:58] quindi non hai m un attacco aero, ha una
+[2:01:02] perdita di dati eccetera, ma viene un
+[2:01:04] controllo e tu non rispetti e non hai
+[2:01:07] queste policy, sono le scritte, ma non
+[2:01:09] le proprio le implementi e non ci sono i
+[2:01:12] controlli poi app una multa del genere.
+[2:01:16] 2% del fatturato, eh, non degli utili.
+[2:01:18] Tanta roba.
+[2:01:19] Ma son soldi, eh
+[2:01:21] eh sì, son tanti, quindi direi che vanno
+[2:01:24] prese molto sul serio, per capirci.
+[2:01:27] Ok, allora se non avete domande direi
+[2:01:29] oggi fermiamoci qua così e continuiamo
+[2:01:31] dalla punto il secondo modulo la
+[2:01:34] prossima volta. Ditemi voi se avete
+[2:01:35] domande. Ancora 4-5 minuti le abbiamo.
+[2:01:39] No, no, no. Io poi ho solo da
+[2:01:40] memorizzare tutti sti acronimi e basta,
+[2:01:44] però dopo è chiaro.
+[2:01:47] Ok. A qua
+[2:01:48] posso posso fare una una domanda che è
+[2:01:50] solo un po' dal discorso. L'esame finale
+[2:01:53] eh sarà basato su dei
+[2:01:57] eh su delle domande su tutto il
+[2:01:59] materiale che abbiamo studiato, quindi
+[2:02:01] risposte multiple.
+[2:02:03] Eh sì, sarà teorico, quindi sì, non è
+[2:02:06] non hai il non hai parte pratica, cioè
+[2:02:09] faremo parte pratica ovviamente anche
+[2:02:10] per rendere interessante anche per voi,
+[2:02:12] no? Non è solo teorico,
+[2:02:14] però l'esame sarà, cioè l'esame sarà
+[2:02:16] solo teorico in inglese, ma teorico. Per
+[2:02:18] quello vi invito anche a studiare le
+[2:02:20] il le definizioni in lingua perché
+[2:02:25] verranno chieste così, non verranno
+[2:02:26] chieste con la traduzione.
+[2:02:27] Quindi farete farete dei dei delle
+[2:02:30] domande con risposte multiple.
+[2:02:33] Eh sì, non le faremo noi, c'è proprio un
+[2:02:35] ente council che le fa e quindi sì, sarà
+[2:02:38] domande così.
+[2:02:39] Perfetto. Ok,
+[2:02:41] benissimo.
+[2:02:42] Ok. Sì. Avete altre domande? No, no.
+[2:02:48] A posto. Allora, direi,
+[2:02:52] intanto ringrazio ancora
+[2:02:56] per
+[2:02:56] assolutamente
+[2:02:57] la delucitazione di di tutti questi
+[2:02:59] concetti che magari possono sembrare
+[2:03:02] così eh complicati, però insomma li
+[2:03:05] rendi abbastanza semplici, quindi ben
+[2:03:07] comprensibili e ringrazio tutti eh per
+[2:03:10] la presenza e un saluto.
+[2:03:12] Grazie.
+[2:03:12] Buonito a tutti. Ciao ciao
+[2:03:15] ciao
+[2:03:16] ciao ciao
+[2:03:17] ciao a tutti
+[2:03:19] ciao

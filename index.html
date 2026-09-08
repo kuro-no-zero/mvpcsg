@@ -1,0 +1,1942 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Wiki di Studio · Sicurezza Informatica</title>
+<style>
+  :root{
+    --bg:#faf9f7;
+    --bg-elevated:#ffffff;
+    --text:#1c1c1e;
+    --text-dim:#5b5b60;
+    --border:#e6e3de;
+    --accent:#1f5f6b;
+    --accent-contrast:#ffffff;
+    --accent-soft:#e4eef0;
+    --code-bg:#f0efe9;
+    --focus:#1f5f6b;
+    --mark-bg:#ffe38a;
+    --danger:#b3441e;
+    --radius:10px;
+    --header-h:60px;
+    --sidebar-w:270px;
+    --maxw:68ch;
+  }
+  :root:not([data-theme="light"]) {
+    @media (prefers-color-scheme: dark){
+      --bg:#15171a;
+      --bg-elevated:#1c1f23;
+      --text:#eceef0;
+      --text-dim:#a3a8ad;
+      --border:#2c3034;
+      --accent:#6fc2cf;
+      --accent-contrast:#0b1315;
+      --accent-soft:#1c2e31;
+      --code-bg:#202428;
+      --focus:#6fc2cf;
+      --mark-bg:#5c4d16;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#15171a;
+    --bg-elevated:#1c1f23;
+    --text:#eceef0;
+    --text-dim:#a3a8ad;
+    --border:#2c3034;
+    --accent:#6fc2cf;
+    --accent-contrast:#0b1315;
+    --accent-soft:#1c2e31;
+    --code-bg:#202428;
+    --focus:#6fc2cf;
+    --mark-bg:#5c4d16;
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:17px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent);}
+  img{max-width:100%;}
+  [hidden]{display:none !important;}
+
+  .skip-link{
+    position:absolute; left:-999px; top:0; background:var(--accent); color:var(--accent-contrast);
+    padding:.6em 1em; z-index:200; border-radius:0 0 8px 0;
+  }
+  .skip-link:focus{ left:0; }
+
+  /* ---------- Header ---------- */
+  header.site-header{
+    position:fixed; top:0; left:0; right:0; height:var(--header-h);
+    background:var(--bg-elevated); border-bottom:1px solid var(--border);
+    display:flex; align-items:center; gap:.6rem; padding:0 .8rem;
+    z-index:100;
+  }
+  .brand{
+    font-weight:700; font-size:1rem; color:var(--text); text-decoration:none;
+    white-space:nowrap; display:flex; align-items:center; gap:.4rem;
+  }
+  .brand .dot{ width:.55em;height:.55em;border-radius:50%;background:var(--accent); display:inline-block; }
+
+  button.icon-btn{
+    background:none; border:1px solid transparent; color:var(--text);
+    width:40px; height:40px; border-radius:8px; font-size:1.1rem; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; flex:none;
+  }
+  button.icon-btn:hover{ background:var(--accent-soft); }
+  button.icon-btn:focus-visible, a:focus-visible, input:focus-visible{
+    outline:2px solid var(--focus); outline-offset:2px;
+  }
+
+  .search-wrap{ position:relative; flex:1; min-width:0; }
+  #site-search{
+    width:100%; padding:.55em .8em; border-radius:8px; border:1px solid var(--border);
+    background:var(--bg); color:var(--text); font-size:.95rem;
+  }
+  #theme-toggle{ font-size:.8rem; width:auto; padding:0 .6em; gap:.3em; white-space:nowrap; }
+
+  #search-results{
+    position:absolute; top:calc(100% + 6px); left:0; right:0;
+    background:var(--bg-elevated); border:1px solid var(--border); border-radius:10px;
+    box-shadow:0 8px 24px rgba(0,0,0,.12); max-height:70vh; overflow:auto; z-index:150;
+    padding:.3rem;
+  }
+  .search-result{
+    display:block; padding:.6em .7em; border-radius:8px; text-decoration:none; color:var(--text);
+  }
+  .search-result:hover, .search-result:focus-visible{ background:var(--accent-soft); }
+  .sr-section{ display:block; font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; color:var(--accent); font-weight:700; }
+  .sr-title{ display:block; font-weight:600; margin:.1em 0; }
+  .sr-snippet{ display:block; font-size:.85rem; color:var(--text-dim); }
+  .sr-snippet mark{ background:var(--mark-bg); color:inherit; border-radius:3px; }
+  .search-empty{ padding:.8em; color:var(--text-dim); font-size:.9rem; margin:0; }
+
+  /* ---------- Layout ---------- */
+  .layout{ display:flex; padding-top:var(--header-h); min-height:100vh; }
+
+  nav#site-nav{
+    position:fixed; top:var(--header-h); bottom:0; left:0; width:var(--sidebar-w);
+    background:var(--bg-elevated); border-right:1px solid var(--border);
+    overflow-y:auto; padding:1rem .6rem 2rem;
+    transform:translateX(-100%); transition:transform .2s ease;
+    z-index:90;
+  }
+  nav#site-nav.open{ transform:translateX(0); }
+  nav#site-nav ul{ list-style:none; margin:0; padding:0; }
+  nav#site-nav .nav-group-label{
+    font-size:.72rem; text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim);
+    margin:1.1em .7em .3em; font-weight:700;
+  }
+  nav#site-nav .nav-group-label:first-child{ margin-top:.2em; }
+  nav#site-nav a{
+    display:block; padding:.55em .7em; border-radius:8px; text-decoration:none;
+    color:var(--text); font-size:.94rem;
+  }
+  nav#site-nav a:hover{ background:var(--accent-soft); }
+  nav#site-nav a[aria-current="page"]{ background:var(--accent); color:var(--accent-contrast); font-weight:600; }
+  nav#site-nav a .opt-tag{
+    display:inline-block; font-size:.68rem; font-weight:600; margin-left:.4em;
+    background:var(--accent-soft); color:var(--accent); padding:.1em .45em; border-radius:5px;
+    vertical-align:middle;
+  }
+  nav#site-nav a[aria-current="page"] .opt-tag{ background:rgba(255,255,255,.25); color:inherit; }
+
+  .nav-backdrop{
+    position:fixed; inset:0; background:rgba(0,0,0,.35); z-index:80; opacity:0;
+    pointer-events:none; transition:opacity .2s ease;
+  }
+  nav#site-nav.open ~ .nav-backdrop{ opacity:1; pointer-events:auto; }
+
+  main{ flex:1; min-width:0; }
+  .route{ padding:1.4rem 1.1rem 4rem; animation:fadeIn .18s ease; }
+  @keyframes fadeIn{ from{opacity:0; transform:translateY(4px);} to{opacity:1; transform:none;} }
+
+  .page-inner{ max-width:var(--maxw); margin:0 auto; }
+  .page-toc{
+    max-width:var(--maxw); margin:0 auto 2rem; padding:.9rem 1rem; background:var(--bg-elevated);
+    border:1px solid var(--border); border-radius:var(--radius); font-size:.92rem;
+  }
+  .page-toc-label{ margin:0 0 .4em; font-weight:700; font-size:.78rem; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim); }
+  .page-toc ul{ margin:0; padding-left:1.1em; columns:1; }
+  .page-toc li{ margin:.25em 0; }
+  .page-toc a{ text-decoration:none; }
+  .page-toc a:hover{ text-decoration:underline; }
+
+  h1{ font-size:1.7rem; line-height:1.25; margin:0 0 .3em; }
+  h2{ font-size:1.35rem; margin:1.6em 0 .5em; scroll-margin-top:calc(var(--header-h) + 12px); }
+  h3{ font-size:1.1rem; margin:1.3em 0 .4em; scroll-margin-top:calc(var(--header-h) + 12px); }
+  .kicker{
+    font-size:.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em;
+    color:var(--accent); margin:0 0 .5em;
+  }
+  .lede{ font-size:1.08rem; color:var(--text-dim); }
+  p{ margin:.8em 0; }
+  ul, ol{ padding-left:1.3em; }
+  li{ margin:.3em 0; }
+  code{ background:var(--code-bg); padding:.15em .4em; border-radius:5px; font-size:.9em; }
+
+  .chunk{ scroll-margin-top:calc(var(--header-h) + 12px); }
+  .chunk.flash{ animation:flashbg 1.6s ease; }
+  @keyframes flashbg{
+    0%{ background:var(--mark-bg); border-radius:8px; }
+    100%{ background:transparent; }
+  }
+
+  .callout{
+    border:1px solid var(--border); border-left:4px solid var(--accent);
+    background:var(--bg-elevated); border-radius:0 var(--radius) var(--radius) 0;
+    padding:1em 1.1em; margin:1.4em 0;
+  }
+  .callout h3{ margin-top:0; display:flex; align-items:center; gap:.4em; font-size:1rem; }
+  .callout.keypoints{ border-left-color:var(--accent); }
+  .callout.case{ border-left-color:#b08900; }
+  .callout.example{ border-left-color:#5c7a2f; }
+  .callout ul{ margin:.4em 0; }
+
+  .term-link{ text-decoration:underline; text-decoration-color:var(--accent); text-decoration-thickness:1.5px; text-underline-offset:2px; }
+
+  details.qa{
+    border:1px solid var(--border); border-radius:var(--radius); padding:.7em .9em; margin:.8em 0;
+    background:var(--bg-elevated);
+  }
+  details.qa summary{ cursor:pointer; font-weight:600; list-style:none; }
+  details.qa summary::-webkit-details-marker{ display:none; }
+  details.qa summary::before{ content:"▸ "; color:var(--accent); }
+  details.qa[open] summary::before{ content:"▾ "; }
+  details.qa .answer{ margin-top:.6em; padding-top:.6em; border-top:1px dashed var(--border); color:var(--text-dim); }
+
+  .stub-box{
+    max-width:var(--maxw); margin:2rem auto; padding:1.4rem; border:1px dashed var(--border);
+    border-radius:var(--radius); color:var(--text-dim); text-align:center;
+  }
+
+  .gloss-jump{
+    max-width:var(--maxw); margin:0 auto 1.4rem; display:flex; flex-wrap:wrap; gap:.35em;
+  }
+  .gloss-jump a{
+    text-decoration:none; border:1px solid var(--border); border-radius:6px; padding:.2em .55em;
+    font-size:.85rem; color:var(--text);
+  }
+  .gloss-entry{ padding:.9em 0; border-bottom:1px solid var(--border); }
+  .gloss-entry h3{ margin:0 0 .25em; font-size:1.05rem; }
+  .gloss-entry .analogy{ color:var(--text-dim); font-size:.95em; }
+
+  /* Lettere di categoria: etichetta discreta sopra il gruppo (mobile + desktop stretto);
+     nel gutter a sinistra della colonna solo quando c'è abbastanza spazio. */
+  .gloss-group{ position:relative; margin-top:1.5em; }
+  .gloss-group:first-of-type{ margin-top:0; }
+  .gloss-letter{
+    display:block; margin:0 0 .3em; font-size:.72rem; font-weight:600;
+    text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim); line-height:1;
+  }
+  @media (min-width:1200px){
+    .gloss-letter{
+      position:absolute; left:-3.1rem; top:1.05em; margin:0;
+      width:2.3rem; text-align:right; font-size:.78rem; font-weight:700; color:var(--accent);
+    }
+  }
+
+  footer.site-footer{
+    max-width:var(--maxw); margin:2rem auto 3rem; padding:0 1.1rem; color:var(--text-dim); font-size:.85rem;
+  }
+
+  @media (min-width: 860px){
+    nav#site-nav{ transform:none; position:fixed; }
+    .nav-backdrop{ display:none; }
+    main{ margin-left:var(--sidebar-w); }
+    #menu-toggle{ display:none; }
+    .route{ padding:2.4rem 2.4rem 5rem; }
+    .route.has-toc .page-inner{ max-width:var(--maxw); }
+  }
+  @media (max-width:859px){
+    #site-search{ font-size:16px; } /* avoid iOS zoom */
+  }
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Vai al contenuto</a>
+
+<header class="site-header">
+  <button id="menu-toggle" class="icon-btn" aria-expanded="false" aria-controls="site-nav" aria-label="Apri menu">☰</button>
+  <a href="#/panoramica" class="brand"><span class="dot" aria-hidden="true"></span>Wiki Sicurezza Informatica</a>
+  <div class="search-wrap">
+    <input type="search" id="site-search" placeholder="Cerca nel corso…" aria-label="Cerca nel sito" autocomplete="off">
+    <div id="search-results" hidden role="listbox" aria-label="Risultati di ricerca"></div>
+  </div>
+  <button id="theme-toggle" class="icon-btn" aria-pressed="false">🌙 Scuro</button>
+</header>
+
+<div class="layout">
+  <nav id="site-nav" aria-label="Sezioni del corso">
+    <ul>
+      <li><a href="#/panoramica">Panoramica</a></li>
+    </ul>
+    <p class="nav-group-label">Moduli</p>
+    <ul>
+      <li><a href="#/modulo-1">1 · Fondamenti</a></li>
+      <li><a href="#/modulo-2">2 · Policy e normative</a></li>
+      <li><a href="#/modulo-3">3 · RAID, backup e cloud</a></li>
+      <li><a href="#/modulo-4">4 · Crittografia</a></li>
+      <li><a href="#/modulo-5">5 · Identity &amp; Access Management</a></li>
+      <li><a href="#/modulo-6">6 · Linux e laboratorio <span class="opt-tag">opzionale</span></a></li>
+    </ul>
+    <p class="nav-group-label">Strumenti di studio</p>
+    <ul>
+      <li><a href="#/glossario">Glossario</a></li>
+      <li><a href="#/ripasso">Ripasso</a></li>
+    </ul>
+  </nav>
+  <div class="nav-backdrop"></div>
+
+  <main id="main-content">
+
+    <!-- ======================= PANORAMICA ======================= -->
+    <section class="route" id="route-panoramica">
+      <div class="page-inner">
+        <p class="kicker">Leggimi prima</p>
+        <h1>Panoramica del corso</h1>
+        <p class="lede">Questa è la mappa di tutto il corso. Leggila prima di tuffarti nei moduli: ti aiuta a capire cosa imparerai, in che ordine, e come i pezzi si incastrano tra loro.</p>
+
+        <h2>Di cosa parla questo corso</h2>
+        <p>Il corso ti dà le basi della <strong>sicurezza informatica</strong> (in inglese <em>cybersecurity</em>): non ti insegna a "fare l'hacker", ma a capire come si protegge un'azienda — dati, sistemi, persone — dalle minacce digitali. È la parte difensiva e concettuale della materia. La parte più "pratica" e offensiva (test di intrusione, exploit, ecc.) appartiene a un percorso successivo e separato, non trattato qui.</p>
+
+        <h2>Come sono organizzati i moduli</h2>
+        <p>I moduli seguono l'ordine con cui, di solito, si affronta il tema in azienda: prima capisci <em>di cosa hai paura</em> (Modulo 1), poi come un'organizzazione si <em>organizza sulla carta</em> per difendersi (Modulo 2), poi le <em>tecniche concrete</em> per non perdere dati e restare operativi (Modulo 3), gli <em>strumenti matematici</em> che rendono possibile proteggere le informazioni (Modulo 4), e infine <em>chi può accedere a cosa</em> (Modulo 5). In coda trovi un'appendice pratica facoltativa.</p>
+
+        <ol>
+          <li><strong>Fondamenti</strong> — cos'è la sicurezza informatica, la triade CIA, i tipi di attacco, le vulnerabilità, il ciclo di vita di un attacco (Cyber Kill Chain) e le basi della gestione del rischio.</li>
+          <li><strong>Policy e normative</strong> — le regole scritte che un'azienda si dà (le "policy") e le leggi/standard più importanti (GDPR, HIPAA, ISO 27001…). Qui trovi anche il Disaster Recovery Plan a livello di <em>processo organizzativo</em>.</li>
+          <li><strong>RAID, backup e cloud computing</strong> — la parte più tecnica della continuità operativa: come si duplicano i dischi, come si fanno le copie di sicurezza, cos'è il cloud, cos'è una macchina virtuale.</li>
+          <li><strong>Crittografia</strong> — come si rende un'informazione illeggibile a chi non deve leggerla, e come si dimostra che un documento digitale è autentico.</li>
+          <li><strong>Identity &amp; Access Management</strong> — come un sistema verifica chi sei (autenticazione) e decide cosa puoi fare (autorizzazione).</li>
+          <li><strong>Linux e laboratorio Kali <span class="opt-tag">opzionale</span></strong> — un'appendice pratica per chi vuole provare i comandi da terminale in un ambiente di laboratorio. Non serve per capire il corso: è un extra per chi è curioso.</li>
+        </ol>
+
+        <div class="callout keypoints">
+          <h3>💡 Un tema che attraversa più moduli</h3>
+          <p>La <strong>continuità operativa</strong> (cosa fare perché l'azienda non si fermi in caso di guasto o attacco) non è un argomento di un solo modulo: la incontri tre volte, a livelli diversi. Nel Modulo 1 come <em>concetto di rischio</em>, nel Modulo 2 come <em>documento/processo aziendale</em> (il Disaster Recovery Plan), nel Modulo 3 come <em>tecnica concreta</em> (RAID e backup). Ogni modulo tratta solo la sua parte e rimanda agli altri con un link, così non rileggi due volte la stessa spiegazione.</p>
+        </div>
+
+        <h2>Come studiare con questo sito</h2>
+        <ul>
+          <li>Ogni modulo si apre con un'introduzione semplice, poi entra nel dettaglio, e chiude con un riquadro <strong>Punti chiave</strong> da usare come ripasso lampo.</li>
+          <li>I termini tecnici sono sottolineati e cliccabili: ti portano alla voce corrispondente nel <a href="#/glossario" class="term-link">Glossario</a>, che è cercabile e in ordine alfabetico.</li>
+          <li>La sezione <a href="#/ripasso" class="term-link">Ripasso</a> ha domande con risposta nascosta: prova a rispondere prima di cliccare.</li>
+          <li>La barra di ricerca in alto cerca in tutto il sito, moduli e glossario insieme.</li>
+        </ul>
+
+        <div class="stub-box">
+          L'unica sezione ancora segnaposto è l'appendice opzionale <strong>Linux e laboratorio Kali</strong> (Modulo 6) — non necessaria per seguire il corso. Tutto il resto, Glossario e Ripasso inclusi, è completo.
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= MODULO 1 ======================= -->
+    <section class="route" id="route-modulo-1">
+      <div class="page-inner">
+        <p class="kicker">Modulo 1</p>
+        <h1>Fondamenti di cybersecurity</h1>
+        <p class="lede">Prima di difendersi bisogna capire cosa si sta difendendo, e da cosa. Questo modulo costruisce il vocabolario e i concetti di base — CIA, tipi di attacco, vulnerabilità, rischio — su cui si appoggia tutto il resto del corso.</p>
+      </div>
+
+      <div class="page-toc" aria-label="Indice del modulo"></div>
+
+      <div class="page-inner">
+
+        <section class="chunk" id="m1-perche">
+          <h2>1. Perché serve la sicurezza informatica</h2>
+          <p>Immagina uno studio notarile con l'archivio cartaceo, negli anni '80. Per rubare un documento importante, un ladro doveva entrare fisicamente nell'ufficio, cercarlo tra gli scaffali e portarlo via — lasciando dietro di sé una casella vuota, una porta forzata, qualcosa che prima o poi qualcuno avrebbe notato. Oggi lo stesso studio tiene vent'anni di documenti su un computer. Un estraneo può copiarli tutti senza mettere piede in ufficio, senza lasciare uno spazio vuoto sullo scaffale — e il proprietario può non accorgersene per mesi.</p>
+          <p>Questo è, in fondo, il motivo per cui esiste la sicurezza informatica: il mondo digitale ha regalato alle informazioni una comodità enorme (copiarle, spostarle, cercarle in un istante) ma gli ha tolto le protezioni "naturali" che aveva la carta — la necessità di un accesso fisico, la fatica di copiare a mano, il vuoto lasciato da un furto. La sicurezza informatica è, in un certo senso, la disciplina che studia come <em>ricostruire</em> in digitale le proprietà di sicurezza che il mondo cartaceo aveva quasi gratis.</p>
+          <p>Non è un problema astratto. Un'azienda meccanica del milanese ha ricevuto una mail, apparentemente dal proprio fornitore abituale, con un sollecito di pagamento: la contabile stava per versare <strong>50.000€</strong> sul conto indicato nella mail. Il fornitore vero, contattato per verifica, non aveva mai inviato quel messaggio. È un classico esempio di <a href="#/glossario/g-phishing" class="term-link">phishing</a>, e mostra bene che la sicurezza informatica non è "solo software": un antivirus non ferma una mail che sembra legittima e convince una persona a fare un bonifico di sua spontanea volontà. Serve anche formazione, procedure di verifica, buon senso organizzativo.</p>
+        </section>
+
+        <section class="chunk" id="m1-cia">
+          <h2>2. La triade CIA: riservatezza, integrità, disponibilità</h2>
+          <p>Quando si parla di "proteggere un dato", in realtà si stanno proteggendo tre proprietà diverse, che in inglese si ricordano con l'acronimo <strong><a href="#/glossario/g-cia" class="term-link">CIA</a></strong> (in italiano a volte RID): <strong>Confidentiality</strong> (riservatezza), <strong>Integrity</strong> (integrità), <strong>Availability</strong> (disponibilità). Capire quale di queste tre è in gioco aiuta a capire che tipo di problema stai affrontando.</p>
+          <ul>
+            <li><strong>Riservatezza</strong> — solo chi è autorizzato può leggere l'informazione. Pensa a una busta chiusa consegnata a un dipendente: se quella busta viene lasciata aperta sulla scrivania della reception, la riservatezza è già violata — <em>anche se nessuno l'ha effettivamente letta</em>. Basta la possibilità che qualcuno non autorizzato potesse leggerla.</li>
+            <li><strong>Integrità</strong> — il dato deve restare genuino: nessuno deve averlo alterato, né per errore né apposta. Se firmi un contratto per 40.000€ e qualcuno lo modifica dopo la firma, quella modifica non ha alcun valore legale: non è più il documento che avevi accettato tu.</li>
+            <li><strong>Disponibilità</strong> — il dato o il servizio deve essere raggiungibile quando serve. Avere la ricetta medica giusta non serve a nulla se la farmacia è chiusa, o se il server che la contiene è spento o sotto attacco. Un dato "sicuro" ma irraggiungibile equivale, di fatto, a non averlo — ed è esattamente il motivo per cui un attacco <a href="#/glossario/g-ransomware" class="term-link">ransomware</a> è così devastante: non ruba i dati, li rende irraggiungibili.</li>
+          </ul>
+
+          <div class="callout example">
+            <h3>🧠 Prova tu: quale proprietà è più in gioco?</h3>
+            <p>Per ciascuno di questi sistemi, qual è la proprietà CIA più critica se qualcosa va storto? <strong>App bancaria</strong> → riservatezza (nessuno deve leggere i tuoi movimenti). <strong>Sito e-commerce durante il Black Friday</strong> → disponibilità (se è giù, l'azienda perde vendite ogni minuto). <strong>Cartella clinica elettronica</strong> → integrità (un dato medico alterato per errore può causare una diagnosi sbagliata). <strong>Sistema di prenotazione voli</strong> → disponibilità. Non è un esercizio accademico: capire qual è la priorità aiuta a decidere dove investire per primi gli sforzi di sicurezza.</p>
+          </div>
+        </section>
+
+        <section class="chunk" id="m1-non-ripudio">
+          <h2>3. Un quarto principio: il non ripudio</h2>
+          <p>Alla triade CIA si affianca spesso un quarto principio: il <a href="#/glossario/g-non-ripudio" class="term-link">non ripudio</a> — la possibilità di attribuire un dato o un'azione a chi l'ha davvero compiuta, senza che questa persona possa negarlo in seguito. Pensa a <strong>SPID</strong>, l'identità digitale italiana: quando lo usi per firmare una pratica online, il sistema registra chi ha agito, cosa ha fatto e quando. Questo è ciò che dà valore legale all'operazione — senza non ripudio, gran parte dell'e-commerce e della pubblica amministrazione digitale come le conosciamo oggi non potrebbe funzionare, perché chiunque potrebbe negare di aver fatto un acquisto o firmato un documento.</p>
+        </section>
+
+        <section class="chunk" id="m1-asset">
+          <h2>4. Asset e misure di protezione</h2>
+          <p>Tutto ciò che ha valore per un'organizzazione e va protetto si chiama <strong><a href="#/glossario/g-asset" class="term-link">asset</a></strong>: non solo i dati, ma anche i sistemi che li elaborano, le persone che ci lavorano, la reputazione stessa dell'azienda. Le misure per proteggere gli asset si dividono in due grandi famiglie, ed è un errore comune pensare che basti la prima:</p>
+          <ul>
+            <li><strong>Misure tecniche</strong> — antivirus, firewall, cifratura, backup, autenticazione a più fattori: tutto ciò che si "compra e si installa".</li>
+            <li><strong>Misure organizzative</strong> — policy, formazione del personale, contratti con i fornitori che includono clausole di sicurezza: queste non si comprano, <em>si scrivono</em> — ed è esattamente il tema del Modulo 2.</li>
+          </ul>
+          <p>Un errore che non ha nulla a che fare con l'hacking, ma che è pura sicurezza informatica: un dipendente che lascia l'azienda portandosi via — nella propria memoria, o peggio su una chiavetta — i contatti dei clienti. Nessun malware, nessun exploit: solo un buco nelle misure organizzative.</p>
+        </section>
+
+        <section class="chunk" id="m1-meccanismi">
+          <h2>5. Attacchi, meccanismi, servizi</h2>
+          <p>Tre parole che aiutano a mettere ordine in qualunque discussione di sicurezza. Pensa a un negozio: gli <strong>attacchi</strong> sono le rapine e i furti che potrebbero subire; i <strong>meccanismi</strong> sono gli strumenti concreti di difesa (serratura blindata, telecamere, allarme); i <strong>servizi</strong> sono l'obiettivo di più alto livello che quei meccanismi realizzano insieme (la "protezione del negozio"). Allo stesso modo, in informatica un servizio come "posta elettronica sicura" non è un prodotto singolo: è la somma di più meccanismi — password robuste, una policy su come sceglierle, cifratura del traffico, filtri antispam.</p>
+          <p>Da questa idea nasce il principio della <strong><a href="#/glossario/g-difesa-profondita" class="term-link">difesa in profondità</a></strong>: non affidarsi mai a un unico meccanismo di protezione, perché se quello fallisce (o viene aggirato) non deve restare nient'altro tra l'attaccante e l'asset. Un singolo meccanismo la cui rottura fa crollare tutta la sicurezza si chiama <strong><a href="#/glossario/g-spof" class="term-link">single point of failure</a></strong> (punto singolo di fallimento) — e va sempre evitato, sia nella sicurezza sia, come vedrai nel Modulo 3, nella continuità operativa.</p>
+        </section>
+
+        <section class="chunk" id="m1-classificazione">
+          <h2>6. Da dove arriva un attacco: una prima classificazione</h2>
+          <p>Un modo utile per orientarsi tra i tipi di attacco è chiedersi: <em>quanto è vicino l'attaccante, e quanto si fa notare?</em></p>
+          <ul>
+            <li><strong>Attacchi passivi</strong> — l'attaccante osserva senza interagire, come un investigatore che ti pedina per una città intera: non ti tocca, non ti parla, ma a fine giornata sa dove sei stato, con chi, per quanto tempo. Sono i più difficili da rilevare proprio perché non lasciano tracce di un'azione attiva (intercettazione del traffico, sniffing).</li>
+            <li><strong>Attacchi attivi</strong> — l'attaccante manomette o interrompe attivamente qualcosa, ed è quindi più facile da individuare. Esempio: un attacco DoS che manda giù un e-commerce proprio durante i saldi — qui il danno reale non è "i dati rubati" (non ce ne sono), è il fatturato perso ogni minuto che il sito resta irraggiungibile.</li>
+            <li><strong>Attacchi di prossimità</strong> (<em>close-in</em>) — richiedono all'attaccante di essere fisicamente vicino al bersaglio: leggere lo schermo di qualcuno alle spalle (<em>shoulder surfing</em>), lasciare una chiavetta USB infetta in un parcheggio aziendale sperando che qualcuno la infili incuriosito ("non è un regalo di Natale"), o presentarsi come un finto tecnico — di un ente energetico, di un fornitore — sfruttando la fiducia che le persone ripongono in una divisa o in un ruolo.</li>
+            <li><strong>Attacchi insider</strong> — arrivano da chi ha già accesso legittimo: è un po' come essere traditi da un amico. Un commerciale che, prima di passare alla concorrenza, si scarica l'intera anagrafica clienti su una chiavetta personale non usa nessuna tecnica di hacking: abusa semplicemente di un accesso che gli era stato concesso per fare il suo lavoro.</li>
+            <li><strong>Attacchi alla catena di distribuzione</strong> (<em>supply chain</em>) — colpiscono un fornitore per raggiungere, indirettamente, tutti i suoi clienti. Il caso più noto è <strong>SolarWinds</strong> (2020): un fornitore di software di monitoraggio IT usato da migliaia di aziende e agenzie governative si è visto inserire codice malevolo in un aggiornamento ufficiale. I clienti, semplicemente aggiornando il software come fanno sempre, si sono "auto-installati" una backdoor senza saperlo.</li>
+          </ul>
+        </section>
+
+        <section class="chunk" id="m1-vettori">
+          <h2>7. I vettori di attacco più comuni oggi</h2>
+          <p>Al di là di <em>come</em> arriva un attacco, è utile conoscere le forme più diffuse che assume in pratica:</p>
+          <ul>
+            <li><strong>Configurazione errata del cloud</strong> — non serve nemmeno un attaccante bravo: un'azienda che carica i propri backup su cloud e li lascia per errore accessibili pubblicamente si autodenuncia da sola. Casi così vengono scoperti anche mesi dopo, spesso da un ricercatore di sicurezza che scansiona internet.</li>
+            <li><strong><a href="#/glossario/g-apt" class="term-link">APT</a></strong> (Advanced Persistent Threat) — un attaccante che si infiltra e resta nascosto per mesi o anni, come una spia che si presenta come tecnico delle pulizie in un'ambasciata e lavora "in maniera impeccabile" finché non arriva il momento giusto per colpire.</li>
+            <li><strong>Virus e worm</strong> — un <em>virus</em> ha bisogno che qualcuno lo attivi (un click, un doppio clic su un allegato); un <em>worm</em> si propaga da solo sfruttando vulnerabilità di rete, senza bisogno di alcuna interazione umana. <strong>WannaCry</strong> (maggio 2017) è l'esempio da manuale di un worm: 200.000 macchine infettate in 150 paesi in appena 24 ore, colpito anche il servizio sanitario britannico (NHS) — nonostante Microsoft avesse già pubblicato la patch che chiudeva quella falla <strong>due mesi prima</strong> dell'attacco. La lezione non è tecnica, è organizzativa: la patch esisteva, semplicemente non era stata applicata in tempo.</li>
+            <li><strong><a href="#/glossario/g-ransomware" class="term-link">Ransomware</a></strong> — oggi spesso usa la tecnica della <em>doppia estorsione</em>: prima ruba i dati, poi li cifra. Così, anche se hai un backup perfettamente funzionante e puoi ripristinare tutto senza pagare, l'attaccante minaccia comunque di pubblicare i dati rubati se non paghi.</li>
+            <li><strong>Minacce mobile</strong> — i telefoni sono bersagli sempre più appetibili proprio perché li proteggiamo meno di un computer. Un attacco molto comune: un SMS di phishing che sembra provenire dalla propria banca — capace di ingannare chiunque, anche persone attente, se il momento è quello sbagliato.</li>
+            <li><strong><a href="#/glossario/g-botnet" class="term-link">Botnet</a></strong> — una rete di dispositivi compromessi, spesso a insaputa dei proprietari, che agiscono insieme come un unico "esercito di zombie". Un singolo dispositivo debole (una telecamera economica, un router mai aggiornato) è quasi innocuo da solo, ma centomila insieme "abbattono qualunque porta". La botnet <strong>Mirai</strong> (2016) ha sfruttato le password di default lasciate su telecamere IP e router domestici per colpire Dyn, un fornitore di servizi DNS: per alcune ore, metà degli Stati Uniti non è riuscita a raggiungere Twitter, Netflix e Spotify.</li>
+            <li><strong>Phishing</strong> e le sue varianti — <em>spear phishing</em> (mirato su una persona specifica, spesso costruito con informazioni raccolte sui social), <em>smishing</em> (via SMS), <em>vishing</em> (via chiamata vocale, oggi reso ancora più credibile dalla clonazione della voce con l'IA). Il caso classico si chiama <strong>CEO fraud</strong>: una segretaria riceve una mail che sembra provenire dall'amministratore delegato, con la richiesta urgente di un bonifico da 50.000€ verso una banca all'estero — un bonifico fatto "di spontanea volontà" è quasi impossibile da recuperare.</li>
+            <li><strong>Minacce alle applicazioni web</strong> — oggi chiunque può costruire un sito o un'app con strumenti di IA generativa senza competenze tecniche, ma questo non lo rende sicuro: applicazioni create così vengono spesso violate nel giro di ore dalla pubblicazione.</li>
+            <li><strong>Minacce IoT</strong> — una smart TV in una sala riunioni, collegata alla stessa rete dei server gestionali e mai aggiornata da anni, è come una porta sul retro dell'edificio rimasta aperta. La contromisura più semplice è isolare i dispositivi IoT su una rete separata (una VLAN dedicata), così anche se vengono compromessi non hanno una via diretta verso i sistemi critici.</li>
+          </ul>
+        </section>
+
+        <section class="chunk" id="m1-vulnerabilita">
+          <h2>8. Cos'è una vulnerabilità</h2>
+          <p>Immagina la porta di casa con una serratura difettosa. La <strong><a href="#/glossario/g-vulnerabilita" class="term-link">vulnerabilità</a></strong> è il difetto della serratura in sé. L'<strong><a href="#/glossario/g-exploit" class="term-link">exploit</a></strong> è la tecnica concreta per sfruttarlo — aprirla con una carta di credito, o con una forcina. La <strong><a href="#/glossario/g-minaccia" class="term-link">minaccia</a></strong> è l'esistenza di ladri nella zona. Il <strong>rischio</strong>, che vedrai tra poco, è la combinazione di tutto questo insieme al valore di ciò che c'è dentro casa.</p>
+          <p>Una vulnerabilità è "sfruttabile" solo se esiste davvero un modo pratico per approfittarne: un difetto puramente teorico che nessuno riesce a sfruttare concretamente resta un semplice bug, non una vulnerabilità in senso operativo. Le vulnerabilità si dividono in tre grandi famiglie, a seconda di dove si trova il difetto:</p>
+          <ul>
+            <li><strong>Di rete</strong> — riguardano l'infrastruttura di comunicazione: protocolli mal configurati, servizi esposti che dovrebbero restare interni, dati trasmessi senza cifratura. Esempio da manuale: una stampante di rete la cui interfaccia web amministrativa, protetta solo dalla password di default, è raggiungibile anche dal Wi-Fi riservato agli ospiti.</li>
+            <li><strong>Di sistema</strong> — riguardano il sistema operativo: falle nel kernel, servizi non aggiornati, configurazioni di default lasciate invariate. In gran parte si risolvono con un patch management serio — cioè aggiornamenti pianificati e continui, non "quando capita".</li>
+            <li><strong>Delle applicazioni</strong> — riguardano il software che gira sul sistema, dal gestionale interno al sito web, fino al firmware del router: SQL injection, buffer overflow, controlli di autenticazione mal fatti.</li>
+          </ul>
+        </section>
+
+        <section class="chunk" id="m1-cve">
+          <h2>9. Il ciclo di vita di una vulnerabilità e le CVE</h2>
+          <p>Una vulnerabilità nasce quando viene scoperta (da un ricercatore, da un'azienda, a volte per caso), viene comunicata a chi può correggerla, poi viene pubblicata una patch. Ogni vulnerabilità nota e pubblica riceve un codice identificativo univoco, la <strong><a href="#/glossario/g-cve" class="term-link">CVE</a></strong> (Common Vulnerabilities and Exposures), e un punteggio di gravità, il <strong><a href="#/glossario/g-cvss" class="term-link">CVSS</a></strong>, da 0 a 10.</p>
+          <p>Il periodo più pericoloso è quello tra la scoperta e la disponibilità di una patch: se la vulnerabilità viene sfruttata prima ancora che il produttore ne sia a conoscenza (e quindi prima che esista una correzione), si parla di <strong><a href="#/glossario/g-zero-day" class="term-link">exploit zero-day</a></strong> — i più pericolosi in assoluto, e i più costosi: un exploit zero-click capace di compromettere un iPhone leggendo solo un PDF malevolo può valere, sul mercato specializzato, alcuni milioni di dollari. Un esempio di vulnerabilità particolarmente grave e diffusa è <strong>Log4Shell</strong> (dicembre 2021): un punteggio CVSS di 10 su 10, capace di eseguire codice da remoto manipolando anche un singolo messaggio di log — e ha colpito anche aziende che non scrivevano una riga di codice Java, semplicemente perché quella libreria era una dipendenza nascosta di qualcos'altro.</p>
+          <p>Quando un ricercatore scopre una vulnerabilità, la prassi corretta si chiama <strong>responsible disclosure</strong>: comunicarla in modo riservato all'azienda coinvolta (spesso tramite piattaforme dedicate come HackerOne), dimostrando il problema con una prova di concetto, e concedere un periodo di tempo — tipicamente 90 giorni — prima di rendere pubblici i dettagli, così da lasciare il tempo di preparare una correzione. Il punteggio CVSS, va detto, non è sempre "neutro": a deciderlo è spesso il produttore stesso del software coinvolto, che ha un interesse (reputazionale, prima ancora che tecnico) a tenerlo più basso possibile — tranne nei casi di falle così gravi e conclamate che non lascerebbero spazio a nessuna discussione.</p>
+        </section>
+
+        <section class="chunk" id="m1-killchain">
+          <h2>10. La Cyber Kill Chain: le sette fasi di un attacco</h2>
+          <p>Ideata da Lockheed Martin ispirandosi a un concetto militare, la <strong><a href="#/glossario/g-kill-chain" class="term-link">Cyber Kill Chain</a></strong> descrive un attacco informatico come una sequenza di sette fasi. L'idea più importante da portare a casa non è la lista in sé, ma questa: <strong>un attacco non è un evento istantaneo, è un processo</strong> — e basta riuscire a interrompere <em>una sola</em> delle sette fasi per fermarlo prima che faccia danni.</p>
+          <ol>
+            <li><strong>Reconnaissance</strong> — l'attaccante studia il bersaglio: profili LinkedIn dei dipendenti, repository pubblici su GitLab/GitHub, dispositivi esposti su internet trovabili con motori di ricerca specializzati come <strong>Shodan</strong> ("se cerchi 'telecamere' puoi arrivare a vedere le immagini in diretta di dispositivi mal configurati in tutto il mondo").</li>
+            <li><strong>Weaponization</strong> — l'attaccante costruisce l'arma (un malware, un documento infetto) sui propri sistemi: fase invisibile ai difensori, perché avviene fuori dal loro perimetro.</li>
+            <li><strong>Delivery</strong> — l'arma viene consegnata al bersaglio (mail, chiavetta USB, sito compromesso): è la prima fase che i difensori hanno una reale possibilità di rilevare.</li>
+            <li><strong>Exploitation</strong> — l'arma viene attivata sul sistema bersaglio, sfruttando la vulnerabilità individuata.</li>
+            <li><strong>Installation</strong> — l'attaccante installa un accesso persistente (una backdoor, un malware che sopravvive anche a un riavvio del sistema).</li>
+            <li><strong>Command and Control (C2)</strong> — si apre un canale di comunicazione bidirezionale tra il sistema compromesso e l'attaccante. È una fase rilevabile osservando il traffico di rete: connessioni verso domini sospetti, a orari o con frequenze anomale, sono un campanello d'allarme — anche se l'attaccante usa servizi legittimi come Dropbox o Telegram per mascherare il canale.</li>
+            <li><strong>Actions on Objectives</strong> — l'attaccante raggiunge finalmente il suo scopo: cifratura dei dati, furto di informazioni, sabotaggio, oppure — negli attacchi APT più sofisticati — movimento laterale verso altri sistemi della rete.</li>
+          </ol>
+        </section>
+
+        <section class="chunk" id="m1-ttp">
+          <h2>11. TTP: tattiche, tecniche, procedure</h2>
+          <p>Quando i professionisti di sicurezza analizzano un gruppo di attaccanti, parlano spesso di <strong>TTP</strong> — Tattiche, Tecniche, Procedure. Il modo più semplice per distinguerle è un'analogia culinaria: la <strong>tattica</strong> è l'obiettivo generale ("preparare il pranzo"), la <strong>tecnica</strong> è il metodo scelto per raggiungerlo ("cuocere la pasta"), la <strong>procedura</strong> è l'esecuzione specifica e dettagliata ("5 litri d'acqua, 50 grammi di sale, 11 minuti di cottura"). Le procedure sono quasi una firma personale — un po' come la calligrafia di una persona: <em>rendono un attaccante riconoscibile</em>, perché tende a ripetere sempre gli stessi dettagli specifici, anche cambiando bersaglio.</p>
+          <p>È lo stesso principio della scienza forense: sulla scena di un crimine si raccolgono indizi, si confrontano con impronte già note, e si arriva a identificare un colpevole proprio dai dettagli che si ripetono. Il riferimento più usato nel settore per catalogare le TTP conosciute dei vari gruppi di attaccanti è la matrice <strong>MITRE ATT&amp;CK</strong>, consultabile pubblicamente online.</p>
+        </section>
+
+        <section class="chunk" id="m1-rischio">
+          <h2>12. Il rischio: come si misura</h2>
+          <p>Il rischio informatico si calcola, tradizionalmente, come <strong>R = P × I × E</strong>, dove P è la probabilità che la minaccia si verifichi, I è l'impatto che avrebbe, ed E è l'efficacia dei controlli già in atto (più i controlli sono deboli, più il fattore pesa). Pensa a un ombrello: prima di uscire guardi il meteo (probabilità di pioggia), pensi a cosa devi fare oggi — un colloquio di lavoro importante o solo buttare la spazzatura (impatto se ti bagni), e valuti se hai già un impermeabile (efficacia dei controlli). Il rischio prima di prendere qualunque contromisura si chiama <strong>rischio inerente</strong>; quello che resta dopo aver applicato le difese si chiama <strong>rischio residuo</strong> — ed è quello che conta davvero, perché il rischio zero non esiste.</p>
+
+          <div class="callout example">
+            <h3>🌠 Un quiz che spiazza quasi tutti</h3>
+            <p>Cosa comporta un rischio maggiore per un'azienda: un meteorite che colpisce la sede, o un dipendente che perde una chiavetta USB coi dati dei clienti? Istintivamente si pensa allo scenario più "spettacolare", ma è la chiavetta a vincere senza discussione: la probabilità è così più alta da dominare completamente il calcolo, anche se l'impatto di un meteorite sarebbe enormemente più grave. È un errore comune sopravvalutare le minacce cinematografiche (l'hacker straniero sofisticato) e sottovalutare quelle banali — una password debole, un backup mai testato — che nella pratica causano molti più danni.</p>
+          </div>
+
+          <p>Per rendere il rischio concreto in termini economici si usano tre valori:</p>
+          <ul>
+            <li><strong>SLE</strong> (Single Loss Expectancy) — quanto costa <em>una singola</em> occorrenza dell'evento.</li>
+            <li><strong>ARO</strong> (Annualized Rate of Occurrence) — quante volte ci si aspetta che accada in un anno.</li>
+            <li><strong>ALE</strong> (Annualized Loss Expectancy) — la perdita attesa in un anno, cioè <code>SLE × ARO</code>.</li>
+          </ul>
+          <p>Un esempio concreto: un server web che genera 25.000$ l'ora di fatturato ha il 25% di probabilità di guastarsi nel corso dell'anno; un guasto comporterebbe 3 ore di fermo più 5.000$ di riparazione. SLE = (25.000$ × 3) + 5.000$ = <strong>80.000$</strong>. ALE = 80.000$ × 25% = <strong>20.000$ l'anno</strong>. A questo punto la domanda diventa gestionale: conviene investire in un sistema ridondante da 10.000$ una tantum, o continuare a rischiare 20.000$ l'anno? Attenzione però: l'ALE calcola solo il danno diretto e misurabile — non cattura facilmente il danno reputazionale, che per un servizio ad alta visibilità può valere molto di più del puro fermo tecnico.</p>
+        </section>
+
+        <section class="chunk" id="m1-risposte-rischio">
+          <h2>13. Le quattro risposte possibili a un rischio</h2>
+          <p>Una volta identificato e misurato un rischio, un'organizzazione ha sostanzialmente quattro strade, spesso combinate tra loro:</p>
+          <ul>
+            <li><strong>Evitare</strong> (<em>avoid</em>) — eliminare del tutto la causa del rischio, ad esempio non offrendo più un servizio troppo esposto.</li>
+            <li><strong>Mitigare</strong> (<em>mitigate</em>) — ridurre la probabilità o l'impatto (è la strada più comune: patch, formazione, backup, controlli).</li>
+            <li><strong>Accettare</strong> (<em>accept</em>) — quando il costo della contromisura supera il danno atteso, si decide consapevolmente di convivere con il rischio, magari preparando un piano di emergenza.</li>
+            <li><strong>Trasferire</strong> (<em>transfer</em>) — spostare il peso economico del rischio su un terzo, tipicamente tramite un'assicurazione cyber.</li>
+          </ul>
+          <p>Una regola pratica di buon senso, che vale quasi sempre: se un rischio ha probabilità alta ma impatto basso conviene mitigarlo con controlli economici; se ha impatto altissimo ma probabilità bassissima, spesso conviene trasferirlo con un'assicurazione piuttosto che spendere una fortuna per prevenire qualcosa di quasi impossibile.</p>
+        </section>
+
+        <div class="callout keypoints">
+          <h3>✅ Punti chiave del Modulo 1</h3>
+          <ul>
+            <li>La sicurezza informatica protegge tre proprietà — <strong>riservatezza, integrità, disponibilità</strong> (triade <a href="#/glossario/g-cia" class="term-link">CIA</a>) — a cui si affianca spesso il <a href="#/glossario/g-non-ripudio" class="term-link">non ripudio</a>.</li>
+            <li>Le misure di protezione sono sia <strong>tecniche</strong> (si comprano) sia <strong>organizzative</strong> (si scrivono) — vedi il Modulo 2.</li>
+            <li>Gli attacchi si classificano per "distanza" dal bersaglio: passivi, attivi, di prossimità, insider, supply chain.</li>
+            <li>Una <strong>vulnerabilità</strong> (il difetto) è diversa da un <strong>exploit</strong> (la tecnica per sfruttarla) ed è diversa da una <strong>minaccia</strong> (chi vuole farlo).</li>
+            <li>La <strong>Cyber Kill Chain</strong> mostra che un attacco è un processo a 7 fasi: basta interromperne una per fermarlo.</li>
+            <li>Il <strong>rischio</strong> si misura come probabilità × impatto × (in)efficacia dei controlli, e si può quantificare economicamente con ALE = SLE × ARO.</li>
+            <li>Le risposte possibili a un rischio sono quattro: evitare, mitigare, accettare, trasferire.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================= MODULO 2 ======================= -->
+    <section class="route" id="route-modulo-2">
+      <div class="page-inner">
+        <p class="kicker">Modulo 2</p>
+        <h1>Information assurance, policy e normative</h1>
+        <p class="lede">Il Modulo 1 ha mostrato che le misure organizzative sono importanti quanto quelle tecniche. Questo modulo entra nel dettaglio: quali documenti scrive un'azienda per proteggersi, e quali leggi e standard esterni è tenuta a rispettare.</p>
+      </div>
+
+      <div class="page-toc" aria-label="Indice del modulo"></div>
+
+      <div class="page-inner">
+
+        <section class="chunk" id="m2-intro">
+          <h2>1. Cosa sono le policy aziendali</h2>
+          <p>Una <strong>policy</strong> è una decisione scritta dell'azienda su come ci si deve comportare rispetto a un certo aspetto della vita aziendale. Perché sia davvero una policy — e non solo un'abitudine informale che chiunque può ignorare — deve avere tre caratteristiche:</p>
+          <ul>
+            <li><strong>Scritta</strong> — una regola che "tutti sanno" ma nessuno ha mai messo per iscritto non vale nulla se viene contestata.</li>
+            <li><strong>Approvata dal vertice aziendale</strong> — una policy nata sulla scrivania di un singolo responsabile IT, senza il supporto del management, non verrà mai applicata seriamente.</li>
+            <li><strong>Comunicata</strong> — anche una policy scritta e approvata, se resta chiusa in un cassetto, è inutile: va distribuita, fatta firmare per presa visione, aggiornata periodicamente.</li>
+          </ul>
+          <p>Le policy aziendali si raggruppano in sei grandi famiglie: per i fornitori, per il personale, sull'uso accettabile delle risorse, sulle azioni disciplinari, la policy generale di sicurezza, e i piani di disaster recovery. Le vediamo una per una.</p>
+        </section>
+
+        <section class="chunk" id="m2-vendor">
+          <h2>2. Policy per i fornitori (vendor)</h2>
+          <p>Una banca può sembrare imprendibile guardandola dal portone principale: guardie armate, vetri antiproiettile, telecamere ovunque. Ma se l'azienda delle pulizie ha le chiavi del seminterrato e le passa al primo che paga di più, tutta quella difesa frontale non serve più a niente. È esattamente per questo che le policy per i fornitori esistono: la sicurezza di un'azienda non finisce al suo perimetro, si estende a tutta la sua <strong>supply chain</strong>.</p>
+          <p>Un caso reale: un dipendente di GitLab ha installato un'estensione malevola su Visual Studio Code (un normale editor di codice); il risultato è stato il furto di circa <strong>3.800 repository di codice interni</strong> — un attacco supply chain nel senso più letterale, reso ancora più amaro dal fatto che VS Code è distribuito da Microsoft.</p>
+          <p>Le relazioni con i fornitori si formalizzano tipicamente in quattro tipi di documenti:</p>
+          <ul>
+            <li><strong>SOP</strong> (Standard Operating Procedure) — il "libretto di istruzioni" condiviso: chi fa cosa, quando, come si gestisce un'emergenza alle 3 del mattino, chi si chiama per primo. Il meno affascinante dei quattro, ma il più utile quando le cose vanno davvero storte.</li>
+            <li><strong>SLA</strong> (Service Level Agreement) — traduce le aspettative in numeri misurabili: percentuale di disponibilità garantita, tempi di risposta e risoluzione, penali in caso di mancato rispetto.</li>
+            <li><strong>MOU/MOA</strong> — un accordo preliminare, meno vincolante, utile per collaborazioni temporanee o progetti pilota.</li>
+            <li><strong>ISA</strong> (Interconnection Security Agreement) — specifica i requisiti tecnici quando i sistemi informatici di due organizzazioni si collegano direttamente tra loro.</li>
+          </ul>
+
+          <div class="callout case">
+            <h3>💸 Caso concreto: quando l'SLA lo leggi troppo tardi</h3>
+            <p>Una PMI italiana firma il contratto cloud di un grande provider americano senza leggerne davvero le clausole. Otto mesi dopo, un guasto del fornitore causa 6 ore di perdita dati e circa 30.000€ di vendite mancate. Il fornitore, chiamato in causa, mostra la clausola che limita la propria responsabilità al valore del canone mensile pagato: il risarcimento dovuto risulta essere <strong>45€</strong>. La clausola c'era, semplicemente nessuno l'aveva letta prima di firmare.</p>
+          </div>
+
+          <p>Per capire in pratica cosa significano le percentuali di un SLA, aiuta pensare ai cosiddetti "nove" di disponibilità: il <strong>99%</strong> equivale a circa 7 ore di fermo al mese (accettabile per un sito vetrina senza vendite dirette); il <strong>99,9%</strong> scende a circa 43 minuti al mese (adatto a un gestionale interno); il <strong>99,99%</strong> a circa 4 minuti al mese (il livello tipico di banche online e grandi e-commerce); il <strong>99,999%</strong> a circa 26 secondi al mese (telecomunicazioni critiche). Il punto da ricordare: passare da quattro a cinque "nove" può moltiplicare per dieci il costo dell'infrastruttura necessaria — il costo della disponibilità non cresce in modo lineare.</p>
+          <p>Con l'arrivo della direttiva europea <strong>NIS2</strong>, il tema dei fornitori è diventato ancora più delicato: se un attacco arriva attraverso un fornitore, la responsabilità <em>tecnica</em> può essere sua, ma la responsabilità di aver valutato correttamente quel rischio prima di affidargli dati o accessi resta dell'azienda che lo ha scelto. Le domande da porsi prima di firmare un contratto, oggi, includono: ho valutato il rischio cyber di questo fornitore? Il contratto prevede l'obbligo di notificarmi un incidente? Ha MFA, segmentazione di rete, un piano di risposta agli incidenti?</p>
+        </section>
+
+        <section class="chunk" id="m2-personale">
+          <h2>3. Policy per il personale</h2>
+          <p>Molte policy sul personale sono nate, storicamente, nel settore bancario per un motivo molto pratico: scoprire le frodi interne.</p>
+          <ul>
+            <li><strong>Ferie obbligatorie</strong> — chi sta frodando l'azienda difficilmente può permettersi di restare assente due settimane consecutive, perché in sua assenza chi lo sostituisce potrebbe notare le anomalie. Oggi la policy serve anche a prevenire il burnout e a trasferire forzatamente know-how a chi copre il ruolo. In Italia l'obbligo minimo (art. 2109 c.c.) è di almeno 4 settimane l'anno, di cui 2 consecutive.</li>
+            <li><strong>Rotazione dei ruoli</strong> (<em>job rotation</em>) — costruisce ridondanza umana: se solo una persona sa fare una cosa, quella persona è un <a href="#/glossario/g-spof" class="term-link">single point of failure</a>, un rischio sia per l'azienda (se si assenta o se ne va) sia per la persona stessa (che non può mai staccare del tutto). Va però calibrata al ruolo: un chirurgo o un ingegnere di sistemi critici non si "ruotano" con la stessa facilità di un ruolo amministrativo.</li>
+            <li><strong>Separazione dei compiti</strong> — il principio è: nessuno controlla l'intero processo da solo. In una pizzeria seria chi prende l'ordine non è chi incassa; in banca chi apre un conto non è chi lo autorizza. Vale anche in informatica: chi scrive codice non dovrebbe essere la stessa persona che lo mette in produzione, chi crea un utente non dovrebbe essere chi gli assegna i privilegi.</li>
+          </ul>
+
+          <div class="callout example">
+            <h3>🔍 Esercizio: dov'è il buco nella separazione dei compiti?</h3>
+            <p>Un revisore interno scopre pagamenti sospetti verso un fornitore che il management non riconosce. Analizzando i permessi del sistema, trova che lo stesso ruolo (Accounts Payable Clerk) può sia inserire un nuovo fornitore sia approvarlo, sia inserire un pagamento sia — in alcuni casi — anche approvarlo. La correzione corretta non è "vietare tutto a tutti", ma alternare inserimento e approvazione tra ruoli diversi (es. inserimento al Clerk, approvazione al Manager) su <em>ogni singolo passaggio</em>: così nessuna persona sola può completare l'intero ciclo — dalla creazione del fornitore fittizio al pagamento — senza che qualcun altro se ne accorga.</p>
+          </div>
+
+          <ul>
+            <li><strong>Clean desk policy</strong> — impone di non lasciare materiale sensibile in vista sulla scrivania. In un audit di sicurezza fisica serale, un consulente ha fotografato in 20 minuti tre password su post-it sotto la tastiera, un organigramma in un cassetto senza chiave e il contratto di un cliente importante lasciato in un armadietto aperto — senza violare un solo sistema informatico.</li>
+            <li><strong>Background check</strong> — verifica di titoli di studio, casellario giudiziario, eventuali liste di sanzioni internazionali, condotta secondo i limiti del GDPR (principio di minimizzazione) e dello Statuto dei Lavoratori italiano, che vieta indagini sulle opinioni politiche, religiose o sindacali di un candidato.</li>
+            <li><strong>NDA</strong> (accordo di non divulgazione) — spesso firmato distrattamente tra i documenti di assunzione e poi dimenticato, ma essenziale in situazioni delicate: ad esempio prima che un penetration tester inizi a testare un sistema critico, per assicurarsi che non parli — nemmeno per leggerezza, magari su LinkedIn — di ciò che ha trovato.</li>
+          </ul>
+
+          <div class="callout case">
+            <h3>🚪 Caso concreto: la VPN dimenticata</h3>
+            <p>Un commerciale lascia l'azienda in cattivi rapporti. La checklist di offboarding prevede il ritiro del PC aziendale — ma nessuno pensa a revocare il suo accesso VPN. Per sei mesi, l'ex dipendente continua a scaricarsi l'anagrafica clienti aggiornata da remoto, portandola al nuovo datore di lavoro: il danno stimato è il <strong>15% dei clienti persi</strong> nei dodici mesi successivi. La regola, dopo un caso così, è netta: nessun ex dipendente deve mantenere un accesso attivo oltre le 24 ore dall'ultimo giorno di lavoro.</p>
+          </div>
+
+          <p>Infine, la <strong>formazione continua</strong>: le minacce evolvono più in fretta di qualunque materiale didattico. Un corso anti-phishing fatto tre anni fa non copre il <em>vishing</em> con voce clonata dall'IA — oggi uno dei vettori più efficaci in assoluto, perché riconosci il timbro vocale del tuo responsabile e ti fidi istintivamente. La formazione efficace non è un video obbligatorio seguito da un quiz a crocette: è breve, ripetuta nel tempo, concreta, e idealmente misurata con simulazioni periodiche di phishing.</p>
+        </section>
+
+        <section class="chunk" id="m2-aup">
+          <h2>4. Acceptable Use Policy (AUP)</h2>
+          <p>Definisce cosa i dipendenti possono e non possono fare con gli strumenti aziendali: uso personale di internet, installazione di software non autorizzato, dispositivi USB, cloud personali. Il rischio più concreto legato ai dispositivi rimovibili si chiama <strong>pod slurping</strong> — il nome viene dai primi iPod (anni 2000), usati come dischi esterni ad alta capacità per copiare di nascosto archivi aziendali interi; oggi il principio è identico con qualunque smartphone o chiavetta USB.</p>
+          <p>Un principio da ricordare: non bisogna confondere il <em>vietare</em> con l'<em>impedire</em>. Una policy senza un controllo tecnico che la faccia rispettare (blocco delle porte USB via Group Policy, soluzioni di prevenzione della perdita di dati, cifratura forzata) è solo carta firmata — una minaccia scritta, non una vera protezione.</p>
+        </section>
+
+        <section class="chunk" id="m2-adverse">
+          <h2>5. Azioni disciplinari</h2>
+          <p>Definiscono cosa succede quando un dipendente viola le regole. Tipicamente seguono una scala progressiva: richiamo verbale, richiamo scritto, sospensione, fino al licenziamento per giusta causa o, nei casi più gravi, un'azione legale. In Italia questa parte è regolata dall'art. 7 dello Statuto dei Lavoratori: le sanzioni sono applicabili solo se le regole erano state comunicate in anticipo (in bacheca, su intranet, consegnate direttamente), e devono essere proporzionate alla violazione — i giudici del lavoro annullano regolarmente licenziamenti sproporzionati rispetto al fatto contestato.</p>
+        </section>
+
+        <section class="chunk" id="m2-general-dr">
+          <h2>6. Policy generale di sicurezza e piano di disaster recovery</h2>
+          <p>La <strong>general security policy</strong> è il documento "ombrello" che definisce la postura di sicurezza complessiva dell'azienda: principi, ruoli, responsabilità — la cornice dentro cui si inseriscono tutte le altre policy viste finora.</p>
+          <p>Il <strong>piano di disaster recovery</strong>, come sesta famiglia di policy, è il documento che raccoglie le procedure da seguire in caso di incidente grave. Qui ci limitiamo a inquadrarlo come <em>documento organizzativo</em>: il modo in cui si calcola quanto vale davvero un'ora di fermo, come si stima il rischio (ALE/SLE/ARO) e i concetti di RTO/RPO li trovi già nel <a href="#/modulo-1/m1-rischio" class="term-link">Modulo 1</a>; l'implementazione tecnica concreta — RAID, strategie di backup — è nel <a href="#/modulo-3">Modulo 3</a>.</p>
+        </section>
+
+        <section class="chunk" id="m2-legge-standard">
+          <h2>7. Legge o standard? Una distinzione da non confondere</h2>
+          <p>Una <strong>legge</strong> è come il codice della strada: lo Stato la fa rispettare con sanzioni, e vale per tutti, senza eccezioni. Uno <strong>standard</strong> è più simile a un bollino di qualità come quelli del settore alimentare: nessuna legge ti obbliga ad averlo, ma se vuoi vendere in un certo mercato conviene, e a volte è di fatto indispensabile. Ci sono casi ibridi interessanti: il PCI-DSS è tecnicamente uno standard (imposto per contratto dai circuiti di pagamento come Visa e Mastercard, non da una legge), ma è di fatto obbligatorio per chiunque accetti pagamenti con carta; la certificazione ISO 27001 non è richiesta per legge, ma è sempre più spesso un requisito d'accesso nei bandi pubblici italiani ed europei.</p>
+        </section>
+
+        <section class="chunk" id="m2-pcidss">
+          <h2>8. PCI-DSS</h2>
+          <p>Si applica a chiunque memorizzi, elabori o trasmetta dati di carte di pagamento: non solo grandi e-commerce, ma anche un ristorante col POS, un hotel, un distributore di benzina. Prevede quattro livelli di conformità in base al volume di transazioni annue gestite.</p>
+          <p>La regola d'oro, per una piccola attività, è semplice: se non sei un'azienda specializzata in pagamenti, <strong>non memorizzare tu stesso i dati della carta</strong>. Un ristorante che usa il POS fornito dalla propria banca, senza salvare i numeri di carta nei propri sistemi, scarica sulla banca la gran parte degli obblighi PCI-DSS; se sviluppasse un proprio gestionale che li memorizza, entrerebbe in un mondo di obblighi molto più complesso e costoso. Le conseguenze di una violazione includono multe dai circuiti di pagamento (anche decine di migliaia di euro), la possibile revoca della capacità di accettare carte — oggi quasi una condanna commerciale — oltre a costi forensi e obblighi di notifica.</p>
+        </section>
+
+        <section class="chunk" id="m2-iso27001">
+          <h2>9. ISO 27001</h2>
+          <div class="callout example">
+            <h3>🍽️ L'analogia HACCP</h3>
+            <p>La ISO 27001 sta al sistema di sicurezza informatica come l'HACCP sta alla ristorazione. L'HACCP non dice al cuoco quale ricetta cucinare: dice come strutturare i controlli lungo tutta la filiera — temperature, scadenze, tracciabilità, formazione del personale — così che il prodotto finale sia sicuro, qualunque sia il piatto. La ISO 27001 fa lo stesso con la sicurezza delle informazioni: non ti dice quale firewall comprare, ti dice come strutturare il <em>sistema di gestione</em> della sicurezza.</p>
+          </div>
+          <p>Si basa su un ciclo continuo — <strong>Plan-Do-Check-Act</strong> — non su un adempimento una tantum: pianificare, implementare, verificare, migliorare, e ricominciare. Il suo "Allegato A" elenca 93 controlli concreti, raggruppati in quattro aree: organizzativi, relativi alle persone, fisici, tecnologici. Per una PMI italiana di 50-100 persone, ottenere la certificazione costa indicativamente <strong>15.000-40.000€</strong> il primo anno, più <strong>5.000-10.000€ l'anno</strong> di mantenimento.</p>
+        </section>
+
+        <section class="chunk" id="m2-sox">
+          <h2>10. SOX (Sarbanes-Oxley Act)</h2>
+          <p>Nata negli Stati Uniti nel 2002, dopo gli scandali finanziari Enron e Worldcom — bilanci truccati per un decennio, crollo improvviso, azionisti e dipendenti rovinati (negli USA la pensione dipende spesso dai contributi versati, quindi il fallimento di un'azienda può danneggiare anche la pensione dei suoi stessi dipendenti). L'equivalente italiano, dopo il crack Parmalat del 2005, è la legge sul risparmio (D.Lgs. 262).</p>
+          <p>La rilevanza informatica è diretta: se i bilanci di un'azienda dipendono da sistemi informatici — e oggi è sempre così — quei sistemi devono avere controlli seri su chi vi accede, log delle modifiche, e revisioni esterne annuali.</p>
+          <div class="callout keypoints">
+            <h3>💭 Perché le grandi frodi si ripetono, nonostante leggi così rigide?</h3>
+            <p>Una legge riduce il rischio, ma non elimina l'incentivo economico a commettere la frode — resta sempre una componente umana e una pressione sui risultati che nessuna norma può azzerare del tutto. I controlli <em>interni</em> tendono a prevenire meglio delle ispezioni <em>esterne</em>, perché agiscono prima e dall'interno dei processi quotidiani; le ispezioni esterne agiscono dopo, spesso a campione, più come deterrente che come vera prevenzione.</p>
+          </div>
+        </section>
+
+        <section class="chunk" id="m2-dmca">
+          <h2>11. DMCA e diritto d'autore</h2>
+          <p>Il DMCA (Digital Millennium Copyright Act, USA) vieta di aggirare le protezioni tecnologiche di un'opera (DRM) e introduce il meccanismo del <em>safe harbor</em>: una piattaforma non è responsabile dei contenuti caricati dai suoi utenti, a patto che li rimuova rapidamente se le viene segnalata una violazione — è il meccanismo dietro alle rimozioni di contenuti su YouTube. In Italia ed Europa il riferimento è la legge sul diritto d'autore del 1941 (più volte aggiornata) e la direttiva UE 2019 sul copyright nel mercato unico digitale; le sanzioni sono gestite dall'AGCOM, che può anche ordinare il blocco DNS di siti pirata. Un aspetto di sicurezza spesso sottovalutato: molti siti che distribuiscono contenuti piratati veicolano malware nei file scaricati o nei link cliccati — non è un rischio solo legale, è anche un rischio tecnico concreto.</p>
+        </section>
+
+        <section class="chunk" id="m2-fisma-pa">
+          <h2>12. FISMA e il quadro normativo italiano/UE per la Pubblica Amministrazione</h2>
+          <p>Il FISMA (Federal Information Security Management Act, USA 2002) ha poca rilevanza diretta in Italia, ma il principio che rappresenta è universale: uno Stato impone standard minimi di sicurezza alle proprie agenzie pubbliche, e questi obblighi si propagano lungo tutta la filiera dei fornitori. In Italia ed Europa l'equivalente si costruisce attraverso più livelli: il <strong>CAD</strong> (Codice dell'Amministrazione Digitale), le linee guida tecniche di <strong>AGID</strong>, l'<strong>ACN</strong> (Agenzia per la Cybersicurezza Nazionale, che dal 2021 qualifica anche i fornitori cloud per la PA), il <strong>perimetro di sicurezza nazionale cibernetica</strong> (2019) e, più di recente, la <strong>NIS2</strong> (recepita in Italia col D.Lgs. 138/2024).</p>
+          <div class="callout example">
+            <h3>🏭 Esercizio: la PMI è soggetta a NIS2?</h3>
+            <p>Un'azienda manifatturiera lombarda con 80 dipendenti, che produce componenti meccanici specializzati per altre aziende, deve preoccuparsi di NIS2? Dipende da due fattori insieme: il settore di attività <em>e</em> il superamento di certe soglie dimensionali (50 dipendenti oppure 10 milioni di euro di fatturato) — in questo caso, sì, probabilmente rientra. Le conseguenze pratiche: servono un responsabile della sicurezza, valutazioni periodiche del rischio, formazione, backup e cifratura, una procedura di gestione degli incidenti — cose che qualsiasi azienda dovrebbe già fare per buon senso, ma che per un soggetto NIS2 diventano obbligatorie e sanzionabili sia civilmente sia penalmente. Le sanzioni NIS2 possono arrivare fino a 10 milioni di euro o il 2% del fatturato globale, il maggiore dei due.</p>
+          </div>
+        </section>
+
+        <section class="chunk" id="m2-gdpr">
+          <h2>13. GDPR: il regolamento europeo sulla protezione dei dati</h2>
+          <p>Il GDPR si basa su sette principi fondamentali: liceità/correttezza/trasparenza (il trattamento deve avere una base giuridica ed essere comprensibile per l'interessato), limitazione delle finalità, minimizzazione (raccogliere solo i dati davvero necessari), accuratezza, <strong>limitazione della conservazione</strong> (un CV inviato a un'azienda che non assume non può restare archiviato per anni: 12-24 mesi è un limite ragionevole, non 15 anni), sicurezza, e <strong>responsabilizzazione</strong> (<em>accountability</em>) — non basta rispettare il regolamento, bisogna poterlo dimostrare con registri dei trattamenti, log, prove di formazione erogata al personale.</p>
+          <p>I ruoli previsti: l'<strong>interessato</strong> (tu, quando lasci la tua mail su un sito), il <strong>titolare del trattamento</strong> (l'azienda che decide finalità e modalità del trattamento), il <strong>responsabile del trattamento</strong> (chi tratta i dati per conto del titolare, es. un fornitore cloud), il <strong>DPO</strong> — Data Protection Officer — obbligatorio per la PA e per trattamenti su larga scala di dati sensibili, e il <strong>Garante per la protezione dei dati personali</strong>, l'autorità di controllo.</p>
+          <p>I diritti dell'interessato: accesso ai propri dati, rettifica, cancellazione (il celebre "diritto all'oblio"), limitazione del trattamento, <strong>portabilità</strong> (poter trasferire i propri dati a un altro fornitore), opposizione (ad esempio a comunicazioni di marketing), e il diritto a non essere sottoposto a decisioni prese in modo completamente automatizzato senza intervento umano.</p>
+
+          <div class="callout case">
+            <h3>⚖️ Le sanzioni GDPR non colpiscono solo i colossi</h3>
+            <p>Meta è stata sanzionata per oltre <strong>1 miliardo di euro</strong> nel 2023 per il trasferimento di dati fuori dall'UE; Google per centinaia di milioni. Ma anche diverse PMI italiane sono state sanzionate dal Garante per centinaia di migliaia di euro — per motivi tutt'altro che esotici: marketing senza consenso valido, mancata notifica di una violazione di dati ("mi rubano i dati e faccio finta di niente"), o semplicemente la raccolta di dati eccessivi rispetto allo scopo (chiedere lo stato civile quando basterebbero nome, cognome e codice fiscale). Le sanzioni massime previste sono 10 milioni di euro o il 2% del fatturato globale per le violazioni meno gravi, 20 milioni o il 4% per quelle più gravi — sempre il maggiore dei due valori.</p>
+          </div>
+
+          <p>I dati sanitari meritano un discorso a parte. Negli Stati Uniti li regola l'<strong>HIPAA</strong> (Health Insurance Portability and Accountability Act): una <em>privacy rule</em> su chi può accedervi e con quale scopo, una <em>security rule</em> con i controlli tecnici obbligatori, un'<em>enforcement rule</em> che fissa le sanzioni (fino a 1,5 milioni di dollari per violazione). In Europa, il GDPR li classifica come "categorie particolari di dati personali" all'articolo 9: trattabili solo con consenso esplicito, per finalità di cura da parte di professionisti soggetti a segreto professionale, o per motivi di interesse pubblico sanitario. È esattamente quello che è successo durante il Covid: il Green Pass comunicava, di fatto, informazioni sul proprio stato sanitario; i termometri agli ingressi dei luoghi di lavoro misuravano (spesso male) la temperatura corporea; il datore di lavoro poteva, in certe condizioni, sapere se un dipendente si fosse vaccinato — situazioni normalmente impensabili, giustificate solo dall'eccezionalità dell'emergenza sanitaria.</p>
+          <p>Perché i dati sanitari sono considerati più sensibili di altri? Perché rappresentano lo stato della persona "in sé per sé": possono rivelare pericoli o rischi di contagio, sono spesso impossibili da cambiare (a differenza di una password), e possono incidere direttamente sulla dignità di una persona o sulle sue opportunità di lavoro. È anche per questo che, ad esempio, l'amministratore delegato di un'azienda non può consultare il fascicolo sanitario di un candidato: può al massimo richiedere una visita medica specifica legata alla mansione, mai accedere in autonomia alla sua storia clinica.</p>
+          <p>Un ultimo esempio, molto attuale: un'app di fitness che tiene traccia del battito cardiaco e dei percorsi di corsa sembra innocua, ma se il suo database cloud viene violato, quei dati rivelano molto più di quanto sembri — orari di uscita e di rientro, percorsi abituali, dove abiti, dove lavori, condizioni fisiche, ore di sonno. Un disastro sia per l'utente coinvolto sia, in termini di sanzioni e reputazione, per l'azienda che gestiva quei dati.</p>
+        </section>
+
+        <div class="callout keypoints">
+          <h3>✅ Punti chiave del Modulo 2</h3>
+          <ul>
+            <li>Una policy è tale solo se è <strong>scritta, approvata dal management e comunicata</strong> — altrimenti è solo un'abitudine.</li>
+            <li>Le sei famiglie di policy: <strong>fornitori</strong> (SOP/SLA/MOU/ISA), <strong>personale</strong> (ferie, rotazione, separazione dei compiti, clean desk, NDA, onboarding/offboarding), <strong>AUP</strong>, <strong>azioni disciplinari</strong>, <strong>policy generale</strong>, <strong>disaster recovery</strong>.</li>
+            <li>Una <strong>legge</strong> vale per tutti ed è imposta dallo Stato; uno <strong>standard</strong> è volontario ma spesso di fatto necessario per operare in un mercato.</li>
+            <li><strong>PCI-DSS</strong> (pagamenti), <strong>ISO 27001</strong> (gestione della sicurezza, come l'HACCP per la ristorazione), <strong>SOX</strong> (controlli sui bilanci), <strong>DMCA</strong> (diritto d'autore), <strong>NIS2</strong> (sicurezza di settori critici e loro fornitori) sono gli standard/leggi più rilevanti.</li>
+            <li>Il <strong>GDPR</strong> si basa su 7 principi e riconosce diritti precisi all'interessato; i <strong>dati sanitari</strong> godono di una protezione rafforzata (art. 9) perché rivelano lo stato della persona in modo spesso irreversibile.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================= MODULO 3 ======================= -->
+    <section class="route" id="route-modulo-3">
+      <div class="page-inner">
+        <p class="kicker">Modulo 3</p>
+        <h1>Business continuity: RAID, backup e cloud computing</h1>
+        <p class="lede">Il Modulo 1 ha introdotto il rischio, il Modulo 2 i documenti che lo governano. Qui vediamo la parte più concreta: le tecniche con cui un'azienda evita di perdere dati e resta operativa quando qualcosa va storto.</p>
+      </div>
+
+      <div class="page-toc" aria-label="Indice del modulo"></div>
+
+      <div class="page-inner">
+
+        <section class="chunk" id="m3-intro">
+          <h2>1. RAID e backup non sono la stessa cosa</h2>
+          <p>È l'errore concettuale più comune in assoluto, e vale la pena chiarirlo subito: un sistema <a href="#/glossario/g-raid" class="term-link">RAID</a> e un <a href="#/glossario/g-backup" class="term-link">backup</a> risolvono due problemi diversi, e uno non sostituisce l'altro — sono complementari. Il RAID protegge dalla rottura fisica di un disco: se un componente si guasta, il sistema continua a funzionare senza interruzioni. Non protegge da nulla di ciò che riguarda il <em>contenuto</em> dei dati: se cancelli per errore un file, se un ransomware li cifra tutti, se un bug applicativo li corrompe, il RAID copia fedelmente anche l'errore su tutti i dischi, in tempo reale. Solo un backup — una copia separata, in un momento diverso, idealmente in un posto diverso — ti permette di tornare indietro nel tempo a prima del disastro.</p>
+        </section>
+
+        <section class="chunk" id="m3-raid">
+          <h2>2. Il sistema RAID: dischi che si aiutano a vicenda</h2>
+          <p><strong>RAID</strong> sta per <em>Redundant Array of Independent Disks</em>: un metodo per far lavorare insieme due o più dischi fisici, che il sistema operativo vede e tratta come se fossero un unico disco logico. A seconda di come i dischi vengono combinati, si ottengono equilibri diversi tra velocità, capacità e protezione dai guasti:</p>
+          <ul>
+            <li><strong>RAID 0</strong> (<em>stripe</em>) — i dati vengono distribuiti su più dischi per aumentare la velocità e sommare lo spazio disponibile. Non offre nessuna protezione: se si rompe anche un solo disco, l'intero array — e tutti i suoi dati — è perso. È l'equivalente di scrivere metà di un documento su un foglio e metà su un altro: se perdi un foglio, il documento non ha più senso.</li>
+            <li><strong>RAID 1</strong> (<em>mirroring</em>) — ogni disco è una copia identica e speculare dell'altro. Se uno dei due si rompe, l'altro contiene comunque tutti i dati intatti. Semplice ed efficace, ma "costoso": metà dello spazio totale dei dischi è, di fatto, una copia.</li>
+            <li><strong>RAID 5</strong> — distribuisce i dati su più dischi insieme a informazioni di <strong>parità</strong> (calcolate con l'operatore matematico XOR), che permettono di ricostruire i dati anche se un disco si guasta. Richiede almeno 3 dischi ed è oggi uno dei livelli più diffusi, perché bilancia bene capacità, prestazioni e protezione.</li>
+            <li><strong>RAID 10</strong> — combina mirroring e stripe: prestazioni molto elevate insieme a una buona tolleranza ai guasti, al costo di richiedere almeno 4 dischi e di "sacrificare" metà della capacità totale, esattamente come il RAID 1.</li>
+          </ul>
+          <p>Il meccanismo della parità funziona grazie a una proprietà matematica dell'operatore XOR: <code>A xor B xor B = A</code>. In pratica, il sistema calcola un "disco di parità" a partire dal contenuto degli altri dischi; se uno di questi si guasta, basta rifare l'operazione XOR tra i dischi rimasti e il disco di parità per ricostruire esattamente il contenuto perduto — senza aver mai fatto una vera "copia" di sicurezza di quei dati.</p>
+        </section>
+
+        <section class="chunk" id="m3-backup-tipi">
+          <h2>3. Il backup e le sue tre forme</h2>
+          <p>Un <strong>backup</strong> è una copia dei dati, realizzata in un momento preciso e conservata su un supporto separato — idealmente anche in un luogo fisico diverso da quello dove i dati "vivono" normalmente. Esistono tre strategie principali, ciascuna con i propri compromessi:</p>
+          <ul>
+            <li><strong>Backup completo</strong> — copia tutto, ogni volta. È il più semplice da ripristinare (basta un solo backup), ma anche il più lento e pesante da eseguire, soprattutto su grandi volumi di dati.</li>
+            <li><strong>Backup incrementale</strong> — copia solo ciò che è cambiato dall'<em>ultimo backup di qualsiasi tipo</em> (completo o incrementale). È il più veloce da eseguire, ma il ripristino richiede l'intera catena: l'ultimo completo <em>più tutti</em> gli incrementali successivi, in ordine — se manca anche solo un anello della catena, il ripristino si interrompe lì.</li>
+            <li><strong>Backup differenziale</strong> — copia tutto ciò che è cambiato dall'<em>ultimo backup completo</em> (non dall'ultimo differenziale). È una via di mezzo: più lento da eseguire di un incrementale (perché ogni volta copia sempre di più, man mano che passa il tempo dall'ultimo completo), ma molto più semplice da ripristinare, perché bastano solo due backup — l'ultimo completo e l'ultimo differenziale.</li>
+          </ul>
+          <p>Non esiste una scelta "giusta" in assoluto: dipende da quanto tempo hai per fare il backup ogni notte, da quanto velocemente devi poter ripristinare, e da quanto spazio di archiviazione hai a disposizione.</p>
+        </section>
+
+        <section class="chunk" id="m3-backup-strategia">
+          <h2>4. Costruire una strategia: lo schema GFS</h2>
+          <p>Per decidere <em>quando</em> fare ciascun tipo di backup e per quanto tempo conservarlo, lo schema più diffuso si chiama <strong>GFS</strong> — Grandfather-Father-Son (nonno-padre-figlio) — ispirato al modo in cui un tempo si organizzava la rotazione dei nastri magnetici:</p>
+          <ul>
+            <li><strong>Figli</strong> — backup <em>incrementali</em>, eseguiti ogni giorno feriale.</li>
+            <li><strong>Padri</strong> — backup <em>differenziali</em>, eseguiti settimanalmente (ad esempio ogni venerdì).</li>
+            <li><strong>Nonni</strong> — backup <em>completi</em>, eseguiti mensilmente.</li>
+          </ul>
+          <p>Il risultato è un compromesso intelligente: i backup quotidiani sono veloci e leggeri (incrementali), quelli settimanali offrono un ripristino più semplice (differenziali), e una fotografia completa e pulita dell'intero sistema resta comunque disponibile ogni mese.</p>
+        </section>
+
+        <div class="callout case">
+          <h3>🙏 Un backup mai testato è un atto di fede</h3>
+          <p>Molte aziende fanno backup regolarmente, li archiviano con cura, e non li guardano mai più — finché non ne hanno davvero bisogno. Solo allora, spesso, scoprono che il file era corrotto, che il processo si era silenziosamente interrotto da mesi, o che il supporto stesso si era danneggiato. Un backup che nessuno ha mai provato a ripristinare non è, in senso stretto, un vero backup: è più simile a un atto di fede — una speranza, non una misura di sicurezza verificata. L'unico modo per sapere davvero se un backup funziona è fare, periodicamente, una prova di ripristino completa, magari su un sistema separato.</p>
+        </div>
+
+        <section class="chunk" id="m3-rto-rpo">
+          <h2>5. RTO e RPO: quanto puoi restare fermo, quanto puoi perdere</h2>
+          <p>Due valori aiutano a tradurre le esigenze di un'azienda in requisiti tecnici precisi per RAID e backup:</p>
+          <ul>
+            <li><strong>RTO</strong> (Recovery Time Objective) — quanto tempo può restare fermo un sistema prima che il danno diventi inaccettabile.</li>
+            <li><strong>RPO</strong> (Recovery Point Objective) — quanti dati (in termini di tempo) l'azienda può permettersi di perdere, cioè quanto è "vecchio" al massimo l'ultimo backup utilizzabile.</li>
+          </ul>
+          <p>Questi due valori cambiano moltissimo a seconda del tipo di attività. Una banca può avere un RTO di appena 15 minuti e un RPO vicino allo zero: pochissimi dati, se non nessuno, possono andare persi, e il sistema deve tornare operativo quasi subito. Una piccola attività artigianale può invece permettersi un RTO più lungo — magari alcune ore — e un RPO anche di un'intera giornata: perdere le modifiche di un solo giorno di lavoro è un fastidio, non una catastrofe. Non esiste un RTO/RPO "giusto" in senso assoluto: dipende da quanto costa, per quella specifica attività, restare ferma o perdere quei dati — ed è esattamente il calcolo del rischio che hai visto nel Modulo 1.</p>
+        </section>
+
+        <section class="chunk" id="m3-cloud">
+          <h2>6. Cloud computing: SaaS, PaaS, IaaS</h2>
+          <p>Il <strong>cloud computing</strong> permette di usare risorse informatiche (server, spazio di archiviazione, software) gestite da un fornitore esterno, pagando in base al consumo invece di comprare e mantenere hardware proprio. I tre modelli principali si distinguono per <em>quanto</em> del sistema è gestito da te e quanto dal fornitore — pensa alla differenza tra costruire una casa, affittare un appartamento arredato, o prenotare una stanza d'albergo con servizio incluso:</p>
+          <ul>
+            <li><strong>IaaS</strong> (Infrastructure as a Service) — affitti l'infrastruttura di base: server, storage, rete. Sei tu a installarci sopra sistema operativo e applicazioni — è come affittare un terreno con gli allacci già pronti, ma la casa te la costruisci tu.</li>
+            <li><strong>PaaS</strong> (Platform as a Service) — il fornitore ti dà anche una piattaforma pronta per sviluppare e distribuire applicazioni, senza doverti preoccupare del server sottostante — è l'appartamento già arredato: ti concentri su come vivi lo spazio, non su tubature ed elettricità.</li>
+            <li><strong>SaaS</strong> (Software as a Service) — usi direttamente un'applicazione già completa e funzionante, accessibile da browser — è la stanza d'albergo: arrivi, e tutto è già pronto per l'uso. Se hai mai usato Gmail, Google Docs o Office 365, hai già usato una soluzione SaaS.</li>
+          </ul>
+        </section>
+
+        <section class="chunk" id="m3-cloud-rischi">
+          <h2>7. Modelli di distribuzione e rischi del cloud</h2>
+          <p>Il cloud si distribuisce anche secondo modelli diversi: <strong>privato</strong> (a uso esclusivo di una singola organizzazione), <strong>pubblico</strong> (aperto a chiunque, come la maggior parte dei servizi cloud consumer), <strong>community</strong> (condiviso da un gruppo specifico di organizzazioni con esigenze comuni) e <strong>ibrido</strong> (una combinazione dei precedenti).</p>
+          <p>Affidarsi al cloud comporta anche rischi specifici da conoscere: la <strong>gestione dei privilegi</strong> diventa più delicata quando i dati non sono più "in casa"; la <strong>segregazione dei dati</strong> — visto che spesso più clienti condividono la stessa infrastruttura fisica del fornitore — richiede fiducia nell'isolamento tecnico tra un cliente e l'altro; e la <strong>conformità normativa</strong> resta comunque una responsabilità tua, anche se i dati fisicamente risiedono altrove — un principio che hai già incontrato nel Modulo 2 a proposito della responsabilità verso i fornitori.</p>
+        </section>
+
+        <section class="chunk" id="m3-virtualizzazione">
+          <h2>8. Virtualizzazione e hypervisor</h2>
+          <p>La <strong>virtualizzazione</strong> permette di eseguire più "computer" logici (le <strong>macchine virtuali</strong>) su un'unica macchina fisica, condividendone l'hardware. Il programma che rende possibile questa magia si chiama <strong>hypervisor</strong>, ed esiste in due forme:</p>
+          <ul>
+            <li><strong>Tipo 1</strong> (<em>bare metal</em>) — gira direttamente sull'hardware, senza un sistema operativo "normale" sotto di sé. Più efficiente e più usato in ambito server/aziendale. Esempi reali citati anche a lezione: VMware ESXi, Microsoft Hyper-V.</li>
+            <li><strong>Tipo 2</strong> (<em>hosted</em>) — gira come una normale applicazione sopra un sistema operativo già esistente (Windows, macOS, Linux). Più comodo per uso personale o di test — VirtualBox, usato anche per il laboratorio di questo corso, è un hypervisor di tipo 2 — spesso gratuito, ma con qualche perdita di prestazioni rispetto al tipo 1.</li>
+          </ul>
+          <p>Un vantaggio chiave della virtualizzazione, dal punto di vista della sicurezza: le macchine virtuali sono isolate tra loro. Se una VM viene compromessa da un malware, in condizioni normali il danno resta contenuto a quella singola macchina virtuale, senza propagarsi automaticamente alle altre sullo stesso hardware fisico.</p>
+        </section>
+
+        <section class="chunk" id="m3-container">
+          <h2>9. Container: un'alternativa più leggera</h2>
+          <p>I <strong>container</strong> sono un'alternativa più leggera alla virtualizzazione tradizionale: invece di simulare un intero computer con il proprio sistema operativo, condividono il kernel del sistema operativo host e isolano solo l'applicazione e le sue dipendenze. Questo li rende più veloci da avviare e permette di farne girare molti di più sulla stessa macchina fisica rispetto a un pari numero di macchine virtuali complete.</p>
+          <p>Il compromesso è sulla sicurezza: una macchina virtuale isola sia l'applicazione sia l'intero sistema operativo, mentre un container isola solo l'applicazione, condividendo il kernel con tutti gli altri container sulla stessa macchina. Se un'applicazione in un container viene compromessa, in teoria ha una superficie potenziale di attacco più ampia verso il resto del sistema rispetto a un'applicazione isolata in una VM completa. Per questo, oggi, la maggior parte delle aziende non sceglie "o l'uno o l'altro": usa una combinazione di entrambi, a seconda del carico di lavoro.</p>
+        </section>
+
+        <section class="chunk" id="m3-vdi">
+          <h2>10. VDE e VDI: il desktop che vive altrove</h2>
+          <p>Un'ultima applicazione della virtualizzazione riguarda il posto di lavoro stesso. Con un <strong>VDE</strong> (Virtual Desktop Environment) l'utente lavora su una sessione remota: vede sul proprio schermo cartelle, finestre e programmi, ma tutto è in realtà eseguito ed archiviato su un server lontano — è il principio dietro ai cosiddetti <em>thin client</em>. Con un <strong>VDI</strong> (Virtual Desktop Infrastructure) il desktop dell'utente gira dentro una vera e propria macchina virtuale ospitata in un data center. Il vantaggio comune a entrambi: se il dispositivo fisico dell'utente viene perso, rubato o danneggiato, nessun dato aziendale reale era effettivamente memorizzato lì sopra.</p>
+        </section>
+
+        <div class="callout keypoints">
+          <h3>✅ Punti chiave del Modulo 3</h3>
+          <ul>
+            <li><strong>RAID</strong> e <strong>backup</strong> sono complementari, non intercambiabili: il RAID protegge dal guasto fisico di un disco, il backup dagli errori, dagli attacchi e dalla cancellazione dei dati.</li>
+            <li>I livelli RAID più comuni sono <strong>0</strong> (velocità, zero protezione), <strong>1</strong> (mirroring), <strong>5</strong> (parità distribuita) e <strong>10</strong> (mirroring + stripe).</li>
+            <li>Le tre tipologie di backup — <strong>completo, incrementale, differenziale</strong> — bilanciano diversamente velocità di esecuzione e semplicità di ripristino; lo schema <strong>GFS</strong> le combina in una strategia unica.</li>
+            <li>Un backup <strong>non testato</strong> non offre nessuna garanzia reale.</li>
+            <li><strong>RTO</strong> e <strong>RPO</strong> traducono in numeri concreti quanto un'azienda può restare ferma e quanti dati può permettersi di perdere.</li>
+            <li>Il cloud si articola in tre modelli di servizio — <strong>IaaS, PaaS, SaaS</strong> — con crescente responsabilità del fornitore.</li>
+            <li>La <strong>virtualizzazione</strong> (hypervisor tipo 1/2) e i <strong>container</strong> permettono di far convivere più sistemi sullo stesso hardware, con compromessi diversi tra isolamento e leggerezza.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================= MODULO 4 (COMPLETO) ======================= -->
+    <section class="route" id="route-modulo-4">
+      <div class="page-inner">
+        <p class="kicker">Modulo 4</p>
+        <h1>La crittografia</h1>
+        <p class="lede">Come si fa a mandare un messaggio che solo il destinatario giusto può leggere, anche se qualcuno lo intercetta lungo la strada? È il problema che la crittografia risolve — da più di duemila anni.</p>
+      </div>
+
+      <div class="page-toc" aria-label="Indice del modulo"></div>
+
+      <div class="page-inner">
+
+        <section class="chunk" id="crypto-intro">
+          <h2>1. Perché esiste la crittografia</h2>
+          <p>Immagina di dover mandare a un amico, per posta, il codice della tua cassaforte. Non puoi scriverlo in chiaro su una cartolina: chiunque la maneggi lungo il tragitto — il postino, un vicino curioso, chiunque — lo leggerebbe. Ti serve un modo per scrivere quel numero in modo che, se anche qualcuno lo intercetta, non riesca a capirlo. Solo il tuo amico, che sa come "tradurlo" indietro, deve poterlo leggere.</p>
+          <p>Questo è esattamente il problema che la <strong>crittografia</strong> risolve nel mondo digitale: trasformare un'informazione leggibile (<a href="#/glossario/g-testo-chiaro-cifrato" class="term-link">testo in chiaro</a>) in una forma illeggibile a chiunque non abbia il permesso di leggerla (<a href="#/glossario/g-testo-chiaro-cifrato" class="term-link">testo cifrato</a>), in modo che sia però possibile, per chi ha il permesso, tornare indietro e recuperare l'originale.</p>
+          <p>Non è un'invenzione recente: gli eserciti la usano da secoli per mandare ordini senza che il nemico li capisca se li intercetta. Oggi la usiamo ogni volta che mandiamo un messaggio WhatsApp, facciamo un acquisto online o vediamo il lucchetto accanto all'indirizzo di un sito web — anche se non ce ne accorgiamo.</p>
+        </section>
+
+        <section class="chunk" id="crypto-vocabolario">
+          <h2>2. Il vocabolario di base</h2>
+          <p>Prima di andare avanti, fissiamo quattro parole che userai in tutto il modulo:</p>
+          <ul>
+            <li><strong>Testo in chiaro</strong> (in inglese <em>plaintext</em>) — il messaggio originale, leggibile da chiunque.</li>
+            <li><strong>Testo cifrato</strong> (<em>ciphertext</em>) — lo stesso messaggio dopo la trasformazione, illeggibile senza la chiave giusta.</li>
+            <li><strong><a href="#/glossario/g-chiave" class="term-link">Algoritmo di cifratura</a></strong> — la "procedura" matematica che trasforma il testo in chiaro in testo cifrato (e viceversa, per decifrare).</li>
+            <li><strong><a href="#/glossario/g-chiave" class="term-link">Chiave</a></strong> — un valore segreto (un numero, in pratica) che l'algoritmo usa per personalizzare la trasformazione. Stesso algoritmo, chiavi diverse: risultati diversi.</li>
+          </ul>
+          <p>Pensa all'algoritmo come al <strong>modello di lucchetto</strong> — sempre uguale, e chiunque può comprarne uno identico al negozio — mentre la chiave è la <strong>combinazione specifica</strong> di quel lucchetto, quella sì privata. Questa distinzione è così importante che ha un nome tutto suo.</p>
+
+          <div class="callout">
+            <h3>🔑 Il Principio di Kerckhoffs</h3>
+            <p>Nel 1883 il linguista August Kerckhoffs formulò un principio che vale ancora oggi: <em>la sicurezza di un sistema crittografico deve dipendere solo dalla segretezza della chiave, mai dal tenere segreto l'algoritmo</em>. In altre parole: devi poter pubblicare su internet il "modello di lucchetto" che usi, e restare comunque al sicuro, perché senza la combinazione (la chiave) nessuno può aprirlo. Chi si affida a un algoritmo "segreto" e sconosciuto sta barando: prima o poi qualcuno lo scoprirà, e a quel punto tutta la sicurezza crolla insieme al segreto. Gli algoritmi seri (come quelli che vedrai tra poco) sono pubblici, studiati e testati da migliaia di esperti in tutto il mondo: è proprio questo che li rende affidabili.</p>
+          </div>
+        </section>
+
+        <section class="chunk" id="crypto-storia">
+          <h2>3. Un rapido viaggio nella storia</h2>
+          <p>Vedere come si cifrava prima dei computer aiuta a capire le due idee di base che, in fondo, usiamo ancora oggi.</p>
+          <p><strong>La sostituzione.</strong> Il trucco più antico: sostituire ogni lettera con un'altra, seguendo una regola fissa. La <strong>cifratura di Cesare</strong> (II secolo, si narra usata da Giulio Cesare) spostava ogni lettera di tre posizioni nell'alfabeto: la "A" diventava "D", la "B" diventava "E", e così via. "CIAO" diventava "FLDR". Semplicissima da usare, ma anche semplicissima da rompere: bastano al massimo 25 tentativi per indovinare lo spostamento.</p>
+          <p><strong>La trasposizione.</strong> Invece di cambiare le lettere, si cambia il loro <em>ordine</em>. La scitala lacedemonica spartana (400 a.C. circa) era un bastone attorno a cui si avvolgeva una striscia di cuoio: si scriveva il messaggio lungo il bastone, poi si srotolava la striscia, che a quel punto mostrava lettere apparentemente senza senso. Solo chi aveva un bastone dello stesso diametro poteva riavvolgerla e leggere il messaggio: il diametro, in pratica, era la chiave.</p>
+          <p>Da qui in poi le tecniche si sono complicate — il cifrario Playfair della Prima Guerra Mondiale cifrava coppie di lettere alla volta, usando una griglia 5×5 costruita a partire da una parola chiave — fino ad arrivare a <strong>Enigma</strong>, la macchina elettromeccanica usata dalla Germania nella Seconda Guerra Mondiale: una tastiera, un intricato sistema di rotori che cambiava la sostituzione a ogni lettera digitata, e un pannello di lampadine che mostrava il risultato cifrato. Fu proprio la sua complessità — insieme a un errore umano nell'uso — a renderla, alla fine, decifrabile dai crittoanalisti alleati a Bletchley Park.</p>
+          <p>Il punto da portare a casa: <strong>sostituzione</strong> e <strong>trasposizione</strong> sono i due mattoni di base. Gli algoritmi moderni che vedrai tra poco (come l'AES) li combinano entrambi, ripetuti per molti "giri" successivi, resi robusti dalla potenza di calcolo di un computer invece che da carta e penna.</p>
+        </section>
+
+        <section class="chunk" id="crypto-simmetrica">
+          <h2>4. La crittografia simmetrica: una chiave sola</h2>
+          <p>Immagina un baule con un solo lucchetto. Tu hai una copia della chiave, il tuo destinatario ne ha un'altra copia <em>identica</em>. Tu chiudi il baule con la tua chiave, glielo spedisci, e lui lo apre con la sua. Questo è, in sintesi, il funzionamento della <strong>crittografia simmetrica</strong> (o a <strong>chiave privata</strong>): la stessa identica chiave serve sia per cifrare sia per decifrare.</p>
+          <p>È veloce ed efficiente — perfetta per cifrare grandi quantità di dati, come un intero hard disk o il traffico di una videochiamata. Gli algoritmi simmetrici lavorano in due modi diversi:</p>
+          <ul>
+            <li><strong>Cifrari a flusso</strong> (es. RC4) — cifrano un bit alla volta, come un rubinetto continuo di dati.</li>
+            <li><strong>Cifrari a blocco</strong> (es. DES, 3DES, AES, Blowfish) — dividono il messaggio in blocchi di dimensione fissa e cifrano un blocco alla volta.</li>
+          </ul>
+          <p>Il <strong><a href="#/glossario/g-des" class="term-link">DES</a></strong>, sviluppato da IBM nel 1976, usava chiavi da 56 bit ed è stato per decenni lo standard — finché nel 1998 non è stato violato (con abbastanza potenza di calcolo, si può letteralmente provare ogni chiave possibile). Da qui il <strong>3DES</strong> (applica DES tre volte con chiavi diverse, per guadagnare robustezza) e infine, nel 2001, l'<strong><a href="#/glossario/g-aes" class="term-link">AES</a></strong> (Advanced Encryption Standard): oggi è l'algoritmo simmetrico più usato al mondo, e a oggi non si conoscono attacchi capaci di romperlo in tempi ragionevoli.</p>
+        </section>
+
+        <section class="chunk" id="crypto-scambio-chiavi">
+          <h2>5. Il problema (grosso) dello scambio delle chiavi</h2>
+          <p>Torniamo al baule con il lucchetto. C'è un difetto evidente: prima di potersi scrivere in segreto, tu e il tuo destinatario dovete <em>già</em> essersi scambiati una copia identica della chiave — e quello scambio, se avviene su un canale che qualcuno può intercettare (come internet), è il punto debole di tutto il sistema. Se un intruso intercetta la chiave durante la consegna, può leggere tutto quello che verrà cifrato dopo, senza che nessuno se ne accorga.</p>
+          <p>È un problema che sembra un cane che si morde la coda: per comunicare in segreto serve già un segreto condiviso. Nel 1976 due ricercatori, <strong>Whitfield Diffie</strong> e <strong>Martin Hellman</strong>, trovarono un modo elegante per aggirarlo.</p>
+
+          <div class="callout example">
+            <h3>📦 L'analogia della scatola con due lucchetti</h3>
+            <p>Immagina Alice che vuole mandare un messaggio a Bob, senza che si siano mai scambiati alcuna chiave in anticipo:</p>
+            <ol>
+              <li>Alice mette il messaggio in una scatola, la chiude con il <strong>suo</strong> lucchetto (di cui solo lei ha la chiave) e la spedisce a Bob.</li>
+              <li>Bob riceve la scatola. Non può aprirla — non ha la chiave del lucchetto di Alice — ma aggiunge un <strong>secondo</strong> lucchetto, il suo, e rispedisce la scatola (ora chiusa con due lucchetti) ad Alice.</li>
+              <li>Alice toglie <strong>solo il proprio</strong> lucchetto (quello lo sa aprire) e rispedisce la scatola a Bob, che ora ha ancora il suo lucchetto sopra.</li>
+              <li>Bob toglie il suo lucchetto e apre la scatola: legge il messaggio.</li>
+            </ol>
+            <p>La scatola non viaggia mai "aperta", eppure Alice e Bob non hanno mai dovuto condividere in anticipo nessuna chiave: ognuno ha usato solo il proprio lucchetto, che non ha mai lasciato le proprie mani. È esattamente lo spirito (semplificato) di come funziona lo scambio di chiavi <strong><a href="#/glossario/g-diffie-hellman" class="term-link">Diffie-Hellman</a></strong>: matematicamente, invece di lucchetti fisici, si usano operazioni che sono facili da fare in un verso ma quasi impossibili da invertire senza conoscere un valore segreto.</p>
+          </div>
+
+          <p>Una variante più moderna, usata molto sui dispositivi con poca potenza di calcolo (smartphone, oggetti IoT), è la <strong>Elliptic Curve Cryptography (ECC)</strong>: ottiene lo stesso livello di sicurezza di Diffie-Hellman "classico" ma con chiavi molto più corte, quindi calcoli più veloci.</p>
+        </section>
+
+        <section class="chunk" id="crypto-asimmetrica">
+          <h2>6. La crittografia asimmetrica: due chiavi, non una</h2>
+          <p>Pensa a una cassetta della posta di quelle vecchie, con una fessura sul davanti e uno sportellino sul retro chiuso a chiave. <strong>Chiunque</strong> può imbucare una lettera nella fessura — non serve nessuna chiave per farlo. Ma solo tu, che hai la chiave dello sportellino sul retro, puoi aprirlo e leggere quello che è stato imbucato.</p>
+          <p>Questa è l'idea della <strong>crittografia asimmetrica</strong> (o a <strong>chiave pubblica</strong>): invece di un'unica chiave condivisa, ognuno genera una <em>coppia</em> di chiavi collegate matematicamente tra loro:</p>
+          <ul>
+            <li>una <strong><a href="#/glossario/g-chiave-pubblica" class="term-link">chiave pubblica</a></strong> — la fessura della cassetta: la puoi dare a chiunque, pubblicarla online, non serve proteggerla;</li>
+            <li>una <strong><a href="#/glossario/g-chiave-privata" class="term-link">chiave privata</a></strong> — la chiave dello sportellino sul retro: questa sì che resta segreta, solo tua.</li>
+          </ul>
+          <p>Chi vuole mandarti un messaggio segreto usa la tua chiave pubblica per cifrarlo. Una volta cifrato in questo modo, <strong>solo</strong> la chiave privata corrispondente può decifrarlo — nemmeno chi ha appena cifrato il messaggio può tornare indietro. In pratica scompare il problema visto prima: non devi più far viaggiare nessuna chiave segreta, perché quella pubblica può girare liberamente per definizione.</p>
+          <p>L'algoritmo asimmetrico più famoso è <strong><a href="#/glossario/g-rsa" class="term-link">RSA</a></strong> (dalle iniziali dei suoi inventori: Rivest, Shamir, Adleman, 1977), basato sul fatto che moltiplicare due numeri primi molto grandi è facilissimo per un computer, ma fare il percorso inverso — scomporre il risultato nei suoi due fattori originali — è quasi impossibile in tempi ragionevoli, anche per computer potenti.</p>
+          <p>Il prezzo da pagare è la velocità: la crittografia asimmetrica è molto più "pesante" da calcolare rispetto a quella simmetrica. Per questo, nella pratica, i due mondi collaborano: si usa la crittografia asimmetrica solo per scambiarsi in sicurezza una chiave simmetrica temporanea, e poi si cifra il grosso dei dati con quella (veloce). È esattamente quello che succede ogni volta che il tuo browser si collega a un sito con il lucchetto (HTTPS).</p>
+        </section>
+
+        <section class="chunk" id="crypto-hash">
+          <h2>7. Le funzioni di hash: l'impronta digitale dei dati</h2>
+          <p>Fin qui abbiamo parlato di <em>nascondere</em> un contenuto. Le <strong><a href="#/glossario/g-hash" class="term-link">funzioni di hash</a></strong> risolvono un problema diverso: <em>verificare</em> che un contenuto non sia stato alterato, senza doverlo confrontare byte per byte.</p>
+          <p>Una funzione di hash prende in input qualsiasi cosa — un file da un megabyte o un intero film da 4 gigabyte, non importa — e restituisce sempre una stringa di lunghezza fissa, chiamata <em>digest</em> (o semplicemente "hash"): pensa all'impronta digitale di una persona. È corta, sempre della stessa lunghezza qualunque sia la "taglia" della persona, e — se la persona non cambia — resta sempre identica.</p>
+          <p>Tre proprietà rendono utile un buon algoritmo di hash:</p>
+          <ul>
+            <li><strong>È deterministico</strong>: lo stesso file produce sempre lo stesso hash.</li>
+            <li><strong>Basta cambiare un solo carattere</strong> nel file originale perché l'hash risultante cambi in modo completamente diverso e imprevedibile.</li>
+            <li><strong>Non è invertibile</strong>: dall'hash non puoi ricostruire il file di partenza (è "a senso unico" — da qui il fatto che non è vera e propria crittografia, perché non c'è nulla da "decifrare").</li>
+          </ul>
+          <p>Gli usi pratici sono ovunque: verificare che un file scaricato non sia corrotto o manomesso, controllare l'integrità dei file di sistema, e soprattutto <strong>memorizzare le password</strong>. Un sistema serio non salva mai la tua password in chiaro: salva il suo hash. Quando fai login, ricalcola l'hash di quello che hai digitato e lo confronta con quello salvato — se combaciano, sei tu (con buona probabilità). Così, anche se il database viene rubato, chi lo ruba non trova le password vere, solo le loro impronte.</p>
+          <p>Gli algoritmi più diffusi sono la famiglia <strong>SHA</strong> (Secure Hash Algorithm — SHA-2 è oggi lo standard) e <strong>MD5</strong>, ormai considerato debole e da evitare per usi seri.</p>
+
+          <div class="callout case">
+            <h3>🧪 Caso concreto: quando due file hanno lo stesso hash</h3>
+            <p>In teoria, con infiniti file possibili e un numero enorme ma comunque <em>finito</em> di hash disponibili, prima o poi due file diversi produrranno lo stesso hash: si chiama <strong><a href="#/glossario/g-collisione" class="term-link">collisione</a></strong>. Nel 2017, un gruppo di ricercatori di Google e del centro di ricerca CWI olandese ha pubblicato il progetto <em>SHATTERED</em>: due file PDF completamente diversi nel contenuto ma con lo <strong>stesso identico hash SHA-1</strong>. È stato il primo attacco pratico e riproducibile contro SHA-1, ed è il motivo per cui oggi SHA-1 è considerato superato in favore di SHA-2.</p>
+          </div>
+
+          <p>C'è un attacco più subdolo che sfrutta proprio la probabilità di collisione, chiamato <strong><a href="#/glossario/g-birthday-attack" class="term-link">attacco del compleanno</a></strong>: prende il nome dal fatto, controintuitivo, che in un gruppo di sole 23 persone c'è già più del 50% di probabilità che due condividano lo stesso compleanno — molte meno persone di quanto ci si aspetterebbe istintivamente (365 giorni). Allo stesso modo, trovare <em>una qualsiasi</em> coppia di file con lo stesso hash richiede molti meno tentativi di quanto sembri a prima vista.</p>
+          <p>Un altro rischio riguarda proprio le password: un attaccante può pre-calcolare gli hash di milioni di password comuni e conservarli in tabelle già pronte, chiamate <strong><a href="#/glossario/g-rainbow-table" class="term-link">rainbow table</a></strong>, per poi cercare rapidamente una corrispondenza in un database rubato. La difesa si chiama <strong><a href="#/glossario/g-salt" class="term-link">salt</a></strong>: si aggiunge un valore casuale e diverso per ogni utente prima di calcolare l'hash della password, così le tabelle pre-calcolate diventano inutili — ogni password, anche se identica a un'altra, produce un hash diverso grazie al proprio "sale".</p>
+        </section>
+
+        <section class="chunk" id="crypto-firma">
+          <h2>8. La firma digitale</h2>
+          <p>Quando firmi un contratto di persona, chi lo riceve è certo di tre cose: sei stato tu a firmarlo, non puoi negarlo dopo, e nessuno può staccare la tua firma e incollarla su un altro foglio. La <strong><a href="#/glossario/g-firma-digitale" class="term-link">firma digitale</a></strong> cerca di garantire le stesse tre cose per un documento elettronico, combinando ciò che hai appena imparato: funzione di hash + crittografia asimmetrica.</p>
+          <p>Il procedimento, in tre passi:</p>
+          <ol>
+            <li>Chi firma calcola l'<strong>hash</strong> del documento (la sua impronta digitale).</li>
+            <li>Cifra quell'hash con la propria <strong>chiave privata</strong> — questo passaggio è la "firma" vera e propria, e solo chi possiede quella chiave privata può produrla.</li>
+            <li>Allega la firma (e il proprio <a href="#/glossario/g-certificato-digitale" class="term-link">certificato digitale</a>) al documento originale.</li>
+          </ol>
+          <p>Chi riceve il documento fa il percorso inverso: ricalcola l'hash del documento ricevuto, poi usa la <strong>chiave pubblica</strong> del firmatario per decifrare la firma allegata, ottenendo l'hash originale. Se i due hash coincidono, sono sicuri di due cose insieme: che il documento non è stato alterato dopo la firma (integrità), e che è stato davvero firmato da chi possiede quella chiave privata (autenticità). Se anche una sola virgola del documento fosse cambiata dopo la firma, l'hash ricalcolato non coinciderebbe più, e la verifica fallirebbe.</p>
+          <p>Questa proprietà — non poter negare in seguito di aver firmato — si chiama <strong><a href="#/glossario/g-non-ripudio" class="term-link">non ripudio</a></strong>, ed è il motivo per cui la firma digitale ha valore legale: garantisce autenticità, integrità e appunto non ripudio, tutte cose che una semplice password non può garantire.</p>
+        </section>
+
+        <section class="chunk" id="crypto-pki">
+          <h2>9. PKI e certificati digitali: chi garantisce per la chiave pubblica?</h2>
+          <p>C'è un buco logico che forse hai già notato: se chiunque può generare una coppia di chiavi pubblica/privata, cosa impedisce a un impostore di creare una chiave pubblica e spacciarla per "la chiave pubblica della tua banca"? Se ci cadi, cifreresti i tuoi dati con la chiave dell'impostore, che potrebbe leggerli tranquillamente.</p>
+          <p>La soluzione è un po' come andare dal notaio: serve un <strong>terzo, di cui tutti si fidano</strong>, che certifichi "questa chiave pubblica appartiene davvero a questa entità". Questo terzo si chiama <strong><a href="#/glossario/g-ca" class="term-link">Certification Authority</a></strong> (CA, autorità di certificazione), e l'insieme di regole, ruoli e tecnologie che rendono possibile questo sistema di fiducia si chiama <strong><a href="#/glossario/g-pki" class="term-link">PKI</a></strong> (Public Key Infrastructure).</p>
+          <p>Il documento che la CA rilascia si chiama <strong><a href="#/glossario/g-certificato-digitale" class="term-link">certificato digitale</a></strong>: contiene la chiave pubblica del titolare, il suo nome, la data di scadenza, e — punto cruciale — è firmato digitalmente dalla CA stessa. Chiunque riceva il certificato può verificare quella firma e fidarsi, <em>a patto di fidarsi già della CA che l'ha emesso</em>.</p>
+          <p>Lo vedi in azione ogni giorno: quando visiti un sito con il lucchetto nella barra degli indirizzi (HTTPS), il browser ha appena verificato il certificato digitale di quel sito, emesso da una CA di cui il tuo browser si fida "di fabbrica" (Windows, macOS e i browser mantengono una lista di CA affidabili preinstallata).</p>
+          <p>Se una chiave privata viene compromessa (rubata), il certificato corrispondente va invalidato prima della scadenza: questa procedura si chiama <strong>revoca</strong>, e i sistemi la controllano tramite liste di certificati revocati (CRL) o, in modo più moderno e in tempo reale, tramite il protocollo <strong>OCSP</strong>.</p>
+        </section>
+
+        <section class="chunk" id="crypto-steganografia">
+          <h2>10. La steganografia: nascondere che stai comunicando</h2>
+          <p>C'è una differenza sottile ma importante tra crittografia e <strong><a href="#/glossario/g-steganografia" class="term-link">steganografia</a></strong>. La crittografia nasconde il <em>contenuto</em> di un messaggio: chiunque lo vede sa che è un messaggio cifrato, semplicemente non riesce a leggerlo. La steganografia nasconde <strong>l'esistenza stessa</strong> del messaggio: agli occhi di un osservatore, non c'è nessun messaggio da vedere.</p>
+          <p>È l'equivalente digitale dell'inchiostro simpatico: una lettera che sembra parlare del tempo, ma che se scaldata rivela un testo nascosto scritto tra le righe. Nel mondo digitale, la tecnica più comune si chiama <strong>Least Significant Bit (LSB)</strong>: in un'immagine, l'ultimo bit di ogni pixel (quello che influenza meno il colore visibile) viene sostituito con un pezzetto del messaggio segreto. Per l'occhio umano, l'immagine risulta identica a prima; ma chi sa dove guardare può estrarre il messaggio nascosto bit per bit. In ambiente Linux, uno strumento comune per questo è <code>steghide</code>.</p>
+        </section>
+
+        <section class="chunk" id="crypto-hardware">
+          <h2>11. Un accenno alla crittografia hardware</h2>
+          <p>Fin qui abbiamo parlato di crittografia "via software". Esistono anche piccoli chip dedicati esclusivamente a operazioni crittografiche, più veloci e più difficili da attaccare perché isolati dal resto del sistema:</p>
+          <ul>
+            <li><strong><a href="#/glossario/g-tpm" class="term-link">TPM</a></strong> (Trusted Platform Module) — un chip montato direttamente sulla scheda madre di molti laptop aziendali, che cifra tutto ciò che il sistema operativo scrive sul disco.</li>
+            <li><strong><a href="#/glossario/g-hsm" class="term-link">HSM</a></strong> (Hardware Security Module) — il termine generale per un dispositivo dedicato alla cifratura e alla custodia delle chiavi, usato tipicamente in ambito aziendale/server.</li>
+          </ul>
+          <p>L'idea di fondo, in entrambi i casi: tenere le operazioni più delicate (e le chiavi più preziose) fuori dalla portata del sistema operativo principale, in un piccolo compartimento stagno dedicato solo a quello.</p>
+        </section>
+
+        <div class="callout keypoints">
+          <h3>✅ Punti chiave del Modulo 4</h3>
+          <ul>
+            <li>La crittografia trasforma un <a href="#/glossario/g-testo-chiaro-cifrato" class="term-link">testo in chiaro</a> in <a href="#/glossario/g-testo-chiaro-cifrato" class="term-link">testo cifrato</a> tramite un algoritmo pubblico e una chiave segreta (<a href="#/glossario/g-kerckhoffs" class="term-link">Principio di Kerckhoffs</a>).</li>
+            <li>La crittografia <strong>simmetrica</strong> usa un'unica chiave condivisa (veloce, ma bisogna scambiarsi la chiave in modo sicuro — problema risolto da <a href="#/glossario/g-diffie-hellman" class="term-link">Diffie-Hellman</a>).</li>
+            <li>La crittografia <strong>asimmetrica</strong> usa una coppia di chiavi, pubblica e privata (più lenta, ma elimina il problema dello scambio delle chiavi — algoritmo principale: <a href="#/glossario/g-rsa" class="term-link">RSA</a>).</li>
+            <li>Le <strong>funzioni di hash</strong> creano un'impronta univoca e non invertibile di un dato, usata per verificare integrità e memorizzare password (con l'aggiunta del <a href="#/glossario/g-salt" class="term-link">salt</a>).</li>
+            <li>La <strong>firma digitale</strong> combina hash + crittografia asimmetrica per garantire autenticità, integrità e <a href="#/glossario/g-non-ripudio" class="term-link">non ripudio</a> di un documento.</li>
+            <li>La <strong>PKI</strong>, tramite le <strong>Certification Authority</strong>, garantisce che una chiave pubblica appartenga davvero a chi dice di essere — è il meccanismo dietro al lucchetto HTTPS del browser.</li>
+            <li>La <strong>steganografia</strong> nasconde l'esistenza stessa di un messaggio, non solo il suo contenuto.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================= MODULO 5 ======================= -->
+    <section class="route" id="route-modulo-5">
+      <div class="page-inner">
+        <p class="kicker">Modulo 5</p>
+        <h1>Identity &amp; Access Management</h1>
+        <p class="lede">Ogni sistema informatico deve rispondere prima o poi a due domande: chi sei, davvero? E cosa hai il permesso di fare? Questo modulo — l'Identity &amp; Access Management, IAM — spiega come un sistema costruisce e verifica queste risposte.</p>
+      </div>
+
+      <div class="page-toc" aria-label="Indice del modulo"></div>
+
+      <div class="page-inner">
+
+        <section class="chunk" id="m5-intro">
+          <h2>1. Tre passaggi per entrare in un sistema</h2>
+          <p>Ogni volta che accedi a un sistema informatico — un computer, un servizio online, un bancomat — attraversi (anche senza accorgertene) tre passaggi distinti, in sequenza: <strong>identificazione</strong> ("chi dici di essere"), <strong>autenticazione</strong> ("dimostralo") e <strong>autorizzazione</strong> ("ok, ecco cosa puoi fare"). Confondere questi tre passaggi è un errore comune, ma sono concettualmente molto diversi: puoi identificarti correttamente e fallire l'autenticazione (username giusto, password sbagliata); puoi autenticarti correttamente ed essere comunque bloccato dall'autorizzazione (sei davvero tu, ma non hai i permessi per quella cartella).</p>
+        </section>
+
+        <section class="chunk" id="m5-identificazione">
+          <h2>2. Identificazione: chi dici di essere</h2>
+          <p>L'identificazione è la dichiarazione della propria identità al sistema: nella maggior parte dei casi è semplicemente il tuo username, il tuo indirizzo email di login, o una chiave pubblica. È un'informazione che può anche essere pubblica — non c'è nulla di segreto nel tuo username — ma deve essere legata in modo affidabile a una persona fisica reale: se un'azienda assegna credenziali senza verificare seriamente chi le riceve, rompe fin dall'inizio la catena che collega un'identità digitale a una persona reale, vanificando ogni controllo successivo.</p>
+        </section>
+
+        <section class="chunk" id="m5-autenticazione">
+          <h2>3. Autenticazione: dimostralo</h2>
+          <p>Dopo esserti identificato, devi <em>dimostrare</em> di essere davvero tu. I sistemi di autenticazione si basano su cinque possibili "fattori":</p>
+          <ul>
+            <li><strong>Qualcosa che sai</strong> (Tipo I) — una password, un PIN.</li>
+            <li><strong>Qualcosa che hai</strong> (Tipo II) — una smart card, un token, il tuo telefono.</li>
+            <li><strong>Qualcosa che sei</strong> (Tipo III) — un dato biometrico: impronta digitale, volto, iride.</li>
+            <li><strong>Qualcosa che fai</strong> — un gesto o un comportamento specifico da compiere.</li>
+            <li><strong>Da dove ti trovi</strong> — la posizione geografica, oggi usata raramente da sola, perché con dispositivi mobili l'idea di un luogo "atteso" ha sempre meno senso.</li>
+          </ul>
+
+          <div class="callout example">
+            <h3>❌ Username e password non sono "due fattori"</h3>
+            <p>Un errore concettuale sorprendentemente comune: pensare che inserire username <em>e</em> password equivalga a un'autenticazione a due fattori. Non è così — sono entrambi "qualcosa che sai" (Tipo I), quindi appartengono alla <strong>stessa categoria</strong>. Perché un'autenticazione sia davvero a più fattori, servono elementi presi da categorie <strong>diverse</strong>: ad esempio una password (Tipo I) più un codice generato da un'app sul telefono (Tipo II). Il punto non è "quanti pezzi di informazione inserisci", ma "quanto sono davvero indipendenti tra loro come modo di essere compromessi".</p>
+          </div>
+
+          <p>Un'ultima nota importante sulla biometria: a differenza di una password, un dato biometrico compromesso non si può "cambiare". Se il template della tua impronta digitale viene rubato da un database violato, non puoi generarne una nuova come faresti con una password — quella specifica caratteristica fisica resta compromessa per sempre. È un motivo in più per non affidarsi <em>mai</em> alla sola biometria come unico fattore su sistemi critici.</p>
+        </section>
+
+        <section class="chunk" id="m5-federation">
+          <h2>4. Federazione, Single Sign-On, Same Sign-On: tre cose diverse</h2>
+          <p>Tre concetti che si assomigliano nel nome ma rispondono a domande diverse, e che vale la pena non confondere:</p>
+          <ul>
+            <li><strong>Federated Identity</strong> — la possibilità di accedere a risorse su reti e organizzazioni diverse usando un'unica identità, grazie ad accordi di fiducia tra le organizzazioni coinvolte.</li>
+            <li><strong>Single Sign-On (SSO)</strong> — un'unica autenticazione dà accesso a <em>tutte</em> le risorse o i servizi di un singolo fornitore (ad esempio, accedere una volta a Google ti dà accesso automatico a Gmail, Drive, Calendar...).</li>
+            <li><strong>Same Sign-On</strong> — usi un provider di autenticazione esterno per accedere a una risorsa di terzi (ad esempio, il pulsante "accedi con Facebook" su un sito che non ha nulla a che fare con Facebook).</li>
+          </ul>
+        </section>
+
+        <section class="chunk" id="m5-protocolli">
+          <h2>5. I protocolli di autenticazione in rete</h2>
+          <p>Quando le identità devono essere verificate su una rete aziendale intera, e non su una singola macchina, entrano in gioco protocolli dedicati:</p>
+          <ul>
+            <li><strong>LDAP</strong> (Lightweight Directory Access Protocol) — organizza utenti, gruppi e permessi in una struttura gerarchica centralizzata, così da non dover creare account separati su ogni singola macchina. È il protocollo su cui si basa <strong>Active Directory</strong> di Microsoft, lo standard de facto nelle reti aziendali Windows. Nella sua versione base LDAP trasmette le informazioni <em>in chiaro</em>; la versione cifrata, che va sempre preferita, si chiama <strong>LDAPS</strong>.</li>
+            <li><strong>Kerberos</strong> — nato al MIT negli anni '70, prende il nome dal cane a tre teste della mitologia greca, e usa i suoi tre "moduli" (autenticazione, autorizzazione, audit) come metafora. Funziona tramite un centro di distribuzione delle chiavi (KDC) che rilascia "biglietti" (ticket) temporanei, invece di far viaggiare ripetutamente la password sulla rete — un client autenticato una volta ottiene un ticket che può riutilizzare per accedere a più servizi, senza reinserire le credenziali ogni volta.</li>
+            <li><strong>RADIUS</strong> — protocollo client-server per l'autenticazione remota, molto diffuso presso i provider di connettività, che gestisce in un unico flusso autenticazione, autorizzazione e registrazione (le cosiddette "3 A": Authentication, Authorization, Accounting).</li>
+            <li><strong>TACACS+</strong> — alternativa a RADIUS, molto diffusa nelle reti Cisco, che separa più nettamente le tre fasi di autenticazione, autorizzazione e accounting.</li>
+          </ul>
+        </section>
+
+        <section class="chunk" id="m5-autorizzazione">
+          <h2>6. Autorizzazione: chi può fare cosa</h2>
+          <p>Una volta verificata l'identità, resta da stabilire quali azioni sono concesse: è il campo dell'<strong>autorizzazione</strong>, riassumibile nella domanda "who can do what" — chi può fare cosa. Un modello di controllo degli accessi si costruisce sempre attorno a quattro elementi: gli <em>utenti/soggetti</em> che richiedono accesso, gli <em>oggetti</em> a cui si vuole accedere, le <em>operazioni</em> possibili su quegli oggetti, e i <em>permessi</em> che le collegano.</p>
+        </section>
+
+        <section class="chunk" id="m5-modelli">
+          <h2>7. I modelli di controllo degli accessi</h2>
+          <ul>
+            <li><strong>MAC</strong> (Mandatory Access Control) — ogni dato viene etichettato con un livello di sicurezza (non classificato, riservato, segreto, top secret...) e l'accesso è deciso centralmente in base a quell'etichetta. Nato in ambito militare, è il più rigido dei modelli: nemmeno il proprietario di un dato può decidere autonomamente di condividerlo con qualcuno che non ha il livello di autorizzazione richiesto.</li>
+            <li><strong>DAC</strong> (Discretionary Access Control) — ogni risorsa ha un proprietario, che decide autonomamente ("a sua discrezione") chi altro può accedervi. È il modello più flessibile — è quello che usi ogni giorno nei permessi di file e cartelle di Windows o Linux — ma anche il più esposto al rischio di condivisioni sbagliate fatte in buona fede.</li>
+            <li><strong>RBAC</strong> (Role-Based Access Control) — i permessi non si assegnano alla singola persona, ma al <em>ruolo</em> che ricopre: non "Marco può modificare questo file", ma "il ruolo Editor può modificare questo file, e Marco è un Editor". Se Marco cambia ruolo, perde automaticamente gli accessi legati al ruolo precedente — un modello particolarmente comodo dove il turnover del personale è alto.</li>
+            <li><strong>Rule-Based Access Control</strong> — le regole di accesso si basano su condizioni esplicite (liste di permessi o di negazione: indirizzi IP, orari, domini ammessi), spesso combinate con l'RBAC per aggiungere flessibilità.</li>
+            <li><strong>ABAC</strong> (Attribute-Based Access Control) — il modello più recente e sofisticato: valuta l'intero contesto della richiesta di accesso, non solo "chi sei", ma anche da quale dispositivo, da quale luogo, a che ora, e con quali altri attributi. Rispetto all'RBAC (che valuta solo il ruolo), l'ABAC può negare un accesso altrimenti legittimo se il contesto appare anomalo — ad esempio un login con le credenziali corrette, ma da un paese mai visto prima, a un orario insolito.</li>
+          </ul>
+        </section>
+
+        <section class="chunk" id="m5-classificazione">
+          <h2>8. Classificare i dati: pubblico, privato, riservato</h2>
+          <p>Non tutti i dati meritano lo stesso livello di protezione, e classificarli è il primo passo per proteggerli in modo proporzionato:</p>
+          <ul>
+            <li><strong>Pubblico</strong> — informazioni destinate a essere condivise liberamente (es. un comunicato stampa).</li>
+            <li><strong>Privato / a distribuzione limitata</strong> — informazioni per uso interno, la cui divulgazione potrebbe danneggiare l'organizzazione (documenti di lavoro, elenchi clienti).</li>
+            <li><strong>Confidenziale</strong> — il livello più sensibile, la cui divulgazione può causare danni gravi e diretti.</li>
+          </ul>
+          <p>Due categorie meritano un'attenzione particolare: la <strong>PII</strong> (Personally Identifiable Information) — qualunque dato che possa identificare univocamente una persona, dal nome a un'impronta digitale a un numero di carta di credito — e la <strong>PHI</strong> (Personal Health Information), il sottoinsieme di dati relativi allo stato di salute, da trattare con lo stesso livello di attenzione visto per i dati sanitari nel <a href="#/modulo-2/m2-gdpr" class="term-link">Modulo 2</a>.</p>
+        </section>
+
+        <section class="chunk" id="m5-ruoli-dati">
+          <h2>9. Chi è responsabile di un dato: i ruoli</h2>
+          <p>Ogni dato aziendale ha, idealmente, responsabili precisi e distinti: l'<strong>Owner</strong> (il proprietario) è la persona — spesso non tecnica — responsabile di decidere chi può accedere al dato e con quale scopo; lo <strong>Steward/Custodian</strong> è chi ne cura concretamente la sicurezza tecnica, tipicamente un amministratore di sistema o di database; il <strong>Privacy Officer</strong> è la figura (spesso coincidente con il DPO visto nel Modulo 2) incaricata di vigilare sulla protezione dei dati personali nel loro complesso. Separare questi ruoli — invece di farli coincidere in un'unica persona — è un'altra applicazione pratica della separazione dei compiti vista nel Modulo 2.</p>
+        </section>
+
+        <section class="chunk" id="m5-conservazione">
+          <h2>10. Per quanto tempo conservare un dato</h2>
+          <p>Un dato non va conservato "per sempre, non si sa mai": va conservato solo per il tempo realmente necessario allo scopo per cui è stato raccolto — è il principio di limitazione della conservazione già incontrato nel <a href="#/modulo-2/m2-gdpr" class="term-link">GDPR</a>. Alcuni termini di conservazione sono fissati direttamente dalla legge (ad esempio, i dati di traffico telefonico e telematico in Italia vanno conservati fino a un massimo di 72 mesi); altri sono lasciati alla valutazione dell'azienda, che può ragionevolmente ancorarli ai termini di prescrizione legale entro cui un soggetto esterno potrebbe far valere un diritto — aggiungendo un margine di sicurezza per i tempi tecnici di notifica di un eventuale procedimento legale.</p>
+        </section>
+
+        <div class="callout keypoints">
+          <h3>✅ Punti chiave del Modulo 5</h3>
+          <ul>
+            <li>Accedere a un sistema richiede tre passaggi distinti: <strong>identificazione</strong> (chi dici di essere), <strong>autenticazione</strong> (dimostralo), <strong>autorizzazione</strong> (cosa puoi fare).</li>
+            <li>L'autenticazione si basa su cinque possibili fattori; per essere davvero "a più fattori" servono categorie <strong>diverse</strong> — username e password non bastano, sono entrambi "qualcosa che sai".</li>
+            <li><strong>Federated Identity</strong>, <strong>Single Sign-On</strong> e <strong>Same Sign-On</strong> sono tre concetti distinti, spesso confusi tra loro.</li>
+            <li>Protocolli come <strong>LDAP</strong>, <strong>Kerberos</strong>, <strong>RADIUS</strong> e <strong>TACACS+</strong> gestiscono l'autenticazione su intere reti aziendali, non su singole macchine.</li>
+            <li>I modelli di autorizzazione — <strong>MAC, DAC, RBAC, Rule-Based, ABAC</strong> — vanno dal più rigido (MAC) al più contestuale e sofisticato (ABAC).</li>
+            <li>Classificare i dati (pubblico/privato/confidenziale, <strong>PII/PHI</strong>) e assegnare ruoli chiari (Owner/Steward/Privacy Officer) sono i presupposti di qualunque controllo degli accessi efficace.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================= MODULO 6 (stub, opzionale) ======================= -->
+    <section class="route" id="route-modulo-6">
+      <div class="page-inner">
+        <p class="kicker">Appendice · Opzionale</p>
+        <h1>Linux e laboratorio Kali</h1>
+        <p class="lede">Questa appendice è pensata per chi ha voglia di mettere le mani su un terminale Linux per curiosità. <strong>Non è necessaria</strong> per seguire o capire il corso: nessun modulo la dà per scontata.</p>
+        <div class="stub-box">Contenuto in preparazione: cheat sheet dei comandi Linux essenziali e guida al setup del laboratorio con macchina virtuale Kali.</div>
+      </div>
+    </section>
+
+    <!-- ======================= GLOSSARIO ======================= -->
+    <section class="route" id="route-glossario">
+      <div class="page-inner">
+        <p class="kicker">Consultazione</p>
+        <h1>Glossario</h1>
+        <p class="lede">Tutti i termini tecnici del corso, in ordine alfabetico, con una definizione semplice e un esempio o un'analogia. Usa la barra di ricerca in alto per trovare rapidamente un termine.</p>
+      </div>
+
+      <div class="gloss-jump" aria-label="Salta alla lettera">
+        <a href="#/glossario/gloss-A">A</a><a href="#/glossario/gloss-B">B</a><a href="#/glossario/gloss-C">C</a>
+        <a href="#/glossario/gloss-D">D</a><a href="#/glossario/gloss-E">E</a><a href="#/glossario/gloss-F">F</a>
+        <a href="#/glossario/gloss-G">G</a><a href="#/glossario/gloss-H">H</a><a href="#/glossario/gloss-I">I</a>
+        <a href="#/glossario/gloss-J">J</a><a href="#/glossario/gloss-K">K</a><a href="#/glossario/gloss-L">L</a><a href="#/glossario/gloss-M">M</a>
+        <a href="#/glossario/gloss-N">N</a><a href="#/glossario/gloss-O">O</a><a href="#/glossario/gloss-P">P</a>
+        <a href="#/glossario/gloss-R">R</a><a href="#/glossario/gloss-S">S</a><a href="#/glossario/gloss-T">T</a>
+        <a href="#/glossario/gloss-V">V</a><a href="#/glossario/gloss-Z">Z</a>
+      </div>
+
+      <div class="page-inner">
+
+        <div class="gloss-group" id="gloss-A">
+        <span class="gloss-letter">A</span>
+        <article class="chunk gloss-entry" id="g-aes">
+          <h3>AES (Advanced Encryption Standard)</h3>
+          <p>L'algoritmo di <a href="#/glossario/g-chiave" class="term-link">crittografia simmetrica</a> più usato al mondo oggi. Ha sostituito il vecchio DES dal 2001. <span class="analogy">Esempio: è quello che il tuo Wi-Fi di casa usa per cifrare il traffico quando la rete è protetta con WPA2/WPA3.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-ale-sle-aro">
+          <h3>ALE / SLE / ARO</h3>
+          <p>Tre valori per quantificare economicamente un rischio: <strong>SLE</strong> (costo di un singolo evento), <strong>ARO</strong> (quante volte accade in un anno), <strong>ALE</strong> = SLE × ARO (perdita attesa in un anno). Vedi <a href="#/modulo-1/m1-rischio" class="term-link">Modulo 1</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-apt">
+          <h3>APT (Advanced Persistent Threat)</h3>
+          <p>Un attaccante che si infiltra in un sistema e vi resta nascosto a lungo, spesso mesi o anni, prima di agire. <span class="analogy">Analogia: una spia che si infiltra come tecnico delle pulizie e lavora "in maniera impeccabile" per anni prima di colpire.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-asimmetrica">
+          <h3>Asimmetrica (crittografia)</h3>
+          <p>Tipo di crittografia che usa una coppia di chiavi collegate — una pubblica e una privata — invece di un'unica chiave condivisa. Vedi <a href="#/glossario/g-chiave-pubblica" class="term-link">chiave pubblica</a> e <a href="#/glossario/g-chiave-privata" class="term-link">chiave privata</a>. <span class="analogy">Analogia: una cassetta della posta con una fessura aperta a tutti (chiave pubblica) e uno sportellino chiuso a chiave sul retro (chiave privata).</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-asset">
+          <h3>Asset</h3>
+          <p>Tutto ciò che ha valore per un'organizzazione e va protetto: dati, sistemi, persone, reputazione. È il punto di partenza di ogni analisi del rischio.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-abac">
+          <h3>ABAC (Attribute-Based Access Control)</h3>
+          <p>Modello di autorizzazione che valuta l'intero contesto di una richiesta d'accesso (dispositivo, luogo, orario...), non solo il ruolo di chi la fa. Vedi <a href="#/modulo-5/m5-modelli" class="term-link">Modulo 5</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-aup">
+          <h3>AUP (Acceptable Use Policy)</h3>
+          <p>La policy che definisce cosa i dipendenti possono e non possono fare con gli strumenti aziendali: internet, mail, software, dispositivi USB. Vedi <a href="#/modulo-2/m2-aup" class="term-link">Modulo 2</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-autenticazione">
+          <h3>Autenticazione</h3>
+          <p>Il passaggio in cui dimostri di essere davvero chi hai dichiarato in fase di identificazione, usando uno o più fattori (qualcosa che sai/hai/sei). Vedi <a href="#/modulo-5/m5-autenticazione" class="term-link">Modulo 5</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-autorizzazione">
+          <h3>Autorizzazione</h3>
+          <p>Il passaggio, successivo all'autenticazione, che stabilisce quali azioni e risorse sono concesse a un'identità verificata — "who can do what".</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-B">
+        <span class="gloss-letter">B</span>
+        <article class="chunk gloss-entry" id="g-background-check">
+          <h3>Background check</h3>
+          <p>Verifica dei precedenti di un candidato prima dell'assunzione (titoli di studio, casellario giudiziario, liste di sanzioni), condotta nei limiti di GDPR e Statuto dei Lavoratori.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-backup">
+          <h3>Backup</h3>
+          <p>Copia dei dati realizzata in un momento preciso e conservata su un supporto separato, che permette di tornare indietro a prima di un incidente. Diverso e complementare al <a href="#/glossario/g-raid" class="term-link">RAID</a>. Vedi <a href="#/modulo-3/m3-backup-tipi" class="term-link">Modulo 3</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-birthday-attack">
+          <h3>Birthday Attack (attacco del compleanno)</h3>
+          <p>Tecnica che sfrutta un fatto probabilistico controintuitivo — basta un gruppo di sole 23 persone perché sia più probabile che no che due condividano lo stesso compleanno — per trovare una <a href="#/glossario/g-collisione" class="term-link">collisione</a> di hash con molti meno tentativi del previsto.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-botnet">
+          <h3>Botnet</h3>
+          <p>Una rete di dispositivi compromessi, spesso a insaputa dei proprietari, controllati insieme da un attaccante. <span class="analogy">Analogia: un "esercito di zombie" — un dispositivo debole da solo è innocuo, centomila insieme abbattono qualunque difesa (vedi il caso Mirai nel Modulo 1).</span></p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-C">
+        <span class="gloss-letter">C</span>
+        <article class="chunk gloss-entry" id="g-ca">
+          <h3>CA — Certification Authority (Autorità di Certificazione)</h3>
+          <p>Un ente di fiducia che verifica l'identità di chi possiede una chiave pubblica ed emette un <a href="#/glossario/g-certificato-digitale" class="term-link">certificato digitale</a> che lo attesta. <span class="analogy">Analogia: è come un notaio che certifica che una firma appartiene davvero a quella persona.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-certificato-digitale">
+          <h3>Certificato digitale</h3>
+          <p>Documento elettronico che lega una chiave pubblica a un'identità (persona, azienda, sito web), firmato da una <a href="#/glossario/g-ca" class="term-link">Certification Authority</a>. Contiene la chiave pubblica, il nome del titolare, la data di scadenza e la firma della CA. <span class="analogy">Esempio: il certificato che il tuo browser controlla ogni volta che visiti un sito HTTPS.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-chiave">
+          <h3>Chiave (crittografica)</h3>
+          <p>Valore segreto che un algoritmo di cifratura usa per personalizzare la trasformazione da testo in chiaro a testo cifrato. <span class="analogy">Analogia: se l'algoritmo è il modello di lucchetto, la chiave è la combinazione specifica di quel lucchetto.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-chiave-privata">
+          <h3>Chiave privata</h3>
+          <p>Nella crittografia asimmetrica, la metà della coppia di chiavi che resta segreta e non va mai condivisa. Serve a decifrare ciò che è stato cifrato con la corrispondente chiave pubblica, o a firmare digitalmente.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-chiave-pubblica">
+          <h3>Chiave pubblica</h3>
+          <p>Nella crittografia asimmetrica, la metà della coppia di chiavi che può essere condivisa liberamente con chiunque. Serve a cifrare un messaggio destinato al solo possessore della chiave privata corrispondente.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-cia">
+          <h3>CIA (triade)</h3>
+          <p>Le tre proprietà fondamentali che la sicurezza informatica protegge: <strong>Confidentiality</strong> (riservatezza), <strong>Integrity</strong> (integrità), <strong>Availability</strong> (disponibilità) — in italiano a volte RID. Vedi <a href="#/modulo-1/m1-cia" class="term-link">Modulo 1</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-cifrario-blocco-flusso">
+          <h3>Cifrario a blocchi / a flusso</h3>
+          <p>Due modi di applicare un algoritmo simmetrico: il <strong>cifrario a blocchi</strong> (es. AES) divide il messaggio in pezzi di dimensione fissa e li cifra uno alla volta; il <strong>cifrario a flusso</strong> (es. RC4) cifra un bit alla volta, come un flusso continuo.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-cifratura-cesare">
+          <h3>Cifratura di Cesare</h3>
+          <p>Uno dei più antichi metodi di cifratura per sostituzione: ogni lettera viene sostituita da quella che si trova un certo numero di posizioni più avanti nell'alfabeto (tradizionalmente tre). <span class="analogy">Esempio: con spostamento di 3, "CIAO" diventa "FLDR".</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-clean-desk">
+          <h3>Clean desk policy</h3>
+          <p>Policy che impone di non lasciare materiale sensibile (password su post-it, documenti, contratti) in vista sulla scrivania o accessibile senza chiave.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-collisione">
+          <h3>Collisione (hash)</h3>
+          <p>Quando due input diversi producono, per coincidenza, lo stesso valore di <a href="#/glossario/g-hash" class="term-link">hash</a>. Un buon algoritmo di hash rende le collisioni estremamente difficili da trovare volontariamente. <span class="analogy">Esempio reale: il progetto SHATTERED (2017) ha trovato due file PDF diversi con lo stesso hash SHA-1.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-cve">
+          <h3>CVE (Common Vulnerabilities and Exposures)</h3>
+          <p>Codice identificativo univoco assegnato a ogni vulnerabilità nota e resa pubblica, usato da tutto il settore per riferirsi allo stesso problema in modo univoco.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-cvss">
+          <h3>CVSS (Common Vulnerability Scoring System)</h3>
+          <p>Punteggio da 0 a 10 che indica la gravità di una vulnerabilità. Spesso assegnato dallo stesso produttore del software coinvolto, che ha un interesse a tenerlo basso — tranne per le falle più gravi e conclamate.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-container">
+          <h3>Container</h3>
+          <p>Alternativa leggera alla macchina virtuale: isola solo l'applicazione e le sue dipendenze, condividendo il kernel del sistema operativo host. Più veloce ma meno isolato di un <a href="#/glossario/g-hypervisor" class="term-link">hypervisor</a>.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-D">
+        <span class="gloss-letter">D</span>
+        <article class="chunk gloss-entry" id="g-dac">
+          <h3>DAC (Discretionary Access Control)</h3>
+          <p>Modello di autorizzazione in cui il proprietario di una risorsa decide, a propria discrezione, chi altro può accedervi. È il modello dei permessi file su Windows e Linux.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-des">
+          <h3>DES / 3DES</h3>
+          <p>DES (Data Encryption Standard) è un algoritmo di crittografia simmetrica del 1976, con chiave da 56 bit, oggi considerato insicuro (violato nel 1998). 3DES applica DES tre volte con chiavi diverse per aumentarne la robustezza. Entrambi sono stati superati dall'<a href="#/glossario/g-aes" class="term-link">AES</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-difesa-profondita">
+          <h3>Difesa in profondità</h3>
+          <p>Principio per cui non ci si affida mai a un solo meccanismo di protezione, ma si sovrappongono più livelli di difesa, così che il fallimento di uno non lasci l'asset scoperto.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-diffie-hellman">
+          <h3>Diffie-Hellman</h3>
+          <p>Metodo (1976) che permette a due persone di generare insieme una chiave segreta condivisa comunicando su un canale non sicuro, senza mai scambiarsi la chiave stessa. <span class="analogy">Analogia: la scatola con due lucchetti che si passano avanti e indietro senza mai scambiarsi le chiavi — vedi il Modulo 4.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-diritto-oblio">
+          <h3>Diritto all'oblio</h3>
+          <p>Diritto GDPR di ottenere la cancellazione dei propri dati personali quando non sono più necessari, quando si revoca il consenso, o quando sono stati trattati illegittimamente.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-dmca">
+          <h3>DMCA (Digital Millennium Copyright Act)</h3>
+          <p>Legge USA sul copyright che vieta l'elusione delle protezioni tecnologiche (DRM) e introduce il "safe harbor": una piattaforma non risponde dei contenuti caricati dagli utenti se li rimuove rapidamente quando segnalati.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-dpo">
+          <h3>DPO (Data Protection Officer)</h3>
+          <p>Responsabile della protezione dei dati, obbligatorio per legge in enti pubblici e per trattamenti su larga scala di dati sensibili.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-E">
+        <span class="gloss-letter">E</span>
+        <article class="chunk gloss-entry" id="g-exploit">
+          <h3>Exploit</h3>
+          <p>La tecnica concreta usata per sfruttare una <a href="#/glossario/g-vulnerabilita" class="term-link">vulnerabilità</a>. <span class="analogy">Analogia: se la vulnerabilità è una serratura difettosa, l'exploit è la tecnica specifica per aprirla — una carta di credito, una forcina.</span></p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-F">
+        <span class="gloss-letter">F</span>
+        <article class="chunk gloss-entry" id="g-federated-identity">
+          <h3>Federazione (Federated Identity)</h3>
+          <p>La possibilità di usare un'unica identità per accedere a risorse su reti e organizzazioni diverse, grazie ad accordi di fiducia. Da non confondere con <a href="#/glossario/g-sso" class="term-link">Single Sign-On</a> o <a href="#/glossario/g-same-sign-on" class="term-link">Same Sign-On</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-firma-digitale">
+          <h3>Firma digitale</h3>
+          <p>Meccanismo che garantisce autenticità, integrità e <a href="#/glossario/g-non-ripudio" class="term-link">non ripudio</a> di un documento elettronico, ottenuto cifrando l'<a href="#/glossario/g-hash" class="term-link">hash</a> del documento con la propria <a href="#/glossario/g-chiave-privata" class="term-link">chiave privata</a>.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-G">
+        <span class="gloss-letter">G</span>
+        <article class="chunk gloss-entry" id="g-gdpr">
+          <h3>GDPR (General Data Protection Regulation)</h3>
+          <p>Il regolamento europeo sulla protezione dei dati personali, in vigore dal 2018: 7 principi, diritti precisi per l'interessato, sanzioni fino al 4% del fatturato globale. Vedi <a href="#/modulo-2/m2-gdpr" class="term-link">Modulo 2</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-gfs">
+          <h3>GFS (Grandfather-Father-Son)</h3>
+          <p>Strategia di rotazione dei backup che combina copie giornaliere incrementali ("figli"), settimanali differenziali ("padri") e mensili complete ("nonni").</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-H">
+        <span class="gloss-letter">H</span>
+        <article class="chunk gloss-entry" id="g-hash">
+          <h3>Hash (funzione di)</h3>
+          <p>Funzione che trasforma un dato di qualsiasi dimensione in una stringa di lunghezza fissa (il "digest"), sempre uguale per lo stesso input, impossibile da invertire per risalire all'originale. <span class="analogy">Analogia: l'impronta digitale di un file — corta, unica, non ricostruisce la persona (il file) a partire da essa.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-hipaa">
+          <h3>HIPAA</h3>
+          <p>Legge statunitense sui dati sanitari: una privacy rule (chi può accedervi), una security rule (controlli tecnici obbligatori) e un'enforcement rule (sanzioni, fino a 1,5 milioni di dollari per violazione). L'equivalente europeo è l'art. 9 del <a href="#/glossario/g-gdpr" class="term-link">GDPR</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-hmac">
+          <h3>HMAC (Hash-based Message Authentication Code)</h3>
+          <p>Una funzione di hash che usa anche una chiave segreta condivisa, per garantire sia l'integrità sia l'autenticazione di un messaggio senza usare crittografia a chiave pubblica/privata.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-hsm">
+          <h3>HSM (Hardware Security Module)</h3>
+          <p>Dispositivo hardware dedicato esclusivamente a operazioni crittografiche e alla custodia sicura delle chiavi, tipicamente usato in ambito server/aziendale.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-hypervisor">
+          <h3>Hypervisor</h3>
+          <p>Il software che rende possibile la virtualizzazione, gestendo una o più macchine virtuali su un'unica macchina fisica. <strong>Tipo 1</strong> (bare metal, es. VMware ESXi) gira direttamente sull'hardware; <strong>Tipo 2</strong> (hosted, es. VirtualBox) gira sopra un sistema operativo esistente. Vedi <a href="#/modulo-3/m3-virtualizzazione" class="term-link">Modulo 3</a>.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-I">
+        <span class="gloss-letter">I</span>
+        <article class="chunk gloss-entry" id="g-iaas">
+          <h3>IaaS (Infrastructure as a Service)</h3>
+          <p>Modello cloud in cui si affitta l'infrastruttura di base (server, storage, rete) e si installa sopra sistema operativo e applicazioni. <span class="analogy">Analogia: un terreno con gli allacci già pronti, ma la casa te la costruisci tu.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-identificazione">
+          <h3>Identificazione</h3>
+          <p>Il primo passaggio per accedere a un sistema: dichiarare la propria identità (tipicamente uno username). Non richiede ancora nessuna prova. Vedi <a href="#/modulo-5/m5-identificazione" class="term-link">Modulo 5</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-insider-threat">
+          <h3>Insider (minaccia)</h3>
+          <p>Un attacco che arriva da chi ha già un accesso legittimo — dipendente, ex dipendente, collaboratore. <span class="analogy">Analogia: è come essere traditi da un amico; non serve alcuna tecnica di hacking, solo abuso di un accesso già concesso.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-isa">
+          <h3>ISA (Interconnection Security Agreement)</h3>
+          <p>Documento che specifica i requisiti tecnici quando i sistemi informatici di due organizzazioni si interconnettono direttamente.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-iso27001">
+          <h3>ISO 27001</h3>
+          <p>Standard internazionale sulla gestione della sicurezza delle informazioni, basato su un ciclo continuo Plan-Do-Check-Act. <span class="analogy">Analogia: sta alla sicurezza informatica come l'HACCP sta alla ristorazione — non dice quale strumento comprare, dice come strutturare i controlli.</span></p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-J">
+        <span class="gloss-letter">J</span>
+        <article class="chunk gloss-entry" id="g-job-rotation">
+          <h3>Job rotation (rotazione dei ruoli)</h3>
+          <p>Policy che fa ruotare periodicamente i dipendenti tra ruoli diversi, per evitare che una sola persona diventi indispensabile (un <a href="#/glossario/g-spof" class="term-link">single point of failure</a> umano) e per scoprire eventuali anomalie o frodi.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-K">
+        <span class="gloss-letter">K</span>
+        <article class="chunk gloss-entry" id="g-kerberos">
+          <h3>Kerberos</h3>
+          <p>Protocollo di autenticazione di rete (nato al MIT, anni '70) che usa "biglietti" (ticket) temporanei rilasciati da un centro di distribuzione delle chiavi (KDC), evitando di far viaggiare ripetutamente la password sulla rete. Prende il nome dal cane a tre teste della mitologia greca.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-kerckhoffs">
+          <h3>Kerckhoffs (Principio di)</h3>
+          <p>Principio del 1883 secondo cui la sicurezza di un sistema crittografico deve dipendere solo dalla segretezza della <a href="#/glossario/g-chiave" class="term-link">chiave</a>, mai da quella dell'algoritmo, che può essere pubblico.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-kill-chain">
+          <h3>Kill Chain (Cyber Kill Chain)</h3>
+          <p>Modello a 7 fasi (Reconnaissance, Weaponization, Delivery, Exploitation, Installation, Command &amp; Control, Actions on Objectives) che descrive un attacco informatico come un processo, non un evento istantaneo. Vedi <a href="#/modulo-1/m1-killchain" class="term-link">Modulo 1</a>.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-L">
+        <span class="gloss-letter">L</span>
+        <article class="chunk gloss-entry" id="g-ldap">
+          <h3>LDAP (Lightweight Directory Access Protocol)</h3>
+          <p>Protocollo che organizza utenti, gruppi e permessi in una struttura gerarchica centralizzata — è il protocollo su cui si basa Active Directory. La versione cifrata si chiama <strong>LDAPS</strong>.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-M">
+        <span class="gloss-letter">M</span>
+        <article class="chunk gloss-entry" id="g-mac-access-control">
+          <h3>MAC (Mandatory Access Control)</h3>
+          <p>Modello di autorizzazione, di origine militare, in cui ogni dato è etichettato con un livello di sicurezza e l'accesso è deciso centralmente — il più rigido tra i modelli di controllo accessi.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-mfa">
+          <h3>MFA (autenticazione a più fattori)</h3>
+          <p>Autenticazione che combina almeno due fattori di categorie <strong>diverse</strong> (es. password + codice da app). Username e password insieme <em>non</em> sono MFA: sono entrambi "qualcosa che sai".</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-minaccia">
+          <h3>Minaccia</h3>
+          <p>L'esistenza di un potenziale attaccante o evento dannoso. <span class="analogy">Analogia: se la vulnerabilità è la serratura difettosa, la minaccia è l'esistenza di ladri nella zona.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-mitre-attack">
+          <h3>MITRE ATT&amp;CK</h3>
+          <p>Matrice pubblica e consultabile online che cataloga le <a href="#/glossario/g-ttp" class="term-link">TTP</a> (tattiche, tecniche, procedure) conosciute dei vari gruppi di attaccanti.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-mou-moa">
+          <h3>MOU / MOA</h3>
+          <p>Memorandum of Understanding / Agreement: un accordo preliminare tra due organizzazioni, meno vincolante di un contratto formale, utile per collaborazioni temporanee.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-N">
+        <span class="gloss-letter">N</span>
+        <article class="chunk gloss-entry" id="g-nda">
+          <h3>NDA (accordo di non divulgazione)</h3>
+          <p>Contratto che vincola una persona a non rivelare informazioni riservate a cui ha avuto accesso — ad esempio un fornitore, un consulente o un penetration tester.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-nis2">
+          <h3>NIS2</h3>
+          <p>Direttiva europea (recepita in Italia col D.Lgs. 138/2024) che impone obblighi di sicurezza a settori critici e alla loro catena di fornitori: risk assessment, formazione, gestione incidenti. Sanzioni fino a 10 milioni di euro o il 2% del fatturato globale.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-non-ripudio">
+          <h3>Non ripudio</h3>
+          <p>Proprietà per cui chi ha firmato digitalmente un documento (o compiuto un'azione, come con SPID) non può negare in seguito di averlo fatto. È una delle garanzie fornite dalla <a href="#/glossario/g-firma-digitale" class="term-link">firma digitale</a>.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-O">
+        <span class="gloss-letter">O</span>
+        <article class="chunk gloss-entry" id="g-onboarding-offboarding">
+          <h3>Onboarding / Offboarding</h3>
+          <p>I processi di inserimento e di uscita di un dipendente. L'offboarding deve revocare <strong>tutti</strong> gli accessi (VPN inclusa) entro 24 ore dall'ultimo giorno di lavoro — un accesso dimenticato è una delle cause più comuni di furto dati da ex dipendenti.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-P">
+        <span class="gloss-letter">P</span>
+        <article class="chunk gloss-entry" id="g-paas">
+          <h3>PaaS (Platform as a Service)</h3>
+          <p>Modello cloud in cui il fornitore offre una piattaforma pronta per sviluppare e distribuire applicazioni, senza gestire il server sottostante. <span class="analogy">Analogia: un appartamento già arredato.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-pci-dss">
+          <h3>PCI-DSS</h3>
+          <p>Standard di sicurezza (imposto per contratto dai circuiti di pagamento, non da una legge) per chiunque memorizzi, elabori o trasmetta dati di carte di pagamento.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-pgp">
+          <h3>PGP / GPG</h3>
+          <p>Pretty Good Privacy (e la sua versione libera GNU Privacy Guard) è un programma diffuso per cifrare e firmare digitalmente e-mail e file usando crittografia a chiave pubblica.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-phishing">
+          <h3>Phishing</h3>
+          <p>Mail (o messaggio) ingannevole che si finge legittimo per rubare credenziali o convincere la vittima a compiere un'azione, come un bonifico. Varianti: <em>spear phishing</em> (mirato), <em>smishing</em> (via SMS), <em>vishing</em> (via voce).</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-phi">
+          <h3>PHI (Personal Health Information)</h3>
+          <p>Sottoinsieme della PII relativo allo stato di salute di una persona: dati sanitari, referti, informazioni cliniche. Protetti in modo rafforzato dal GDPR (art. 9) e, negli USA, dall'<a href="#/glossario/g-hipaa" class="term-link">HIPAA</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-pii">
+          <h3>PII (Personally Identifiable Information)</h3>
+          <p>Qualunque dato che possa identificare univocamente una persona: nome, impronta digitale, numero di carta di credito, indirizzo email.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-pki">
+          <h3>PKI (Public Key Infrastructure)</h3>
+          <p>L'insieme di regole, ruoli e tecnologie che permette di gestire in modo affidabile le chiavi pubbliche: certificati digitali, <a href="#/glossario/g-ca" class="term-link">Certification Authority</a>, revoca dei certificati, ecc.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-pod-slurping">
+          <h3>Pod slurping</h3>
+          <p>Furto di dati aziendali copiandoli su un dispositivo rimovibile personale (chiavetta USB, smartphone). Il nome viene dai primi iPod, usati come dischi esterni ad alta capacità.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-policy">
+          <h3>Policy (aziendale)</h3>
+          <p>Una decisione scritta, approvata dal management e comunicata a tutti, su come ci si deve comportare rispetto a un certo aspetto della vita aziendale. Vedi <a href="#/modulo-2/m2-intro" class="term-link">Modulo 2</a>.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-R">
+        <span class="gloss-letter">R</span>
+        <article class="chunk gloss-entry" id="g-radius">
+          <h3>RADIUS</h3>
+          <p>Protocollo client-server per l'autenticazione remota su reti aziendali e presso i provider di connettività, che gestisce insieme autenticazione, autorizzazione e registrazione (le "3 A": Authentication, Authorization, Accounting).</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-raid">
+          <h3>RAID (Redundant Array of Independent Disks)</h3>
+          <p>Metodo per far lavorare insieme più dischi fisici come se fossero un unico disco logico, per aumentare velocità e/o tolleranza ai guasti. Diverso e complementare al <a href="#/glossario/g-backup" class="term-link">backup</a>. Vedi <a href="#/modulo-3/m3-raid" class="term-link">Modulo 3</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-rainbow-table">
+          <h3>Rainbow table</h3>
+          <p>Tabella pre-calcolata contenente gli hash di milioni di password comuni, usata da un attaccante per risalire rapidamente a una password a partire dal suo hash rubato. Si contrasta con il <a href="#/glossario/g-salt" class="term-link">salt</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-ransomware">
+          <h3>Ransomware</h3>
+          <p>Malware che rende irraggiungibili i dati di una vittima (tipicamente cifrandoli) per estorcere un riscatto. Le varianti più recenti usano la <em>doppia estorsione</em>: rubano i dati prima di cifrarli, minacciando di pubblicarli anche se la vittima ha un backup funzionante.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-rbac">
+          <h3>RBAC (Role-Based Access Control)</h3>
+          <p>Modello di autorizzazione in cui i permessi si assegnano a un ruolo, non alla singola persona: se cambi ruolo, perdi automaticamente gli accessi legati al ruolo precedente.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-responsible-disclosure">
+          <h3>Responsible disclosure</h3>
+          <p>Prassi corretta per comunicare una vulnerabilità scoperta: segnalarla in modo riservato all'azienda coinvolta, con prova di concetto, concedendo un periodo (tipicamente 90 giorni) prima di renderla pubblica.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-rischio">
+          <h3>Rischio</h3>
+          <p>La probabilità che una minaccia sfrutti una vulnerabilità, combinata con l'impatto che ne deriverebbe. Si calcola come R = Probabilità × Impatto × (in)Efficacia dei controlli. Le quattro risposte possibili: evitare, mitigare, accettare, trasferire.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-rsa">
+          <h3>RSA</h3>
+          <p>L'algoritmo di crittografia asimmetrica più diffuso (1977, dalle iniziali di Rivest, Shamir e Adleman), basato sulla difficoltà di scomporre nei fattori primi un numero molto grande, ottenuto moltiplicando due numeri primi.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-rto-rpo">
+          <h3>RTO / RPO</h3>
+          <p><strong>RTO</strong> (Recovery Time Objective): quanto tempo può restare fermo un sistema. <strong>RPO</strong> (Recovery Point Objective): quanti dati, in termini di tempo, ci si può permettere di perdere. Vedi <a href="#/modulo-3/m3-rto-rpo" class="term-link">Modulo 3</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-rule-based-access">
+          <h3>Rule-Based Access Control</h3>
+          <p>Modello di autorizzazione basato su regole esplicite (liste di permessi o di negazione: IP, orari, domini), spesso combinato con l'RBAC.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-S">
+        <span class="gloss-letter">S</span>
+        <article class="chunk gloss-entry" id="g-saas">
+          <h3>SaaS (Software as a Service)</h3>
+          <p>Modello cloud in cui si usa direttamente un'applicazione completa e funzionante via browser, senza gestire nulla sotto. <span class="analogy">Analogia: una stanza d'albergo, tutto già pronto. Esempio: Gmail, Office 365.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-salt">
+          <h3>Salt</h3>
+          <p>Valore casuale, diverso per ogni utente, aggiunto a una password prima di calcolarne l'hash, in modo che password uguali producano hash diversi e le <a href="#/glossario/g-rainbow-table" class="term-link">rainbow table</a> pre-calcolate diventino inutili.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-same-sign-on">
+          <h3>Same Sign-On</h3>
+          <p>Uso di un provider di autenticazione esterno per accedere a una risorsa di terzi (es. "accedi con Facebook" su un sito estraneo). Diverso da <a href="#/glossario/g-sso" class="term-link">Single Sign-On</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-separazione-doveri">
+          <h3>Separazione dei compiti</h3>
+          <p>Principio per cui nessuna singola persona può completare da sola un intero processo critico (es. creare un fornitore <em>e</em> approvarne i pagamenti), per prevenire frodi ed errori. <span class="analogy">Analogia: in una pizzeria seria chi prende l'ordine non è chi incassa.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-sha-md5">
+          <h3>SHA / MD5</h3>
+          <p>Le due famiglie di algoritmi di hash più conosciute. SHA-2 è oggi lo standard consigliato; MD5 (e anche SHA-1) sono considerati deboli per usi che richiedono resistenza alle <a href="#/glossario/g-collisione" class="term-link">collisioni</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-sla">
+          <h3>SLA (Service Level Agreement)</h3>
+          <p>Accordo che traduce le aspettative su un servizio in numeri misurabili: percentuale di disponibilità garantita, tempi di risposta e risoluzione, penali in caso di mancato rispetto.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-sop">
+          <h3>SOP (Standard Operating Procedure)</h3>
+          <p>Documento che descrive chi fa cosa, quando e come nella gestione operativa di un rapporto con un fornitore — soprattutto in caso di emergenza.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-sox">
+          <h3>SOX (Sarbanes-Oxley Act)</h3>
+          <p>Legge USA (2002), nata dopo gli scandali Enron/Worldcom, che impone controlli rigorosi sui sistemi informatici da cui dipendono i bilanci aziendali. L'equivalente italiano è la legge sul risparmio post-Parmalat.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-spof">
+          <h3>SPOF (Single Point of Failure)</h3>
+          <p>Un singolo elemento — tecnico o umano — la cui rottura o assenza fa crollare l'intera sicurezza o operatività di un sistema. Va sempre evitato con ridondanza.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-sso">
+          <h3>SSO (Single Sign-On)</h3>
+          <p>Un'unica autenticazione dà accesso a tutte le risorse o i servizi di un singolo fornitore (es. login Google che apre Gmail, Drive, Calendar). Diverso da <a href="#/glossario/g-federated-identity" class="term-link">Federated Identity</a> e da <a href="#/glossario/g-same-sign-on" class="term-link">Same Sign-On</a>.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-steganografia">
+          <h3>Steganografia</h3>
+          <p>Tecnica per nascondere l'esistenza stessa di un messaggio (non solo il suo contenuto), ad esempio all'interno dei bit meno significativi di un'immagine. <span class="analogy">Analogia: l'inchiostro simpatico, invisibile finché non lo scaldi.</span></p>
+        </article>
+        <article class="chunk gloss-entry" id="g-supply-chain-attack">
+          <h3>Supply chain attack (attacco alla catena di fornitura)</h3>
+          <p>Attacco che colpisce un fornitore per raggiungere, indirettamente, tutti i suoi clienti. Caso reale: SolarWinds (2020), codice malevolo inserito in un aggiornamento software ufficiale.</p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-T">
+        <span class="gloss-letter">T</span>
+        <article class="chunk gloss-entry" id="g-tacacs">
+          <h3>TACACS+</h3>
+          <p>Protocollo di autenticazione di rete, alternativo a RADIUS e molto diffuso nelle reti Cisco, che separa nettamente le fasi di autenticazione, autorizzazione e accounting.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-testo-chiaro-cifrato">
+          <h3>Testo in chiaro / Testo cifrato</h3>
+          <p>Il <strong>testo in chiaro</strong> (<em>plaintext</em>) è il messaggio originale, leggibile da chiunque. Il <strong>testo cifrato</strong> (<em>ciphertext</em>) è lo stesso messaggio dopo la trasformazione crittografica, illeggibile senza la chiave giusta.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-tpm">
+          <h3>TPM (Trusted Platform Module)</h3>
+          <p>Chip dedicato alla cifratura montato sulla scheda madre di molti computer, che cifra automaticamente tutto ciò che il sistema operativo scrive sul disco.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-ttp">
+          <h3>TTP (Tattiche, Tecniche, Procedure)</h3>
+          <p>Il modo in cui i professionisti di sicurezza descrivono il comportamento di un gruppo di attaccanti. <span class="analogy">Analogia culinaria: tattica = fare il pranzo, tecnica = cuocere la pasta, procedura = la ricetta esatta — le procedure sono quasi una firma personale, riconoscibile.</span></p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-V">
+        <span class="gloss-letter">V</span>
+        <article class="chunk gloss-entry" id="g-vdi-vde">
+          <h3>VDE / VDI</h3>
+          <p>Virtual Desktop Environment / Infrastructure: il desktop dell'utente gira su un server remoto invece che sul dispositivo fisico. Se il dispositivo viene perso o rubato, nessun dato reale era memorizzato lì sopra.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-virus-worm">
+          <h3>Virus e worm</h3>
+          <p>Un <strong>virus</strong> ha bisogno che qualcuno lo attivi (un click su un allegato); un <strong>worm</strong> si propaga da solo sfruttando vulnerabilità di rete, senza interazione umana. Caso reale: WannaCry (2017), un worm che ha infettato 200.000 macchine in 150 paesi in 24 ore.</p>
+        </article>
+        <article class="chunk gloss-entry" id="g-vulnerabilita">
+          <h3>Vulnerabilità</h3>
+          <p>Un difetto sfruttabile in un sistema. <span class="analogy">Analogia: la porta di casa con una serratura difettosa — il difetto in sé, distinto dall'<a href="#/glossario/g-exploit" class="term-link">exploit</a> (la tecnica per aprirla) e dalla <a href="#/glossario/g-minaccia" class="term-link">minaccia</a> (l'esistenza di ladri in zona).</span></p>
+        </article>
+        </div>
+
+        <div class="gloss-group" id="gloss-Z">
+        <span class="gloss-letter">Z</span>
+        <article class="chunk gloss-entry" id="g-zero-day">
+          <h3>Zero-day (exploit)</h3>
+          <p>Una vulnerabilità sfruttata prima ancora che il produttore ne sia a conoscenza, quindi prima che esista una patch. I più pericolosi e i più costosi sul mercato specializzato.</p>
+        </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================= RIPASSO ======================= -->
+    <section class="route" id="route-ripasso">
+      <div class="page-inner">
+        <p class="kicker">Autoverifica</p>
+        <h1>Ripasso</h1>
+        <p class="lede">Prova a rispondere prima di guardare la soluzione: è il modo più efficace per capire cosa hai già chiaro e cosa vale la pena rivedere.</p>
+
+        <h2>Modulo 1 · Fondamenti</h2>
+
+        <details class="qa">
+          <summary>Qual è la differenza tra una vulnerabilità, un exploit e una minaccia?</summary>
+          <p class="answer">La vulnerabilità è il difetto in sé (la serratura difettosa), l'exploit è la tecnica concreta per sfruttarlo (la carta di credito usata per aprirla), la minaccia è l'esistenza di chi potrebbe voler sfruttare quel difetto (i ladri in zona). Il rischio combina tutti e tre insieme al valore di ciò che è in gioco.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Perché un attacco DoS su un e-commerce durante i saldi è soprattutto un problema di disponibilità, non di riservatezza?</summary>
+          <p class="answer">Perché un DoS non ruba né legge alcun dato: rende semplicemente il sito irraggiungibile. Il danno reale è il fatturato perso ogni minuto in cui i clienti non possono acquistare — esattamente la proprietà "disponibilità" della triade CIA.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Cos'è la Cyber Kill Chain, e perché è utile pensare a un attacco come a un "processo"?</summary>
+          <p class="answer">È un modello a 7 fasi (Reconnaissance, Weaponization, Delivery, Exploitation, Installation, Command &amp; Control, Actions on Objectives) che descrive come si sviluppa un attacco informatico. È utile perché ricorda che un attacco non è un evento istantaneo: basta riuscire a interrompere anche una sola delle sette fasi per fermarlo prima che causi danni.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Come si calcola l'ALE (Annualized Loss Expectancy), e a cosa serve?</summary>
+          <p class="answer">ALE = SLE × ARO, dove SLE è il costo di un singolo evento e ARO è quante volte ci si aspetta che accada in un anno. Serve a tradurre un rischio in un numero economico concreto, utile per decidere se conviene investire in una contromisura oppure accettare il rischio così com'è.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Quali sono le quattro possibili risposte a un rischio identificato?</summary>
+          <p class="answer">Evitare (eliminare la causa), mitigare (ridurre probabilità o impatto), accettare (convivere consapevolmente col rischio) e trasferire (spostarlo su un terzo, tipicamente con un'assicurazione).</p>
+        </details>
+
+        <h2>Modulo 2 · Policy e normative</h2>
+
+        <details class="qa">
+          <summary>Quali sono le tre caratteristiche che rendono una policy aziendale davvero tale?</summary>
+          <p class="answer">Deve essere scritta (non una semplice abitudine informale), approvata dal management (non nata sulla scrivania di un singolo responsabile), e comunicata a tutti gli interessati (non chiusa in un cassetto).</p>
+        </details>
+
+        <details class="qa">
+          <summary>Che differenza c'è tra un SOP e uno SLA nella relazione con un fornitore?</summary>
+          <p class="answer">Il SOP descrive le procedure operative — chi fa cosa, quando, come si gestisce un'emergenza. Lo SLA traduce le aspettative in numeri misurabili: percentuale di disponibilità garantita, tempi di risposta, penali in caso di mancato rispetto.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Perché la separazione dei compiti è importante anche in una piccola azienda?</summary>
+          <p class="answer">Perché evita che una singola persona possa completare da sola un intero processo critico (es. creare un fornitore fittizio e approvarne i pagamenti) senza che nessun altro se ne accorga. In una micro-azienda non serve creare burocrazia enorme: bastano alternanza nei passaggi chiave e tracciabilità delle azioni.</p>
+        </details>
+
+        <details class="qa">
+          <summary>In cosa differisce uno standard (es. ISO 27001) da una legge (es. GDPR)?</summary>
+          <p class="answer">Una legge è imposta dallo Stato e vale per tutti, con sanzioni dirette. Uno standard è tecnicamente volontario — nessuna legge obbliga a certificarsi — ma può diventare di fatto necessario per operare in un certo mercato (es. rispondere a bandi pubblici, o accettare pagamenti con carta nel caso del PCI-DSS).</p>
+        </details>
+
+        <details class="qa">
+          <summary>Perché i dati sanitari godono di una protezione rafforzata rispetto ad altri dati personali?</summary>
+          <p class="answer">Perché rappresentano lo stato della persona "in sé per sé": possono rivelare rischi di contagio, sono spesso impossibili da cambiare (a differenza di una password), e possono incidere direttamente sulla dignità e sulle opportunità di lavoro di una persona. Per questo il GDPR li classifica come categoria particolare all'articolo 9.</p>
+        </details>
+
+        <h2>Modulo 3 · RAID, backup e cloud</h2>
+
+        <details class="qa">
+          <summary>Perché un sistema RAID non sostituisce un backup?</summary>
+          <p class="answer">Il RAID protegge solo dal guasto fisico di un disco: se un componente si rompe, il sistema continua a funzionare. Non protegge dal contenuto dei dati — se cancelli un file per errore o un ransomware li cifra, il RAID copia fedelmente anche il danno su tutti i dischi in tempo reale. Solo un backup, fatto in un momento diverso, permette di tornare indietro nel tempo.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Qual è la differenza pratica, al momento del ripristino, tra un backup incrementale e uno differenziale?</summary>
+          <p class="answer">Per ripristinare da un incrementale serve l'intera catena: l'ultimo completo più <em>tutti</em> gli incrementali successivi in ordine. Per ripristinare da un differenziale bastano solo due backup: l'ultimo completo e l'ultimo differenziale — più semplice e veloce, anche se il differenziale richiede più spazio e tempo di esecuzione via via che passano i giorni dall'ultimo completo.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Cosa significa l'affermazione "un backup mai testato è un atto di fede"?</summary>
+          <p class="answer">Significa che un backup che nessuno ha mai provato a ripristinare potrebbe essere corrotto, incompleto o inutilizzabile senza che nessuno lo sappia — lo si scopre solo quando è troppo tardi. L'unico modo per avere una garanzia reale è fare periodicamente una prova di ripristino completa.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Che differenza c'è tra RTO e RPO?</summary>
+          <p class="answer">L'RTO (Recovery Time Objective) è quanto tempo un sistema può restare fermo prima che il danno diventi inaccettabile. L'RPO (Recovery Point Objective) è quanti dati, in termini di tempo, l'azienda può permettersi di perdere. Una banca tipicamente ha entrambi molto bassi; una piccola attività artigianale può permettersi valori più alti.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Qual è la differenza tra SaaS, PaaS e IaaS?</summary>
+          <p class="answer">Riguardano quanto del sistema gestisci tu e quanto il fornitore. Con IaaS affitti solo l'infrastruttura di base (server, storage) e costruisci tutto sopra. Con PaaS hai anche una piattaforma pronta per sviluppare applicazioni. Con SaaS usi direttamente un'applicazione completa e funzionante, senza gestire nulla sotto (es. Gmail, Office 365).</p>
+        </details>
+
+        <h2>Modulo 4 · Crittografia</h2>
+
+        <details class="qa">
+          <summary>Qual è la differenza principale tra crittografia simmetrica e asimmetrica?</summary>
+          <p class="answer">Nella crittografia simmetrica esiste un'unica chiave, usata sia per cifrare sia per decifrare, che va condivisa in modo sicuro tra mittente e destinatario. Nella crittografia asimmetrica esistono due chiavi collegate ma diverse — una pubblica (per cifrare) e una privata (per decifrare) — e la chiave privata non deve mai essere condivisa.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Perché il Principio di Kerckhoffs dice che l'algoritmo di cifratura può essere reso pubblico?</summary>
+          <p class="answer">Perché la sicurezza di un sistema crittografico deve dipendere solo dalla segretezza della chiave, non da quella dell'algoritmo. Un algoritmo "segreto" prima o poi verrà scoperto, e a quel punto crolla tutta la sicurezza; un algoritmo pubblico e ben studiato da migliaia di esperti è invece più affidabile, perché eventuali debolezze vengono scoperte e corrette.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Se cifri un messaggio con la chiave pubblica del destinatario, chi può decifrarlo?</summary>
+          <p class="answer">Solo chi possiede la chiave privata corrispondente — cioè il destinatario stesso. Nemmeno chi ha cifrato il messaggio con la chiave pubblica può poi decifrarlo: le due operazioni richiedono chiavi diverse.</p>
+        </details>
+
+        <details class="qa">
+          <summary>A cosa serve una funzione di hash, e perché non si considera vera e propria "crittografia"?</summary>
+          <p class="answer">Serve a creare un'impronta unica e di lunghezza fissa di un dato, utile per verificarne l'integrità (è cambiato qualcosa?) o per memorizzare le password in modo sicuro. Non è crittografia in senso stretto perché non è pensata per essere "decifrata": è una funzione a senso unico, non invertibile — il suo scopo non è nascondere un contenuto ma verificarlo.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Che ruolo ha una Certification Authority (CA) all'interno di una PKI?</summary>
+          <p class="answer">Fa da garante di fiducia: verifica l'identità di chi richiede un certificato ed emette un certificato digitale che lega quella identità alla sua chiave pubblica, firmandolo con la propria firma. È il motivo per cui puoi fidarti che la chiave pubblica di un sito HTTPS appartenga davvero a quel sito, e non a un impostore.</p>
+        </details>
+
+        <h2>Modulo 5 · Identity &amp; Access Management</h2>
+
+        <details class="qa">
+          <summary>Qual è la differenza tra identificazione, autenticazione e autorizzazione?</summary>
+          <p class="answer">L'identificazione è dichiarare chi sei (es. lo username). L'autenticazione è dimostrarlo (es. la password). L'autorizzazione è ciò che ti viene concesso di fare una volta verificata l'identità. Puoi identificarti correttamente e fallire l'autenticazione, oppure autenticarti correttamente ed essere comunque bloccato dall'autorizzazione.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Perché username e password insieme non costituiscono un'autenticazione a più fattori?</summary>
+          <p class="answer">Perché appartengono entrambi alla stessa categoria — "qualcosa che sai" (Tipo I). Per un'autenticazione davvero a più fattori servono elementi presi da categorie diverse, ad esempio una password (Tipo I) più un codice generato da un'app sul telefono (Tipo II, "qualcosa che hai").</p>
+        </details>
+
+        <details class="qa">
+          <summary>Che differenza c'è tra Federated Identity, Single Sign-On e Same Sign-On?</summary>
+          <p class="answer">Federated Identity è la possibilità di usare un'unica identità su reti e organizzazioni diverse grazie ad accordi di fiducia. Single Sign-On è un'unica autenticazione che dà accesso a tutte le risorse di un singolo fornitore (es. login Google che apre anche Gmail e Drive). Same Sign-On è usare un provider esterno per accedere a una risorsa di terzi (es. "accedi con Facebook" su un sito estraneo).</p>
+        </details>
+
+        <details class="qa">
+          <summary>Qual è la differenza principale tra RBAC e ABAC?</summary>
+          <p class="answer">L'RBAC assegna i permessi in base al ruolo che una persona ricopre ("gli Editor possono modificare questo file"). L'ABAC valuta invece l'intero contesto della richiesta — dispositivo, luogo, orario, e altri attributi — e può negare un accesso altrimenti legittimo se il contesto appare anomalo, ad esempio un login corretto ma da un paese mai visto prima.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Perché un dato biometrico compromesso è, in un certo senso, più grave di una password rubata?</summary>
+          <p class="answer">Perché una password si può cambiare, un dato biometrico no. Se il template della tua impronta digitale viene rubato da un database violato, non puoi generarne una nuova: quella specifica caratteristica fisica resta compromessa per sempre. Per questo la biometria non dovrebbe mai essere l'unico fattore di autenticazione su sistemi critici.</p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="site-footer">
+  <p>Materiale di studio non ufficiale, a uso personale. Basato sulle slide e le lezioni del corso.</p>
+</footer>
+
+<script>
+(function(){
+  var root = document.documentElement;
+
+  /* ---------- Tema ---------- */
+  var THEME_KEY = 'csw-theme';
+  function applyTheme(t){
+    if(t === 'dark') root.setAttribute('data-theme','dark');
+    else if(t === 'light') root.setAttribute('data-theme','light');
+    else root.removeAttribute('data-theme');
+  }
+  var saved = null;
+  try { saved = localStorage.getItem(THEME_KEY); } catch(e){}
+  applyTheme(saved);
+
+  function currentEffective(){
+    var attr = root.getAttribute('data-theme');
+    if(attr) return attr;
+    return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+  }
+  var themeBtn = document.getElementById('theme-toggle');
+  function updateThemeBtn(){
+    var eff = currentEffective();
+    themeBtn.setAttribute('aria-pressed', eff === 'dark' ? 'true' : 'false');
+    themeBtn.textContent = eff === 'dark' ? '☀️ Chiaro' : '🌙 Scuro';
+  }
+  updateThemeBtn();
+  themeBtn.addEventListener('click', function(){
+    var next = currentEffective() === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    try{ localStorage.setItem(THEME_KEY, next); }catch(e){}
+    updateThemeBtn();
+  });
+
+  /* ---------- Menu mobile ---------- */
+  var menuBtn = document.getElementById('menu-toggle');
+  var nav = document.getElementById('site-nav');
+  menuBtn.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.querySelector('.nav-backdrop').addEventListener('click', function(){
+    nav.classList.remove('open');
+    menuBtn.setAttribute('aria-expanded','false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ---------- Routing ---------- */
+  var routes = Array.prototype.slice.call(document.querySelectorAll('.route'));
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('#site-nav a'));
+
+  function parseHash(){
+    var h = location.hash.replace(/^#\/?/, '');
+    if(!h) h = 'panoramica';
+    var parts = h.split('/');
+    return { route: parts[0], anchor: parts[1] || null };
+  }
+
+  function showRoute(){
+    var parsed = parseHash();
+    var route = parsed.route, anchor = parsed.anchor;
+    var matched = false;
+    routes.forEach(function(sec){
+      var isMatch = sec.id === 'route-' + route;
+      sec.hidden = !isMatch;
+      if(isMatch) matched = true;
+    });
+    if(!matched){
+      routes.forEach(function(sec){ sec.hidden = (sec.id !== 'route-panoramica'); });
+      route = 'panoramica';
+    }
+    navLinks.forEach(function(a){
+      var r = a.getAttribute('href').replace(/^#\/?/, '').split('/')[0];
+      if(r === route) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
+    });
+    buildPageToc();
+    if(anchor){
+      requestAnimationFrame(function(){
+        var el = document.getElementById(anchor);
+        if(el){
+          el.scrollIntoView({behavior:'smooth', block:'start'});
+          el.classList.add('flash');
+          setTimeout(function(){ el.classList.remove('flash'); }, 1600);
+        } else {
+          window.scrollTo(0,0);
+        }
+      });
+    } else {
+      window.scrollTo(0,0);
+    }
+  }
+  window.addEventListener('hashchange', showRoute);
+
+  /* ---------- TOC automatico per pagina ---------- */
+  function buildPageToc(){
+    var visible = document.querySelector('.route:not([hidden])');
+    if(!visible) return;
+    var tocEl = visible.querySelector('.page-toc');
+    if(!tocEl) return;
+    var chunks = visible.querySelectorAll('.chunk[id]');
+    if(chunks.length < 2){ tocEl.hidden = true; tocEl.innerHTML=''; return; }
+    var routeId = visible.id.replace('route-','');
+    var html = '<p class="page-toc-label">In questa pagina</p><ul>';
+    chunks.forEach(function(c){
+      var h = c.querySelector('h2, h3');
+      if(!h) return;
+      html += '<li><a href="#/' + routeId + '/' + c.id + '">' + h.textContent + '</a></li>';
+    });
+    html += '</ul>';
+    tocEl.innerHTML = html;
+    tocEl.hidden = false;
+  }
+
+  showRoute();
+
+  /* ---------- Ricerca ---------- */
+  var sectionLabels = {
+    'panoramica':'Panoramica','modulo-1':'Modulo 1','modulo-2':'Modulo 2','modulo-3':'Modulo 3',
+    'modulo-4':'Modulo 4','modulo-5':'Modulo 5','modulo-6':'Appendice',
+    'glossario':'Glossario','ripasso':'Ripasso'
+  };
+  var index = [];
+  document.querySelectorAll('.route').forEach(function(sec){
+    var routeId = sec.id.replace('route-','');
+    sec.querySelectorAll('.chunk[id]').forEach(function(c){
+      var h = c.querySelector('h2, h3, h4');
+      var title = h ? h.textContent.trim() : '';
+      var text = c.textContent.trim().replace(/\s+/g,' ');
+      index.push({ route: routeId, id: c.id, title: title, text: text });
+    });
+  });
+
+  var searchInput = document.getElementById('site-search');
+  var resultsBox = document.getElementById('search-results');
+
+  function escapeHtml(s){
+    return s.replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  function escapeRegExp(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+  function doSearch(q){
+    q = q.trim();
+    if(q.length < 2){ resultsBox.hidden = true; resultsBox.innerHTML=''; return; }
+    var qLower = q.toLowerCase();
+    var matches = index.filter(function(item){
+      return item.title.toLowerCase().indexOf(qLower) > -1 || item.text.toLowerCase().indexOf(qLower) > -1;
+    }).slice(0, 12);
+
+    if(matches.length === 0){
+      resultsBox.innerHTML = '<p class="search-empty">Nessun risultato per «' + escapeHtml(q) + '».</p>';
+      resultsBox.hidden = false;
+      return;
+    }
+    var re = new RegExp('(' + escapeRegExp(q) + ')', 'ig');
+    resultsBox.innerHTML = matches.map(function(m){
+      var lowerText = m.text.toLowerCase();
+      var idx = lowerText.indexOf(qLower);
+      var snippet;
+      if(idx > -1){
+        var start = Math.max(0, idx - 40);
+        snippet = (start > 0 ? '…' : '') + m.text.slice(start, idx + qLower.length + 70) + '…';
+      } else {
+        snippet = m.text.slice(0, 110) + '…';
+      }
+      snippet = escapeHtml(snippet).replace(re, '<mark>$1</mark>');
+      var label = sectionLabels[m.route] || m.route;
+      return '<a class="search-result" role="option" href="#/' + m.route + '/' + m.id + '">' +
+        '<span class="sr-section">' + escapeHtml(label) + '</span>' +
+        '<span class="sr-title">' + escapeHtml(m.title) + '</span>' +
+        '<span class="sr-snippet">' + snippet + '</span></a>';
+    }).join('');
+    resultsBox.hidden = false;
+  }
+
+  searchInput.addEventListener('input', function(){ doSearch(searchInput.value); });
+  searchInput.addEventListener('focus', function(){ if(searchInput.value.trim().length >= 2) doSearch(searchInput.value); });
+  resultsBox.addEventListener('click', function(e){
+    if(e.target.closest('a')){
+      resultsBox.hidden = true;
+      searchInput.value = '';
+      nav.classList.remove('open');
+    }
+  });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.search-wrap')) resultsBox.hidden = true;
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ resultsBox.hidden = true; }
+  });
+})();
+</script>
+</body>
+</html>

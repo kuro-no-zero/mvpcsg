@@ -1,0 +1,2040 @@
+[1:26] Buongiorno.
+[1:32] Sono in anticipo io, probabilmente,
+[1:34] eh.
+[1:53] Bere.
+[2:01] Buongiorno.
+[2:02] Buongiorno.
+[3:34] anche Giulia.
+[5:36] Buongiorno.
+[5:38] Buongiorno.
+[5:39] Buongiorno.
+[5:40] Buongiorno.
+[5:41] Buongiorno. Buongiorno.
+[6:15] E da questo,
+[6:16] quindi non sono stampabili.
+[6:18] Nella cartella materiali potete caricare
+[6:20] e scaricare tutto quello che vi pare. Le
+[6:22] registrazioni no. Le registrazioni ci
+[6:25] sono i dati personali, nome, cognome. Io
+[6:28] l'ho avviata adesso per lo stesso motivo
+[6:30] perché parlavate di voi stessi, quindi
+[6:33] insomma. Ok,
+[6:36] ok. Ok. In questo momento è partita la
+[6:39] registrazione.
+[6:42] Eh, voi
+[6:45] vedete le slide?
+[6:47] Eh, Samuele, spegni la tua webcam perché
+[6:50] secondo me ti consuma a banda, così ti
+[6:52] sentiamo meglio.
+[6:53] Dovrebbe essere spenta. E non è spenta.
+[6:56] Spenta. Ok. Ok, vai.
+[6:58] Mi
+[7:00] Sì.
+[7:02] Ok.
+[7:04] Però non mi sembra avessi problemi di
+[7:06] connessione, invece oggi ti sento legge.
+[7:08] So cioè non una roba non
+[7:11] cosa di oggi. Va bene.
+[7:13] Non praticamente mi senti mi sì sì sì.
+[7:18] Allora,
+[7:20] ok. Allora,
+[7:26] delle basi, insomma.
+[7:29] Allora, che cos'è? Ti sento a tratti,
+[7:31] Samuele, scusami.
+[7:33] Lo sentite a scatti?
+[7:36] Forse la condivisione. Aspetta un attimo
+[7:37] che tolgo la condivisione.
+[7:41] Allora,
+[7:43] se altrimenti potresti entrare anche tu
+[7:46] col potresti fare una connessione
+[7:48] cellulare magari, ma meglio di Non so
+[7:50] come sei collegato, Samuel.
+[7:51] No, no, sono collegato con la con la
+[7:54] rete dell'ufficio.
+[7:55] Eh
+[7:56] eh, fidati.
+[7:58] È strana sta cosa. Ripro,
+[7:59] scusa, non abbiamo mai avuto questi
+[8:01] giorni problemi? Infatti ci siamo visti
+[8:03] spesso, ma hai avuto sti problemi.
+[8:07] Però adesso ti sento. Eh,
+[8:12] eh, perché sennò potresti potresti
+[8:14] provare col cellulare a
+[8:18] Poi vediamo,
+[8:19] eh, perché magari entri anche col
+[8:20] cellulare, parli da lì, come ha fatto
+[8:24] Marco poi alla fine.
+[8:25] Mh, aspetta un attimo, prima.
+[8:28] Eh, vabbè, comunque risolviamo pure sta
+[8:31] cosa. Eh,
+[8:32] sì, sì.
+[8:40] Allora, vedete adesso le slide? Mi
+[8:43] sentite?
+[8:44] Sì,
+[8:44] sì, sì.
+[8:46] Proviamo a partire.
+[8:50] Allora, partiamo
+[8:53] dalla base. Eh, che cos'è assicurazione
+[8:55] informatica? Perché? perché nasce, quali
+[8:58] sono i problemi che vuole risolvere e
+[8:59] quali sono soluzioni.
+[9:03] sostanzialmente
+[9:05] la squenza informata
+[9:09] per
+[9:10] valore dal momento in cui viene
+[9:12] digitalizzata
+[9:14] diventa
+[9:19] modificabile senza las tracce visibili e
+[9:23] raggiungibile soprattutto da chiunque
+[9:24] sia connesso. Tutte queste proprietà
+[9:27] sono proprietà che eh ha il mondo di non
+[9:30] il mondo cartaceo.
+[9:32] e durante questo corso fa un po'
+[9:34] analogie anche con il mondo reale,
+[9:36] giusto? Perché varie grand ho visto e
+[9:38] quindi cerco di essere più chiaro ed
+[9:40] esaustivo possibile, non mi limiterò a
+[9:42] leggere le slide, ma giusto per perché
+[9:44] penso che vi darò un valore aggiunto
+[9:46] maggiore e dei esi. Quindiamo
+[9:50] un esempio. Pensi pensate a un archivio
+[9:52] cartaceo di uno studio notari, non so,
+[9:54] negli anni 80. Se qualcuno avesse voluto
+[9:57] rubare dei momentumenti sarebbe dovuto
+[10:00] entrare fisicamente
+[10:02] e poi portare via la casa e l'originale
+[10:04] sarebbe st
+[10:06] oggi invece non è più perché un cliente
+[10:10] potrebbe essere
+[10:12] anche di 20 anni di documenti senza che
+[10:15] però nessuno entri fisicamente in
+[10:17] ufficio.
+[10:18] foglio esposta e addirittura è possibile
+[10:21] anche che il proprietario di questi
+[10:23] documenti nemmeno si accorga per mesi.
+[10:27] Quindi come analogia diity
+[10:30] è la disciplina che studia come
+[10:32] ricostruire in digitale proprietà di
+[10:34] sicurezza che aveva prima il mondo
+[10:37] cartaceo.
+[10:38] Eh
+[10:40] direi possiamo anche fare un secondo
+[10:43] esempio. C'è un'azienda
+[10:45] meccanica nel milanese che riceve un
+[10:48] email cui viene fatto un sollecito di
+[10:52] pagamento dal fornitore, per capirci,
+[10:54] non so, la contabile
+[10:57] eh segna €50.000 da pagare. Peccato che
+[11:00] però il fornitore non aveva inviato a
+[11:02] voi questa mail. Cosa?
+[11:06] Eh, è un classico esempio di fishing
+[11:08] questo, ne parleremo eh poi più avanti,
+[11:11] però sono tutti i rischi che il mondo
+[11:14] digitale eh ha introdotto rispetto al
+[11:17] mondo reale.
+[11:20] Quindi
+[11:23] ben chiaro che la sicurezza informatica
+[11:25] non è solo software o eh mezzi tipo che
+[11:29] ne so antivirus o firewall, ma è anche
+[11:33] tutto una unaurazione
+[11:37] e di processi che devono essere
+[11:38] implementati in azienda affinché un
+[11:41] sistema possa definirsi davvero sicuro.
+[11:46] Andiamo avanti.
+[11:52] Dei principi fondamentali e la sicurezza
+[11:54] informatica si si basa su tre proprietà.
+[11:58] Eh
+[12:01] eh un modello in inglese viene chiamato
+[12:04] G, cioè quindi confidentiality integrity
+[12:07] che in italiano sonoalità
+[12:11] riservatezza, integrità del dato e
+[12:15] aability che è la disponibilità del
+[12:17] sego. Partiamo però per ordine, uno per
+[12:19] uno che la confidenzialità
+[12:23] significa che solo chi è autorizzato può
+[12:27] leggere informazione. Quindi non basta
+[12:30] che il dato sia sicuro su un server,
+[12:33] ma conta anche chi può accedervi e in
+[12:36] che condizioni. Quindi
+[12:39] diciamo che la confidenzialità
+[12:41] sostanzialmente si può rompere in un
+[12:42] paio di modi. Primo, quando poi uno
+[12:45] legge dati che non dovrebbe, quindi un
+[12:47] classico databach, oppure
+[12:51] eh finiscono per questi dati in mano a
+[12:53] chi non ne ha bisogno.
+[12:55] Ad esempio, sbagliate inviare un
+[12:57] allegato a una mail.
+[12:59] Anche qua possiamo fare un'analogia nel
+[13:01] mondo reale perché per confidenzialità
+[13:04] eh
+[13:06] chiusa consegnata al dipendente.
+[13:10] Se questa busta invece di essere
+[13:12] consegnata così viene lasciata, non lo
+[13:14] so, aperta sulla scriv reception, la
+[13:17] confidenzialità è viata anche se nessuno
+[13:21] l'ha letto, ok? Perché la sola
+[13:24] possibilità che venisse letta da
+[13:26] analizzati è già un problema.
+[13:29] Questo ovviamente messo nel mondo
+[13:31] dell'informatica.
+[13:32] Integrità, secondo principio.
+[13:35] Eh, cosa significa? Significa che il
+[13:37] dato deve essere genuino, nel senso che
+[13:40] nessuno deve averlo modificato
+[13:43] sensualizzazione
+[13:45] e nessun errore di trasmissione
+[13:48] alterato.
+[13:50] Eh, e anche qua, diciamo, che è
+[13:52] abbastanza semplice anche con analogia
+[13:54] del mondale. Se voi firmate un contratto
+[13:56] e in cui, che ne so, abbiete una rada di
+[14:00] di €40.000, 000 mettete voi a modificare
+[14:06] non è non è non passa il concetto di
+[14:09] integrità dato perché l'avete modificato
+[14:11] voi e non ha alcun significato, non ha
+[14:13] alcun valore questa modifica
+[14:15] disponibilità. Il terzo principio
+[14:18] appunto è molto importante ed è più
+[14:20] legato al sistema che al dato in sé.
+[14:24] significa che il dato o servizio deve
+[14:26] essere raggiungibile quando serve,
+[14:30] quindi avere dei dati pertamente non so
+[14:33] cifrati o integri, quindi e
+[14:35] confidenziali,
+[14:37] masturono su un server, che ne so,
+[14:39] spento o sotto attacco di di vos,
+[14:42] praticamente equivale a non averli
+[14:44] perché sostanzialmente tu non puoi
+[14:45] usufruire di quel servizio. è un po'
+[14:48] come se
+[14:50] eh
+[14:52] voi avete un'emergenza avete la ricetta
+[14:54] per andare a una farmacia,
+[14:57] ok? Quindi mh deve essere
+[15:00] necessariamente disponibile il dato
+[15:02] perché sennò non non ha non ha non ha
+[15:05] grandi dati.
+[15:08] Eh, facciamo così. Allora, visto che
+[15:10] vorrei farla un po' interattiva questa
+[15:13] questa lezione, vi faccio qualche
+[15:15] domandina così su questa
+[15:18] così. Eh, guarda, eh Samuel, continui a
+[15:21] andare un pochino a scatti. Secondo me,
+[15:23] se tu provi a entrare anche col
+[15:25] cellulare, parli da lì, forse risolvi.
+[15:28] Ok, quindi tu
+[15:30] eh perché sennò poi diventa una cosa per
+[15:33] cui improvvisamente ti dicono mentre
+[15:35] stai parlando che non ti sentono.
+[15:37] Facciamo una cosa più tranquilla.
+[15:40] Allora, attimo
+[15:44] termine,
+[15:45] magari nell'ufficio lì stanno sta c'è
+[15:48] qualche computer che sta facendo un
+[15:50] aggiornamento, sta scaricando dati, sta
+[15:52] facendo tipo l'audio da qua e prova a
+[15:55] entrare da
+[15:56] Ieri ieri la tua connessione era
+[15:58] perfetta.
+[16:01] Allora,
+[16:06] beh, comunque resta in resta in aula
+[16:08] anche col computer. Il computer fai
+[16:10] vedere col cellulare parli
+[16:12] fondamentalmente.
+[16:21] Per voi anche voi lo sentivate un po' a
+[16:23] scatti, no? Giusto.
+[16:24] Sì.
+[16:26] Avete seguito
+[16:28] questa cosa?
+[16:28] Sì, sì. Scatti.
+[16:30] Certe volte questa cosa si può risolvere
+[16:32] anche spegnendo tutte le webcam perché
+[16:34] poi il sistema le gestisce tutte
+[16:36] insieme,
+[16:37] però diciamo che se Samuele riesce a
+[16:40] entrare anche col cellulare
+[16:43] platino utilizza una connessione
+[16:45] cellulare, non quella dell'ufficio.
+[16:53] M.
+[17:09] Vediamo subito se mi fa entrare
+[17:14] Sì.
+[17:34] M.
+[17:49] M.
+[18:20] se mi fai installare l'app.
+[18:26] Eh beh, ma installala così magari te la
+[18:28] tieni poi di riserva per le prossime se
+[18:31] risuccede
+[18:32] adesso, per esempio, non ti sento più a
+[18:34] scatti, però a questo punto meglio la
+[18:37] condivisione. Adesso vediamo però.
+[18:40] Sì, perché poi ripeto, spegnendo tutte
+[18:44] le webcam recuperi banda anche tu, però
+[18:49] non è neanche bello fare lezioni con
+[18:51] tutte le webcam spente.
+[18:54] Daniele, stai stai inguaiato con il
+[18:58] Secondo me è un'allergia, però eh
+[19:02] che provengo provengo dalla settimana
+[19:04] scorsa che sono stato che sono stato un
+[19:06] po' male, me le so beccate tutte quante.
+[19:08] C' raffreddore, i tosse,
+[19:10] la febbre, tutto quanto.
+[19:12] Ah, che bello.
+[19:14] È bella la primavera.
+[19:15] Sì, che la primavera ci si spoglia e poi
+[19:19] dopo
+[19:21] pazzo,
+[19:22] vengono le giornate come queste. Qui,
+[19:23] per esempio, a Brescia il tempo è
+[19:26] abbastanza una schifezza. Ieri pioveva
+[19:31] pure pure qua da me. Io sto in Liguria.
+[19:33] In Liguria sei? Ah
+[19:35] m
+[19:36] quella Liguria è notoriamente un po'
+[19:38] piovosa, mi sa. No,
+[19:40] abbastanza. Sì,
+[19:46] però mi sentite con l'audio?
+[19:48] Aspetta. Ecco. Sì, sì.
+[19:53] Meglio così?
+[19:55] Eh, sembrerebbe di sì. Vai.
+[19:58] Sento, devo togliere
+[20:01] Sì, togli uno dei due audio e utilizzi
+[20:04] il cellulare.
+[20:10] Così
+[20:12] ora meglio. Non c'è più rimbombo.
+[20:15] Adesso sembrerebbe meglio.
+[20:19] Ok, allora facciamo così. Rifacciamo
+[20:22] andare la condivisione.
+[20:23] Ok.
+[20:31] Ok. Meglio.
+[20:33] Sì.
+[20:34] Sì.
+[20:36] Ok. Allora, stavo dicendo, eh su questi
+[20:39] tre principi, quindi confidenzialità,
+[20:42] integrità e disponibilità, facciamo
+[20:46] così, vi do un vi faccio degli esempi,
+[20:48] nel senso vi do vi elenco qualche
+[20:50] servizio e voi mi dite quale secondo voi
+[20:54] è più importante, ok? Quindi, quale di
+[20:56] queste tre proprietà è più importante
+[20:58] per questo servizio?
+[21:00] Allora,
+[21:02] direi un banking.
+[21:06] Chi se la sente di rispondere?
+[21:15] Nessuno.
+[21:16] Sia confidenziale che disponibile.
+[21:19] Sì.
+[21:20] Ok. Assolutamente. Quindi
+[21:23] privilegiare la confidenzialità.
+[21:25] Sì,
+[21:26] perfetto. E-commerce
+[21:31] m
+[21:36] integrità e viabilità.
+[21:40] Non ho sentito, scusami.
+[21:42] Integrità e aviabilità.
+[21:46] Eh, ho detto disponibilità. Esatto,
+[21:50] perché deve essere sempre accessibile
+[21:51] per permetterti acquisti e vendite senza
+[21:53] interruzioni.
+[21:57] Ehm,
+[22:00] cartella clinica elettronica,
+[22:04] integrità.
+[22:06] Esattamente,
+[22:08] perché i dati devono essere corretti,
+[22:10] giusto? Non alterabili.
+[22:13] Eh, facciamo un ultimo sistema di
+[22:16] prenotazione dei voli.
+[22:23] Disponibilità.
+[22:25] Esatto. Ai detto anch'io questo perché
+[22:27] deve essere sempre raggiungibile
+[22:29] sostanzialmente perché sennò non potete
+[22:30] prenotare assolutamente niente.
+[22:34] Eh diciamo che si tende a a vedere la
+[22:38] disponibilità come la meno importante
+[22:40] perché si pensa in maniera errata che
+[22:42] non c'entri con la sicurezza vera.
+[22:44] Invece non è così. Vi faccio un esempio
+[22:46] molto pratico. Eh, oggi le piccole medie
+[22:51] imprese sono spesso colpito da
+[22:53] ransomware e sono la minaccia più
+[22:55] costosa perché sostanzialmente è un
+[22:57] attacco alla disponibilità perché ti
+[22:59] cifrano i dati e te li rendono non più
+[23:00] disponibili e lo usano come una leve
+[23:02] economica. Quindi sostanzialmente
+[23:04] Samuele Ramsware che significa? Che cosa
+[23:07] ransomware? Allora, è un ne parleremo
+[23:10] più nel dettaglio più avanti perché
+[23:11] parleremo proprio di tutte le minacce.
+[23:13] Comunque il ransomware era un virus che
+[23:17] ti cifra, quindi ti rende non più
+[23:19] disponibili per te, tu non puoi più
+[23:20] utilizzare o dei software o dei dati, ti
+[23:22] blocca la catena produttiva, ok? E ti
+[23:25] chiede un riscatto.
+[23:27] Ti stanno ricattando sostanzialmente.
+[23:30] Ok.
+[23:30] Ok,
+[23:33] ok.
+[23:35] Allora, continuiamo. Eh, la protezione
+[23:38] degli degli asset informatici.
+[23:40] Allora, eh in informatica, allora un
+[23:44] asset tendenzial, allora la parola
+[23:45] asset, partiamo dall'etimologia, è una
+[23:47] parola presa dall'inglese che in
+[23:49] italiano viene utilizzato spesso in
+[23:50] contabilità, in contabilità aziendale e
+[23:53] è un bene a cui si puòire attribuire un
+[23:56] valore.
+[23:57] Per quanto riguarda un asset informatico
+[24:00] è qualsiasi cosa che riguarda il il
+[24:05] mondo IT, eh, e quindi possono essere
+[24:09] dati, applicazioni, server, dispositivi,
+[24:13] reti,
+[24:15] ehm,
+[24:16] e quindi sono tutti sono tutti eh asset
+[24:20] che l'azienda deve tenere sia sotto
+[24:22] controllo che eh con con varie misure
+[24:26] tecniche. ci sono due principi, due due
+[24:29] tipologie di misure che devono essere
+[24:32] ehm
+[24:33] implementate per stare sicuri. Misure
+[24:37] tecniche e quindi sono soluzioni più eh
+[24:41] più più
+[24:43] softwaristiche che possono essere
+[24:45] antivirus, firewall, sistemi di
+[24:48] cifratura, backup, eh autenticazione a
+[24:52] più fattori, no? quando vi collegate,
+[24:54] che ne so, alla al sito della banca e vi
+[24:56] manda un codice di SMS per certificare
+[24:59] che siete voi e misure invece
+[25:02] organizzative che si che anche queste
+[25:03] sono molto importanti specialmente in
+[25:06] ambito aziendale e quindi sono politiche
+[25:08] aziendali, formazione del personale, eh
+[25:12] procedure di gestione di degli
+[25:14] incidenti,
+[25:16] contratti coi fornitori e sono tutte
+[25:19] cose che queste qua, le misure
+[25:21] organizzative non si comprano, ma si fa,
+[25:23] ma si scrivono, si progettano e si
+[25:25] devono far rispettare a tutti.
+[25:28] Ehm,
+[25:30] allora c'è un quarto c'è una quarta
+[25:31] proprietà, un quarto principio, quello
+[25:33] che viene chiamato non ripudio, ed è
+[25:35] molto importante in informatica e si
+[25:38] affianca ai tre principali, ai tre
+[25:41] precedenti, ai tre alle tre proprietà
+[25:42] precedenti, quindi alla confidenzialità,
+[25:44] integrità e disponibilità. Cosa
+[25:47] significa il non ripudio? Significa che
+[25:49] chi compie un'azione non può poi negare
+[25:52] di averla compiuta
+[25:54] e questo è fondamentale per qualsiasi
+[25:57] transazione che debba avere un valore
+[25:58] legale. Quindi pensate a pagamenti
+[26:00] elettronici, firme, facciamo un es.
+[26:06] Quando tu firmi, non so, digitalmente un
+[26:09] contratto con lo Speed, no? Oggi tutti
+[26:11] avete uno Speed, no? per poter
+[26:12] interagire con la la pubblica
+[26:14] amministrazione ormai è ovunque. Il
+[26:18] sistema, appunto, quando voi vi loggate
+[26:20] con lo Speed, registra i vostri dati,
+[26:22] quindi registra chi sei, cosa hai
+[26:24] firmato e quando lo hai firmato, così
+[26:27] che se un domani tu dovessi negare di
+[26:29] avere firmato, esistono prove che ti
+[26:31] smentiscono. Sostanzialmente, senza
+[26:34] questo principio, senza questo sistema,
+[26:36] il commercio elettronico, così come lo
+[26:38] conosciamo oggi, non potrebbe neanche
+[26:40] esistere, no? Perché nessun venditore
+[26:42] spedirebbe una merce sapendo che il
+[26:44] compratore poi può negare di aver
+[26:46] effettuato questo ordine.
+[26:49] Ehm
+[26:52] direi vi faccio ancora qualche
+[26:56] piccola domandina
+[26:58] e vediamo. Allora,
+[27:02] quando ricevete un SMS, ad esempio, con
+[27:05] il codice OTP della banca, no? il codice
+[27:07] che vi arriva per confermare che siete
+[27:09] voi. Quale proprietà si sta cercando di
+[27:12] proteggere?
+[27:14] Dati personali,
+[27:17] riservatezza
+[27:19] la confidenzialità.
+[27:21] I Ok, quindi diciamo che qua qui non è
+[27:24] che ci Allora, non non vi spaventate se
+[27:26] non non c'è una risposta per forza
+[27:28] corretta. Ce ne sono ce ne sono
+[27:30] scorrette, ma non necessariamente una
+[27:33] sola corretta. È giusto sia l'integrità
+[27:34] che la confidenzialità.
+[27:37] Se cancellate invece per errore una mail
+[27:39] importante,
+[27:40] è un problema di confidenzialità,
+[27:42] integrità o disponibilità?
+[27:45] Disponibilità.
+[27:46] Disponibilità.
+[27:49] Esatto.
+[27:51] E dice, eh, allora, secondo voi
+[27:57] avete mai sentito casi di aziende che
+[28:00] hanno avuto problemi non per un attacco
+[28:03] hacking, cioè quindi non attacco attivo,
+[28:05] ma per un errore organizzativo?
+[28:08] Ad esempio, faccio un esempio io, un
+[28:09] dipendente che lascia e si porta via i
+[28:12] contatti.
+[28:16] È un esempio che ho fatto, eh, per dire
+[28:18] problematiche non relative solo al
+[28:20] lacking, ma che appunto riguardano
+[28:22] misure organizzative, come ho detto
+[28:23] prima, politiche aziendali.
+[28:25] Sì, può succedere. Certo.
+[28:28] E e vi assicuro che succede più
+[28:30] frequentemente di quello che si pensa
+[28:32] perché si tende a a dare più valore alle
+[28:37] misure, come abbiamo detto prima,
+[28:39] tecniche foll antivirus, cifratura,
+[28:41] backup, eccetera, che è quelle
+[28:42] organizzative, ma sono molto importanti
+[28:44] anche queste.
+[28:46] Allora, parliamo, continuiamo, andiamo
+[28:48] avanti. Che cos'è il rischio
+[28:49] informatico?
+[28:51] Allora, eh il rischio di per sé non è la
+[28:55] minaccia. Allora, la minaccia è un
+[28:58] evento potenziale, ad esempio ransomware
+[29:00] di prima. La vulnerabilità
+[29:04] invece è la debolezza che lo rende
+[29:07] possibile. Facciamo un esempio, un PC
+[29:09] che non ha fatto gli aggiornamenti, un
+[29:11] dipendente pigro che non aggiorna il PC.
+[29:14] Il rischio che cos'è il rischio? la
+[29:17] combinazione
+[29:18] tra quanto è probabile che la minaccia
+[29:21] sfrutti la vulnerabilità e quanto male
+[29:23] farebbe se questo accadesse.
+[29:26] Vedo di essere ancora più chiaro, non
+[29:29] spaventatevi per la formula, è molto
+[29:31] semplice. Eh, allora, qui abbiamo che il
+[29:33] rischio è dato da il prodotto tra
+[29:36] probabilità, impatto ed efficacia dei
+[29:37] controlli. sostanzialmente
+[29:39] sostanzialmente eh la probabilità quanto
+[29:44] è verosimile che cos'è la probabilità è
+[29:46] quanto è verosimile che la minaccia si
+[29:48] materializzi nel periodo considerato.
+[29:52] E come si stima? si stima in vari modi,
+[29:54] possono esserci dati storici, eh quella
+[29:57] che viene chiamata intelligence di
+[29:58] settore, quindi non so i manager
+[30:00] dell'azienda che sono lì da 20 anni
+[30:02] sanno quanto è probabile in base a
+[30:04] quanto quante volte è successo in
+[30:06] passato
+[30:07] oppure dall'esperienza appunto dei
+[30:09] singoli manager. Il secondo valore, la
+[30:12] seconda, la seconda lettera I è impatto.
+[30:15] Quindi se accade questa questa minaccia
+[30:20] questo questa minaccia quanto fa,
+[30:22] passatemi il termine, male? Qual è il
+[30:24] danno? Potete quantificarlo in euro
+[30:27] oppure in giorni di fermo, il numero di
+[30:29] clienti persi o in sanzioni
+[30:32] regolamentari? Non dimentichiamoci che
+[30:33] ci sono anche queste
+[30:36] e l'efficacia dei controlli è
+[30:37] sostanzialmente cosa fai per evitare o
+[30:42] se quindi che controlli implementi per
+[30:45] evitare questa cosa. Eh, quindi il
+[30:49] valore appunto di di del rischio aumenta
+[30:52] se i controlli in maniera inversa ai
+[30:54] controlli, quindi no. Quindi, ehm,
+[30:58] più controlli metti più basso sarà il
+[31:01] tuo rischio. Facciamo degli esempi, così
+[31:03] almeno evitiamo di parlare solo in
+[31:05] termini astratti
+[31:07] per per capirci. Se decidere se prendere
+[31:11] l'ombrello quando esci di casa. Ok?
+[31:13] Probabilità in questo in questo esempio
+[31:15] qual è?
+[31:17] Quanto è probabile che oggi piova?
+[31:19] Quindi guardo il meteo.
+[31:22] L'impatto di questa scelta qual è?
+[31:24] Quanto mi danneggerei bagnandomi?
+[31:28] Facciamo un esempio, sei andando a un
+[31:29] colloquio importante di lavoro o stai
+[31:31] uscendo a buttare la spazzatura? E
+[31:33] quindi l'impatto varia drasticamente.
+[31:37] Efficacia dei controlli. In questo
+[31:38] esempio è semplice, abbiamo su indossato
+[31:40] un cappot impermeabile oppure sono sto
+[31:43] uscendo in maglietta maniche corte.
+[31:45] Quindi il rischio pioggia non è la
+[31:47] pioggia in sé, in questo esempio è la
+[31:49] combinazione di queste tre cose:
+[31:51] probabilità, impatto ed efficacia del
+[31:53] controllo.
+[31:57] Eh,
+[31:58] il rischio non partiamo da da un altro
+[32:00] concetto fondamentale che il rischio non
+[32:03] si può mai azzerare. Ok? Già solo vivere
+[32:07] significa accettare un certo livello di
+[32:08] rischio. Sì, però si può fare una
+[32:11] distinzione importante tra rischio
+[32:14] inerente e rischio residuo.
+[32:17] Il rischio inerente è il rischio senza
+[32:20] controlli, quindi se io non effettuo
+[32:22] nessuna azione per limitare questo
+[32:24] rischio. Il rischio residuo invece quel
+[32:27] rischio che non si può eliminare è del
+[32:30] rischio che rimane dopo aver applicato i
+[32:32] controlli.
+[32:34] Ok?
+[32:35] Quindi, eh ogni società, ogni azienda
+[32:38] deve eh mitigare questo rischio e
+[32:41] rendere il rischio residuo più basso
+[32:42] possibile sempre nella loro tolleranza
+[32:45] al rischio perché ogni azienda è
+[32:47] diversa, quindi si dovrà comportarsi in
+[32:50] questa maniera.
+[32:52] Vi faccio altre belle domande. Allora,
+[32:56] ehm
+[32:58] quale ha rischio maggiore? Adesso vi
+[33:00] dico, vi faccio due esempi, voi mi
+[33:01] dovete dire quale secondo voi ha un
+[33:03] rischio maggiore. Pensatela sempre con
+[33:05] questa formula, eh? Probabilità per
+[33:06] impatto per l'efficacia dei controlli.
+[33:09] Un meteorite distrugge il data center e
+[33:12] l'altro è un dipendente perde la
+[33:15] chiavetta USB con dei documenti. Dovete
+[33:18] dirmi qual è il rischio maggiore secondo
+[33:20] voi.
+[33:21] Il secondo.
+[33:23] Assolutamente vero. Perché?
+[33:28] Perché è più probabile.
+[33:30] Perché è più probabile.
+[33:32] Esatto. Perché la probabilità è molto
+[33:34] maggiore.
+[33:36] L'impatto del meteorite è chiaramente
+[33:39] maggiore, ma è un evento talmente raro
+[33:43] che lo rende che abbatte la probabilità
+[33:46] abbatte tantissimo il rischio. Ok?
+[33:49] Eh,
+[33:51] va bene.
+[33:53] Quindi questo questo esempio e per
+[33:56] quanto potesse sembrare estremo, però eh
+[33:59] serve a far capire che eh si tende di
+[34:02] solito a sovrastimare rischi
+[34:03] spettacolari, no? quindi i famosi hacker
+[34:06] russi, terrorismo informatico e a
+[34:09] sottostimare quelli invece più banali,
+[34:11] ad esempio un dipendente che clicca su
+[34:13] un link che non dovrebbe, un backup che
+[34:16] non è mai stato testato o una policy di
+[34:19] password debole.
+[34:21] E vi assicuro che la quasi totalità
+[34:24] degli incidenti reali nelle aziende
+[34:27] appartiene a questa seconda categoria, a
+[34:29] quelli che sono un po' più tra
+[34:30] virgolette banali. Ok, andiamo avanti.
+[34:36] Ora sono tre definizioni. Le prime le
+[34:40] prime lezioni sarà molto
+[34:43] magari vi annoierà, ma sarà bisogna
+[34:45] darvi le definizioni di base per poter
+[34:47] poi passare alle cose più interessanti.
+[34:48] E quindi
+[34:50] allora ehm queste sono tre sono tre
+[34:53] definizioni. Cosa sono gli attacchi,
+[34:55] cosa sono i meccanismi e i servizi.
+[34:58] Eh allora gli attacchi sono le azioni
+[35:01] offensive. Ok? Quindi possono essere
+[35:04] principalmente dolose perché si intende
+[35:07] che qualcuno voglia proprio deve esserci
+[35:09] l'intenzionalità nel causare un danno e
+[35:13] possono essere perdita di dati o
+[35:17] un blocco operativo, per capirci, come
+[35:19] ransomware. I meccanismi sono gli
+[35:22] strumenti che si usano per per
+[35:25] difendersi, quindi sono tipicamente
+[35:28] oggetti concreti o tecnologici, può
+[35:30] essere il firewall, un sistema di
+[35:33] rilevamento intrusioni, un sistema di
+[35:35] backup, una policy di password. Diciamo
+[35:37] che i meccanismi li possiamo definire
+[35:39] come i mattoni della difesa.
+[35:43] I servizi sono invece gli obiettivi di
+[35:46] sicurezza che vuoi garantire e li si
+[35:50] vengono attuati questi servizi
+[35:51] combinando più meccanismi.
+[35:54] Faccio un esempio. E il servizio di
+[35:57] autenticazione
+[35:59] combina più meccanismi che sono password
+[36:03] più due autenticazione a più fattori più
+[36:07] magari un sistema di log eccetera.
+[36:12] E il servizio è un risultato, mentre il
+[36:16] meccanismo è un mezzo. Ok?
+[36:20] Quindi facciamo facciamo un esempio.
+[36:21] Allora, ehm
+[36:24] quando pensiamo a una alla sicurezza
+[36:26] fisica di un negozio, ad esempio, fare
+[36:27] un esempio nel mondo reale, gli attacchi
+[36:30] quali sarebbero?
+[36:32] so rapine, furti, vandalismi.
+[36:36] I meccanismi sono appunto i i sono gli
+[36:40] oggetti che vengono implementati per
+[36:42] evitare questa cosa, quindi so serratura
+[36:44] blindata, telecamere, allarme
+[36:47] volumetrico, cassaforte.
+[36:50] I servizi invece sono ad esempio la
+[36:52] protezione perimetrale che combinano più
+[36:54] meccanismi. In questo caso combinano,
+[36:56] che ne so, la serratura più l'allarme
+[36:58] più le telecamere. Ok? Questo è.
+[37:03] Facciamo così, facciamo un esempio per
+[37:04] capire bene se avete capito la
+[37:06] differenza tra meccanismi e servizi.
+[37:07] Allora, eh il servizio post elettronica,
+[37:12] posta elettronica sicura, sareste in
+[37:14] grado di dividerlo nei suoi meccanismi?
+[37:23] Quindi i ricordatevi i meccanismi sono
+[37:25] come i mattoni, no? Quindi che come lo
+[37:29] implementereste questo servizio di
+[37:30] sicurezza di posta elettronica?
+[37:33] Per renderlo sicuro cosa fareste? Non vi
+[37:35] dico io la prima. Per esempio,
+[37:37] implementare la password, giusto?
+[37:40] Sì, la password.
+[37:40] Ah, la password.
+[37:42] Sì. Poi qualcos'altro che vi viene in
+[37:44] mente?
+[37:45] Ma aggiornarla ogni 15 giorni.
+[37:48] Bravo. Quindi una policy sulle password.
+[37:54] Qualcun altro?
+[37:59] un sistema un sistema di crittografia,
+[38:02] no?
+[38:03] Bravo, bravissimo. Cifratura, quindi va
+[38:06] benissimo.
+[38:08] Una cosa che classica classica che ci
+[38:09] succede a tutti che arriva dello spam,
+[38:13] quindi un sistema antispam
+[38:17] e esatto e via e via così, insomma.
+[38:19] Quindi questo è per farvi capire la
+[38:22] differenza tra eh meccanismi e servizi.
+[38:27] Un altro esempio possiamo fare eh tutti
+[38:30] abbiamo in casa oggi una Smart TV,
+[38:32] immagino. No, direi di sì. Eh, riuscite
+[38:36] a identificarmi anche solo un meccanismo
+[38:38] di sicurezza che la protegge la Smart
+[38:40] TV, secondo voi?
+[38:52] Mh, bella domanda.
+[38:55] Allora, comincio io. Allora, direi
+[38:58] sicuramente gli aggiornamenti firmware e
+[39:00] software, no? dalla TV, quindi quando
+[39:02] c'è l'aggiornamento, cosa che non so
+[39:04] quanti di voi facciano, è una cosa
+[39:07] abbastanza importante perché uno dei
+[39:09] modi migliori per entrare nel nella rete
+[39:11] di qualcuno è utilizzare software
+[39:13] datato, non paccciato. Quindi
+[39:16] aggiornamenti software. Eh,
+[39:21] di solito abbiamo un account utente con
+[39:24] la password quando ciamo all'inizio per
+[39:26] quando vi collegate al Play Store della
+[39:28] Smart TV, per esempio,
+[39:32] e via così.
+[39:34] È legato ad un account, quindi chiede la
+[39:36] password. Esatto, esattamente.
+[39:40] Ehm,
+[39:42] direi un'ultima domanda prima di passare
+[39:45] all'argomento successivo.
+[39:47] Quindi, cosa succede secondo voi quando
+[39:50] un meccanismo si rompe?
+[39:52] E ma il servizio comunque è garantito da
+[39:55] altri meccanismi?
+[39:59] È soggetto ad attacchi?
+[40:01] Esatto. Ma si possono mitigare nel senso
+[40:04] che se i meccanismi sono stati se il
+[40:07] servizio è composto dai giusti
+[40:08] meccanismi si può comunque limitare
+[40:12] l'attacco.
+[40:13] Facciamo un esempio, so posta
+[40:15] elettronica, come ho detto prima, se vi
+[40:18] rubano la password
+[40:20] l'altro meccanismo che è
+[40:21] l'autenticazione
+[40:23] a due fattori può comunque impedire
+[40:25] l'accesso, giusto?
+[40:27] Sì. Ah, quindi intervengono altri
+[40:29] meccanismi.
+[40:30] Esatto. Quindi bisogna studiare bene i
+[40:33] servizi e la composizione del loro
+[40:35] interno dei loro meccanismi perché così
+[40:37] si riesce a aumentare la sicurezza.
+[40:41] Questo è il principio.
+[40:42] Bravissimo. Questo è quello è il
+[40:43] principio che viene chiamato di difesa
+[40:45] in profondità. Ok?
+[40:48] Tutto per per evitare, che ne so, il
+[40:50] single point of failure, no? Quindi il
+[40:52] punto singolo di fallimento non basta un
+[40:53] meccanismo solo perché sennò si rischia
+[40:56] proprio di andare ko facilmente.
+[40:58] Quindi a seconda la profondità del
+[41:00] meccanismo di a seconda della profondità
+[41:02] del meccanismo, nel senso c'è un ci può
+[41:05] essere un attacco diverso.
+[41:07] Bravissimo. Ci può essere attacco
+[41:09] diverso in base anche al meccanismi e
+[41:12] l'importanza di combinare bene i
+[41:14] meccanismi perché perché così riesci a
+[41:17] limitare proprio la superficie
+[41:18] d'attacco.
+[41:20] Ah, ok.
+[41:21] Ok. Ok,
+[41:24] se ci sono domande fatemele, senò io
+[41:26] vado avanti. Eh
+[41:29] no, e io volevo volevo richiedere
+[41:31] unaltra volta la
+[41:34] la differenza tra meccanismi e servizi
+[41:36] che non e avevo capito sono riuscito a
+[41:39] distinguerli, scusa. Eh,
+[41:40] ok. Allora, i servizi sono, mettiamola
+[41:44] così, i meccanismi sono i mattoni, cioè
+[41:46] sono i componenti di un servizio. Il
+[41:49] servizio è l'obiettivo, quindi se
+[41:52] facciamo l' Quindi l'obiettivo di quello
+[41:54] che vuoi raggiungere,
+[41:57] ok? Facciamo così, eh come ho fatto
+[42:00] l'esempio di prima, no? Se tu ti vuoi
+[42:02] autenticare in maniera sicura, questo è
+[42:04] un servizio.
+[42:06] Come fai a implementare questo servizio
+[42:08] con i meccanismi?
+[42:11] Quindi
+[42:12] i meccanismi sono, che ne so, una
+[42:14] password forte,
+[42:17] l'autenticazione a più fattori, no? Una
+[42:21] policy che ti implementi alla terza
+[42:23] password ti blocco sbagliata, ti blocco.
+[42:25] Ok, questi sono meccanismi. Ma il
+[42:27] servizio a monte è un po' come il
+[42:30] contenitore, il contenuto, no?
+[42:36] Capito? Allora, il servizio è un muro,
+[42:38] un meccanismo i meccanismi sono i
+[42:40] mattoni che compongono questo muro.
+[42:47] È più chiaro.
+[42:48] Sarebbero dei mattoni per raggiungere un
+[42:49] servizio ottimale, per rendere sicuro il
+[42:52] servizio ottimale.
+[42:53] Esatto. Sono come come rendi come crei
+[42:56] questo servizio
+[42:59] per rendere sicuro il servizio finale.
+[43:03] Non ho sentito.
+[43:05] Dico, per rendere sicuro il servizio
+[43:08] finale,
+[43:09] per proteggere in maniera migliore il
+[43:10] servizio finale.
+[43:12] Esatto. Esattamente.
+[43:15] Ok,
+[43:15] ora ci siamo.
+[43:16] Ok, allora andiamo avanti. Questa allora
+[43:20] eh quello che utilizza Easy Council per
+[43:24] è una tassonomia, quindi è un una serie
+[43:27] di nozioni. Diciamo che è utile questa
+[43:29] per definire gli attacchi perché li
+[43:32] definisce in base al punto di vista
+[43:34] dell'attaccante, ok? Quindi dove si
+[43:37] trova l'attaccante, cosa può toccare,
+[43:39] che danni fa. Quindi partiamo a uno a
+[43:41] un. Quello il primo il primo che leggete
+[43:45] viene chi sono è la categoria degli
+[43:46] attacchi passivi. Cosa sono gli attacchi
+[43:49] passivi? Sono gli attacchi in cui
+[43:50] l'attaccante si limita ad osservare ma
+[43:54] non entra in contatto diretto con il
+[43:57] sistema. attaccato, quindi eh fa quello
+[44:00] che viene chiamato in gergo informatico
+[44:02] sniffing. In italiano possiamo tradurlo
+[44:04] annusa, ma per dire capta, no, per
+[44:07] essere più precisi il traffico di rete,
+[44:09] raccoglie informazioni che sono già
+[44:11] pubblicamente disponibile o le
+[44:12] intercetta.
+[44:14] Questi attacchi sono questi passivi sono
+[44:16] difficili da rilevare perché
+[44:20] molto spesso lasciano poche tracce o non
+[44:22] le lasciano del tutto su sistema
+[44:23] attaccato.
+[44:25] Faccio un esempio del mondo reale per
+[44:27] farvi capire. Eh, un detective che ti
+[44:30] pedina in città, ok? Lui non non
+[44:33] interagisce con te, lui ti segue a
+[44:36] distanza, non ti deruba, ma alla fine
+[44:39] della giornata ha tutta una serie di
+[44:40] informazioni. Sa dove abiti, dove
+[44:43] lavori, chi frequenti, a che ora
+[44:45] rientri, tu non te ne accorgi, eh? E
+[44:48] questo è lo stesso concetto in
+[44:49] informatica dell'attacco passivo.
+[44:52] Altra categoria, attacchi attivi. Gli
+[44:55] attacchi attivi sono quelli che
+[44:56] piacciono di solito di più agli
+[44:58] studenti, che sono quelli da cattivone,
+[45:00] da hacker. Sono attacchi in cui, eh
+[45:04] appunto l'attaccante modifica, inietta o
+[45:07] distrugge un sistema attaccato,
+[45:10] quindi lascia tracce, quindi sono più
+[45:12] visibili degli attacchi passivi, ma sono
+[45:15] anche più dannosi.
+[45:17] Eh, ad esempio, ransomware, come hai
+[45:19] detto prima, all denial of service, ne
+[45:21] parleremo più avanti, quindi quando
+[45:23] rendi non disponibile un servizio,
+[45:25] quindi non usufruibile alla clientela
+[45:29] e ci sono vari qui ad esempio ci sono
+[45:31] quelli che leggete sono vari, ne
+[45:33] parleremo poi nel dettaglio più avanti,
+[45:35] quindi non li approfondisco adesso a uno
+[45:36] a uno, ma faccio solo l'esempio
+[45:37] dell'attacco DOS.
+[45:39] a un attacco d'osso, ad esempio, a un
+[45:41] sito di e-commerce, mette abbiamo un
+[45:44] sito di e-commerce molto famoso nel
+[45:47] periodo magari dei saldi.
+[45:49] Migliaia di computer che sono stati
+[45:51] infettati nel mondo da questo virus
+[45:54] simultaneamente inviano richieste al
+[45:57] server.
+[45:58] Il server non ce la fa a rispondere a
+[46:00] tutte queste richieste, non riesce a
+[46:02] distinguere tra quelle genuine e quelle
+[46:04] vere anche dei clienti che stanno
+[46:06] mandando le richieste di acquisto reali
+[46:08] e quindi cresce, collassa. E quindi il
+[46:10] risultato concreto cos'è?
+[46:12] che nel momento di massimo fatturato,
+[46:14] magari il periodo delle saldi, come
+[46:15] abamo detto, il danno è il fatturato
+[46:18] perso, non dati non dati rubati, una
+[46:22] indisponibilità del servizio. Quindi ci
+[46:25] sono varie tipologie di di attacchi
+[46:27] attivi, eh quindi non solo il furto di
+[46:28] dati,
+[46:29] quindi lo manda in sovraccarico, scusa.
+[46:31] Bravissimo, lo manda in sovraccarico,
+[46:33] esattamente. Poi ci sono anche i modi
+[46:35] per mitigare eh questi attacchi, però
+[46:37] questi sono cose più avanzate, ne
+[46:39] riparleremo più avanti, però questo è
+[46:41] quel risultato che vuole ottenere questo
+[46:43] attacco, l'attacco DOS di DOS.
+[46:46] Eh, attacchi di prossimità. La terza
+[46:49] categoria che viene definita nella slide
+[46:51] sono eh attacchi in cui l'attaccante è
+[46:55] fisicamente vicino al bersaglio.
+[46:58] Quindi non so
+[47:00] un vostro collega che è in piedi alle
+[47:04] vostre spalle mentre voi state digitando
+[47:06] un login, legge la password che digitate
+[47:08] sulla tastiera, per capirci.
+[47:11] o eh qualcuno che non so lascia una
+[47:16] chiavetta USB di un parcheggio. Ecco, vi
+[47:19] do un consiglio, non prendetela mai, non
+[47:21] vi hanno fatto un regalo di Natale,
+[47:23] semplicemente è probabile che ci sia
+[47:25] dentro qualcosa di poco piacevole,
+[47:27] soprattutto non inseritela nella nella
+[47:29] porta USB del PC aziendale perché perché
+[47:32] molto spesso sono infette e sono fatte
+[47:34] apposta per o
+[47:37] creare danni informatici o rubare dati.
+[47:40] Mh.
+[47:41] Ehm,
+[47:43] ecco, per esempio, in questi casi, gli
+[47:44] attacchi di prossimità, per fare
+[47:45] un'analogia del mondo reale, potremmo
+[47:47] dire il classico ladro che si finge, non
+[47:48] so, il tecnico dell'Enel per entrarvi in
+[47:50] casa, no? Quindi non sta usando hacking,
+[47:52] sta usando la fiducia che diamo al suo
+[47:55] ruolo. Nell'azienda uguale, un completo
+[47:58] elegante, un tesserino plausibile
+[48:01] ti permette di entrare magari in stanze
+[48:03] in cui non dovresti entrare, no? tipo in
+[48:06] data center e succede anche questo
+[48:08] spesso nelle aziende, più spesso di
+[48:10] quello che si crede.
+[48:12] Poi ci sono altre due tipologie di di
+[48:15] attacchi in questa tassonomia, sono gli
+[48:17] attacchi insider, quindi quando
+[48:19] l'attaccante è uno di noi, non so, un
+[48:21] dipendente, un collaboratore, un
+[48:24] fornitore con accesso autorizzato.
+[48:26] Questi sono tra gli attacchi più temuti
+[48:29] perché perché chi lo effettua è parte
+[48:33] del sistema, è parte interna della rete,
+[48:36] quindi bypassa la maggior parte dei
+[48:38] controlli perché il sistema si basa
+[48:41] sulla fiducia che ha nel in questa
+[48:44] persona e lui soprattutto ha conoscenza
+[48:47] diretta dei sistemi, quindi sa in
+[48:49] maniera veloce, senza dovervi studiare
+[48:51] neanche troppo, come farvi il peggiore
+[48:53] dei mali, come danneggiarvi il modo
+[48:56] peggiore. insomma,
+[48:57] quindi qui ritorna, diciamo, il termine
+[48:59] confidenzialità, giusto?
+[49:01] Perché è è come si dice?
+[49:04] Ehm,
+[49:06] non autenticato, è già dentro nel
+[49:09] sistema, quindi ha già le porte aperte.
+[49:12] Ha le porte aperte,
+[49:15] Sì, sì, sì, esatto. Ti faccio un altro
+[49:17] esempio per farti capire. Un
+[49:19] commerciale, mettiamola così, hai un
+[49:22] commerciale che deve smettere per
+[49:23] lavorare per un'azienda, no? E lui cosa
+[49:26] decide di fare? Si scarica l'intera
+[49:27] anagrafica clienti su una chiavetta sua
+[49:29] personale e si presenta da un
+[49:30] concorrente. Ok? Qui tecnicamente non
+[49:34] c'è stato nessun hack, cioè non nessuno
+[49:36] hacherato nessuno. Stava usando i suoi
+[49:38] accessi legittimi.
+[49:41] Eppure questo è una delle cose che
+[49:43] succede anche qua. Ci sono ovviamente
+[49:45] contromisure che si possono prendere,
+[49:46] queste sono specialmente organizzative,
+[49:50] no? Quindi, non so, far firmare degli
+[49:51] NDA, dei contratti non disclosure
+[49:53] agreement o segmentare gli access o
+[49:56] avere delle delle procedure di
+[49:58] offboarding, quindi di passatemi il
+[50:00] termine licenziamento, quando una
+[50:02] persona smette di lavorare per voi,
+[50:03] strutturate, monitoraggio più completo,
+[50:06] però sono tutte policy che fanno parte
+[50:09] della sicurezza informatica. L'ultimo
+[50:12] attacco che c'è in queste slide dal
+[50:14] punto di vista degli attaccanti è quello
+[50:16] che viene chiamato distribution attack o
+[50:19] ehm mettiamola così supply chain
+[50:24] attacks. Cosa succede in questi casi?
+[50:27] L'attaccante compromette un fornitore,
+[50:30] ok? che sia che lo comprometta un
+[50:33] fornitore che sia di hardware o
+[50:34] software, i loro hardware software che
+[50:37] forniscono a voi vengono manomessi,
+[50:39] vengono compromessi prima ancora che
+[50:41] arrivino a voi. Questi sono attacchi
+[50:44] molto sofisticati, parliamoci chiaro, ma
+[50:46] purtroppo son sempre più frequenti. Vi
+[50:50] faccio un esempio pratico. Questo è
+[50:52] successo nel 2020. Eh eh chi di voi
+[50:55] magari è segue il settore, il caso
+[50:57] chiamato Solar Winds. L'avete mai
+[50:59] sentito?
+[51:01] No,
+[51:03] allora Solar Wins praticamente è un
+[51:05] fornitore di software di monitoraggio di
+[51:07] rete ed è usato da migliaia,
+[51:10] letteralmente migliaia di aziende e
+[51:12] governi nel mondo. Cosa succede nel
+[51:14] 2020? Viene compromesso.
+[51:17] Gli attaccanti inseriscono del codice
+[51:19] malevolo in un aggiornamento ufficiale
+[51:22] di questo software.
+[51:25] Quindi i clienti cosa fanno? Quando
+[51:27] aggiornano,
+[51:29] praticamente si installano da soli la
+[51:31] backdoor.
+[51:33] Quindi io ho aerato un fornitore di
+[51:37] migliaia di aziende, inserisco nel suo
+[51:40] software una backdoor, così quando i
+[51:43] suoi clienti aggiornano io ho chiarato
+[51:45] tutti.
+[51:47] È un attacco molto sofisticato, ma sta
+[51:49] diventando
+[51:51] davvero davvero diffuso, sempre più
+[51:54] diffuso, sostanzialmente.
+[51:56] Scusami Samuele, puoi puoi ripetere nel
+[51:58] senso che cos'è la eh l'attacco di
+[52:01] distribution attacks? Sì, allora
+[52:05] sostanzialmente sì. Oh, sostanzialmente
+[52:07] allora tutte le aziende, almeno quasi
+[52:09] sempre le aziende hanno anche dei
+[52:10] fornitori, no, che possono essere
+[52:12] fornitori di software o di hardware.
+[52:14] Perissimo. Ipotizziamo un'azienda. Io
+[52:16] azienda eh ho questo fornitore, in
+[52:19] questo caso è la Solar Wins, che mi
+[52:20] fornisce un software, ok, che io
+[52:23] utilizzo.
+[52:24] Ok. E ogni tot io eh l'azienda, questo è
+[52:27] il mio fornitore, mi dice "Devi
+[52:29] aggiornare il software per renderlo più
+[52:31] sicuro."
+[52:32] Ok.
+[52:33] Ok, perfetto. Cosa è successo in questo
+[52:35] caso? L'attaccante non ha attaccato me,
+[52:39] Samuel, ha attaccato il mio fornitore.
+[52:42] Ok? Nessuno software che fornisce a me
+[52:45] ha inserito del codice malevolo.
+[52:47] Ah, ok.
+[52:49] Quindi quando io ho aggiornato,
+[52:51] io mi sono autoinstallato una backdoor,
+[52:54] praticamente mi sono autoinstallato un
+[52:56] virus. Mettiamola così sto banalizzando
+[52:58] proprio per rendere l'idea.
+[53:00] Ok, quindi sono attacchi proprio alla
+[53:02] catena di fornitura
+[53:05] a monte.
+[53:06] A monte. Bravissimo. Quindi io prendo il
+[53:08] fornitore, attacco il fornitore, quando
+[53:09] il fornitore aggiorna il software agli
+[53:11] altri, io in automatico infettato tutti
+[53:13] gli altri.
+[53:15] Ok.
+[53:16] Ok. Sono attacchi complessi, eh, però
+[53:19] ripeto, sono stanno diventando sempre
+[53:21] più più
+[53:23] diffusi, purtroppo.
+[53:26] Scusa, posso farti una domanda, Samuel?
+[53:30] Assolutamente.
+[53:31] Eh, ti volevo chiedere se puoi ripetere
+[53:34] l'insider Attack.
+[53:36] Sì, allora l'insider Attack è quel tipo
+[53:39] di attacco eh in cui sostanzialmente
+[53:44] l'attaccante è interno. Ok. interno,
+[53:46] intendo interno all'organizzazione,
+[53:49] quindi può essere un dipendente, un
+[53:51] collaboratore
+[53:52] oppure in questo caso un fornitore con
+[53:55] accessi, però quindi un fornitore che è
+[53:57] stato già autorizzato dal tuo sistema
+[53:59] informativo ad accedere. Ok? Ok.
+[54:03] È come se un tuo amico ti tradisse, per
+[54:05] capirci.
+[54:06] Ah, ok, perfetto. Tu
+[54:07] ti tantissimo ed è normale che lui la
+[54:11] collabori con te,
+[54:13] ok? E è un attacco viscido questo,
+[54:16] proprio perché eh la persona non solo ha
+[54:20] tutti i diritti per fare quello che sta
+[54:21] facendo, non danneggiarvi, ma
+[54:23] connettervi al vostro sistema, ma
+[54:25] soprattutto conosce benissimo, vi
+[54:27] conosce un vostro amico, quindi conosce
+[54:29] esattamente come siete strutturati la
+[54:31] vostra la vostra struttura informatica,
+[54:34] insomma, e quindi può fare danni
+[54:35] veramente devastanti.
+[54:36] Certo. Grazie.
+[54:38] Figurati. Ci sono altre domande o
+[54:40] possiamo andare avanti?
+[54:48] Direi andiamo avanti. Allora, allora qui
+[54:52] è sempre una parte di un'altra,
+[54:55] mettiamola così, parte di definizioni. E
+[54:59] qui però ehm gli attacchi non li non li
+[55:03] dividiamo dal dal punto di vista
+[55:04] dell'attaccante, ma dal punto di vista
+[55:07] di tecnologia bersaglio o tecnologia
+[55:10] usata.
+[55:12] Eh, diciamo che è un è il menù delle
+[55:14] minacce, insomma, quello che sentite
+[55:16] quasi sempre nominare nelle varie TG o
+[55:19] leggete sui giornali.
+[55:21] Allora, cominciamo dalla prima e cloud
+[55:24] computing threats, quindi minacce
+[55:27] eh compiute su il quello che viene
+[55:29] chiamato il cloud computing, che per
+[55:32] capirci il cloud non è, al di là della
+[55:34] traduzione letterale che significa
+[55:35] nuvola, è semplicemente è il computer di
+[55:38] qualcun altro in un data center fisico
+[55:41] ed è gestito da questo fornitore. Ok?
+[55:43] Quindi voi immaginatevelo per, ve lo sto
+[55:45] proprio semplificando, come se fosse il
+[55:46] computer. Quando voi usate il cloud di
+[55:49] Google è come se lui vi stesse dando un
+[55:51] suo computer che sta in un data center
+[55:53] loro ed è gestito da loro. Ok? Quindi la
+[55:58] sicurezza di questo cloud dipende però
+[56:02] da una responsabilità condivisa. È
+[56:05] condivisa tra chi? Tra in questo caso,
+[56:08] Google che vi fornisce il servizio e
+[56:11] protegge l'infrastruttura.
+[56:13] E però anche voi, cioè il cliente,
+[56:16] perché mi direte voi, perché devi quando
+[56:19] tu eh eh utilizzi il cloud devi
+[56:23] configurarlo correttamente, quindi se tu
+[56:25] fornisci un servizio lo devi devi essere
+[56:28] sicuro di averlo configurato con dettami
+[56:31] ben precisi.
+[56:32] Eh faccio degli esempi. Faccio un
+[56:34] esempio molto semplice. Eh, i ci sono
+[56:38] quelli che vo quando voi inserite dei
+[56:41] dati su un cloud dovete essere sicuri
+[56:43] che siano privati e non pubblici perché
+[56:45] si possono si ha la possibilità di
+[56:48] renderli pubblici. Ad esempio, se dovete
+[56:49] fornire un servizio devono essere
+[56:51] usufruibili anche da terzi, non solo da
+[56:52] voi. Ehm,
+[56:55] allora facciamo così, un'azienda, faccio
+[56:58] un esempio pratico, così capiamo molto
+[56:59] bene, un'azienda mette i backup su
+[57:02] cloud, ma accidentalmente
+[57:06] lo configuri come pubblico.
+[57:09] Ok? Mesi nessuno se ne accorge, quindi
+[57:13] tu sei tranquillo, hai i tuoi d il tuo
+[57:16] backup su questo sul cloud, è pubblico
+[57:19] quando non dovrebbe esserlo, ma per mesi
+[57:20] nessuno se ne accorcia.
+[57:22] Un ricercatore improvvisamente vi mi vi
+[57:24] manda una mail, scopre questo il vostro
+[57:27] backup, lo trova online, lo scarica e vi
+[57:30] scrive.
+[57:32] Il problema è nel frattempo chi altro
+[57:35] l'aveva trovato, chi ha i vostri dati
+[57:37] adesso?
+[57:39] E vedete qua non c'è stato nessun
+[57:41] hacking del cloud, semplicemente voi
+[57:44] avete sbagliato la configurazione. Ok?
+[57:48] Quindi bisogna tenere a mente tutte
+[57:50] anche queste policy di sicurezza che
+[57:53] vanno assolutamente implementate,
+[57:55] altrimenti si rischia davvero di fare
+[57:57] dei di farsi di autofarsi dei danni.
+[58:00] Poi la seconda categoria, quelle che
+[58:03] vengono chiamate advanced persistent
+[58:04] threats sono ehm
+[58:08] questi questi non sono un singolo
+[58:10] attacco, nel senso che sì, iniziano con
+[58:12] un attacco, ma sono più una campagna
+[58:14] prolungata, ok? sono di solito durano
+[58:18] mesi, a volte addirittura anni. Sono
+[58:21] condotte da gruppi sofisticati,
+[58:23] tipicamente sono questi gruppi sono
+[58:25] sponsorizzati da stati proprio perché ci
+[58:27] vuole una altissima competenza per per
+[58:29] effettuarli e sono eh di solito hanno
+[58:34] come bersaglio eh enti, aziende, governi
+[58:38] di alto valore, no? Quindi governi,
+[58:40] infrastrutture critiche, pensate che ne
+[58:43] so, le centrali elettriche, eh, o grandi
+[58:45] aziende strategiche.
+[58:47] Qui la parola chiave di questo attacco è
+[58:50] la P che è persistente. Cosa significa?
+[58:53] Come cosa si intende in questa parola?
+[58:55] Si intende che l'attaccante entra, poi
+[58:57] si nasconde e ascolta. si muove
+[59:00] lentamente come se non ci fosse al
+[59:03] vostro interno e poi sempre lentamente
+[59:07] effettua il danno, quindi o vi porta via
+[59:09] i dati o vi mette offline, fa quello che
+[59:12] deve fare, ma magari sono mesi o anni
+[59:14] che è dentro e vi studia e molto anche
+[59:17] questo è un attacco, ripeto,
+[59:18] sofisticato, ma non pensate che non
+[59:21] esista. Vi faccio un esempio nel mondo
+[59:24] reale, così capite meglio cos'è questo
+[59:26] OPT. Eh, una spia, mettiamo così, una
+[59:29] spia si infiltra in un'ambasciata, ok?
+[59:33] Non ruba subito, non rompe niente, si fa
+[59:36] semplicemente assumere, non lo so, anche
+[59:38] con low profile, no? Come un tecnico
+[59:40] delle pulizie
+[59:42] e si mette lì e lavora per so un paio
+[59:44] d'anni in maniera impeccabile. Neanche
+[59:46] ti accorgi che esista. Intanto però
+[59:49] fotografa dei documenti, ascolta delle
+[59:52] riunioni, si mappa tutte le vostre
+[59:54] abitudini
+[59:56] e poi alla fine si licenzia e se ne va
+[59:58] con tutti i vostri dati. Ecco, questo è
+[1:00:01] un esempio per farvi capire cosa sono le
+[1:00:03] apt.
+[1:00:06] E allora, diciamo che le piccole aziende
+[1:00:08] la probabilità di essere diretti
+[1:00:09] bersagli di questi attacchi sofisticati
+[1:00:11] è bassa, eh, però poteste comunque
+[1:00:15] essere, non so, bersagli indiretti, no?
+[1:00:18] Come dicevo prima, l'attacco Supply
+[1:00:20] Chain di Solar Winds, hanno attaccato il
+[1:00:22] vostro fornitore e voi siete finiti
+[1:00:24] dentro nella rete, anche se non siete
+[1:00:26] voi il principale eh obiettivo.
+[1:00:30] Poi virus e warm.
+[1:00:32] Allora, qui di solito, allora un termine
+[1:00:34] abbastanza storico, di solito usato
+[1:00:37] anche in maniera
+[1:00:40] a sproposito, diciamo sui giornali,
+[1:00:42] diciamo subito una distinzione tecnica.
+[1:00:45] Il virus
+[1:00:47] richiede un'azione dell'utente
+[1:00:50] per propagarsi. Ok? Quindi io clicco,
+[1:00:53] apro un file, un file infetto e allora a
+[1:00:56] questo punto il virus si infetta il
+[1:01:01] warm. invece si propaga da solo e
+[1:01:05] sfrutta delle vulnerabilità di rete,
+[1:01:08] quindi è in grado di infettare da solo
+[1:01:11] vari computer che sono raggiungibili
+[1:01:14] all'interno della stessa rete. Ok?
+[1:01:17] Eh, i warm sono quelli peggiori, nel
+[1:01:20] senso che hanno fatto la storia della
+[1:01:22] sicurezza da Blaster a Wanna Cry, non so
+[1:01:25] se l'avete mai sentito, One Cry, e sono
+[1:01:28] sostanzialmente capaci di infettare
+[1:01:29] milioni di macchine anche in poche ore.
+[1:01:32] Adesso vi cito Cry perché è un esempio
+[1:01:34] abbastanza recente. Maggio 2017,
+[1:01:38] sostanzialmente questo Worm, che poi è
+[1:01:40] stato soprannominato One Cry, sfruttava
+[1:01:42] una vulnerabilità di Windows, ok? E con
+[1:01:45] questa vulnerabilità riusciva a
+[1:01:47] diffondersi automaticamente in rete e a
+[1:01:50] cifrare i file perché era anche un
+[1:01:52] ransomware. Sostanzialmente in 24 ore
+[1:01:56] oltre 200.000 macchine in 150 paesi sono
+[1:01:59] stati infettati.
+[1:02:01] Questo per dirvi la potenza dei warm.
+[1:02:04] Eh, per capirci, tra le vittime più
+[1:02:07] prestigiose il National Health Service
+[1:02:10] inglese, quindi questo significa
+[1:02:13] ospedali bloccati,
+[1:02:15] interventi operatori rinviati
+[1:02:18] e la cosa che ha fatto più sorridere è
+[1:02:21] che
+[1:02:22] il virus attaccava una vulnerabilità di
+[1:02:24] Windows, ma Microsoft aveva già fornito
+[1:02:28] la patch, quindi la chiusura di questa
+[1:02:30] vulnerabilità,
+[1:02:32] due mesi prima.
+[1:02:33] Quindi i computer che sono stati
+[1:02:35] infettati sono solo quelli che non hanno
+[1:02:38] eseguito l'aggiornamento corretto.
+[1:02:40] Questo per dirvi che cosa può succedere
+[1:02:42] se non si rispettano anche le policy
+[1:02:45] di sicurezza informatica.
+[1:02:47] Scusami Samuele, se il virus nel senso,
+[1:02:49] come hai detto te viene propagato
+[1:02:50] dall'utente, il warm si propaga nella
+[1:02:53] rete, ma
+[1:02:55] sì,
+[1:02:55] come può essere inserito?
+[1:02:56] fondamentalmente, nel senso, se non è
+[1:02:59] inserito da un utente, come cioè da come
+[1:03:02] nasce e come si propaga nella rete? Cioè
+[1:03:05] ci deve essere
+[1:03:07] No, la rete, allora la rete non è solo
+[1:03:09] rete interna, è anche rete internet,
+[1:03:11] quindi se un computer riesce a Ah,
+[1:03:15] allora partiamo così, se comp
+[1:03:20] nascere Worm e come fa a propagarsi?
+[1:03:23] Allora, nasce semplicemente uno lo uno
+[1:03:26] lo crea, chiaramente lo codifica, trova
+[1:03:29] la vulnerabilità, lo we quello che viene
+[1:03:31] chiamato il weaponizze, nel senso che
+[1:03:32] crea proprio il vettore d'attacco. Poi
+[1:03:34] entriamo più nel dettaglio più avanti,
+[1:03:36] eh, però ti faccio capire, tu crei un vi
+[1:03:38] un un warm, quindi crei un codice che fa
+[1:03:41] scautta delle vulnerabilità e fa
+[1:03:42] determinate cose, ok? Quindi so, in
+[1:03:45] questo caso era anche un un ransomware,
+[1:03:47] quindi ti ci fra tutto tutto l'hard disk
+[1:03:50] e poi va avanti. La differenza col virus
+[1:03:52] è che non c'è bisogno che io, cioè io
+[1:03:56] utente clicco su un file. Semplicemente
+[1:03:58] se il mio PC è connesso e o può
+[1:04:02] comunicare con un altro PC,
+[1:04:05] questo warm fa il mappa tutta la rete,
+[1:04:09] trova il PC e va direttamente si sfrutta
+[1:04:13] la connessione per andare nel tuo PC.
+[1:04:16] Non devi
+[1:04:16] Sì. Ok. Quindi però c'è sempre un utente
+[1:04:19] che crea questo codice per andare a
+[1:04:21] attaccare la vulnerabilità. Questo
+[1:04:23] intendevo. Volevo capire. Sì, c'è c'è un
+[1:04:26] c'è un hacker un hacker non etito,
+[1:04:28] mettiamola così, che crea questo warm,
+[1:04:31] quindi non si crea da solo. C'è qualcuno
+[1:04:33] che lo crea, ma non ha bisogno
+[1:04:35] dell'interazione della vittima.
+[1:04:37] Ah, ok. Cioè, parte da solo, però c'è
+[1:04:39] sempre qualcuno che lo crea. Io questo
+[1:04:41] volevo capire. Sì, assolutamente. Uno lo
+[1:04:44] crea, un hacker malevolo,
+[1:04:46] e lo diffonde.
+[1:04:49] Basta, è sufficiente quello. Poi mano
+[1:04:51] più PC possono essere infettati, in
+[1:04:54] questo caso erano Windows, e più la rete
+[1:04:57] è grossa, nel senso più i PC sono
+[1:05:00] interconnessi, più lui si diffonde.
+[1:05:02] Ripeto, 200.000 PC in 150 paesi,
+[1:05:06] tutto questo in 24 ore.
+[1:05:10] Quindi se si parla di un'azienda che ci
+[1:05:12] sono vari reparti,
+[1:05:13] se si segmenta la rete, la segmentazione
+[1:05:16] c'è la limitazione del danno. Non può
+[1:05:19] andare.
+[1:05:19] Sì, sì. Se allora sì, la risposta è sì,
+[1:05:23] ma c'è un cave non è solo quello. La
+[1:05:25] cosa migliore, come in questo caso è
+[1:05:28] fare sempre dove è possibile
+[1:05:30] aggiornamenti, perché in questo caso
+[1:05:33] tutti i PC che avevano la patch corretta
+[1:05:36] di Microsoft, quindi l'aggiornamento
+[1:05:37] corretto, avevano chiuso la falla,
+[1:05:40] quindi non sono stati infettati.
+[1:05:43] Ok? Molto spesso questi la maggior parte
+[1:05:46] dei Worm, per capirci, sfrutta
+[1:05:48] vulnerabilità, note che però non non
+[1:05:50] sono state aggiornate, ok? Su PC che non
+[1:05:54] hanno più aggiornamenti o utenti pigri
+[1:05:56] che non vogliono fare l'aggiornamento o
+[1:05:58] magari perché hai aziende molto
+[1:06:00] complesse che hanno dei servizi che
+[1:06:02] magari hanno paura che si rompano con un
+[1:06:04] aggiornamento e quindi però c'è sempre
+[1:06:06] il rischio.
+[1:06:10] È abbastanza chiaro adesso?
+[1:06:11] Sì, sì. Eh, per me sì. Non so per gli
+[1:06:14] altri è chiaro me.
+[1:06:18] Ok. Ok. Allora, poi abbiamo in un'altra
+[1:06:21] categoria sono i ransomware, cosa che
+[1:06:23] abbiamo eh abbiamo cominciato già
+[1:06:25] all'inizio a spiegarli. Diciamo che ad
+[1:06:29] oggi è la minaccia più costosa per le
+[1:06:31] piccole e medie imprese. Eh come
+[1:06:34] funziona il malware? cifra tutti i file
+[1:06:36] su cui ha accesso
+[1:06:39] e chiede un riscatto che di solito è in
+[1:06:42] criptovalute, quindi o Bitcoin o
+[1:06:44] Ethereum. Questo per ovviamente per
+[1:06:46] evitare di essere rintracciati, no?
+[1:06:49] Perché non possiamo dar certo dargli un
+[1:06:50] IV e vi chiede questo riscatto. In
+[1:06:54] cambio
+[1:06:55] eh lui vi restituisce la chiave per
+[1:06:58] poter rileggere i vostri dati, quindi
+[1:07:00] per avere di nuovo disponibili i vostri
+[1:07:01] dati. Diciamo che ad oggi ci sono
+[1:07:04] addirittura delle evoluzioni di questi
+[1:07:07] ransomware che fanno quella che viene
+[1:07:08] chiamata la double extorsion, quindi la
+[1:07:10] doppia estorsione. Cosa significa? prima
+[1:07:14] di cifrarvel i dati, quindi prima di
+[1:07:16] togliervi la disponibilità dei dati, ve
+[1:07:18] li sfiltrano, cioè ve li rubano, si
+[1:07:20] fanno una copia loro e minacciano, vi
+[1:07:23] minacciano di pubblicarli se non li
+[1:07:25] pagate. Così sostanzialmente io ti posso
+[1:07:27] ricattare anche se hai un backup, perché
+[1:07:29] tu potresti dirmi, "Guarda, io ho fatto
+[1:07:31] tutte le cose, ho fatto tutti i compiti
+[1:07:32] a casa. Io so che tutti i giorni alle
+[1:07:34] ore 11 di sera alle 23:00 parte il
+[1:07:38] backup e va bene, quindi tu oggi mi
+[1:07:40] infetti oggi io tutti i dati ce li ho
+[1:07:42] già comunque, quindi non mi fai nessun
+[1:07:44] danno. Eh no, non è così perché io vendo
+[1:07:47] i tuoi dati,
+[1:07:49] quindi tu comunque mi devi pagare oppure
+[1:07:51] te ne freghi ovviamente e i tuoi dati
+[1:07:53] comunque sono alla merc. Quindi bisogna
+[1:07:56] stare molto molto molto attenti anche
+[1:07:59] sui ransomware che sono davvero un
+[1:08:01] sistema di ricatto.
+[1:08:04] Ehm
+[1:08:07] poi ci sono quelle che vengono chiamate
+[1:08:10] eh il mobile threats, quindi sono le
+[1:08:13] minacce mobile, quindi dai sistemi di
+[1:08:16] cellulari smartphone.
+[1:08:19] Allora, ad oggi lo smartphone, diciamo,
+[1:08:20] che è diventato il dispositivo che
+[1:08:23] contiene più informazioni sensibili
+[1:08:26] nella vita di una persona, no? Eh,
+[1:08:30] e però nonostante questo viene protetto
+[1:08:33] molto meno di un PC. Faccio un esempio.
+[1:08:36] Quanti di voi usano un antivirus sul sul
+[1:08:39] telefono?
+[1:08:41] Nessuno.
+[1:08:42] No, nessuno.
+[1:08:43] Quanti di voi magari eh installano app
+[1:08:48] da store alternativi? Parlo per Android,
+[1:08:50] eh, perché per iOS dovete è un po' più
+[1:08:51] complicato, però per Android, chi ha
+[1:08:53] dispositivi Android, quanti scallano app
+[1:08:55] che non sono dal Play Store ufficiale?
+[1:08:57] Magari voi no, però io ne conosco
+[1:08:59] parecchio. Chiaramente quando tu
+[1:09:01] installi un'app
+[1:09:04] devi fidare
+[1:09:06] di chi l'ha scritta,
+[1:09:08] giusto?
+[1:09:10] Sì.
+[1:09:11] Quanti di voi si collegano a reti Wi-Fi
+[1:09:14] pubbliche?
+[1:09:16] Anche lì, eh, ne parleremo più avanti,
+[1:09:19] ma se io vi creo una rete Wi-Fi
+[1:09:21] pubblica,
+[1:09:23] potrei crearla
+[1:09:25] in maniera fraudolenta, nel senso che se
+[1:09:28] io metto su una rete pubblica, io potrei
+[1:09:33] fare lo stripping che viene chiamato
+[1:09:34] togliere la parte di cifratura https e
+[1:09:37] rendere i dati in chiaro. Quindi quando
+[1:09:39] voi vi loggate n vostro account
+[1:09:41] Facebook, cosa che normalmente è cifrato
+[1:09:43] in https, se io ve la creo e io
+[1:09:46] controllo la rete, io posso
+[1:09:48] tranquillamente leggere in chiaro il
+[1:09:50] vostro login e la vostra password. Ok? E
+[1:09:53] quindi state attenti anche alle reti
+[1:09:54] Wi-Fi Public,
+[1:09:56] eh vabbè i vari casi di fishing, quindi
+[1:09:59] mail fraudolente che vi arrivano
+[1:10:02] eh per fregarvi o per rubarvi dei dati o
+[1:10:06] anche quelle vi SMS, non so, anche mia
+[1:10:08] madre recentemente è capitato
+[1:10:11] eh un SMS da un numero a caso che che le
+[1:10:15] diceva che era la sua banca, che le
+[1:10:16] stavano rubando €5000 dal conto di
+[1:10:19] chiamarla, che avrebbero l'avrebbero
+[1:10:20] aiutata loggandosi nel suo account in
+[1:10:23] banca. Per fortuna c'ero lì l'ho
+[1:10:24] formata, però sono tutta una serie di
+[1:10:27] truffe che vengono
+[1:10:30] vengono veicolate attraverso i sistemi
+[1:10:34] mobile.
+[1:10:37] Ehm
+[1:10:39] direi allora
+[1:10:41] voi paghereste, faccio una domanda per
+[1:10:43] rendere un po' più interattiva, voi
+[1:10:44] paghereste un riscatto
+[1:10:47] per recuperare, che ne so, le foto del
+[1:10:49] vostro telefono?
+[1:10:53] Se sì, perché
+[1:11:04] oddio, se se in queste foto ci fosse ci
+[1:11:08] fosse qualcosa di totale
+[1:11:11] compromettenza con magari rapporti
+[1:11:14] istituzionali o altro, insomma il
+[1:11:16] discorso un po' cambierebbe sotto questo
+[1:11:18] punto di vista, no? chiunque tenderebbe
+[1:11:21] a far sì che il telefono o con le
+[1:11:24] relative immagini o altro possa essere
+[1:11:27] riportato a destinazione. Però con
+[1:11:29] questo non voglio dire che si possa
+[1:11:31] pagare un riscatto, ma uno tenderebbe a
+[1:11:34] fare del tutto per per recuperarle, no?
+[1:11:39] Certo. Ah, ti qualcun altro?
+[1:11:46] Sen
+[1:11:50] no, allora rispondo io. Allora, sì,
+[1:11:53] anche io capisco soprattutto il valore
+[1:11:55] emotivo o magari anche affettivo
+[1:11:58] e quindi una persona può essere disposta
+[1:12:00] a pagare, però diciamo che non è quasi
+[1:12:03] mai una buona idea per un motivo
+[1:12:05] semplice, perché uno non garantisce il
+[1:12:08] recupero. Ricordatevi, questi sono
+[1:12:10] criminali, non sono non è che avete
+[1:12:12] firmato un contratto con loro, con
+[1:12:14] l'avvocato, non sapete dove sono, chi
+[1:12:16] sono
+[1:12:17] e quindi voi pagate, non sapete nemmeno
+[1:12:19] se poi ve li ridanno i dati e
+[1:12:21] soprattutto non sapete mai se poi li
+[1:12:23] rivendono. Questo è il e state
+[1:12:27] soprattutto finanziando
+[1:12:30] un una rete criminale e quindi date
+[1:12:33] altre risorse per
+[1:12:36] per creare sempre attacchi più
+[1:12:39] sofisticati. Questo è il punto. Quindi
+[1:12:41] io tendenzialmente cercherei di evitare,
+[1:12:44] salvo veramente la disperazione, però
+[1:12:46] appunto, vedi qua il qua sta la base di
+[1:12:49] tutto. bisogna fare quando accade è già
+[1:12:51] troppo tardi, bisogna mettersi nella
+[1:12:56] dal lato di quelli che fanno le cose in
+[1:12:58] maniera fatta bene e quindi non non
+[1:13:02] cadono vittima di questi
+[1:13:05] mettiamol di queste estorsioni perché
+[1:13:07] alla fine sono questo.
+[1:13:10] Bene, andiamo avanti. Sempre la parte di
+[1:13:14] vettore di attacco ci sono le botnet.
+[1:13:16] Cosa sono le botnet? Allora, una Botnet
+[1:13:20] è una rete di computer
+[1:13:23] e oddio, non è solo oggi non sono solo
+[1:13:25] più computer, ma anche i vari
+[1:13:26] dispositivi IoT, quindi che non so
+[1:13:28] telecamere che si collegano in rete e
+[1:13:31] tutti questi dispositivi che vengono
+[1:13:32] infettati. Ah, anche la Smart TV, eh tra
+[1:13:34] l'altro è un sistema connesso alla rete
+[1:13:37] e può essere infettato e può far parte
+[1:13:40] di una botnet. E comunque sono
+[1:13:44] questa una rete di computer o di sistemi
+[1:13:46] connessi che sono infettati e
+[1:13:48] controllati a distanza da un attaccante.
+[1:13:51] Tutto questo ovviamente senza che il
+[1:13:53] proprietario del dispositivo lo sappia,
+[1:13:55] ok? Quindi la volta tu non lo sai che la
+[1:13:56] tua telecamera è stata infettata o il
+[1:13:58] tuo computer o la tua smart TV.
+[1:14:02] Eh,
+[1:14:03] vengono queste queste botnant vengono
+[1:14:06] noleggiate, letteralmente noleggiate sul
+[1:14:09] sul dark web. per condurre varie
+[1:14:12] tipologie di attacchi che possono essere
+[1:14:14] i DOS che abbiamo detto prima, o fare
+[1:14:16] delle campagne di spam o di mining
+[1:14:18] fraulento di criptovalute o attacchi
+[1:14:21] grati verso aziende importanti.
+[1:14:24] Oh, facciamo così. Faccio un esempio
+[1:14:26] anche qua per far capire meglio. Eh, una
+[1:14:31] botta ne potremmo interpretarla come un
+[1:14:33] esercito di zombie. Non so se vi
+[1:14:35] piacciono i film, le serie TV su
+[1:14:36] Netflix. Ogni zombie è debole. Ok, che
+[1:14:40] ne so, un vecchio modem, una telecamera
+[1:14:43] IP cinese, no, lo costa da €19 su temu,
+[1:14:47] un PC non peccato, quindi un PC che non
+[1:14:51] ha più nemmeno, magari hai un sistema
+[1:14:52] operativo che è talmente vecchio che non
+[1:14:53] so, hai su Windows Vista che non ha più
+[1:14:56] neanche le le patch di sicurezza.
+[1:14:59] Quindi ogni singolo zombie, ogni singolo
+[1:15:03] item che abbiamo elencato è debole, ma
+[1:15:05] 100.000
+[1:15:07] di questi zombie che vi bussano alla
+[1:15:09] stessa porta nello stesso istante
+[1:15:12] abbattono qualunque porta. Ok? Quindi il
+[1:15:15] proprietario dello zombie spesso non si
+[1:15:18] accorge di nulla. il tuo dispositivo, la
+[1:15:20] tua telecamera continua a funzionare,
+[1:15:22] magari va un po' lenta, eh, magari
+[1:15:25] lagga, ma tu non ti accorgi neanche.
+[1:15:29] Faccio un esempio invece legato proprio
+[1:15:31] a una botnet nel mondo reale scusa mondo
+[1:15:34] reale, mondo informatico successa nel
+[1:15:36] 2016, quella che si chiama Mirai. Mirai
+[1:15:39] è il nome di questa botnet. Praticamente
+[1:15:42] infettò centinaia di migliaia di
+[1:15:44] telecamere IP e router che avevano udite
+[1:15:48] udite credenziali di default, cioè e
+[1:15:51] avevano e avevano trovato la lista dal
+[1:15:54] produttore di credenziali, quindi admin
+[1:15:56] admin o admin password, proprio quelle
+[1:15:58] di default, cosa che diciamo che gli
+[1:16:01] utenti non si erano nemmeno sbattuti a
+[1:16:02] cambiare la password e hanno lanciato il
+[1:16:05] più grande attacco di DOS della storia
+[1:16:07] fino ad allora.
+[1:16:09] che un contro Dyn che è un fornitore di
+[1:16:12] DNS. Cosa è successo? Come risultato?
+[1:16:15] Per ore mezza America non raggiungeva
+[1:16:18] siti come Twitter, Netflix, Spotify,
+[1:16:21] tutti quelli che avevano come fornitore
+[1:16:23] di YN, per capirci. E l'attacco, le armi
+[1:16:28] di questo attacco erano videocamere
+[1:16:30] domestiche. Ok? Quindi ormai qualunque
+[1:16:34] dispositivo connesso alla rete è
+[1:16:37] qualcosa che va tenuto sotto controllo
+[1:16:40] perché può essere assolutamente
+[1:16:42] weaponizzato, può essere può diventare
+[1:16:45] un'arma.
+[1:16:47] Poi ci sono gli insider attack.
+[1:16:50] Eh oh, diciamo l'abbiamo già visto nella
+[1:16:52] classificazione precedente questo, se
+[1:16:54] sincero, però lo ripetiamo per
+[1:16:58] per istruzione.
+[1:16:59] Allora, diciamo che ci sono vale la pena
+[1:17:02] ricordare che ci sono si può fare la
+[1:17:04] distinzione tra un malicious insider,
+[1:17:07] quindi un un
+[1:17:10] dipendente ad esempio che vuole creare
+[1:17:13] davvero danno, vuole fare danno, non so,
+[1:17:15] un dipendente licenziato, per capirci,
+[1:17:18] magari licenziato male e magari invece
+[1:17:21] un insider, quello che viene chiamato
+[1:17:22] negligent nel senso un negligente,
+[1:17:24] quindi non vuole davvero fare un danno,
+[1:17:26] ma lo fa lo stesso, ad esempio, perché
+[1:17:28] se ne frega, è è pigro o clicca su un
+[1:17:31] link di fishing.
+[1:17:33] Vi assicuro che statisticamente i
+[1:17:34] secondi succedono molto di più, cioè gli
+[1:17:38] insider negligenti, quindi i dipendenti
+[1:17:41] pigri o che non hanno avuto la
+[1:17:43] formazione corretta,
+[1:17:45] questi causano molti più danni e
+[1:17:47] incidenti di quelli malevoli.
+[1:17:50] Poi fishing, ormai il termine che
+[1:17:53] immagino abbiate sentito tutti, eh, può
+[1:17:56] avvenire questa cosa tramite email, SMS,
+[1:18:00] messaggi su WhatsApp.
+[1:18:03] e diciamo che tendono cercano di
+[1:18:05] fingersi provenienti da entità fidate,
+[1:18:08] quindi cercano di di farti credere che
+[1:18:11] sono la banca, che sono il corriere
+[1:18:14] Amazon,
+[1:18:15] che è il tuo capo o che è un tuo
+[1:18:17] fornitore. Tutto questo per indurre,
+[1:18:20] appunto, la vittima a far cosa? o a
+[1:18:22] cliccare su un link, a a scaricare un
+[1:18:25] allegato malevolo, quindi un allegato
+[1:18:28] con al suo interno un virus, a
+[1:18:30] consegnare delle credenziali, quindi a
+[1:18:32] farvi inserire le vostre credenziali in
+[1:18:34] un portale che vi sembra esattamente
+[1:18:36] identico a quello della tua azienda o a
+[1:18:38] quello del tuo LinkedIn, a quello del
+[1:18:39] tuo social preferito, oppure autorizzare
+[1:18:42] un pagamento, quindi quelli della tua
+[1:18:45] banca.
+[1:18:46] il vettore
+[1:18:49] eh praticamente il fishing è il vettore
+[1:18:51] d'accesso iniziale quasi per la
+[1:18:53] maggioranza, quasi per la stagande
+[1:18:55] maggioranza di tutti gli incidenti
+[1:18:56] gravi, quelli gravi gravi. Quindi non è
+[1:18:59] tanto la struttura informatica in sé, ma
+[1:19:03] il vettore umano è quello che impatta
+[1:19:05] quasi sempre. Perché perché è molto più
+[1:19:08] semplice ingannare un essere umano che
+[1:19:10] attaccare un sistema ben studiato,
+[1:19:14] specialmente in società grosse che hanno
+[1:19:17] budget, non dico infiniti come Google
+[1:19:19] per la loro sicurezza.
+[1:19:22] Eh ci diciamo ci sono varie
+[1:19:24] sottocategorie nell'ambito del fishing.
+[1:19:27] Eh, quello che viene chiamato spare
+[1:19:30] fishing è il fishing mirato a una
+[1:19:32] persona, un piccolo gruppo ed è
+[1:19:34] personalizzato con informazioni reali,
+[1:19:36] quindi fishing mirato. Io ti studio, ho
+[1:19:41] trovato un tuo social, eccetera, vedo
+[1:19:43] quello che posti, non so, se hai una
+[1:19:45] dipendente, eh, trovo il tuo nome e
+[1:19:48] cognome, ti trovo su Facebook, hai fatto
+[1:19:50] l'errore di avere Facebook pubblico,
+[1:19:51] quindi io riesco a vedere i tuoi i tuoi
+[1:19:54] interessi, so che ti piacciono, che ne
+[1:19:56] so, le borsette di Prada, allora
+[1:19:58] comincio a contattarti con attacchi
+[1:20:03] mirati su quello che a te interessa e ti
+[1:20:07] costringo prima o poi a inserire dati
+[1:20:09] che non dovresti mettere. Se per
+[1:20:11] sbaglio, cosa che di solito fanno tutti,
+[1:20:12] le password le riutilizzate per varie
+[1:20:15] cose, da qua danno.
+[1:20:18] Eh, poi vabbè, ci sono altre tipologie
+[1:20:20] di di di fishing quello. Vabbè, questo è
+[1:20:22] solo un nome, smishing, ma è la stessa
+[1:20:24] cosa, ma si fa v SMMS. Bishing è la
+[1:20:27] stessa cosa, ma fatto con telefonata
+[1:20:30] vocale. Ecco perché adesso c'è un
+[1:20:33] aggravante di questi attacchi perché
+[1:20:35] viene utilizzata l'intelligenza
+[1:20:36] artificiale, quindi con delle AI molto
+[1:20:40] avanzate si riesce a clonare la voce di
+[1:20:42] una persona e tu ti fidi letteralmente
+[1:20:45] perché
+[1:20:47] ti inizia magari la telefonata dicendo
+[1:20:49] "Guarda, ho il cellulare scarico, ti sto
+[1:20:50] chiamando da questo numero perché" e la
+[1:20:52] voce è la sua e poi trova il modo di
+[1:20:55] fregarti, farti dare delle informazioni
+[1:20:57] che tu non avresti dovuto dargli perché
+[1:20:59] perché ti fidi di questa persona.
+[1:21:00] Allora,
+[1:21:02] eh facciamo un altro esempio pratico e
+[1:21:05] poi passiamo agli attacchi successivi.
+[1:21:07] Eh
+[1:21:09] la segretaria di un'azienda riceve una
+[1:21:15] sento un ritorno.
+[1:21:20] Vabbè. Ok. Allora, la segretaria di
+[1:21:22] un'azienda riceve un'email e
+[1:21:25] apparentemente sembra dal suo
+[1:21:26] amministratore delegato e la dice una
+[1:21:29] cosa tipo, non so, sono in riunione, non
+[1:21:32] posso parlare al telefono,
+[1:21:35] eh, ti chiedo massima riservatezza,
+[1:21:38] bisogna fare un bonifico urgente da, che
+[1:21:40] ne so, €50.000 per chiudere questa
+[1:21:42] acquisizione. Ti mando l'IBAN qua
+[1:21:44] veloce.
+[1:21:46] la segretaria magari è abituata a
+[1:21:48] obbedire al a questo amministratore
+[1:21:49] legato che è magari anche autoritario di
+[1:21:52] carattere già di suo. Lei esegue il
+[1:21:54] bonifico e magari il conto è in una
+[1:21:56] banca in Lituania.
+[1:21:58] Peccato che però questo amministratore
+[1:22:00] delegato non sa nulla di questa mail
+[1:22:02] perché non ha inviato nulla e vi
+[1:22:04] assicuro che una volta che avete inviato
+[1:22:06] voi i dati, i vostri dati è molto
+[1:22:09] difficile recuperarli questi soldi
+[1:22:11] perché se tu hai fatto a il tuo tua
+[1:22:14] spontanea volontà un bonifico, non è che
+[1:22:16] non si può fare, ma ci sono anni di
+[1:22:19] cause per riuscire a riavere un po' i
+[1:22:20] soldi perché l'hai fatto tu, non sei
+[1:22:23] stata frodata, non è meglio sei stata
+[1:22:25] frodata, ma a livello eh emotivo, non
+[1:22:29] tecnico.
+[1:22:31] Poi
+[1:22:33] gli ultimi due categorie di attacchi
+[1:22:35] sono le web application threats e l'IoT
+[1:22:37] threads. Allora,
+[1:22:39] le web Application threads sono
+[1:22:41] praticamente applicazioni web
+[1:22:44] e diciamo che sono uno degli obiettivi
+[1:22:47] principali oggi perché sono esposte su
+[1:22:49] internet per definizione
+[1:22:52] perché sono appunto web application e
+[1:22:55] sono
+[1:22:58] più complesse sono più è facile che
+[1:23:00] abbiano delle falle importanti
+[1:23:02] e quindi ogni volta che utilizzate una
+[1:23:06] web application Eh, è molto è molto
+[1:23:09] probabile che se viene se viene eh
+[1:23:13] compromessa
+[1:23:15] nel database ci sia vengono viene
+[1:23:17] dampato il database, quindi viene
+[1:23:18] scaricato e sfiltrato il database pieno
+[1:23:20] di vostri dati, è possibile che siano
+[1:23:22] anche in chiaro perché se non sono state
+[1:23:23] fatte bene le cose e c'è un adesso c'è
+[1:23:27] uno youtuber abbastanza famoso
+[1:23:29] recentemente, non so se avete seguito,
+[1:23:30] che ha creato un social con
+[1:23:31] l'intelligenza artificiale, col vibe
+[1:23:33] coding, in meno di 24 ore è stato
+[1:23:36] aerato.
+[1:23:37] letteralmente con tutti i dati di tutti
+[1:23:42] e quindi ha dovuto bloccare subito il
+[1:23:45] social e rifarlo magari con tecnici un
+[1:23:48] po' più eh
+[1:23:51] istruiti di una mera intelligenza
+[1:23:53] artificiale e lui che non aveva mai
+[1:23:55] fatto niente di informatica per capirci.
+[1:23:58] E poi l'ultima categoria che abbiamo qua
+[1:24:01] nelle slide, quella che viene chiamata
+[1:24:02] IoT Threats, è IoTs,
+[1:24:06] cioè internet delle cose, quindi dei
+[1:24:08] vari dispositivi che si collegano in
+[1:24:09] rete.
+[1:24:11] Ormai questi dispositivi hanno sono
+[1:24:13] nell'ordine dei miliardi, no? Tutti
+[1:24:16] hanno una smart TV, una telecamera,
+[1:24:18] ripeto, IP camera per controllare il
+[1:24:21] cane o il giardino
+[1:24:24] e quindi hanno, essendo ormai diventati
+[1:24:27] miliardi di dispositivi, eh
+[1:24:30] ad oggi la superficie di attacco è
+[1:24:32] veramente globale.
+[1:24:35] La maggior parte di questi dispositivi,
+[1:24:36] come dicevo prima, utilizza credenziale
+[1:24:39] di default, quindi molto spesso, so voi
+[1:24:42] installate la vostra telecamera, la
+[1:24:44] ordinate su TEMUS, su Amazon, dove vi
+[1:24:46] pare e non cambiate le password, le
+[1:24:48] credenziate, vedi?
+[1:24:50] quelle quelle di sistema eh non del
+[1:24:52] vostro account che quella che poi conta
+[1:24:55] e quindi hai praticamente con le
+[1:24:57] credenziali di default se aggiungi che
+[1:25:00] poi non le aggiornate quasi mai, quindi
+[1:25:03] le nuove falle rimangono lì e si sommano
+[1:25:07] eh hanno spesso, specialmente quelle low
+[1:25:11] cost, delle CPU molto piccole per
+[1:25:15] ospitare prestazioni
+[1:25:17] importanti e quindi finisci per vivere
+[1:25:20] connesso praticamente 247 ed è una
+[1:25:23] combinazione perfetta per essere eh,
+[1:25:26] mettiamola così, arruolato in una botnet
+[1:25:28] e quindi viene viene utilizzato come
+[1:25:32] cavallo di [ __ ] per entrare in una rete
+[1:25:34] aziendale, per capirci. Eh, vi faccio un
+[1:25:36] esempio pratico. Eh,
+[1:25:40] una sala riunioni in un'azienda ha una
+[1:25:43] smart TV connessa al Wi-Fi aziendale,
+[1:25:47] perché perché la scusa è bastanto, basta
+[1:25:49] che si vede Zoom, quindi a posto così.
+[1:25:52] Va bene la Smart TV? Peccato che non
+[1:25:55] riceve magari patch, quindi non riceve
+[1:25:57] aggiornamenti di sistema dal facciamo
+[1:26:00] due anni e ha una vulnerabilità
+[1:26:02] piuttosto nota
+[1:26:05] ed è nello stesso segmento di rete
+[1:26:07] magari dei server gestionali.
+[1:26:10] Questa TV è una porta sul retro
+[1:26:12] praticamente dell'edificio rimasta
+[1:26:14] aperta. è come se tu avessi lasciato la
+[1:26:16] porta una porta che ti porta dritto
+[1:26:19] dritto dritto nel nel tuo server. Eh,
+[1:26:25] diciamo che in questo caso una corretta
+[1:26:27] segmentazione di rete
+[1:26:30] sarebbe mettere questi sistemi IoT, che
+[1:26:33] sia la smart TV, la videocamera,
+[1:26:34] eccetera, su una volan separata. Così
+[1:26:37] evitate proprio questa tipologia di
+[1:26:39] attacchi.
+[1:26:41] Eh voi, ad esempio, adesso faccio
+[1:26:43] qualche domanda, poi mi sa che sta
+[1:26:45] finendo il tempo. Eh, quanti dispositivi
+[1:26:47] avete a casa connessi al di là del
+[1:26:50] router? Avete, immagino Smart TV, magari
+[1:26:52] avete Google Home,
+[1:26:54] qualche tablet?
+[1:27:00] Alexza,
+[1:27:03] Alexa,
+[1:27:04] Alex,
+[1:27:04] Alex. PlayStation, queste cose. Sì. TV,
+[1:27:08] cellulari.
+[1:27:11] Fate sempre gli aggiornamenti.
+[1:27:15] Sì,
+[1:27:16] sì.
+[1:27:17] Mh, difficile.
+[1:27:19] Ha di tutto, eh, anche della TV, ad
+[1:27:21] esempio.
+[1:27:23] Sì, sì, assolutamente.
+[1:27:25] Ottimo. Questo è un ottimo ottimo. Eh,
+[1:27:29] avete mai cambiato la password di
+[1:27:30] default, ad esempio, del router?
+[1:27:33] Sì.
+[1:27:35] Sì,
+[1:27:36] ottimo, ottimo.
+[1:27:38] E anche quella della TV, della
+[1:27:40] stampante, tutto quanto.
+[1:27:46] Vabbè, comunque sono spunti questi, eh,
+[1:27:48] non è non è
+[1:27:51] un processo, un interrogatorio, era solo
+[1:27:52] per darvi degli spunti su quanto
+[1:27:55] pensiamo magari di essere sicuri, ma in
+[1:27:56] realtà non lo siamo proprio così al
+[1:27:58] 100%. Ov,
+[1:28:01] ma anche molto meno del 100%.
+[1:28:04] Ehm, ricevete anche voi, avete mai
+[1:28:06] ricevuto qualche mail
+[1:28:08] strana?
+[1:28:10] Sì, sì, sì, sento
+[1:28:13] proprio che
+[1:28:14] a me è capitato
+[1:28:16] a me è capitato quelle poste.
+[1:28:19] Ok,
+[1:28:19] mi sono accorto dal
+[1:28:22] dall'indirizzo,
+[1:28:24] ok?
+[1:28:25] Oltre che dal messaggio che di solito la
+[1:28:27] le post non è che mandano così a caso,
+[1:28:29] no? Solitamente lo fa anche l'INPS.
+[1:28:33] Certo.
+[1:28:37] Ok. Ok. Quindi, cioè, vedete che sono
+[1:28:39] tutte tipologie di attacchi che sono
+[1:28:41] comuni e aspettatevi sempre di più. Eh,
+[1:28:45] con l'intelligenza artificiale può solo
+[1:28:47] peggiorare questa cosa, non può
+[1:28:48] migliorare. Per quello bisogna avere,
+[1:28:51] cioè, diciamo che questo è un corso che
+[1:28:52] secondo me dovrebbero fare tutti, nel
+[1:28:53] senso minimo, almeno per a livello
+[1:28:55] informativo, eh, non puoi, poi uno può
+[1:28:57] scegliere se continuare e fare corsi
+[1:28:58] sempre più avanzati e specializzarsi poi
+[1:29:00] nella cyb seccurity. Però diciamo che
+[1:29:03] una
+[1:29:05] alfabetizzazione sulla sicurezza
+[1:29:07] informatica andrebbe fatta un po' più
+[1:29:08] diffusa.
+[1:29:09] Certo,
+[1:29:10] soprattutto nelle scuole.
+[1:29:13] Esatto.
+[1:29:13] Sì,
+[1:29:15] esattamente.
+[1:29:17] Allora, io direi Giuliano, se è
+[1:29:19] mezzogiorno, cosa facciamo? Mi fermo
+[1:29:21] però prossima slide vado un Sì, sì. No,
+[1:29:23] bisogna per forza fermarsi proprio in
+[1:29:25] orario preciso perché a volte il canale
+[1:29:28] è usato da un altro corso
+[1:29:30] successivamente, quindi
+[1:29:32] Ok. Chiusura. Ok.
+[1:29:35] Poi stasera arriverai alla stessa slide,
+[1:29:38] quindi segnatela.
+[1:29:39] Sì, sì, sì, sono alla 11, quindi mi
+[1:29:41] fermo la 11. Ok,
+[1:29:43] va bene. Che le due lezioni saranno
+[1:29:45] sempre di pario, sincronizzate tra di
+[1:29:48] loro.
+[1:29:48] Sì, ripeto, turnisti Amazon, ovviamente
+[1:29:51] immagino, cioè voi Amazon immagino che
+[1:29:55] siate
+[1:29:56] turnisti, alcuni di più, alcuni di meno,
+[1:29:59] diciamo così, però poi magari la
+[1:30:01] prossima settimana vi collegate di sera,
+[1:30:03] insomma, vedete voi.
+[1:30:05] Ok.
+[1:30:06] Esatto.
+[1:30:06] Bene, intanto grazie.
+[1:30:09] Una domanda possibilmente.
+[1:30:11] Sì, sì, sì. Beh, ehm adesso nel senso,
+[1:30:14] vabbè, sia da quello che ho capito, sia
+[1:30:16] la registrazione che le slide verranno
+[1:30:18] messe su Google Drive, ma le slide
+[1:30:20] contengono anche la lezione successiva?
+[1:30:24] Ma diciamo che le slide sono a blocchi,
+[1:30:27] quindi se se Samuel carica questa qui,
+[1:30:30] ovviamente ci sono anche i contenuti
+[1:30:32] successivi, però sono diverse slide. Io
+[1:30:35] consiglio di seguire lui. Non andatevi a
+[1:30:38] leggere concetti che ancora non ha
+[1:30:40] spiegato. Aspettate.
+[1:30:41] No, no, cioè la domanda. No, no, questo
+[1:30:44] giustamente, infatti, nel senso, sarebbe
+[1:30:45] la cosa migliore, però dico per una
+[1:30:47] questione pratica, perché altrimenti poi
+[1:30:49] la lezione successiva incominciate a
+[1:30:51] fare domande su argomenti che ancora non
+[1:30:53] avete trattato, poi alla fine si
+[1:30:55] rallenta tutto il corso proprio per
+[1:30:57] questo,
+[1:30:58] no? La la domanda che vi ho fatto io,
+[1:31:00] cioè in modo tale che nel momento in cui
+[1:31:02] Samuel spiega uno prenda appunti sulle
+[1:31:04] slide stesse. Per questo, soltanto per
+[1:31:06] questo.
+[1:31:07] Ah, sì, beh, sì, questo potete farlo se
+[1:31:10] volete prendere appunti sulle slide. La
+[1:31:12] prossima lezione, beh, questa qui le
+[1:31:15] caricherai meglio. Quante sono queste,
+[1:31:17] Samuel?
+[1:31:18] Questo è il primo blocco. Sono 32.
+[1:31:20] 32. Eh, però mi raccomando quello che vi
+[1:31:23] ho detto, eh,
+[1:31:25] sì, leggere le cose successive perché le
+[1:31:27] cose vanno fatte in maniera graduale,
+[1:31:29] come ho detto all'inizio,
+[1:31:31] old school, quindi facciamo le cose
+[1:31:35] le cose didatticamente come si facevano
+[1:31:37] una volta che sbagliato,
+[1:31:39] è la No, la cosa migliore,
+[1:31:42] eh. Perfetto.
+[1:31:44] Va bene, va bene.
+[1:31:45] Gra, grazie a tutti.
+[1:31:47] Grazie mille. Ciao ragazzi, alla
+[1:31:49] prossima. Prossima. Ciao, grazie. Ciao a
+[1:31:52] tutti. Ciao ciao ciao
+[1:31:53] ciao
+[1:31:54] Samuele. Resta un attimo così chiudiamo.
+[1:31:57] Sì altri siete liberi.

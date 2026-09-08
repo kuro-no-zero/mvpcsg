@@ -1,0 +1,2920 @@
+[1:18] Ciao ragazzi,
+[1:20] buongiorno.
+[1:24] Come va? Tutto bene?
+[1:26] Sì, sì.
+[1:30] Aspettiamo qualche minuto che si
+[1:32] colleghino tutti.
+[1:34] A te come va?
+[1:36] Bene, dai, sono un po' raffreddato che
+[1:39] ieri sera sono uscito in moto a cena con
+[1:42] mia moglie, solo che mi sono fatto
+[1:44] prendere bene da
+[1:47] dal bel tempo,
+[1:49] invece l'ha fregato.
+[1:51] Eh,
+[1:53] la sera dopo cena un po' di freschetto
+[1:55] l'abbiamo preso. Eh,
+[1:56] eh beh eh, ancora ancora non c'è quel
+[1:59] non ci sono quelle bellissime serate
+[2:02] tiepide. Eh, fa ancora freschetto di
+[2:03] sera, effettivamente. Sì. Sì, mi faccio
+[2:05] fregare. Poi vedo sempre l'app del meteo
+[2:08] che mi spara a 30° nei prossimi giorni,
+[2:10] tutto carico.
+[2:12] Invece
+[2:14] mattina fola.
+[2:18] E vè
+[2:20] dai, ci sta, ci sta. Ma tanto arriverà a
+[2:22] breve il caldo. Ci vuole,
+[2:24] eh.
+[2:27] Allora, adesso vediamo, intanto comincio
+[2:28] a fare le presenze. Allora, Salvatore
+[2:32] presente.
+[2:33] Eccomi. Sì.
+[2:37] Poi abbiamo Andrea Volpi, giusto?
+[2:41] Sì, dovrebbe essere lui. Sì,
+[2:46] allora Fernando mi ha scritto che non
+[2:48] può esserci. vedrà la registrazione
+[2:53] e pa
+[2:55] mancherà Dario, Gavi, Giordano, Volpino.
+[2:59] Non so chi sia Volpino.
+[3:03] Sono io Volpino.
+[3:05] Ah, ok. Ok, allora no, allora tu ci sei?
+[3:08] Allora, niente, manca Giordano, Gavi e
+[3:11] Dario.
+[3:15] Oggi finiamo, se riusciamo a fare in
+[3:18] tempo, la parte legale e poi iniziamo
+[3:20] con quella informatica dalla prossima
+[3:22] lezione, così vi
+[3:25] purtroppo comunque ci saranno domande
+[3:26] anche su questa parte, per quello mi mi
+[3:28] tocca comunque farla lo stesso, però
+[3:30] cerco di renderla più interessante del
+[3:32] possibile come ho fatto l'altra volta,
+[3:33] così un po' di esempi almeno
+[3:38] è un po' più interattiva la lezione.
+[3:40] Buongiorno. Allora, Caminelli, ecco qui
+[3:46] presente.
+[3:49] Ci siamo.
+[4:46] M.
+[4:48] Avete
+[4:52] visto che sono riusciti a fare un
+[4:56] pasticcio anche su Gitab
+[4:59] che non so se quanti di voi conoscono
+[5:01] Gitab, chi fa coding lo conosce sicuro.
+[5:04] Comunque è un tab. Cos'è? La piattaforma
+[5:07] di dove tu metti i tuoi progetti, no?
+[5:09] Sì. i tuoi codici sorgenti,
+[5:11] sostanzialmente puoi fare versioning,
+[5:14] quindi se hai un team di programmatori e
+[5:16] state lavorando allo stesso progetto
+[5:18] potete lavorare assieme senza
+[5:20] intralciarvi sostanzialmente e avete
+[5:24] version in quindi avete le versioni
+[5:25] precedenti sempre operative. Quindi, nel
+[5:27] caso inserite un bug e non vi siete
+[5:30] accorti per qualunque motivo, potete
+[5:31] tornare velocemente alla versione
+[5:33] precedente che funziona. Comunque il
+[5:36] risultato è che un loro programmatore ha
+[5:39] installato una estensione su VS Code che
+[5:42] è una è un IDE, cioè un sostanzialmente
+[5:46] un software che ti permette di di fare
+[5:49] di scrivere codice, di programmare e
+[5:52] peccato questa estensione fosse malevola
+[5:55] e gli hanno rubato tipo 3800
+[5:58] eh repository di codice interni.
+[6:02] Sì,
+[6:03] quindi questo potrebbe essere elencato
+[6:05] nei famosi attacchi supply chain che
+[6:07] abbiamo discusso l'altra volta. Tra
+[6:09] l'altro VS Code lo fornisce Microsoft.
+[6:14] Bel danno,
+[6:15] eh. Sì, sì.
+[6:22] Ok. Chi è?
+[6:30] Buongiorno.
+[6:31] Ciao Lario.
+[6:36] Ciao Salvatore.
+[6:39] Ma dovrebbe mancare solo Dario,
+[6:41] se aspettiamo ancora du 2 minuti.
+[6:44] Ha scritto sul gruppo che non c'è.
+[6:47] Ah, ok, non riusciò. A posto. Va bene,
+[6:50] allora
+[6:53] segniamo presenze e basta.
+[6:55] Ok,
+[7:05] allora possiamo partire.
+[7:13] Vidiamo
+[7:15] qui. La registrazione sta andando. Sì,
+[7:16] sono un po' di cazziano. Registrazione
+[7:18] in corso. Sì,
+[7:23] allora condividi.
+[7:31] Vedete?
+[7:33] Sì.
+[7:34] Ok. Allora, eravamo arrivati qua l'altra
+[7:38] volta. Faccio un un veloce recatto di
+[7:40] questa slide, così siamo tutti
+[7:42] allineati.
+[7:44] Eh, allora, che cosa sono le policy? Eh,
+[7:48] la policy, una policy è una decisione
+[7:51] scritta dell'azienda su come deve
+[7:53] comportarsi un certo aspetto della vita
+[7:55] aziendale. Ok? Ci sono tre
+[7:58] caratteristiche principali delle policy.
+[8:01] Devono essere scritte, quindi è una
+[8:04] regola che cioè, quindi sostanzialmente
+[8:06] eh una regola che tutti sanno ma non è
+[8:09] scritta non è una policy, è un'abitudine
+[8:13] e quindi se viene contestata non vale
+[8:15] niente. Poi la seconda caratteristica
+[8:18] che deve essere approvata dal
+[8:20] management, quindi la policy nasce dal
+[8:22] vertice sostanzialmente.
+[8:25] Ehm, se lo scrive, che ne so,
+[8:27] responsabile ID, se l'è scritta lui
+[8:29] nella su nel suo ufficio, ma nessuno
+[8:31] l'ha mai vista, ovviamente non verrà mai
+[8:33] applicata.
+[8:35] E poi la terza la terza caratteristica
+[8:37] che deve essere comunicata.
+[8:39] Quindi se questa stessa policy, anche se
+[8:41] è stata scritta dal management e quindi
+[8:44] è scritta, è stata provata dal
+[8:45] management, ma è stata messa in un
+[8:47] cassetto, è una policy inutile, va
+[8:50] distribuita, va fatta firmare per presa
+[8:52] visione e perché no periodicamente
+[8:55] aggiornata.
+[8:57] Eh, ci sono, appunto, come dice la
+[8:59] slide, sei famiglie principali di
+[9:01] policy. Ci sono le policy per i vendor
+[9:06] e che sono sostanzialmente
+[9:09] come ci rapportiamo con i fornitori
+[9:10] esterni e quindi soprattutto i fornitori
+[9:14] che hanno accesso ai nostri sistemi,
+[9:17] quindi con i vari SOP, SLA, NBA,
+[9:19] eccetera, le clausole contrattuali per
+[9:21] capirci.
+[9:23] Poi policy per il personale, quindi come
+[9:26] gestiamo le persone interne dalla loro
+[9:29] assunzione alla formazione,
+[9:32] alla rotazione ferie, alla separazione
+[9:35] dei dei compiti e anche la loro uscita.
+[9:37] Che siano dimissionari o licenziati,
+[9:39] comunque bisogna avere delle policy per
+[9:41] come eh gestiamo la loro fuoriuscita.
+[9:46] Poi ci sono la la terza famiglia è
+[9:48] quella che viene chiamata appunto
+[9:49] acceptable use policy che
+[9:51] sostanzialmente è che cosa i dipendenti
+[9:54] possono e non possono fare con gli
+[9:57] strumenti aziendali, quindi con la mail
+[9:58] aziendale, col computer aziendale, con i
+[10:02] software, eccetera eccetera.
+[10:05] Eh, poi ci sono le adverse options che
+[10:08] sostanzialmente
+[10:09] se qualche dipendente eh viola le
+[10:12] regole, cosa succede?
+[10:15] Eh, per quanto sia brutto, comunque è la
+[10:18] parte passiamo passiamo così delle
+[10:20] punizioni, tra virgolette, quindi senza
+[10:22] questa parte però le altre policy
+[10:24] sarebbero solo dei consigli, non
+[10:26] sarebbero delle vere policy da eh far
+[10:28] rispettare. Poi ci sono le ultime due
+[10:30] che sono comunque molto importanti,
+[10:32] abbiamo già anche discusse nelle lezioni
+[10:34] precedenti, sono vabbè la general
+[10:36] security policy che è il documento
+[10:39] ombrello che definisce la postura di
+[10:41] sicurezza dell'azienda, quindi principi,
+[10:44] ruoli, responsabilità
+[10:46] e vabbè il disaster Recovery Plan, che
+[10:49] proprio era la fine della lezione
+[10:50] precedente, sostanzialmente che cosa
+[10:52] facciamo se succede un disastro, cioè se
+[10:55] qualcosa va molto male. Ehm e anche
+[10:59] questa è chiaramente una una delle
+[11:01] famiglie più importanti,
+[11:05] eh. Ok, questo era giusto per un recup,
+[11:08] ma l'avevamo visto l'altra volta. Ok,
+[11:11] andiamo avanti. Policy per i fornitori.
+[11:13] Partiamo adesso adverle una a una a
+[11:15] queste sei famiglie. Allora, le policy
+[11:17] per i fornitori
+[11:20] eh si dividono in vari sottocategorie
+[11:25] e diciamo che i fornitori esterni
+[11:29] e questo può essere dal manutentore del
+[11:31] condizionamento alla software house che
+[11:33] vi gestisce il gestionale e così via,
+[11:37] entrano nella vita aziendale al punto
+[11:40] che la maggior parte degli incidenti
+[11:42] recenti
+[11:44] passa anche tramite il fornitore. Vi ho
+[11:46] fatto l'esempio poco fa, no? So per chi
+[11:48] forse non c'era l'ultima persona che è
+[11:51] entrata per nel caso di Kitab, quindi si
+[11:54] passa attraverso un fornitore, si
+[11:56] infetta il software di un fornitore e a
+[12:00] quel punto si riesce a entrare nella
+[12:01] vostra azienda.
+[12:03] Eh, oppure il tecnico clicca su un link
+[12:06] di fishing
+[12:08] o o appunto un server viene compromesso
+[12:11] o un fornitore inserisce le credenziali
+[12:14] su un forum che non doveva che in cui
+[12:16] non doveva inserirle,
+[12:19] quindi un forum artefatto,
+[12:21] eh, quindi la sicurezza non finisce più
+[12:24] nel perimetro aziendale, ma comprende
+[12:27] tutta la vostra intera supply chain,
+[12:29] cioè tutti i vostri fornitori, non solo
+[12:32] quello eh che vi fornisce software.
+[12:37] Facciamo un'analogia.
+[12:39] Una banca
+[12:41] eh può essere imprendibile magari se la
+[12:44] guardiamo dal portone principale, ok?
+[12:46] Perché? Perché ci sono, che ne so,
+[12:48] guardie armate, vetri antiproiettile,
+[12:50] telecamere ovunque. Ma se sempre per
+[12:55] fare l'analogia dei fornitori, che ne
+[12:56] so, l'azienda di pulizie ha le chiavi
+[12:59] del semiinterrato
+[13:01] e le passa al primo che paga di più, è
+[13:04] chiaro che la vostra difesa frontale è
+[13:06] molto [ __ ] bella, avanzata, non vi
+[13:09] serve più a niente.
+[13:11] Quindi le policy per i vendor sono
+[13:14] sostanzialmente l'estensione della
+[13:17] sicurezza al perimetro esteso
+[13:19] dell'azienda. Quindi ovunque l'azienda
+[13:21] ha dei contatti deve estendere queste
+[13:24] policy di sicurezza.
+[13:28] Eh, in questa famiglia ci sono
+[13:29] principalmente quattro documenti chiave.
+[13:32] eh quelle che sono chiamate le SOP, cioè
+[13:34] standard operating procedure, sono le
+[13:38] procedure operative standard che
+[13:41] potremmo definirle dei libretti di
+[13:42] istruzioni
+[13:44] condivisi tra azienda e il suo
+[13:47] fornitore.
+[13:49] E questi libretti di istruzioni,
+[13:51] passatemi l'esempio, definiscono chi fa
+[13:54] cosa,
+[13:56] quando
+[13:57] e come si scala e scalano le emergenze.
+[14:00] Quindi c'è un'emergenza a chi scalo?
+[14:03] Quali numeri di telefono posso chiamare?
+[14:06] Ne so, se c'è un'emergenza alle 3:00 del
+[14:07] mattino.
+[14:10] Ehm, diciamo che è il documento meno
+[14:13] glamor, probabilmente, ma è il più utile
+[14:15] quando davvero le cose vanno storte. Qui
+[14:18] le SOP, per capirci.
+[14:21] Eh, poi ci sono le SLA che sono i
+[14:23] service level agreement.
+[14:26] Ehm,
+[14:28] lo SLA, in poche parole, traduce in
+[14:31] numeri misurabili le aspettative sul
+[14:33] servizio del fornitore.
+[14:36] Ok, quindi eh disponibilità garantita.
+[14:41] Sì, quanto? 99,9% del tempo all'anno.
+[14:45] Ehi, lo devi scrivere. Tempo di
+[14:48] risposta.
+[14:49] In quanto tempo il fornitore deve
+[14:51] rispondere?
+[14:53] tempo di risoluzione, quindi quanto
+[14:55] tempo ha per risolvere il problema e le
+[14:59] penali ovviamente. Se non rispetti
+[15:01] questi tempi che abbiamo
+[15:03] contrattualizzato, che succede? penali
+[15:06] di solito sono di tipo economico
+[15:08] ovviamente, quindi multe che possono
+[15:10] essere una una tantum oppure possono
+[15:12] essere multe anche che variano in base
+[15:14] alla durata, alla gravità del della
+[15:17] situazione.
+[15:19] Questo eh diciamo che è il documento
+[15:22] principale su cui si discute davanti al
+[15:24] giudice se qualcosa non va.
+[15:27] Poi ci sono eh i memorand i MO o MOA che
+[15:32] sono i memorandum of
+[15:33] understanding/agreement
+[15:36] che praticamente è un accordo meno
+[15:39] vincolante di un contratto vero e
+[15:41] proprio. Definiscono
+[15:43] le intenzioni comuni tra due
+[15:46] organizzazioni.
+[15:48] Sostanzialmente è tipicamente in fase
+[15:50] preliminare, no? Quando si vuole
+[15:52] lavorare insieme, ma non si sono ancora
+[15:54] definite tutte le clausole.
+[15:57] ed è utile per collaborazioni
+[15:58] temporanee, progetti pilota, eh
+[16:01] partecipazione a consorzi e così via.
+[16:07] Eh poi abbiamo quelle che vengono
+[16:09] chiamate le ISA, c'è interconnection
+[16:12] security agreement.
+[16:14] Ok?
+[16:16] Ehm,
+[16:18] questi sono specifiche specifiche per
+[16:20] quando si si interconnettono i sistemi
+[16:23] IT di due organizzazioni,
+[16:26] eh non so, una banca col Swift,
+[16:29] eh un'azienda con un fornitore di EDI,
+[16:32] per esempio, un partner che accede alla
+[16:35] tua VPN.
+[16:37] Quindi questo questo agreement documenta
+[16:40] i requisiti tecnici
+[16:42] dell'interconnessione, quindi che ne so
+[16:44] c'è un esempio protocolli, cifrature,
+[16:47] log, responsabilità in caso di incidente
+[16:50] e così via.
+[16:53] Eh,
+[16:55] facciamo facciamo un esempio così
+[16:58] vediamo subito
+[17:00] le aziende. Facciamo faccio vi faccio
+[17:02] delle domande, dai. Le aziende che
+[17:03] conoscete, facciamo degli esempi,
+[17:06] leggono davvero gli SLA prima di
+[17:09] firmarli? E se no, perché? Vi ricordo lo
+[17:13] SLA è service level agreement, no?
+[17:15] Quindi, eh definire i i numeri
+[17:19] misurabili, non so, la disponibilità
+[17:20] garantita, il tempo di risposta, penali,
+[17:23] eccetera eccetera.
+[17:26] Secondo voi le aziende che voi conoscete
+[17:28] li leggono davvero nel dettaglio questi
+[17:30] SLA prima di firmarli? Se sì, sì o no? E
+[17:33] perché? È il caso,
+[17:40] sinceramente non lo so io. Cioè, io ho
+[17:44] lavorato per in un'azienda farmaceutica
+[17:48] ehm per diverse aziende farmaceutiche e
+[17:51] cioè lo SLA non non mi è mai capitato,
+[17:55] cioè nel senso mi sono capitato di
+[17:57] aggiornare di aggiornare SOP, però
+[18:02] cioè non viene data importanza, cioè
+[18:05] molta importanza, cioè è un documento
+[18:09] che viene aggiornato, sì, però però è
+[18:13] come ti posso dire
+[18:16] sta lì, cioè nel senso sono delle
+[18:19] procedure operative standard, eh, cioè,
+[18:23] come ti posso dire, non gli viene data
+[18:25] tanta importanza. Se può essere se può
+[18:28] essere ehm
+[18:31] cioè tutta l'importanza nel senso in cui
+[18:34] c'è
+[18:36] c'è questa descrizione che tu stai
+[18:37] facendo nel senso non c'è. Questo ti
+[18:39] volevo dire.
+[18:40] Sono d'accordo e infatti di solito
+[18:43] mediamente è così. Adesso voglio dire
+[18:45] che tutte le aziende lo leggono, però
+[18:47] spesso no. Oppure li leggono
+[18:49] superficialmente, no?
+[18:50] Superficialmente, sì. Ecco, il termine,
+[18:53] sì. E i motivi più comuni perché si
+[18:56] comportano in questa maniera sono
+[18:57] sostanzialmente perché li considerano,
+[18:59] non so, sbagliando, ma roba legale o
+[19:02] cose IT o hanno fretta di chiudere il
+[19:06] contratto, ad esempio, quindi si fanno
+[19:07] andare bene qualunque cosa. Ma sì, ma
+[19:10] infatti il cello è quello. Infatti il
+[19:12] cello è prettamente quello, cioè la SOP
+[19:15] che ehm procedura operativa standard
+[19:18] aziendale, io da fornitore esterno ho
+[19:21] dovuto aggiornare una SOP, cioè cosa che
+[19:23] io ero esterno.
+[19:25] Certo. Eh, non è molto buona come cosa,
+[19:29] però
+[19:30] e e ti parlo cioè adesso non posso fare
+[19:32] nome anche dei multinazionali. Eh,
+[19:34] certo,
+[19:35] non ho dubbi.
+[19:38] E diciamo che capita anche a volte che
+[19:40] non capis non capiscono bene ehm
+[19:43] l'impatto pratico,
+[19:46] cioè non gli danno la giusta importanza.
+[19:47] Sì, quello sì.
+[19:48] Esatto. Quindi oppure pensano "Ma sì, ma
+[19:51] succederà solo a noi? Ma proprio a noi
+[19:53] deve succedere?" Ma no.
+[19:55] E il problema è che eh lo SLA viene
+[19:59] spesso letto solo quando qualcosa va
+[20:01] storto, quindi è troppo tardi e quindi
+[20:04] si scopre magari che i tempi di
+[20:06] ripristino sono troppo lunghi o che le
+[20:07] penali sono deboli
+[20:10] o che il fornitore non aveva obblighi
+[20:11] chiari in caso di incidente, per
+[20:13] capirci, no?
+[20:17] Eh, po' posediamo un'altra domanda.
+[20:21] Possiamo fare
+[20:26] chi è responsabile
+[20:28] se un mio fornitore subisce un attacco
+[20:31] che poi si propaga a me, tipo quello che
+[20:33] abbiamo citato prima.
+[20:38] Chi è? No,
+[20:40] che è responsabile se un mio fornitore
+[20:42] viene attaccato
+[20:44] e
+[20:45] a causa di questo attacco vengo
+[20:47] attaccato pure io. Fam
+[20:49] questa era una domanda che volevo farti.
+[20:51] Infatti
+[20:53] secondo me è l'azienda che ti dà il il
+[20:55] software, però non lo so.
+[20:59] Allora,
+[21:00] anche l'azienda l'azienda che delega,
+[21:02] no? Quindi che riceve.
+[21:05] Esattamente, perché diciamo che sono
+[21:08] cambiate anche abbastanza recentemente
+[21:11] le le norme, eh, quindi se sei un
+[21:13] soggetto NIS 2, normative che poi
+[21:15] vedremo più avanti, sei responsabile di
+[21:18] avere comunque misure adeguate per
+[21:20] gestire anche il rischio regato alle
+[21:22] supply chain, quindi ai tuoi fornitori.
+[21:24] Quindi l'articolo proio l'articolo 21
+[21:27] del del della direttiva NIS 2 include
+[21:30] esplicitamente la sicurezza della catena
+[21:33] di fornitura, quindi compresi gli
+[21:35] aspetti di sicurezza nei rapporti coi
+[21:37] fonditori diretti e service provider.
+[21:41] Eh, sostanzialmente quindi richiede
+[21:44] anche di considerare vulnerabilità
+[21:45] specifiche dei fornitori e qualità delle
+[21:48] loro pratiche di cyber security. Ok?
+[21:50] Quindi voi dovete anche fare una
+[21:51] valutazione quando scegliete il
+[21:53] fornitore anche sotto questo aspetto.
+[21:56] Se non la fate siete corresponsabili,
+[22:01] ok? Eh, quindi mettiamola così. Se un
+[22:04] fornitore viene compromesso e l'attacco
+[22:06] si propaga alla tua azienda, quello che
+[22:09] ti devi chiedere sono ti devi fare
+[22:11] queste domande sostanzialmente. Avevi
+[22:12] valutato il rischio cyber del fornitore
+[22:15] prima di firmare?
+[22:17] Quante aziende lo fanno?
+[22:20] Il contratto o lo SLA prevedeva obblighi
+[22:23] di sicurezza e notifica incidente? Sì.
+[22:25] No, c'era contratto immagine. Sì, lo SLA
+[22:28] c'era.
+[22:31] Avevi segmentazione e varie, so
+[22:33] multifactor authentication, login,
+[22:34] monitoraggio, bla bla bla, tutte queste
+[22:36] cose. Sì. No,
+[22:38] avevi un piano di risposta agli
+[22:40] incidenti, famoso Disaster Recovery,
+[22:42] detto l'altra volta.
+[22:44] hai reagito e notificato nei tempi
+[22:46] previsti? Sono tutta una serie di dom
+[22:49] qui domande che servono a farvi capire
+[22:50] che no, se attaccano un fornitore e tu
+[22:54] non hai non hai fatto i compiti a casa,
+[22:56] passateggli la metafora, non è vero che
+[22:58] la responsabilità finisce al fornitore
+[23:02] perché poi tu hai fatto tutto il
+[23:03] possibile per valutarlo e per per
+[23:05] metterti in sicurezza e allora puoi
+[23:07] difenderti, puoi puoi essere difendibile
+[23:09] difendibile, scusa, la tua la tua linea
+[23:12] di difesa oppure
+[23:14] diventi davanti alla legge
+[23:15] corresponsabile.
+[23:17] Eh, quindi la responsabilità tecnica
+[23:19] dell'attacco può essere del fornitore,
+[23:22] ma la responsabilità di aver gestito
+[23:24] correttamente il rischio del fornitore
+[23:27] resta capo alla tua organizzazione.
+[23:32] Eh
+[23:34] ah in più ovviamente la NIS 2 rende la
+[23:36] cyb security un tema di governance,
+[23:38] quindi gli organi di gestione devono
+[23:40] approvare le misure di risk management,
+[23:43] supervisionarle
+[23:44] e supervisionare appunto l'attuazione e
+[23:47] possono essere ritenuti responsabili per
+[23:49] violazione degli obblighi previsti.
+[23:51] Quindi anche i dirigenti di questa
+[23:53] azienda poi possono venire incriminati.
+[23:57] Pensa pensate voi. Quindi non bisogna
+[23:59] per niente prenderla sotto gamba.
+[24:03] Eh,
+[24:05] ok.
+[24:08] Andiamo avanti.
+[24:14] Allora, approfondiamo eh questi
+[24:17] documenti.
+[24:19] Lo SLAP
+[24:21] eh perché esiste, che a chi interessa e
+[24:24] se è trasferibile sostanzialmente.
+[24:25] Quindi, ehm,
+[24:29] facciamo un esempio,
+[24:32] una disponibilità al 99,999%,
+[24:35] come dice nella slide, come dice
+[24:36] l'esempio della slide,
+[24:40] eh, e questi 59 sostanzialmente è un
+[24:43] classico del settore delle
+[24:44] telecomunicazioni, no?
+[24:47] Eh,
+[24:50] diciamo che eh il
+[24:55] quando tu hai 90, allora mettiamolo
+[24:57] così, disponibilità 99% con 29 significa
+[25:02] eh circa
+[25:05] 3,65 giorni da un time all'anno, ok? se
+[25:08] fate sui 365 giorni l'anno, quindi
+[25:13] abbiamo circa 7 ore al mese di downtime
+[25:18] massimo, ok? Che puoi sopportare come
+[25:22] slap e questo può essere un un numero
+[25:26] che puoi inserire nella SL di un sito
+[25:28] web di marketing, per capirci, che non
+[25:30] ha valore commerciale. Ok? Questi sono,
+[25:32] vi sto leggendo gli standard. Eh eh
+[25:35] invece il 99,9%
+[25:38] quindi 39
+[25:40] che tradotto in giorni sono, scusa che
+[25:43] scusate che sono all'incirca in ore
+[25:48] perché 99,9 è praticamente 100, sono
+[25:51] 8,76 ore l'anno, sono all'incirca 43
+[25:55] minuti al mese. Ok? Chi può avere uno SL
+[25:59] del genere? Di solito un gestionale
+[26:01] aziendale, no? interno magari,
+[26:06] eh, poi 99,99%,
+[26:09] quindi 49
+[26:11] S all'anno. Cosa significa? Che tu
+[26:14] accetti un un downtime massimo di 52
+[26:17] minuti,
+[26:19] che sono circa 4 minuti il mese e questi
+[26:23] sono slici di che settori? Banchi
+[26:26] online, e-commerce di grande di grande,
+[26:30] scusa, grande dimensione e così via.
+[26:32] Quindi settori molto critici.
+[26:35] Eh oh, quello, l'esempio invece citato
+[26:38] qua proprio il 9999%,
+[26:41] quindi 59 che sono sostanzialmente 5
+[26:44] minuti l'anno o 26 secondi al mese sono
+[26:48] proprio sistemi critici, no, di
+[26:49] telecomunicazione, centralina telefonica
+[26:51] e così via.
+[26:53] Eh,
+[26:55] il punto qui che deve passare, però
+[26:56] adesso non è una mera fantasia di nove,
+[27:00] ma è passare da tre o quattro nove può
+[27:04] significare raddoppiare l'investimento
+[27:06] infrastrutturale, eh, perché devi avere
+[27:09] sistemi di ridondanza, failover
+[27:11] automatico,
+[27:13] data center secondari e così via.
+[27:17] Per farvi capire, per darvi un unità di
+[27:19] misura, passare da 4 a 59,
+[27:23] quindi da 99,99
+[27:25] a 99,999,
+[27:29] eh può moltiplicare per 10 investimento,
+[27:32] eh quindi spendere 10 volte.
+[27:37] Quindi per ricordarvi, per passare da 4
+[27:40] a 59 significa passare da 4 minuti al
+[27:44] mese a 26 secondi al mese di downtime
+[27:46] massimo. Questa è l'unità di misura, gli
+[27:48] ordini di grandezza, per capirci. Quindi
+[27:51] il costo non è lineare, ok?
+[27:54] Eh, dovete valutare bene quanto vale per
+[27:57] voi un minuto di downtime.
+[28:01] A questo punto calcoli quanti nove
+[28:03] servono. Chiaro? Ok?
+[28:10] Eh, ci sono sostanzialmente tre punti da
+[28:13] da cui bisogna fare molta attenzione.
+[28:16] Perché serve uno SLA?
+[28:21] La SLA serve a far emergere
+[28:24] disiallineamenti di aspettativa. Questo
+[28:27] prima che diventino conflitti, ok?
+[28:29] Quindi quando lo contrattate serve lì
+[28:31] perché magari voi volete un determinato
+[28:35] servizio dal vostro fornitore, ma con
+[28:37] determinate clausole, ma il vostro
+[28:39] fornitore vorrebbe uno slampo più
+[28:41] morbido, per capirci. Se lo concordate e
+[28:44] lo fate bene prima, evitate i conflitti
+[28:46] poi davanti al giudice.
+[28:50] Ehm,
+[28:53] possiamo fare un esempio. Quando il
+[28:54] cliente dice, non so, un intervento
+[28:56] entro 4 ore, il fornitore lo conferma,
+[29:01] eh, ma il fornitore intende ore
+[29:03] lavorative, quindi 918, lunedì, venerdì,
+[29:06] mentre il cliente intende ore
+[29:08] continuative 24-7.
+[29:11] Ok? Quindi c'è già un disallineamento
+[29:15] e se non viene discussa questa cosa a
+[29:18] monte, poi si creano veramente un sacco
+[29:21] di attriti
+[29:23] che poi finiscono per via giudiziale.
+[29:26] E quindi la il momento della
+[29:29] negoziazione dello SL è molto importante
+[29:31] e serve a esplicitare
+[29:33] tutte queste differenze.
+[29:36] Ehm,
+[29:38] chi lo definisce davvero lo slap?
+[29:45] Di solito questi SLA vengono concordati,
+[29:48] ma sono declinati a favore del
+[29:50] fornitore.
+[29:52] Eh, diciamo che è la prima lezione di
+[29:55] chi compra servizi IT, no? Per
+[29:56] un'azienda.
+[30:00] E il foglio che il fornitore ti manda
+[30:03] con lo SLA eccetera non è un documento
+[30:05] neutrale, non è pari pari, è più
+[30:08] favorevole e è il modo più possibile
+[30:11] favorevole a lui. Chiaro? Questo è
+[30:13] ovvio, eh tutto ciò che non è scritto
+[30:18] nello SLA non sarà assolutamente dovuto.
+[30:24] Eh, facciamo un esempio pratico, dai.
+[30:26] Ehm, una piccola media impresa italiana
+[30:29] che firma il cloud agreement di un
+[30:32] provider americano, no? Succede tutti i
+[30:34] giorni perché perché tutti lo firmano,
+[30:36] no? Perché tutte le aziende lavorano
+[30:38] così.
+[30:40] dopo 8, che so 8 mesi un guasto fa
+[30:44] perdere 6 ore di dati.
+[30:47] Allora il cliente cosa fa? Chiede il
+[30:49] rimborso del fatturato perso. Il
+[30:52] fornitore invece di tutta risposta gli
+[30:55] mostra una clausola che limita la
+[30:57] responsabilità al canone mensile pagato,
+[31:00] €45.
+[31:02] Quindi, sostanzialmente, il cliente ha
+[31:04] perso €30.000 €1000 di vendite in questo
+[31:06] esempio
+[31:08] il risarcimento dovuto per contratto
+[31:10] €45.
+[31:12] La clausola c'era, ma non l'avevate
+[31:14] letta.
+[31:15] Quindi negoziare anche un cap di
+[31:18] responsabilità ragionevole
+[31:21] probalmente vi avrebbe avrebbe chiesto
+[31:23] questa azienda, che ne so, mezz'ora di
+[31:24] consulenza legale, no, con un avvocato.
+[31:29] Eppure se non viene fatta,
+[31:32] sono casi che succedono realmente, eh
+[31:34] non sono invenzioni queste. Eh,
+[31:39] poi il terzo punto è la trasferibilità
+[31:41] in caso di acquisizione. Quindi,
+[31:44] se il vostro fornitore viene acquisito,
+[31:48] cosa succede?
+[31:52] Voi avete lo slacco con il vostro
+[31:53] vecchio fornitore. Il fornitore viene
+[31:55] acquisito da un altro, viene comprato.
+[31:57] Che succede?
+[32:00] Il nuovo proprietario
+[32:02] può rinegoziare lo slide.
+[32:05] Chiaro? Quindi ciò che avete firmato con
+[32:07] uno non è che va bene anche quello dopo,
+[32:11] eh.
+[32:13] per asset critici, quindi vale la pena
+[32:15] inserire una clausola di continuità in
+[32:17] caso di cambio di controllo.
+[32:19] Questo lo potete fare.
+[32:22] Oppure se non lo se non avete pensato a
+[32:24] fare questa cosa, il giorno
+[32:26] dell'acquisizione potreste trovarvi a
+[32:27] dover scegliere tra accettare nuove
+[32:29] condizioni e probabilmente peggiori o
+[32:32] addirittura cambiare in fretta un
+[32:33] fornitore. Non so cosa sia peggio i due
+[32:36] casi.
+[32:40] Vi faccio qualche domandina così vediamo
+[32:42] se sono chiari questi punti.
+[32:45] Allora,
+[32:51] come valutereste quanto vale, secondo
+[32:53] voi per un'azienda un'ora di blocco del
+[32:56] suo sistema più importante?
+[32:58] Adesso non mi interessa la cifra in sé,
+[33:00] giusto come per capire a livello di
+[33:02] ragionamento come lo calcolereste, che
+[33:05] cosa sommereste per ottenere questo
+[33:06] valore.
+[33:10] Quindi un'ora di blocco per questa
+[33:12] azienda del suo sistema più importante.
+[33:15] Quanto lo valutereste e come?
+[33:21] Pensate a un'azienda che conoscete
+[33:24] o azienda in cui avete lavorato o
+[33:26] lavorate.
+[33:28] Il suo sistema, so immagino sia
+[33:30] informatico più importante, si blocca
+[33:33] un'ora.
+[33:36] Quanto lo quantifichereste? Come?
+[33:44] Beh, non c'è
+[33:48] eh domanda a ragionamento aperto, eh non
+[33:50] dovete c'è una una risposta. Quindi
+[33:53] come sommereste? C Immagino ci sono
+[33:55] varie componenti, no?
+[34:01] Comincio io, dai. Io comincerei nella
+[34:04] somma il fatturato perso. Mi sembra il
+[34:06] più semplice, no?
+[34:08] Perché se non potete vendere o erogare
+[34:10] il servizio, non potete assolutamente
+[34:12] incassare, giusto?
+[34:15] Cos'altro? Se vi si blocca, cioè
+[34:18] un'attività critica vuol dire che vi si
+[34:19] blocca proprio l'azienda.
+[34:24] Sostanzialmente voi andate lì in ufficio
+[34:26] e guardate il soffitto. Quindi cosa
+[34:29] assommiamo oltre al fatturato perso?
+[34:34] Lo stipendio di tutti i dipendenti di
+[34:36] quell'ora. Bravissimo. Il costo del
+[34:38] personale fermo perché i dipendenti non
+[34:41] è che sono lì, sono in vacanze, sono lì,
+[34:43] devono essere pagati ma non producono.
+[34:49] Poi cos'altro può essere?
+[34:55] Se operate nell nelle nei settori che
+[34:58] insomma mano fatturiero, avete dei
+[35:00] ritardi operativi, no?
+[35:03] Quindi ordini bloccati, spedizioni
+[35:05] fermi, clienti non serviti,
+[35:10] ovviamente danni reputazionali
+[35:14] e non per ultimo quello abbiamo discusso
+[35:15] fino adesso, eventuali penali
+[35:17] contrattuali.
+[35:21] Se tu sei un fornitore, ti sei blocch di
+[35:23] qualcuno e ti si e non riesci a fornire
+[35:25] il servizio, se hai uno slingente
+[35:28] e hai promesso dei servizi di un certo
+[35:30] tipo ai tuoi clienti, hai delle penali
+[35:33] che devi pagare oppure vai in causa, non
+[35:36] ci sono alternative.
+[35:38] Facciamo
+[35:39] un esempio semplice, visto che magari
+[35:42] un'azienda vi ha bloccato un attimo, se
+[35:45] un negozio, un magazzino, un ufficio
+[35:47] perde €2000 di margine operativo
+[35:49] all'ora,
+[35:50] ok? E che ne so, ha 10 persone ferme,
+[35:55] quindi sono 10 persone in magazzino che
+[35:57] si grattano perché non non possono
+[35:59] proprio fisicamente lavorare,
+[36:01] tranquillamente un'ora di blocco, che ne
+[36:03] so, potrebbe valere.
+[36:04] Stimiamo grandi numeri, ne so, dai 3 o
+[36:06] €5.000 un'ora.
+[36:10] Questo per un magazzino. Poi ovviamente
+[36:12] se parliamo di altre attività, che ne
+[36:14] so, un ospedale,
+[36:17] il problema non è solo un costo
+[36:18] economico, ma diventa anche un problema
+[36:19] di sicurezza per i pazienti.
+[36:24] Ok,
+[36:29] ci siete?
+[36:30] Sì.
+[36:32] Ok. Ecco, adesso una domanda che
+[36:34] sicuramente questa è personale, quindi
+[36:36] mi saprete rispondere sicuramente. Avete
+[36:38] mai letto le condizioni di Gmail,
+[36:40] iCloud, Outlook, qualunque cosa voi
+[36:43] utilizziate e che SL garantiscono in
+[36:46] caso di perdita di dati? L'avete mai
+[36:48] fatto?
+[36:50] No, io no.
+[36:52] È normalissimo, eh, dite pure no, è
+[36:54] normalissimo, eh, non è che non c'è
+[36:56] niente di male, nel senso, o meglio,
+[36:59] andrebbe fatto, ma non lo fa nessuno.
+[37:01] Eh, vi vi ve li dico io, così ci pensate
+[37:05] un attimo. Per gli account gratuiti,
+[37:08] tipo Gmail, no? Gmail ce l'abbiamo
+[37:10] tutti, immagino, no? Gratuito per la
+[37:12] mail personale o anche iCloud Mail di
+[37:15] Apple, eh, o outlook.com di Microsoft.
+[37:19] Diciamo che in genere non c'è uno SL
+[37:21] forte che vi tuteli, no? In caso di
+[37:22] perdita di dati.
+[37:25] Eh, Google Workspace, quindi la versione
+[37:27] business a pagamento, prevede uno SLA
+[37:30] del 99,9%
+[37:33] di Ftimel Sealer, vi ricordate il numero
+[37:34] di 9, no? 39.
+[37:36] Questo per i servizi coperti
+[37:39] e e chiaramente se tu rispetti le
+[37:42] procedure di richiesta, anche lì ci sono
+[37:43] tutta una serie di clausole cui devi
+[37:46] rispettare,
+[37:47] ma questo per la parte pagamento.
+[37:51] Eh, faccio vi faccio vi dico iCloud di
+[37:54] Apple per la per la mail personale,
+[37:58] quindi free, dichiara esplicitamente che
+[38:02] userà ragionevole competenza e cura.
+[38:07] ma che non garantisce che il servizio
+[38:09] sia esente di perdite, danneggiamenti,
+[38:12] attacchi, virus, interferenze, eccetera
+[38:14] eccetera eccetera eccetera.
+[38:17] E
+[38:18] cosa
+[38:20] non ha dato? e non dà nessun vincolo
+[38:22] praticamente.
+[38:23] Assolutamente le vostra mail personale,
+[38:25] se perdete tutti i dati, buona fortuna,
+[38:28] fategli causa. Non avete letto le SLA,
+[38:32] non avete letto bene il contratto per Vi
+[38:34] consiglio di non farlo perché spendete
+[38:36] più di avvocato che di cose otterreste.
+[38:39] Quindi vi faccio ancora più ridere.
+[38:41] outlook.com di Microsoft. Il contratto
+[38:44] consumer, quello free,
+[38:47] eh prevede proprio limitazione di
+[38:49] responsabilità per i servizi gratuiti,
+[38:52] cioè se avete la so l'email.it
+[38:58] per i servizi appunto gratuiti, il
+[38:59] rimedio massimo indicato può arrivare a
+[39:02] $10 USA.
+[39:05] $10.
+[39:08] E è chiaro che eh
+[39:12] è vero, molti utenti non leggono queste
+[39:14] condizioni e l'abbiamo capito, ma quando
+[39:17] si parla di mail consumer posso ancora
+[39:19] ancora capire, no? Però un'azienda che
+[39:22] usa account gratuiti per attività
+[39:25] critiche è rischioso. Ok? dovete pagare,
+[39:29] ma non perché è bello pagare, ma perché
+[39:32] servizi business
+[39:34] servono i backup separati, retention
+[39:36] policy, business recovery, clausole
+[39:39] contrattuali chiave con sly penali un
+[39:42] po' più serie, no? Immaginate quante
+[39:44] aziende lavorano con Gmail gratuita?
+[39:48] tantissime
+[39:51] e non è perché se sei un'azienda allora
+[39:54] cambia la SLA, eh, perché cambia la SLA
+[39:56] solo cambia il contratto. Quindi se tu
+[39:58] hai un contratto diverso e quelli a
+[40:00] pagamento sono, non quelli gratuiti.
+[40:07] Andiamo avanti. Tutto chiaro sulla SL?
+[40:09] Sì,
+[40:11] sì.
+[40:13] Ok.
+[40:15] Poi eh mandato di vacation,
+[40:18] ehm o meglio tradurlo in italiano,
+[40:22] vacanze obbligatorie.
+[40:25] Eh diciamo che questa è una policy che
+[40:27] di primo acchitto può sembrare mero e
+[40:30] char, no? Risorse umane, ma è anche
+[40:33] sicurezza, eh, quindi diciamo che
+[40:36] sembrano un tema di benessere dei
+[40:37] dipendenti e basta.
+[40:40] Ehm,
+[40:41] vi vi do una nozione, in realtà sono
+[40:44] nate nel settore bancario e finanziario
+[40:46] per una ragione molto più concreta che è
+[40:48] stata quella di scoprire frodi.
+[40:51] Ehm, la logica è un po' brutale ma
+[40:54] efficace.
+[40:56] Eh, chi sta frodando l'azienda non può
+[40:58] permettersi di stare via per due
+[40:59] settimane consecutive, chiaro? Perché in
+[41:02] sua in sua assenza il sostituto vedrebbe
+[41:05] le anomalie. Quindi costringere ferie
+[41:08] consecutive obbligatorie è uno dei
+[41:10] metodi più economici e collaudati per
+[41:12] smascherare frode inter. Ovviamente
+[41:13] adesso non è così, è nata così, ma non è
+[41:16] così oggi. Ovviamente le le ferie sono
+[41:20] un diritto e nessuno sta lì a
+[41:22] controllarvi quanti giorni costivi fate.
+[41:23] Però questo è un aneddoto
+[41:26] su come sono nate queste queste
+[41:28] normative, queste normative, queste
+[41:30] policy aziendali, perché non sono
+[41:32] chiaramente normative. Ehm,
+[41:36] quindi sono i benefici, quali sono i
+[41:39] benefici di questa cosa? sostanzialmente
+[41:41] ehm
+[41:44] se tu lasci, cioè hai una policy di
+[41:48] fierie aziendali, hai replica delle
+[41:51] competenze perché perché quando un
+[41:52] dipendente
+[41:54] è in ferie deve avere un altro
+[41:56] dipendente che sia in grado di fare lo
+[41:58] stesso lavoro. Ok?
+[42:01] Quindi, eh, scopri davvero se c'è solo
+[42:05] un dipendente che vuoi fare quel lavoro
+[42:07] oppure se hai un personale che riesce a
+[42:10] essere sostituibile
+[42:13] e sennò hai un problema perché sennò
+[42:15] vuol dire che quando il dipendente va in
+[42:17] ferie o è in malattia o molla l'azienda
+[42:21] per cambiare azienda, tu sei fregato.
+[42:24] Un'altra cosa, un'altra motivo per cui
+[42:26] un altro beneficio è la salute del
+[42:28] dipendente che è il burnout. Quindi se
+[42:30] il dipendente lavora troppo, alla fine
+[42:32] alla fine della fiera non rende come
+[42:34] come prima ovviamente perché è stanco,
+[42:36] stressato, non riposa e alla fine ti
+[42:39] costa di più un dipendente che non rende
+[42:41] come prima o comunque che non riesce a
+[42:43] produrre di uno che se ne va in ferie,
+[42:45] pagate ovviamente
+[42:47] e trasferimento del knohow, quindi
+[42:51] eh forzare la sostituzione, quindi uno
+[42:55] in ferie, tu devi fare il lavoro della
+[42:57] persona che è andata in ferie. ti
+[43:00] obbliga a documentare processi e
+[43:03] procedure,
+[43:04] cosa che altrimenti rimarrebbe solo
+[43:06] nella testa del dipendente che fa quella
+[43:08] quella quell'attività.
+[43:11] Vbè, il contesto italiano
+[43:14] ci sono vari contratti chiaramente CCNL
+[43:17] eccetera. Diciamo che se vogliamo
+[43:19] proprio parlare in linea molto generale,
+[43:21] astratta, c'è un vincolo del codice
+[43:23] civile, l'articolo 2109 che prevede che
+[43:26] il dipendente abbia diritto almeno a
+[43:28] quattro settimane di ferie l'anno, di
+[43:30] cui due consecutive.
+[43:33] Questo è poi bisogna vedere ogni azienda
+[43:36] come applica queste queste normative. Ma
+[43:41] eh
+[43:45] voi conoscete aziende dove dove ci sono
+[43:47] dipendenti che non sono mai in ferie?
+[43:54] Direi di no. Spero.
+[43:57] Spero di no, sennò sono diciamo è
+[43:58] un'azienda che è facilmente
+[44:00] denunciabile, per capirci.
+[44:08] Se voi foste l'unico in azienda a sapere
+[44:12] come funziona un certo sistema o un
+[44:14] certo software, vi piacerebbe sì o no o
+[44:17] sarebbe un peso per voi?
+[44:24] No, a me piacerebbe, per esempio, nel
+[44:26] senso, quando sono stato a Pomezia
+[44:29] in una multinazionale c'erano software
+[44:32] ERP, no?
+[44:34] Sì.
+[44:36] Ehm,
+[44:38] che venivano utilizzati eh un software
+[44:41] qui adesso che non ricordo come si
+[44:42] chiama bene, che veniva utilizzati il il
+[44:44] laboratorio,
+[44:47] no? Sarebbe carino capire, nel senso,
+[44:49] come funziona.
+[44:53] Ok. Ma quindi ma proprio la domanda è se
+[44:55] tu fossi proprio l'unico a sapere come
+[44:57] funziona,
+[44:59] cioè ti piacerebbe, nel senso, penso che
+[45:01] magari all'inizio sì, come dici tu, ma
+[45:03] no? Ma no, non penso. Io non penso,
+[45:05] eh, perché poi direi che sarebbe più un
+[45:08] peso, no? Più che piacere,
+[45:09] no? Sì. Cioè, nel senso a livello
+[45:11] aziendale, Samuel, non so se tu sai, ci
+[45:15] sono delle lotte per queste cose, eh m
+[45:18] mh
+[45:19] lotte veramente interne, nel senso per
+[45:21] chissà delle cose piuttosto che altre,
+[45:24] cioè eh il direttore T, cioè nel senso
+[45:28] ti dà fino a un certo punto, cioè non ti
+[45:31] manda oltre da cioè a soltanto alle
+[45:33] persone interne che lui ha fiducia la
+[45:36] conoscenza di determinate cose. Ok,
+[45:39] quindi segmenta molto l'informazione.
+[45:43] Molto. Sì.
+[45:44] Ok. Ok. Quindi direi che comunque
+[45:48] beh, quello può essere
+[45:51] utile ma pericoloso allo stesso tempo,
+[45:54] però potrei ancora ancora capirlo, però
+[45:55] diciamo che se avere solo dipendente, un
+[45:57] solo dipendente che conosce
+[46:00] un servizio o un software è molto
+[46:02] negativo, nel senso che diciamo che se
+[46:05] il sistema si blocca tanto per
+[46:07] cominciare è negativo per te, eh
+[46:08] dipendente dico perché chiamano sempre
+[46:10] te perché non è se lo sei lui che lo
+[46:12] conosce non ti puoi assentare
+[46:14] serenamente, o meglio ti ti assenti con
+[46:16] le dita incrociate, sperando che non
+[46:18] succeda niente, appunto, a quel
+[46:19] servizio, a quel software,
+[46:21] va male anche l'azienda perché dipende
+[46:23] solo dipende da una persona,
+[46:25] specialmente se è critico questo
+[46:27] servizio.
+[46:29] Nessuno può controllare davvero quello
+[46:30] che fai perché se lo conosci solo tu.
+[46:33] No, no, quello senza dubb, cioè nel
+[46:35] senso quello che stai dicendo è cor eh è
+[46:38] il classico single point of failure, no?
+[46:40] Nel senso,
+[46:41] sì, sì,
+[46:42] non è non è una cosa sana, per capirci.
+[46:48] Ok,
+[46:50] andiamo avanti. Job rotation, qu la
+[46:54] diciamo che la logica è la stessa della
+[46:56] slide precedente, sostanzialmente.
+[46:59] Ehm,
+[47:01] diciamo che succede spesso in azienda
+[47:03] che dopo un certo periodo, do so 12-24
+[47:06] mesi, un dipendente viene spostato in un
+[47:07] ruolo diverso. Ok? Quindi, eh
+[47:12] è una buona cosa dal punto di vista
+[47:13] aziendale, sì, perché cioè viene
+[47:16] costruita quella che si chiama
+[47:18] resilienza organizzativa, no? Quindi
+[47:19] l'azienda costruisce una sorta di
+[47:22] ridondanza umana, ok? Quindi hai più
+[47:25] persone che sanno fare lo stesso lavoro,
+[47:27] quindi se non so il responsabile X si
+[47:29] dimette, c'è qualcun altro che ha già
+[47:31] fatto quel lavoro ed è in grado di
+[47:32] sostituirlo. Non è sempre così.
+[47:34] Attenzione, non sto dicendo che in tutte
+[47:35] le aziende è così. Questa dovrebbe
+[47:37] essere una policy che va in che si che è
+[47:41] presente nelle aziende, ma non è sempre
+[47:43] così.
+[47:44] Poi può essere anche un motivo di
+[47:46] crescita delle persone, no? Quindi i
+[47:47] dipendenti acquisiscono competenze
+[47:49] trasversali,
+[47:50] quindi sono anche si sentono anche più
+[47:52] utili a livello aziendale, meno
+[47:53] annoiati, invece di fare sempre lo
+[47:55] stesso lavoro tutti i giorni, che alla
+[47:57] lunga magari ti fa passare la fantasia,
+[48:00] no? Ehm
+[48:05] Ok.
+[48:06] Eh, allora bisogna chiarire un eventuale
+[48:10] malinteso errore, nel senso che la
+[48:12] jobation non significa cambiare ruolo
+[48:14] tutti i 6 mesi. Eh, ok, questo eh ci
+[48:19] sono ruoli magari che chiedono anni di
+[48:20] specializzazione, no? pensierma un
+[48:22] chirurgo, un ingegnere, un programmatore
+[48:25] di sistemi critici
+[48:27] o un contabile super
+[48:30] istruito.
+[48:32] Quindi la rotazione va calibrata a
+[48:35] ruolo. Ovviamente per ruoli
+[48:36] amministrativi di controllo anche 12
+[48:39] mesi magari vanno bene per quelli
+[48:40] specialistici, ma anche un operaio
+[48:42] iperpecializzato, eh per capirci, si può
+[48:44] arrivare magari anche a 3 anni. Ok?
+[48:48] Eh, quindi va presa anche con con la
+[48:51] dovuta cautela questa policy.
+[48:56] Ehm,
+[48:57] secondo voi quali ruoli non dovrebbero
+[49:00] essere mai ruotati? Se ci ci sono e se
+[49:03] sì quali
+[49:15] eh ruoli non ruotabili,
+[49:18] no? Primo, se ci sono, eh, secondo voi e
+[49:21] poi se ci sono quali.
+[49:30] Secondo me un ruolo non ruotabile,
+[49:32] avendolo vissuto, è quali quali di
+[49:34] assurance.
+[49:37] No, no, non ho capito. Quelli di
+[49:39] il quali assurance.
+[49:42] Ok, quindi più specifico così spieghiamo
+[49:45] anche a tutti.
+[49:48] Ecco, lui nel senso che
+[49:51] eh anche tramite SOP, tramite nel senso
+[49:54] tramite sì, tramite SOP, nel senso
+[49:57] gestisce tutti i sistemi di sistemi IT
+[49:59] dell'azienda
+[50:01] a livello però normativo, eh.
+[50:04] Ok,
+[50:06] ok, va bene. Qualcun altro?
+[50:10] direttore di produzione.
+[50:12] Sì,
+[50:15] allora
+[50:16] secondo me non è non Allora, non credo
+[50:20] che esistano dei ruoli che non debbano
+[50:22] mai essere ruotati, secondo me. Questa è
+[50:23] una mia opinione, ma però bisogna essere
+[50:26] molto prudenti. Faccio un esempio,
+[50:28] nel senso le responsabilità, cioè dico
+[50:30] questo perché le responsabilità e le
+[50:31] conoscenze sono tante e larghe, cioè per
+[50:34] questo.
+[50:35] Esatto. Sì,
+[50:36] perché nel senso acquisire tutto quel
+[50:38] background, nel senso su un determinato
+[50:41] settore ci vuole del tempo e quindi
+[50:44] è difficile che ruotano quei ruoli. Poi
+[50:47] nella realtà le cose sono diverse, eh,
+[50:49] perché sono diverse.
+[50:51] Certo. Esatto. O anche che altro caso
+[50:54] potrebbe essere non ruotabile, secondo
+[50:56] voi o bisognerebbe essere molto
+[50:58] prudenti.
+[51:00] Ruolo di sicurezza emergenza, no?
+[51:03] Ah, beh, sì. Emergenza. ru dove
+[51:05] l'esperienza specifica è fondamentale.
+[51:08] Ok? Quindi non è che uno vale l'altro
+[51:15] oppure ruoli basati su forte continuità
+[51:18] relazionale, no? Quindi
+[51:20] sì la produzione
+[51:21] eh su clienti strategici, quindi hai
+[51:24] magari persone che hanno ru hanno una
+[51:27] relazione stretta con questi clienti
+[51:29] strategici,
+[51:31] sostituirli così giusto per la policy
+[51:33] non è molto smart, no?
+[51:35] perché rischieresti poi di avere dei di
+[51:38] danneggiare i rapporti, no, con questi
+[51:40] clienti.
+[51:43] Secondo voi, c'è una domanda
+[51:46] proprio per la vostra esperienza
+[51:48] lavorativa, eh, la job rotation, quindi
+[51:51] questa cosa, è coerente con la cultura
+[51:53] aziendale italiana?
+[51:58] È coerente? Mh mh.
+[52:00] Cioè è coerente, nel senso che in base a
+[52:03] quello la vostra cultura aziendale,
+[52:04] nelle varie aziende in cui avete
+[52:05] lavorato, è una cosa che vedete che
+[52:09] oppure le aziende tendono a storcere il
+[52:11] naso o non la applicano proprio?
+[52:15] No, applicarla, cioè su determinate
+[52:17] figure da quello che ho vissuto viene
+[52:19] applicata,
+[52:21] ma soprattutto nel senso per i
+[52:22] consulenti esterni.
+[52:25] Ok.
+[52:27] Per gli interni,
+[52:29] per gli interni no, di meno.
+[52:33] Sono stato in varie aziende,
+[52:36] ma in generale cercano sempre di tenere
+[52:39] le persone che
+[52:41] sanno che vanno bene in quel ruolo lì e
+[52:43] boh.
+[52:45] Ok, quindi dici ti ti tengo a fare quel
+[52:47] lavoro lì. punto.
+[52:48] Sì,
+[52:49] magari ti do un aumento, ma ti tengo lì
+[52:51] a fare la tua attività.
+[52:54] M nelle aziende più, tra virgolette
+[52:56] piccole è così, magari Amazon c'ha tanta
+[53:00] job rotation.
+[53:02] Mh
+[53:02] mh.
+[53:04] Quindi sostanzialmente solo le aziende
+[53:06] più grandi in Italia si applicano questa
+[53:09] policy.
+[53:11] Da quello che ho potuto constatare io.
+[53:14] Sì.
+[53:16] Ok.
+[53:18] ci sta, eh, non è, anzi,
+[53:25] diciamo che magari perché nelle piccole
+[53:27] medie imprese
+[53:31] ogni persona copre già magari qualche
+[53:33] attività in più, non è magari non è
+[53:34] iperspecializzato, no? Quindi manca
+[53:37] anche tempo per formare dei sostituti,
+[53:39] no? non è che puoi continuamente far
+[53:42] cambiare l'attività e se è un'azienda
+[53:45] veramente, non dico familiare, ma poco
+[53:47] più eh il titolare tende a fidarsi,
+[53:52] no, della persona
+[53:55] e quindi privilegia il rapporto
+[53:57] personale.
+[54:03] Ok,
+[54:05] andiamo avanti.
+[54:10] Separazione dei doveri.
+[54:14] Ah, questo diciamo che potremmo
+[54:15] riassumerlo con un principio che è
+[54:17] nessuno controlla tutto da solo. Ok?
+[54:20] Molto semp semplificandolo.
+[54:23] Quindi la separazione dei doveri è uno
+[54:27] dei principi, diciamo, che più antichi e
+[54:29] robusti della sicurezza, ok? e nasce ben
+[54:33] prima dell'informatica.
+[54:36] Eh, l'idea di base è che
+[54:39] nessuna singola persona deve avere il
+[54:41] controllo completo su un processo
+[54:43] critico.
+[54:46] Le operazioni si suddividono
+[54:49] in fasi assegnati a ruoli diversi, in
+[54:52] modo che per commettere, che ne so, una
+[54:54] frode devono servire almeno due persone
+[54:58] d'accordo? Quindi fare una collusione,
+[55:01] no?
+[55:03] Ehm, diciamo che la collusione tende a
+[55:06] essere più rara della singola disonestà.
+[55:10] Questo statisticamente. Eh,
+[55:14] facciamo un'analogia nel mondo non
+[55:15] informatico. Allora, so una pizzeria,
+[55:19] diciamo che in una pizzeria seria di
+[55:20] solito chi prende l'ordine non è la
+[55:22] stessa persona che incassa il conto.
+[55:26] In banca chi apre un conto non è la
+[55:29] stessa persona che l'autorizza.
+[55:32] sui voli, ad esempio, chi pilota non è
+[55:35] la stessa persona che ispeziona l'aereo
+[55:39] e in ognuno di questi casi, ovviamente,
+[55:41] una sola persona disonesta
+[55:44] potrebbe produrre un danno, ma
+[55:47] perché ci sia un danno grave serve
+[55:50] complicità.
+[55:53] Quindi
+[55:55] lo scopo, appunto, è eh cercare di
+[55:59] limitare eh il danno
+[56:02] eh rendendolo plausibile solo con
+[56:04] collusione.
+[56:06] Eh qui c'è un un esempio pratico nella
+[56:11] slide successiva. Qui è preso
+[56:13] dall'inglese, quindi ve lo ve lo traduco
+[56:14] io in italiano, ma il concetto è chiaro.
+[56:18] un auditore interno
+[56:21] scopre che da poco sono stati versati
+[56:24] grossi importi a un fornitore.
+[56:27] Ok, ma la direzione non riconosce questi
+[56:30] importi.
+[56:31] Quindi eh la configurazione attuale è
+[56:36] eh nuovo fornitore inserimento, ruolo
+[56:39] richiesto, il contabile.
+[56:42] Nuovo fornitore approvazione ruolo
+[56:44] richiesto sempre lo contabile pagamento,
+[56:48] inserimento, ruolo richiesto, sempre lo
+[56:50] stesso contabile pagamento, fornitore
+[56:52] approvazione il manager. Ok, quindi fa
+[56:54] tutto il contabile, eccetto poi
+[56:57] l'approvazione finale che è il manager.
+[56:59] Ok?
+[57:01] Secondo voi un sistema del genere è
+[57:04] abusabile?
+[57:06] Se sì, quale modifica modifiche
+[57:09] applichereste per mitigare il rischio?
+[57:20] E scusami Sone non ho capito bene lo
+[57:23] interno scopo che sono stati dati
+[57:25] investimenti un fornitore esterno.
+[57:28] Non ho sentito, scusa.
+[57:30] Non ho capito. Nel senso il
+[57:32] Allora, chiamolo così un auditore
+[57:34] interno, quindi uno che fa un check
+[57:35] della contabilità interna, scopre che
+[57:38] cosa? Che sono stati inversati
+[57:41] dei importi grossi a un fornitore,
+[57:43] quindi esterno.
+[57:45] Ok.
+[57:45] Ok. Ma la direzione dell'azienda non
+[57:48] riconosce questi importi. Dice ma non è
+[57:50] possibile perché sono stati pagati
+[57:51] questi Ok, questi importi.
+[57:55] Mh,
+[57:55] qual è la policy interna? Allora, lo
+[57:57] stessa persona, lo stesso lo stesso
+[57:59] ruolo richiesto, in questo caso il
+[58:01] contabile X, può fare che cosa?
+[58:04] Inserisce un nuovo fornitore, lo
+[58:05] approva. Step 2 inserisce il pagamento
+[58:09] per il fornitore e livello 4 invece per
+[58:14] l'approvazione di questo pagamento,
+[58:17] ok? Non è più il contabile, ma è il
+[58:20] manager, va bene? Il suo capo,
+[58:21] mettiamola così. Va bene? Secondo voi
+[58:25] dov'è il buco
+[58:28] in questa policy?
+[58:31] Nell'approvazione del vendor.
+[58:35] Nell'approvazione del vendor. Allora,
+[58:38] nell'approvazione del vendor anche. Sì.
+[58:41] E allora qui sotto ci sono A B C D per
+[58:43] capirci le quattro opzioni. Eh,
+[58:47] ok. Ve le facciamo così. Vi leggo le
+[58:49] quattro opzioni in italiano che magari
+[58:51] vi rendo più facile la soluzione.
+[58:53] Allora, la soluzione a dice:
+[58:57] "Inseriscimi un nuovo vendor chi?"
+[59:00] il contabile,
+[59:02] l'approvazione del nuovo vendor, quindi
+[59:04] il nuovo fornitore, il manager,
+[59:08] il paga l'inserimento del pagamento il
+[59:10] contabile e l'approvazione del pagamento
+[59:14] il manager. Opzione un
+[59:18] opzione B.
+[59:20] Cosa
+[59:22] per me? Potrebbe essere questa già.
+[59:25] Ok, teniamo la mente come possibile. Poi
+[59:27] opzione B.
+[59:30] Ehm,
+[59:32] inserimento del nuovo fornitore, il
+[59:34] manager,
+[59:36] eh
+[59:38] approvazione del nuovo fornitore, il
+[59:40] contabile,
+[59:42] inserimento del pagamento del contabile,
+[59:44] approvazione del pagamento il manager.
+[59:48] Questa direi che puzza, no?
+[59:53] nel senso che in che mondo eh la
+[59:57] l'approvazione viene data da un
+[59:58] subordinato? Nel senso, cioè inserisce
+[1:00:01] nel sistema il nuovo fornitore, il
+[1:00:03] manager, ma il contabile lo approva?
+[1:00:07] M No, direi che non va. C inserito il
+[1:00:13] nel database il nuovo fornitore dal
+[1:00:15] contabile, approvato dal contabile,
+[1:00:17] inserito il pagamento dal manager e
+[1:00:19] approvato il pagamento dal manager.
+[1:00:26] Neanche.
+[1:00:28] Esatto. Perché?
+[1:00:33] semplicemente perché
+[1:00:35] allora ci può stare se il il contabile
+[1:00:39] inserisce
+[1:00:41] eh i nuovi dati del fornitore,
+[1:00:44] ma automaticamente deve sempre chiedere
+[1:00:46] l'autorizzazione al manager, sia per
+[1:00:49] l'inserimento che per il pagamento, no?
+[1:00:52] Esatto. Anche perché sennò lui potrebbe
+[1:00:54] inserire un fornitore compiacente.
+[1:00:58] Esatto.
+[1:00:59] Anche se poi il pagamento è approvato
+[1:01:00] dal manager, ma il fornitore potrebbe
+[1:01:02] essere un altro. Giusto? Eh, l'ultima
+[1:01:07] l'ultima scelta è di, quindi inserimento
+[1:01:10] di un fornitore dal contabile,
+[1:01:13] l'approvazione dal manager, pagamento
+[1:01:15] dal manager e approvazione del pagamento
+[1:01:17] dal manager.
+[1:01:23] Cosa ne pensate?
+[1:01:37] Allora, non è molto
+[1:01:39] distante dalla A, però direi che è
+[1:01:42] subottima, no? Perché in questo caso non
+[1:01:45] c'è il motivo per cui il manager deve
+[1:01:47] far tutto praticamente.
+[1:01:51] Quindi direi che di queste quattro la
+[1:01:54] risposta più corretta è la A. Siamo
+[1:01:57] d'accordo tutti, no? Sì,
+[1:01:58] quindi l'alternanza tra inserimento e
+[1:02:01] approvazione.
+[1:02:05] Eh, quindi diciamo che nell'opzione A
+[1:02:07] nessuna singola persona può completare
+[1:02:09] l'intero ciclo,
+[1:02:11] perché è vero che il contabile può
+[1:02:14] creare un fornitore, ma è il manager che
+[1:02:16] lo deve approvare.
+[1:02:18] Il contabile può inserirlo il pagamento,
+[1:02:21] ma è il manager che deve autorizzarlo.
+[1:02:24] Quindi per commettere la frode servono
+[1:02:26] entrambi
+[1:02:28] e quindi ci deve essere collusione e
+[1:02:31] appunto come abamo detto statisticamente
+[1:02:33] la collusione è una barriera molto più
+[1:02:35] alta
+[1:02:37] del singolo point of failure, no? quindi
+[1:02:39] del singolo contabile che fa la frode.
+[1:02:42] L'opzione D, quest'ultima che abbiamo
+[1:02:44] detto, eh sembra più sicura perché
+[1:02:48] perché assegni più potere al manager, al
+[1:02:50] capo, al responsabile, ma introduci
+[1:02:52] comunque un nuovo problema, nel senso
+[1:02:54] che il manager può inserire e approvare
+[1:02:56] il pagamento da solo. Quindi non è
+[1:02:59] perché manager allora è più onesto
+[1:03:02] necessariamente.
+[1:03:04] se il manager è disonesto ha comunque il
+[1:03:06] controllo completo sulla parte dei
+[1:03:07] pagamenti,
+[1:03:10] quindi concentrare tutto su uno solo
+[1:03:13] viola questi principi. Ok?
+[1:03:18] Eh, quindi diciamo che questa questo
+[1:03:20] principio appunto della separazione di
+[1:03:22] doveri eh
+[1:03:25] proprio da questo esempio volevo che
+[1:03:27] passasse il il concetto che non è vero
+[1:03:30] che significa che chi è più in alto in
+[1:03:33] gerarchia comanda, no? il principio più
+[1:03:36] sottile e e significa che nessun ruolo,
+[1:03:41] per quanto autorevole
+[1:03:43] deve poter completare da solo un
+[1:03:45] processo a rischio.
+[1:03:48] Ok? E questo vale anche per i luoghi
+[1:03:50] tecnici, perché mi direte sì, vabbè, ma
+[1:03:52] questa è una cosa una cosa contabile e
+[1:03:55] no vale in tutti i ruoli, compresi
+[1:03:57] quelli tecnici. Chi sviluppa codice in
+[1:03:59] informatica non dovrebbe essere chi lo
+[1:04:01] mette in produzione, chi configura un
+[1:04:04] firewall non dovrebbe essere chi fa
+[1:04:06] auditing delle configurazioni.
+[1:04:08] Chi crea un utente non dovrebbe essere
+[1:04:10] quello che gli segna i privilegi e così
+[1:04:12] via. Ok? è un principio che si applica
+[1:04:15] ovunque.
+[1:04:22] Ok, facciamo una
+[1:04:26] un esempio giusto per capire se ci siamo
+[1:04:29] con questo concetto sul principio della
+[1:04:31] separazione dei doveri.
+[1:04:33] Ragioniamo proprio
+[1:04:36] brainstorming in un'azienda
+[1:04:38] piccolissima, cinque persone.
+[1:04:41] Secondo voi è possibile fare questa
+[1:04:42] separazione dei doveri?
+[1:04:46] Difficile,
+[1:04:50] ok?
+[1:04:52] Ma anche una minima cinque persone.
+[1:04:57] Se sì, cosa fareste? Facciamo degli
+[1:04:59] esempi proprio. Scegliete una
+[1:05:00] microazienda, eh, cioè non
+[1:05:04] ovviamente non possiamo fare come fanno
+[1:05:06] come farebbe una multinazionale, però
+[1:05:08] dei piccoli controlli semplici, come ci
+[1:05:10] verrebbero in mente, cioè facciamo degli
+[1:05:13] esempi.
+[1:05:15] Cosa serve di solito per far andare
+[1:05:16] avanti un'azienda?
+[1:05:20] Anche questi esempi, prendiamo l'esempio
+[1:05:22] qua, no?
+[1:05:24] Cioè, chi inserisce una fattura
+[1:05:27] non deve essere quello che approva il
+[1:05:29] pagamento. Siamo in cinque,
+[1:05:32] no?
+[1:05:34] minimo di
+[1:05:36] di
+[1:05:38] separazione dei doveri si può fare. Chi
+[1:05:40] prepara il bonifico
+[1:05:42] non dovrebbe essere quello l'unico
+[1:05:44] perlomeno ad autorizzarlo.
+[1:05:49] Eh, chi gestisce la cassa
+[1:05:53] dovrebbe poi non dovrebbe essere quello
+[1:05:56] che poi a fine giornata verifica e ci
+[1:05:58] sono tutti i soldi.
+[1:06:02] Questo è nel mondo ideale, eh, come
+[1:06:03] dovrebbero funzionare le cose poi che
+[1:06:06] chiaramente non succede mai o succede
+[1:06:08] poco spesso.
+[1:06:10] Ehm,
+[1:06:14] l'accesso alla banca
+[1:06:16] paradossalmente dovrebbe avere doppia
+[1:06:19] autorizzazione, quindi non solo il
+[1:06:21] manager che paga e fa tutto, ma un altro
+[1:06:23] che verifica i pagamenti che ha fatto.
+[1:06:26] Ok?
+[1:06:28] Quindi, ovviamente con cinque persone
+[1:06:30] l'obiettivo non deve essere quello di
+[1:06:32] creare burocrazia enorme perché sennò
+[1:06:34] creiamo un problema oggio,
+[1:06:37] ma dovremmo cercare di evitare che una
+[1:06:40] sola persona posso fare tutto,
+[1:06:42] specialmente senza lasciare traccia.
+[1:06:47] Quindi
+[1:06:49] magari meno separazione dei compiti, ma
+[1:06:51] più controlli successivi, più
+[1:06:53] tracciabilità delle operazioni.
+[1:06:59] Ok, andiamo avanti.
+[1:07:08] Allora, policy del personale,
+[1:07:11] ci sono varie tipologie di policy. La
+[1:07:15] cleindesk policy, la prima,
+[1:07:17] sostanzialmente quella può sembrare
+[1:07:19] anche ovvia, eh, ma è la policy che
+[1:07:21] impone di lasciare scrivanie pulite alla
+[1:07:23] fine della giornata. è la cosa che
+[1:07:25] ripeto sembra banale, eh, che in realtà
+[1:07:27] lo è anche, ma è una delle policy che
+[1:07:32] diciamo che a livello di impegno per il
+[1:07:33] dipendente minimo sotto zero, ma ha un
+[1:07:37] buon ti dà un buon modo buon modus
+[1:07:40] operare sostanzialmente.
+[1:07:43] Eh,
+[1:07:46] facciamo un esempio che può essere
+[1:07:48] simile, ma un audit di sicurezza fisica
+[1:07:51] in un'azienda a Milano. Ok.
+[1:07:55] Eh, il consulente arriva la sera dopo
+[1:07:58] l'orario di chiusura accompagnato, che
+[1:08:00] ne so, dal manager per un sopralluogo
+[1:08:03] tecnico
+[1:08:05] e in 20 minuti, che succede? raccoglie
+[1:08:07] con una fotocamera tre password scritte
+[1:08:09] sui vostri postit sulla scrivania o
+[1:08:12] sotto la tastiera, magari anche
+[1:08:14] l'organigramma in un cassettino senza
+[1:08:17] senza chiave, senza con una chiusura
+[1:08:20] chiave e magari
+[1:08:22] in un armadietto riesci a trovare anche,
+[1:08:24] che ne so, il contratto di un cliente
+[1:08:26] importante.
+[1:08:30] Anche qua vedi, nessun sistema
+[1:08:32] informatico è stato violato,
+[1:08:33] semplicemente avete lasciato le coste
+[1:08:36] cose sulla scrivania pubblicamente.
+[1:08:40] Altra policy background check. Questa è
+[1:08:42] una cosa che a me è capitato. Allora, io
+[1:08:44] ho iniziato a lavorare in in Inghilterra
+[1:08:46] e poi sono andato a lavorare
+[1:08:47] principalmente in Svizzera e a me hanno
+[1:08:50] sempre fatto quello che viene chiamato
+[1:08:51] il background check, per capirci. Io
+[1:08:55] dico che mi sono laureato lì.
+[1:08:58] Sì, va bene, Samuel, tu me l'hai detto.
+[1:09:00] Ok, incarichiamo l'azienda terza che fa
+[1:09:03] questo di lavoro e tu autorizzi la tua
+[1:09:06] università a chiedere di te. Ma questo
+[1:09:09] signore si è laureato lì? Sì, no? Molto
+[1:09:13] semplice. Quindi eh controllare il
+[1:09:16] passato di nuovi assunti, per capirci, è
+[1:09:19] una pratica standard, magari nelle
+[1:09:20] multinazionali in Italia, eh, non lo so,
+[1:09:22] o magari adesso ha preso piede anche in
+[1:09:24] Italia. Diciamo che quando ho iniziato a
+[1:09:27] lavorare io in Italia non era così, cioè
+[1:09:28] uno dico poteva scriverla qualunque sul
+[1:09:30] CD, però
+[1:09:32] difficile difficilmente qualcuno oltre
+[1:09:35] magari non so nel datore precedente
+[1:09:37] magari avre come
+[1:09:41] check, ma poi nessuno sarebbe mai andato
+[1:09:43] più in fondo
+[1:09:45] e quindi eh verifica della vericità del
+[1:09:50] CV, il contatto con i referenti
+[1:09:52] dichiarati, no? Quindi ti si chiede una
+[1:09:54] referenza, ok, questa referenza viene
+[1:09:56] poi contattata, non è che te le si
+[1:09:58] chiede e poi non se ne fa niente,
+[1:10:02] eh. Oppure un'altra cosa che mi han
+[1:10:04] chiesto se per quello per la Svizzera,
+[1:10:06] per l'Italia, non so come funziona, il
+[1:10:08] casellario giudiziario, dovevo scriverci
+[1:10:10] nulla. Posso avere carichi pendenti per
+[1:10:13] andare a lavorare in Svizzera perché
+[1:10:16] perché non ti danno permesso G, permesso
+[1:10:18] di lavoro
+[1:10:21] e così via.
+[1:10:24] Eh, se sei una una pep, no? Se sei una
+[1:10:27] politica politica se sei una persona
+[1:10:29] politicamente esposta
+[1:10:32] oppure se sei una persona che è stata
+[1:10:34] inserita nelle sanzioni, pensiamo agli
+[1:10:36] oligarchi russi,
+[1:10:39] così via. E poi si può arrivare fino
+[1:10:41] alla verifica reputazionale online che
+[1:10:43] vabbè a me sembra un po' eccessiva, però
+[1:10:45] ci sono aziende, mi ricordo specialmente
+[1:10:47] americane che facevano anche questa
+[1:10:48] verifica, non so, un tweet scritto, non
+[1:10:52] so, misogino, potrebbe causare molti
+[1:10:54] problemi nel 2026, anche se l'è scritto
+[1:10:56] nel 2005.
+[1:11:00] Eh, vincolo in Italia.
+[1:11:05] Chiaramente questo background check non
+[1:11:06] è che non ha limiti, eh, ci sono vincoli
+[1:11:10] stretti per via del GDPR,
+[1:11:14] quindi i dati in Italia che si possono
+[1:11:16] raccogliere sui candidati sono
+[1:11:19] chiaramente limitati alla finalità del
+[1:11:21] rapporto di lavoro,
+[1:11:24] secondo appunto il principio di
+[1:11:25] minimizzazione di questi dati.
+[1:11:32] A differenza del mio caso, che ho citato
+[1:11:34] il caso del casellaro giudiziale per me
+[1:11:36] in Svizzera che lo chiedono a chiunque,
+[1:11:37] in Italia non si può chiedere
+[1:11:39] indiscriminatamente,
+[1:11:41] ma lo puoi chiedere solo per ruoli per
+[1:11:43] cui la legge lo prevede. Quindi,
+[1:11:45] facciamo un esempio, lavoratori a
+[1:11:48] contatto con minore,
+[1:11:50] eh, ruoli di fiducia, sono lavorati in
+[1:11:52] banca, ok?
+[1:11:57] Eh, poi ci sono altre normative che
+[1:11:59] limitano questo background check in
+[1:12:01] Italia che è lo statuto dei lavoratori,
+[1:12:03] no? Quindi vieta indagini sulle opinioni
+[1:12:07] politiche, religiose, sindacali del
+[1:12:09] lavoratore.
+[1:12:12] Eh,
+[1:12:13] quindi diciamo che in Italia perlomeno
+[1:12:17] il background check va condotto da
+[1:12:19] professionisti, quindi non è che deve
+[1:12:20] essere il datore di lavoro dell'azienda
+[1:12:22] X che magari è una microimpresa che non
+[1:12:24] conosce per nulla questa normativa e
+[1:12:26] incomincia a fare background check. lui
+[1:12:28] si deve affidare a una dei
+[1:12:30] professionisti un'azienda terza che nel
+[1:12:32] rispetto delle normative lo esegue.
+[1:12:37] Poi non Disclosure Agreement, questo
+[1:12:40] immagino lo conosciate tutti
+[1:12:42] e sostanzialmente è un contratto
+[1:12:48] è un contratto in cui uno o più parti si
+[1:12:52] impegnano a non divulgare informazioni
+[1:12:55] ricevute durante una relazione
+[1:12:58] professionale. Ok?
+[1:13:00] può essere unilaterale, quindi solo una
+[1:13:03] parte deve mantenere il segreto, oppure
+[1:13:05] bilaterale entrambe.
+[1:13:08] Eh, le tipologie più comuni di NDA
+[1:13:14] sono, che ne so, quelle coi
+[1:13:15] indipendenti,
+[1:13:17] ok? Quindi è una clausola standard,
+[1:13:20] diciamo, del contratto di lavoro. Poi ci
+[1:13:23] sono quelle con i fornitori,
+[1:13:25] quindi prima di condividere informazioni
+[1:13:28] tecnico di business.
+[1:13:31] Ehm, scusate.
+[1:13:38] Ehm, poi ci sono anche quelle new pen
+[1:13:41] test, no? penetration test, quello che
+[1:13:43] ne parleremo più avanti in questo corso.
+[1:13:46] E si tratta di un'attività in cui un un
+[1:13:50] ricercatore di sicurezza si occupa di
+[1:13:53] provare ad attaccare la tua
+[1:13:55] infrastruttura
+[1:13:56] informatica per vedere se ha delle
+[1:13:58] vulnerabilità e qualora le avesse
+[1:14:00] aiutarti a chiuderle.
+[1:14:03] Eh, quindi anche qui hai un NDA, però
+[1:14:06] quindi che ti fa firmare il tuo cliente
+[1:14:08] prima che tu inizi l'attacco,
+[1:14:12] quindi tu non puoi divulgare
+[1:14:14] quello che trovi
+[1:14:16] e te lo fa firmare il Kent prima.
+[1:14:20] Ehm,
+[1:14:22] facciamo appunto un esempio di una
+[1:14:24] un'azienda italiana che decide di farsi
+[1:14:26] fare un penetration test a un sistema
+[1:14:29] critico. Ok?
+[1:14:31] Questo l'azienda esterna eh questo
+[1:14:35] fornitore scopre delle vulnerabilità
+[1:14:37] gravi e dei dati sensibili del cliente.
+[1:14:42] Se non ci fosse un N scritto,
+[1:14:46] il fornitore potrebbe anche solo per
+[1:14:47] leggerezza parlare di questi dati con
+[1:14:50] terzi, colleghi, altri clienti su
+[1:14:52] LinkedIn, ma se lo se c'è un NDA ben
+[1:14:55] scritto,
+[1:14:56] questo fornitore è giuridicamente
+[1:14:58] vincolato a non divulgarli.
+[1:15:01] Ok? Quindi in caso di violazione
+[1:15:04] a quel punto si attiva responsabilità
+[1:15:06] contrattuale oltre che è quella penale
+[1:15:09] se ci sono dati personali. Ovviamente se
+[1:15:11] questo comincia a divulgare il codice
+[1:15:13] fiscale, l'indirizzo, il numero di
+[1:15:15] telefono personale dei dipendenti,
+[1:15:16] eccetera, hai anche poi tutta la parte
+[1:15:18] penale.
+[1:15:22] Bene, passiamo a voi. Quanti di voi
+[1:15:24] hanno firmato appunto un NDA nella
+[1:15:26] vostra vita lavorativa?
+[1:15:33] Niente,
+[1:15:36] vi è mai capitato dai vostri ruoli
+[1:15:39] di dover firmare appunto un non
+[1:15:41] disclosure agreement?
+[1:15:50] No,
+[1:15:57] mi sentite?
+[1:16:06] Io ti sento.
+[1:16:07] Ok. Ma nessuno di voi è un un silenzio,
+[1:16:10] è un no.
+[1:16:15] Eh, se sta parlando Ilario sei muto. Eh,
+[1:16:21] ti vedo, vedo l'immagine, ma non vedo,
+[1:16:22] non sento.
+[1:16:24] Non so, cioè nel senso sinceramente non
+[1:16:27] non
+[1:16:28] lo so perché tra tutti i documenti che
+[1:16:30] tu firmi al Io ho fatto il consulente
+[1:16:36] e quindi da da quello che posso
+[1:16:40] ricordare m non penso io abbia
+[1:16:44] Esatto. Bravo. Il punto il punto proprio
+[1:16:46] qua però molti lo hanno firmato ma non
+[1:16:49] lo hanno letto.
+[1:16:50] No, no, non è questo il discorso. Sì, il
+[1:16:52] discorso principe è questo, che
+[1:16:53] sicuramente tra tutti i documenti
+[1:16:55] firmati c'era questo patto che cioè che
+[1:16:59] uno non non si accorge per quanti
+[1:17:01] documenti ti fanno firmare prima di
+[1:17:03] entrare, che poi non gestisci te,
+[1:17:05] cioè ti dà,
+[1:17:07] cioè ti danno da firmare, però non sai
+[1:17:09] minimamente che documenti tu hai
+[1:17:12] firmato, perché passano, essendo
+[1:17:14] consulente, passano alla società per cui
+[1:17:16] stai e poi alla fine tu vai
+[1:17:19] esclusivamente a lavorare in quel posto.
+[1:17:22] Esattamente. Infatti il problema è che
+[1:17:24] spesso viene firmato senza leggerlo,
+[1:17:25] quindi anche perché so il nuovo
+[1:17:28] dipendente pensa che ne so è un modulo
+[1:17:30] standard o se non firmo non mi assumono.
+[1:17:34] Sì, sì, sì. Vabbè, quello sì.
+[1:17:36] Oppure non so, non succederà nulla, sono
+[1:17:38] solo formalità legali e così via,
+[1:17:40] insomma.
+[1:17:42] Ok? Quindi fateci caso la prossima volta
+[1:17:45] che firmate qualcosa, perché se c'è
+[1:17:47] proprio non disconce l'agre state
+[1:17:48] firmando qualcosa che vi vincola
+[1:17:50] legalmente, eh, quindi una leggerezza un
+[1:17:53] domani potrebbe costarvi caro.
+[1:17:58] Ok?
+[1:18:00] Secondo voi un NDA può durare per sempre
+[1:18:02] o quali sono i limiti ragionevoli per
+[1:18:05] capirci?
+[1:18:07] Vabbè, i limiti ragionevoli, almeno per
+[1:18:09] quanto mi riguarda, nel senso il tempo
+[1:18:11] in cui tu lavori in quell'azienda.
+[1:18:16] Ok,
+[1:18:18] allora
+[1:18:19] certo, vabbè, e mica cioè pensandoci
+[1:18:22] bene mica lo so, eh.
+[1:18:26] Allora, facciamo mettiamo, bisogna
+[1:18:28] distinguere, secondo me, bisogna
+[1:18:29] distinguere tra segreti commerciali per
+[1:18:31] capirci che cosa qual è l'oggetto di
+[1:18:33] queste NDA, no? se sono segreti
+[1:18:35] commerciali o informazioni ordinarie,
+[1:18:37] no?
+[1:18:38] Vabbè, quello sì,
+[1:18:40] se sono segreti commerciali,
+[1:18:42] so algoritmi proprietari, nohow critico,
+[1:18:45] la famosa ricetta della Coca-Cola,
+[1:18:47] adesso l'ho buttata sul ridere, ma
+[1:18:50] possono restare davvero protetti finché
+[1:18:52] restano effettivamente segreti,
+[1:18:54] quindi tecnicamente non ha una durata.
+[1:18:58] oppure magari invece dei documenti di
+[1:19:00] progetto, delle offerte commerciali.
+[1:19:03] Spesso hanno una durata limitata, può
+[1:19:05] essere, non so, un anno, 2, 3, 5, beh,
+[1:19:07] non di più.
+[1:19:10] Vabbè, quello di invece informazioni che
+[1:19:12] sono già pubbliche non dovrebbero essere
+[1:19:15] coperte da NDA e quindi se qualcuno
+[1:19:18] cerca di far firmare un NDA su
+[1:19:20] informazione che è pubblicamente
+[1:19:21] raggiungibile
+[1:19:23] dovreste storcere il naso.
+[1:19:26] Ehm
+[1:19:29] quindi non esistono NDA eterni
+[1:19:31] sostanzialmente, o meglio, può avere
+[1:19:32] senso un NDA senza scadenza per segreti
+[1:19:36] industriali veri.
+[1:19:38] Per tutto il resto una durata
+[1:19:39] ragionevole deve essere proporzionata,
+[1:19:42] insomma, no, a quello che sta
+[1:19:43] difendendo.
+[1:19:48] Poi ci sono policy di onboarding,
+[1:19:51] offboarding, eccetera.
+[1:19:54] Quindi il processo di onboarding è è
+[1:19:56] quel processo eh in cui si si tratta
+[1:20:00] l'accoglienza di un nuovo assunto.
+[1:20:03] Quindi tutto questo dal punto di vista
+[1:20:05] di security per capirci. Quindi cyber
+[1:20:08] security, l'onboarding deve includere
+[1:20:10] come minimo
+[1:20:13] creazione di un account con privilegi
+[1:20:15] minimi,
+[1:20:18] quindi il principio appunto del minimo
+[1:20:20] privilegio,
+[1:20:21] consegna degli asset che sarà nel 2026
+[1:20:25] sicuramente un PC, il badge
+[1:20:29] e magari un telefono, se avete per
+[1:20:32] qualche motivo vi danno subito un
+[1:20:33] telefono aziendale e comunque un
+[1:20:35] inventario firm
+[1:20:37] delle cose che vi vengono assegnate,
+[1:20:40] eh una formazione iniziale
+[1:20:44] su quali sono le policy aziendali,
+[1:20:47] eh la OP, la gestione della password,
+[1:20:50] riconoscimento fishing, eccetera
+[1:20:51] eccetera
+[1:20:53] e appunto far firmare i documenti che
+[1:20:56] sono chiaramente il contratto, eventuale
+[1:20:58] NDA se presente, codice etico, eccetera
+[1:21:03] eccetera per presa visione.
+[1:21:06] Per quanto riguarda invece
+[1:21:07] l'offboarding, che è il rovescio della
+[1:21:11] medaglia, per capirci, eh che spesso è
+[1:21:14] più importante dell'onboarding, eh dal
+[1:21:16] punto di vista di sicurezza,
+[1:21:18] nonostante sia molto trascurato,
+[1:21:20] sostanzialmente la regola dice che
+[1:21:25] nessun ex dipendente
+[1:21:27] deve mantenere accessi 24 ore dopo
+[1:21:32] l'ultimo giorno di lavoro.
+[1:21:35] Punto. Cioè questo bisogna
+[1:21:38] arrivare a questo perché se non è così
+[1:21:41] si ha un grosso problema. Se il vostro
+[1:21:43] ex dipendente ha accesso alla mail
+[1:21:44] aziendale il mese dopo dal suo ultimo
+[1:21:47] giorno di lavoro è un grossissimo
+[1:21:49] problema di sicurezza.
+[1:21:52] Diciamo che invece però purtroppo
+[1:21:54] nelle piccole medie imprese italiane la
+[1:21:57] situazione, la realtà è diversa. ci sono
+[1:22:00] appunto utenze attive di persone uscite
+[1:22:02] anni prima,
+[1:22:04] badge magari non consegnati,
+[1:22:09] eh accessi VPN dimenticati
+[1:22:12] e tutto questo è un buco enorme eh di
+[1:22:14] cyb security perché rientrano in quelle
+[1:22:17] cose che sembrano
+[1:22:20] banali, ma in realtà sono porte aperte
+[1:22:23] per gli attaccanti.
+[1:22:27] Facciamo un caso reale. Allora, un
+[1:22:29] esempio pratico. Un commerciale lascia
+[1:22:32] un'azienda non in buoni rapporti, quindi
+[1:22:35] litigano il commerciale e il cò
+[1:22:38] l'amministratore delegato.
+[1:22:41] 6 mesi dopo viene scoperto che si era
+[1:22:43] ricordato la password della VPN e ha
+[1:22:46] continuato per mesi a scaricare
+[1:22:49] l'anagrafica dei clienti aggiornata
+[1:22:52] e questa tutti questi dati che ha
+[1:22:53] scaricato li ha portati al nuovo datore
+[1:22:55] di lavoro.
+[1:22:57] il danno,
+[1:22:59] 15% dei clienti persi nei 12 mesi
+[1:23:02] successivi.
+[1:23:04] Quindi che cosa insegna questa cosa? Che
+[1:23:06] l'offboarding
+[1:23:08] aveva previsto la riconsegna del PC,
+[1:23:11] ma nessuno aveva pensato di revocare la
+[1:23:13] VPN.
+[1:23:16] E che cosa avrebbe evitato questo? ad
+[1:23:17] esempio una checklist scritta di cose da
+[1:23:20] fare nel momento in cui c'è
+[1:23:22] l'offboarding di un dipendente.
+[1:23:27] Poi continue education, quella che viene
+[1:23:30] chiamata formazione continua del
+[1:23:32] personale.
+[1:23:35] La sicurezza informatica
+[1:23:37] è particolarmente critica perché le
+[1:23:39] minacce
+[1:23:41] evolvono più velocemente di qualsiasi
+[1:23:43] materiale didattico, cioè non ha
+[1:23:45] importanza quanti corsi facciate,
+[1:23:48] le minacce vengono scoperte al tempo
+[1:23:49] zero, quindi quando voi avete finito di
+[1:23:51] studiare siete già indietro,
+[1:23:55] ok? Non non deve non deve scoraggiarvi,
+[1:23:57] eh, anzi deve motivarvi a studiare
+[1:23:58] sempre di più. Questo è il concetto.
+[1:24:02] Quindi, eh facciamo un esempio, un corso
+[1:24:05] di fishing awareness, quindi un corso
+[1:24:09] per preparare le persone contro il
+[1:24:11] fishing, che ne so, fatto 3 anni fa,
+[1:24:15] eh, non copre il back. Che cos'è il
+[1:24:18] back? È voce clonata con la I. Ok?
+[1:24:24] Oggi è uno dei vettori che funziona di
+[1:24:26] più perché perché ti chiamo con la voce
+[1:24:30] registrata nel tuo capo e ti dico di
+[1:24:33] fare un'azione. Tu ti fidi perché senti
+[1:24:35] il suo timbro vocale, lo riconosci e la
+[1:24:38] esegui.
+[1:24:41] E quindi la formazione va aggiornata
+[1:24:44] almeno annualmente
+[1:24:47] e combinando non solo lezioni frontali o
+[1:24:51] online e-learning, ma anche con
+[1:24:53] esercitazioni pratiche, quindi
+[1:24:55] esercitazioni in cui, che ne so, magari
+[1:24:57] si fanno simulazioni di fishing. Quindi
+[1:25:00] io che vi mando delle email su un link
+[1:25:03] che non dovreste cliccare o non un form
+[1:25:09] artefatto per farvi inserire delle
+[1:25:11] credenziali e ciclicamente, insomma,
+[1:25:14] ogni 3 mesi queste email vengono inviate
+[1:25:17] e bisogna vedere se i dipendenti sono eh
+[1:25:21] formati bene a non cliccare, a non
+[1:25:23] cascarci, oppure se ci cascano e se si
+[1:25:26] se ci cascano quanti ci cascano perché
+[1:25:29] lì capisci anche che problemi hai
+[1:25:31] interno.
+[1:25:35] Ehm,
+[1:25:37] una exit interview, ok? Quindi
+[1:25:40] un'intervista tra virgolette, nel senso
+[1:25:42] le famose domande, eh, quando un
+[1:25:45] dipendente esce, no? Quando chi se ne
+[1:25:47] va, può essere un feedback prezioso, no,
+[1:25:50] che ti dà il dipendente che cambia
+[1:25:52] azienda.
+[1:25:53] sei onesto, ti dirà che cosa funziona,
+[1:25:56] cosa non ha funzionato
+[1:25:58] e perché se ne va.
+[1:26:01] Eh,
+[1:26:03] diciamo che dal punto di vista di
+[1:26:05] sicurezza è anche l'occasione
+[1:26:08] tua diimpresa per ricordare al
+[1:26:11] dipendente uscente
+[1:26:13] i suoi obblighi residui e quali sono
+[1:26:16] riservatezza,
+[1:26:19] non frodarmi ai miei clienti, nel senso
+[1:26:21] se non puoi proporre il mio stesso
+[1:26:22] servizio ai miei clienti col nuovo col
+[1:26:25] tuo nuovo datore di lavoro,
+[1:26:27] eventuali NDA se le hanno firmate
+[1:26:30] e gestione dei materiali aziendali.
+[1:26:34] Ok?
+[1:26:36] Eh, poi l'altro l'altro punto è road
+[1:26:39] based awareness training, quindi
+[1:26:41] sostanzialmente è formazione, fare
+[1:26:44] formazione, sì, ma non tutta uguale, ma
+[1:26:46] differenziarla per il ruolo.
+[1:26:49] Ok?
+[1:26:51] Eh, un programmatore deve sapere come
+[1:26:54] scrivere codice sicuro,
+[1:26:57] un sistemista deve sapere come
+[1:26:59] configurare un server.
+[1:27:02] Eh, un amministrativo deve saper
+[1:27:05] riconoscere una richiesta di bonifico
+[1:27:07] fraudolenta, ok?
+[1:27:10] o l'amministro delegato deve sapere che
+[1:27:12] è lui il bersaglio principale, che ne
+[1:27:14] so, del fishing, perché se riesca a
+[1:27:17] avere accesso alla sua mail, al suo
+[1:27:18] cellulare o al suo computer,
+[1:27:22] ha un vantaggio enorme
+[1:27:24] ed è molto più interessante come target
+[1:27:26] della, che ne so, della signora delle
+[1:27:30] pulizie.
+[1:27:32] Eh, quindi una formazione generica,
+[1:27:35] quindi non road base,
+[1:27:38] non funziona se la fai a tutti uguale,
+[1:27:41] perché i ruoli affrontano rischi
+[1:27:42] diversi.
+[1:27:45] contesto. Diamo un po' di contesto
+[1:27:46] italiano a livello di di normative
+[1:27:50] sulla formazione. Ah, il NIS 2, ad
+[1:27:54] esempio, richiede esplicitamente
+[1:27:56] programmi di formazione sul rischio
+[1:27:58] informatico a tutto il personale.
+[1:28:01] Questo, quindi questa non rle base, ma
+[1:28:04] con particolare enfasi sul management,
+[1:28:07] quindi sì, eh va bene fatta a tutto il
+[1:28:11] personale, ma in modo particolare ai
+[1:28:14] ruoli apicali.
+[1:28:17] Eh, anche il GDPR, eh attenzione,
+[1:28:20] l'articolo 32 tra le varie misure di
+[1:28:22] sicurezza ragionevoli e inserisce la
+[1:28:25] formazione del personale in compiti
+[1:28:27] informatici. Quindi in caso di bridge il
+[1:28:29] garante
+[1:28:31] andrà a valutare anche se l'azienda
+[1:28:33] aveva investito in formazione, quindi se
+[1:28:36] aveva fatto fare la formazione ai
+[1:28:38] dipendenti. Qualora non l'avesse fatta
+[1:28:40] fare e l'azienda subisce un bridge,
+[1:28:43] oltre al danno la beffa perché avrai
+[1:28:45] anche appunto la sanzione del garante e
+[1:28:49] sono sanzioni pesanti.
+[1:28:54] Domanda per voi. Quanti di voi hanno mai
+[1:28:57] fatto un corso di sicurezza informatica
+[1:29:00] nel posto in cui lavorano? Quindi non
+[1:29:02] questo, eh, dico nel vostro posto di
+[1:29:05] lavoro. Vi hanno mai avete mai fatto dei
+[1:29:06] corsi sia dal vivo che inlearning eh di
+[1:29:10] sicurezza informatica per il vostro
+[1:29:12] vostro lavoro?
+[1:29:15] No,
+[1:29:15] no,
+[1:29:16] no,
+[1:29:17] no.
+[1:29:19] Eh, male,
+[1:29:21] male, perché nel senso è adesso, salvo
+[1:29:24] veramente microimprese, qualunque
+[1:29:26] azienda dovrebbe farlo secondo il GDPR
+[1:29:29] perché perché se non lo fai e poi vieni
+[1:29:32] bucato, hai delle responsabilità.
+[1:29:38] Ehm,
+[1:29:41] diciamo che
+[1:29:46] viene di solito se o non viene fatto
+[1:29:49] come la vostra esperienza,
+[1:29:51] eh, o in alcuni casi in cui magari i
+[1:29:54] lavoratori più fortunati mettiti che
+[1:29:56] hanno avuto aziende un po' più
+[1:29:58] strutturate,
+[1:30:00] però hanno magari fatto lo lo reputano,
+[1:30:02] diciamo, lo percepiscono poco utile
+[1:30:04] perché perché magari sono non è un corso
+[1:30:07] di persona in cui si possono fare
+[1:30:09] domande, vedete, pian piano diventerà
+[1:30:11] anche più pratico, ma viene fatto magari
+[1:30:14] come un video obbligatorio da guardare,
+[1:30:16] no, che non puoi mandare avanti, quindi
+[1:30:18] perdi del tempo e poi un quiz finale a
+[1:30:20] crocette
+[1:30:23] e quindi viene percepito come poco
+[1:30:26] utile, ma in realtà se il corso fosse
+[1:30:30] fatto in maniera eh intelligente
+[1:30:33] dovrebbe dovrebbe eh inserire min per
+[1:30:37] essere minimamente valido, che ne so,
+[1:30:40] riconoscimento di fishing e email
+[1:30:42] sospette,
+[1:30:45] policazione
+[1:30:47] a più fattori,
+[1:30:49] come si utilizzano in maniera corretta i
+[1:30:51] PC e smartphone aziendali, eh
+[1:30:55] i rischi legati alle porte USB, al
+[1:30:57] cloud, al Wi-Fi pubblici,
+[1:31:01] gestione dei dati personali e così via,
+[1:31:03] insomma. Ehm,
+[1:31:06] diciamo che una formazione efficace
+[1:31:08] dovrebbe essere breve, quindi non dato
+[1:31:10] che già il dipendente magari molto
+[1:31:12] berato di lavoro, ma deve essere breve
+[1:31:15] ma ripetuta, quindi aiuta a ricordare
+[1:31:18] anche al dipendente ciclicamente questi
+[1:31:21] questi concetti e poi deve essere anche
+[1:31:23] concreta e misurabile, no? Perché sennò
+[1:31:28] perde anche un po' della sua efficacia,
+[1:31:29] perde il suo valore.
+[1:31:32] A voi invece parlando prima vi ho fatto
+[1:31:35] degli esempi, no, sull'ofboarding,
+[1:31:37] ad esempio del del commerciale che se ne
+[1:31:39] va. A voi mai è capitato di non di fare
+[1:31:43] questa cosa, dico, ma di di avere ancora
+[1:31:45] avuto accesso a un sistema di un vecchio
+[1:31:47] datore di lavoro dopo che siete usciti,
+[1:31:50] insomma, accesso alla mail o la VPN o
+[1:31:53] qualcosa,
+[1:31:54] oppure tutti legissimi e vi hanno
+[1:31:56] bloccato entro 24 ore?
+[1:32:02] No, io no.
+[1:32:05] No. Ok.
+[1:32:09] Nessun altro? No, no, le le anche voi
+[1:32:10] no.
+[1:32:13] Mh,
+[1:32:17] no. Ok,
+[1:32:20] meglio, eh? Molto bene.
+[1:32:23] Si vede che il processo di offboarding
+[1:32:25] ha funzionato e quindi ottimo.
+[1:32:28] Decisamente meglio così direi.
+[1:32:31] Andiamo avanti.
+[1:32:35] Altra policy, le AUP, quelle abbiamo
+[1:32:37] elencate all'inizio della lezione.
+[1:32:40] Quindi, che cosa sono? Eh, la OP
+[1:32:43] definisce cosa i dipendenti possono e
+[1:32:47] non possono fare con gli strumenti
+[1:32:48] aziendali, abbiamo detto no? Quindi
+[1:32:52] è uno dei documenti più importanti
+[1:32:54] perché regola la vita quotidiana di ogni
+[1:32:56] dipendente sul lavoro.
+[1:32:59] Eh, sostanzialmente un AOP ben fatto
+[1:33:01] cosa copre? eh uso di internet
+[1:33:04] personale. Ok, quindi è consentito sì no
+[1:33:07] con che limiti nel caso mai internet
+[1:33:11] personale, intendo PC aziendale,
+[1:33:13] vi fate gli affari vostri, nel senso che
+[1:33:15] svolgete attività di casa o chattate con
+[1:33:18] qualcuno o andate sui vostri profili
+[1:33:20] social eccetera.
+[1:33:22] uso della mele aziendale
+[1:33:25] è strettamente professionale o potete
+[1:33:27] usarla anche privatamente e se sì che
+[1:33:29] conche limiti
+[1:33:31] installazione di software
+[1:33:33] sì vietato oppure c'è un'autorizzazione
+[1:33:38] da chiedere per ogni software da
+[1:33:39] installare
+[1:33:42] uso di dispositivi USB quindi potete
+[1:33:45] inserire le chiavette USB nel PC
+[1:33:47] aziendale soo magari solo quelli cifrati
+[1:33:51] My
+[1:33:53] smart working,
+[1:33:55] no? O byod, che va di modo oggi è il
+[1:33:59] bring device, no? Quindi smart working è
+[1:34:02] portare usare il tuo PC domestico per
+[1:34:07] entrare nella VPN. Sì, no? In che casi?
+[1:34:12] Eh, uso di servizi cloud personali, il
+[1:34:14] vostro Dropbox, il vostro Google Drive
+[1:34:17] personale per documenti aziendali.
+[1:34:20] Sì. No, e anche lì conseguenze in caso
+[1:34:24] di violazione. Questo poi è linkato però
+[1:34:26] alle diverse actions che abbiamo detto
+[1:34:28] l'altra volta.
+[1:34:30] Ehm,
+[1:34:32] che cos'è la C slide? C anche il pod
+[1:34:35] slurping. Che cos'è? È una minaccia
+[1:34:37] concreta sostanzialmente che è il furto
+[1:34:39] di dati aziendali sfruttando e so
+[1:34:44] dispositivi USB esterni.
+[1:34:47] Eh, il nome viene dall'iPod per capirci
+[1:34:50] che eh perché nei primi 2000, nei primi
+[1:34:53] anni 2000 questo dispositivo che è nato
+[1:34:56] come lettore musicale era anche un disco
+[1:34:58] esterno da molti gigabyte, ok? E veniva
+[1:35:01] usato per portare via interi archivi
+[1:35:03] aziendali verso negli Stati Uniti.
+[1:35:06] Eh, oggi la stessa cosa vale per
+[1:35:07] smartphone, chiet USB, portatili,
+[1:35:10] eccetera eccetera eccetera.
+[1:35:12] Eh,
+[1:35:16] facciamo un esempio pratico.
+[1:35:20] Implementazione tecnica di un controllo
+[1:35:24] delle port USB. Ok,
+[1:35:27] cosa si può fare?
+[1:35:30] Direi si può cominciare con Group Policy
+[1:35:32] di Windows, poi approfondiremo, eh, non
+[1:35:34] vi preoccupate. Group Policy di Windows
+[1:35:36] per vietare la scrittura su dispositivi
+[1:35:39] rimovibili, no? Quindi vietiamo
+[1:35:42] proprio che il nostro soft, che il
+[1:35:44] nostro PC possa scrivere dati su un
+[1:35:47] dispositivo che poi può uscire
+[1:35:50] dalla
+[1:35:51] può essere può uscire dalla porta USB,
+[1:35:53] quindi può essere rimosso.
+[1:35:57] endp di lp,
+[1:36:00] quindi servono quelli per datalogs
+[1:36:02] prevention, quindi sono un sono end
+[1:36:06] point che analizzano che cosa viene
+[1:36:08] copiato
+[1:36:10] e blocchi i contenuti sensibili.
+[1:36:15] Terzo punto, cosa si può fare? La
+[1:36:16] cifratura forzata di dispositivi USB.
+[1:36:20] Quindi i dispositivi USB consentiti sono
+[1:36:23] solo quelli che sono cifrati
+[1:36:25] aziendalmente,
+[1:36:27] quindi se non hai quella chiave di
+[1:36:28] cifratura tu non puoi utilizzarli.
+[1:36:33] Eh, una una piccola media impresa può
+[1:36:36] implementare, vabbè, il livello uno a
+[1:36:37] costo zero, no? Quello ho detto col
+[1:36:38] gruppo. Occy Windows, vietei
+[1:36:40] direttamente la scrittura sulle
+[1:36:41] chiavette USB e via.
+[1:36:43] I livelli 2 o tre richiedono un minimo
+[1:36:45] di investimento, ma secondo me sono
+[1:36:47] giustificati se i dati lo valgono,
+[1:36:48] chiaramente.
+[1:36:51] Eh,
+[1:36:54] allora non dobbiamo confondere il
+[1:36:56] vietare con l'impedire, eh, per capirci,
+[1:36:58] la OP vieta certi comportamenti, no? Ma
+[1:37:01] da solo non li non li impedisce.
+[1:37:04] Eh, per impedirli servono appunto i
+[1:37:07] controlli tecnici che sono ad esempio
+[1:37:09] questi tre che abbiamo citato per le
+[1:37:11] chiavette USB per dare forza alla
+[1:37:13] policy, ok? Perché una policy senza
+[1:37:15] enforcement è solo una minaccia, è carta
+[1:37:18] firmata. Ok?
+[1:37:21] Eh, bene. Nelle vostre aziende domanda,
+[1:37:26] potete collegare i PCR dati oppure sono
+[1:37:28] solo cifrati e non potete scrivere le
+[1:37:30] chiavette esterne, eccetera eccetera?
+[1:37:33] vi è capitato
+[1:37:36] e voi potreste tranquillamente inserire
+[1:37:38] una chiavetta USB nel PC aziendale,
+[1:37:40] estrarre, non so, mi ricordo che
+[1:37:41] qualcuno lavorava nella Guardia di
+[1:37:42] Finanze adesso.
+[1:37:44] Sì, io eh tu puoi tranquillamente,
+[1:37:46] liberamente inserire nel PC
+[1:37:49] Eh, esatto, perché sennò cioè
+[1:37:51] assolutamente no. Eh, a parte che
+[1:37:54] verrebbe fuori un casino subito il
+[1:37:56] giorno stesso, però
+[1:37:58] non te lo permetto.
+[1:37:59] Sì, sì,
+[1:38:01] ma anche non senza arrivare alla Guardia
+[1:38:03] di Finanza, anche in un'azienda media,
+[1:38:07] io immagino che nel 2026 abbiano
+[1:38:10] controllo alle porte USB, giusto? Mi
+[1:38:12] confermate?
+[1:38:18] Ragazzi, siete tutti muti, però non vi
+[1:38:20] sento.
+[1:38:25] Io queste restrizioni non le ho avute.
+[1:38:29] Ok, quindi sostanzialmente tu mi dici
+[1:38:31] che paradossalmente tu avresti potuto
+[1:38:34] inserire una chiavetta USB da,
+[1:38:37] che ne so, 512 GB ed esportare tutti i
+[1:38:41] documenti sensibili della tua azienda,
+[1:38:44] no? Ah, no, su questo punto di vista no
+[1:38:46] no no.
+[1:38:46] O tutti, mettiamola così, tutti i
+[1:38:48] documenti sensibili che tu hai accesso.
+[1:38:52] No, no, no, no, su questo no.
+[1:38:57] Eh, in che senso? No, se tu penso che tu
+[1:38:59] hai sul PC hai dei hai dei dati, giusto?
+[1:39:03] Sì.
+[1:39:04] Ok. Sono sensibili qualche dato oppure
+[1:39:06] sono tutti dati non sensibili?
+[1:39:08] Cioè, eh no,
+[1:39:10] madi
+[1:39:12] sensibili, cioè nel senso
+[1:39:16] ho SOP aziendali, sì, de SOP aziendali
+[1:39:18] ce l'ho.
+[1:39:19] Eh, appunto. Cioè, tu potresti esportare
+[1:39:22] questi dati?
+[1:39:25] Esportare
+[1:39:26] copiarmi sulla chiavetta USB.
+[1:39:32] SOP, le SOP, sì, ti danno la duplice
+[1:39:36] copia. Sì, diciamo sì.
+[1:39:38] Quindi tu potevi tecnicamente avresti
+[1:39:40] potuto, insomma, fino adesso mettere
+[1:39:43] No, sempre nel senso se mi viene eh se
+[1:39:45] mi viene da se se mi veniva dato la
+[1:39:49] possibilità di poterla copiare dal
+[1:39:51] direttore T, cioè tutte queste
+[1:39:52] restrizioni, nel senso
+[1:39:55] a livello di soppative
+[1:39:58] all'interno aziendale, essendo
+[1:39:59] consulente lavorando per quell'azienda,
+[1:40:01] nel senso questa restrizione io non ce
+[1:40:03] l' non ce l'avevo.
+[1:40:05] Ok.
+[1:40:07] Va bene, quindi magari è una scelta,
+[1:40:09] dico, by design, nel senso che hanno
+[1:40:11] hanno segmentato talmente tanto che per
+[1:40:14] i per il personale che non ha accesso a
+[1:40:16] dati sensibili, allora non hanno voluto
+[1:40:18] implementare questa policy. Però mi
+[1:40:20] sembra strano, mi sembra come costa
+[1:40:22] talmente poco a livello di operatività
+[1:40:25] che
+[1:40:25] Beh, io ti parlo però Sam, ti parlo di
+[1:40:29] 6 anni fa, eh. Ok, vabbè, ma 2020 queste
+[1:40:33] restrizioni sono molto più vigenti
+[1:40:35] adesso.
+[1:40:37] Vabbè, adesso sicuramente, secondo me.
+[1:40:38] Poi ripeto, queste sono come dovrebbero
+[1:40:41] andare le cose poi.
+[1:40:42] Sì, sì. Cioè, la realtà, cioè, come ti
+[1:40:44] dicevo prima, la realtà è completamente
+[1:40:46] diversa, almeno da per quella che ho
+[1:40:47] vissuto io e diversi anni fa. Forse
+[1:40:50] adesso nel senso le cose stanno
+[1:40:51] cambiando,
+[1:40:53] però eh
+[1:40:57] cioè prima c'era una cioè io ho
+[1:41:00] protocolli ho protocolli ho protocolli
+[1:41:03] di di
+[1:41:04] validazione delle macchine, cioè nelle
+[1:41:07] varie aziende di consulenza in cui sono
+[1:41:09] stato.
+[1:41:10] Perfetto. Non so se oggi è possibile
+[1:41:12] farlo, però nel senso io ho questi
+[1:41:14] protocolli, ho le SOP, ho cioè diversi,
+[1:41:18] cioè
+[1:41:20] non è una buona cosa, però
+[1:41:22] non è una buona cosa, assolutamente no,
+[1:41:23] però eh la realtà che ho vissuto è
+[1:41:25] questa.
+[1:41:26] No, no, certo, non lo metto in dubbio,
+[1:41:28] ma ripeto, ma come nel tuo caso ce ne
+[1:41:30] saranno infiniti, quindi
+[1:41:33] Ok, passiamo alle adverse actions,
+[1:41:36] quindi cosa sono le conseguenze scritte,
+[1:41:39] no?
+[1:41:40] sono le sanzioni previste in caso di
+[1:41:43] violazione delle policy aziendali.
+[1:41:46] Eh,
+[1:41:48] quindi la logica è, diciamo, che
+[1:41:51] speculare al a quella del codice penale,
+[1:41:53] eh perché non è codice penale, però
+[1:41:55] passatemi la metafora, l'analogia è
+[1:41:57] speculare. Quindi una norma che descrive
+[1:42:00] un comportamento vietato senza prevedere
+[1:42:02] una conseguenza non ha forza. Va bene?
+[1:42:06] Ehm,
+[1:42:08] diciamo che tipicamente
+[1:42:11] le adverse actions di un'azienda
+[1:42:14] prevedono una scala progressiva, ok? si
+[1:42:17] parte dal classico richiamo verbale,
+[1:42:21] quindi che ne so, alla prima violazione
+[1:42:23] di minore entità c'è un richiamo non
+[1:42:26] scritto verbale dal tuo capo. Poi se
+[1:42:30] diventa eh più grave la situazione
+[1:42:34] avremo un richiamo scritto,
+[1:42:37] quindi la famosa letterina, la quindi se
+[1:42:40] si ripete la la violazione allora c'è il
+[1:42:43] richiamo. Dopo il richiamo scritto cosa
+[1:42:46] abbiamo? Tipicamente una sospensione.
+[1:42:49] Quindi se la dilazione è grave e
+[1:42:52] reiterata,
+[1:42:55] può esserci una sospensione che può
+[1:42:56] durare, che ne so, qualche giorno a
+[1:42:58] settimana a seconda della gravità. E poi
+[1:43:01] per ultimo abbiamo gli ultimi due step,
+[1:43:02] quelli proprio più più
+[1:43:06] importanti, passatemi il termine, per
+[1:43:08] violazioni molto grave. c'è il
+[1:43:10] licenziamento per giusta causa,
+[1:43:12] ovviamente in Italia, non a caso, in
+[1:43:15] casa di violazioni che rompono il
+[1:43:16] rapporto fiduciario, per capirci. E per
+[1:43:19] ultimo ci può essere anche addirittura
+[1:43:21] una un'azione legale eh se ci sono
+[1:43:24] violazioni che integrano reato, no?
+[1:43:27] Quindi se c'è un furto di dati, se c'è
+[1:43:30] un accesso abusivo, quindi non c'è solo
+[1:43:33] licenziamento, c'è anche poi un'azione
+[1:43:34] legale del datore di lavoro contro di
+[1:43:36] te.
+[1:43:38] Eh, contesto italiano. Anche qua eh
+[1:43:44] l'articolo 7 dello statuto dei
+[1:43:46] lavoratori impone che le sanzioni
+[1:43:48] disciplinari siano applicabili solo se
+[1:43:50] preventivamente comunicate ai
+[1:43:52] lavoratori.
+[1:43:54] Ok?
+[1:43:55] La comunicazione può avvenire, che ne
+[1:43:57] so, o affissione in bacheca nella hall
+[1:44:00] dell'azienda o pubblicazione sulla
+[1:44:02] intranet aziendale o ti sono state
+[1:44:05] consegnate e quindi tu le hai
+[1:44:07] fisicamente. Quindi,
+[1:44:10] eh per capirci, un non comunicata, come
+[1:44:13] abbiamo già detto prima, non può essere
+[1:44:15] fatta valere per sanzionare un
+[1:44:16] dipendente,
+[1:44:18] quindi deve essere scritta e comunicata.
+[1:44:23] Ed questo è un obbligo di legge in
+[1:44:24] Italia, eh, quindi non è che puoi puoi
+[1:44:26] pretendere di sanzionare qualcuno se non
+[1:44:29] hai fatto questa comunicazione.
+[1:44:31] Poi c'è il principio di proporzionalità
+[1:44:33] e gradualità della sanzione che è
+[1:44:36] fondamentale del diritto del lavoro
+[1:44:38] italiano.
+[1:44:40] Quindi la sanzione deve essere
+[1:44:42] proporzionata alla gravità del fatto.
+[1:44:46] Per farvi capire, i giudici i giudici
+[1:44:49] del lavoro annullano regolarmente
+[1:44:51] licenziamenti sproporzionati.
+[1:44:55] Ok? Questo parlando delle normative
+[1:44:56] italiane, ehm
+[1:45:04] diciamo che
+[1:45:06] eh il se la policy è generica
+[1:45:10] sarà difficile dimostrare che il
+[1:45:12] dipendente l'ha violata. Ok?
+[1:45:15] Quindi dal punto di vista dell'azienda
+[1:45:17] la specificità è una protezione.
+[1:45:22] Questa cosa però possiamo vederla anche
+[1:45:24] dall'altro punto di vista del dipendente
+[1:45:26] che dal punto di vista dipendente la
+[1:45:27] specificità che anche che cosa può non
+[1:45:30] può fare, quindi non vive nel caos
+[1:45:33] indipendente o nell'incertezza.
+[1:45:41] Andiamo avanti.
+[1:45:44] Allora,
+[1:45:49] allora, le leggi standard, eccoci qua.
+[1:45:54] Prima di entrare nelle singole
+[1:45:56] normative,
+[1:45:58] eh chiariamo la differenza che c'è tra
+[1:46:02] legge e standard,
+[1:46:06] eh, perché diciamo che confonderle è uno
+[1:46:07] degli errori comuni, eh, ma ma
+[1:46:11] che capita a tantissime persone
+[1:46:13] sostanzialmente. Allora, la legge è
+[1:46:15] emanata dallo Stato, che può essere
+[1:46:17] parlamento, governo o Unione Europea per
+[1:46:21] i regolamenti, per capirci, per i paesi
+[1:46:24] che ne fanno parte, è obbligatoria per
+[1:46:27] tutti i soggetti che ricadono nel suo
+[1:46:29] ambito
+[1:46:31] e la violazione equivale a una sanzione
+[1:46:33] amministrativa o penale. ad esempio, che
+[1:46:36] ne so, il G possono essere esempi il
+[1:46:39] GDPR, il MIS 2, che ne so, il codice
+[1:46:42] penale, articolo 615, sto citando quelli
+[1:46:45] per l'informatica, eh, ovviamente, o Sox
+[1:46:49] Hipa per altre per nazioni stranere,
+[1:46:52] Inghilterra, Stati Uniti.
+[1:46:55] Lo standard, invece cos'è?
+[1:46:58] è un documento tecnico prodotto da
+[1:47:01] un'organizzazione di standardizzazione,
+[1:47:04] il famoso ISO, per capirci,
+[1:47:07] o il Mist.
+[1:47:09] Eh, lo standard è volontario nella
+[1:47:12] maggior parte dei casi, quindi l'azienda
+[1:47:15] sceglie
+[1:47:17] di conformarsi e di certificarsi
+[1:47:20] per ragioni commerciali oppure
+[1:47:22] reputazionali
+[1:47:24] o per accedere a certi mercati che lo
+[1:47:26] richiedono. Il famoso ISO 27001,
+[1:47:30] no?
+[1:47:33] anche la un
+[1:47:35] anche
+[1:47:38] esistono casi misti poi eh, quindi cioè
+[1:47:41] standard che pur essendo nati come
+[1:47:43] volontari poi sono diventati di fatto
+[1:47:46] obbligatori.
+[1:47:50] Per esempio, il PC DSS è tecnicamente
+[1:47:52] uno standard imposto dai circuiti di
+[1:47:54] pagamento, so vister,
+[1:47:57] ma è imposto attraverso clausole
+[1:47:59] contrattuali, ok? E quindi non è una
+[1:48:02] legge, ma se vuoi accettare le carte di
+[1:48:05] pagamento viscard devi rispettarlo.
+[1:48:09] L'ISO 27001 non è obbligatorio in sé, ma
+[1:48:13] molti bandi pubblici italiani o che ne
+[1:48:16] so europei, tedeschi lo richiedono come
+[1:48:18] requisito l'accesso. Quindi se tu vuoi
+[1:48:20] partecipare a quel bando, anche se non
+[1:48:21] sei obbligata, devi averlo, sennò vieni
+[1:48:24] rimbalzato.
+[1:48:28] Eh, quindi per fare un'analogia, la
+[1:48:30] legge
+[1:48:32] è il codice della strada, per capirci,
+[1:48:34] lo Stato fa lo fa rispettare con le
+[1:48:37] multe e questo vale per tutti, chi vi
+[1:48:39] piaccia o no.
+[1:48:42] Eh, non so, lo standard invece potrebbe
+[1:48:44] essere il il bollino slow food su un
+[1:48:47] prodotto, quindi nessuna legge ti
+[1:48:50] obbliga ad averlo,
+[1:48:52] ma se vuoi vendere a un certo a una
+[1:48:55] certa nicchia di mercato che vuole quel
+[1:48:57] cibo, ti conviene certificarti, quindi
+[1:48:59] non è obbligatorio,
+[1:49:02] ma chi non lo ha escluso commercialmente
+[1:49:05] da quella da quella nincchia di mercato.
+[1:49:10] Ok,
+[1:49:18] vediamo se faccio degli esempi.
+[1:49:26] Eh, conoscete altri esempi di standard
+[1:49:30] di fatto obbligatori per il mercato in
+[1:49:32] cui si opera?
+[1:49:34] Quindi standard, ma che di fatto sono
+[1:49:37] poi obbligatori, quindi non per legge,
+[1:49:39] ma poco ci manca.
+[1:49:46] Lei pure.
+[1:49:49] Ok.
+[1:49:51] Le IC,
+[1:49:53] le GAMF,
+[1:49:56] mh mh.
+[1:49:57] A livello tecnico sono queste, cioè
+[1:50:00] dipende del settore, cioè a livello
+[1:50:02] farmaceutico
+[1:50:03] le GAMS, le GXP.
+[1:50:06] Sì.
+[1:50:07] Eh
+[1:50:12] poi
+[1:50:17] la ISO 9001. La ISO 9001, sì,
+[1:50:20] per la qualità, giusto?
+[1:50:23] Per la qualità. La ISO 27001, quella che
+[1:50:25] hai citato prima. Esatto.
+[1:50:30] Le IC
+[1:50:32] le I c sono in base in base al settore,
+[1:50:34] come avete detto,
+[1:50:36] in base al settore ci sono degli
+[1:50:37] standard tecnici, però nel senso le gamp
+[1:50:40] sono le gamp, le GXP
+[1:50:43] eh good manufactory practice, nel senso
+[1:50:46] sono sì, sono standard, non sono leggi.
+[1:50:50] Esatto.
+[1:50:51] Ok. Quindi ci sono ci sono varie
+[1:50:53] tipologie di standard che poi alla fine
+[1:50:55] sono
+[1:50:56] Sì. A seconda del settore in cui stai ci
+[1:50:59] sono degli standard differenti.
+[1:51:01] Perfetto.
+[1:51:03] Ok, andiamo avanti.
+[1:51:07] Ora parliamo degli standard delle carte
+[1:51:09] di pagamento. Ok? Come esempio il PC
+[1:51:12] DSS. A chi si applica?
+[1:51:16] si applica a chiunque memorizzi processi
+[1:51:20] o trasmetta dati di titolari di carte di
+[1:51:22] pagamento,
+[1:51:24] quindi fuori dai denti un e-commerce
+[1:51:28] o molto più semplicemente i ristoranti
+[1:51:31] che accettano post, hotel,
+[1:51:34] distributori di benzina automatici o
+[1:51:37] distributori anche con l'omino, ma che
+[1:51:39] ti fan pagare col post,
+[1:51:41] i parcheggi con tessere,
+[1:51:45] qualsiasi qualsiasi negozio che utilizzi
+[1:51:46] un terminale di pagamento.
+[1:51:49] Quindi, sostanzialmente potremmo dire
+[1:51:52] tranquillamente tutti i commercianti,
+[1:51:55] per capirci.
+[1:51:57] Eh, le aziende sono suddivise in quattro
+[1:52:01] livelli di compliance in base al volume
+[1:52:04] di transazioni annue. Ok? Dal livello 4,
+[1:52:08] piccoli commercianti fino a 20.000
+[1:52:10] transazioni onine o 1 milione totali
+[1:52:14] uno che va oltre 6 milioni di
+[1:52:17] transazioni.
+[1:52:18] Chiaramente più alto è il livello più
+[1:52:21] stringenti saranno i requisiti di audit.
+[1:52:25] Allora,
+[1:52:29] spieghiamo questi sei pilastri che
+[1:52:31] vedete nella slide.
+[1:52:34] Primo dice build and e maintain secure
+[1:52:36] network, quindi costruire e mantenere
+[1:52:39] una rete sicura. Che cosa vuol dire?
+[1:52:43] Firewall configurati correttamente,
+[1:52:47] non usare password di default, per
+[1:52:49] esempio, su apparati e software.
+[1:52:52] Poi protect careholder data, quindi
+[1:52:55] proteggere i dati delle carte. Cosa
+[1:52:58] significa questo?
+[1:53:00] Cifrarli quando vengono trasmessi su
+[1:53:02] rete pubbliche.
+[1:53:04] fare masking quando vengono visualizzati
+[1:53:08] o conservazione minimizzata, quindi
+[1:53:11] conservarne proprio il minimo
+[1:53:13] indispensabile per poter effettuare la
+[1:53:15] transazione.
+[1:53:18] Terzo pilastro, mantiene vulnerability
+[1:53:20] management program, quindi programma di
+[1:53:22] gestione delle vulnerabilità. Quindi
+[1:53:26] abbiamo antivirus aggiornati,
+[1:53:29] patch management è fatto, quindi vengono
+[1:53:32] fatti aggiornamenti in maniera
+[1:53:33] sistematica, c'è una policy per farlo?
+[1:53:37] Implementate delle policy di sviluppo
+[1:53:39] del sicuro del software
+[1:53:42] e così via. Eh, implement strong access
+[1:53:46] control measures, quindi controllo degli
+[1:53:48] accessi forte. Quindi che significa
+[1:53:51] questo?
+[1:53:53] l'accesso ai dati della carta solo a chi
+[1:53:56] ne ha effettivamente bisogno,
+[1:54:00] esclusivamente a lui, ID unico per ogni
+[1:54:03] utente, quindi non nome e cognome, ma un
+[1:54:05] ID e accesso fisico limitato.
+[1:54:09] Poi regular monitor and testors.
+[1:54:14] monitoraggio e test regolari, quindi log
+[1:54:17] centralizzati di tutti gli accessi, test
+[1:54:20] di sicurezza del vostro sistema
+[1:54:22] periodico
+[1:54:24] e poi come ultimo pilastro maintain
+[1:54:26] information security policy è politica
+[1:54:28] di sicurezza documentata,
+[1:54:30] non solo documentata, ma anche
+[1:54:32] comunicata chiaramente e aggiornata,
+[1:54:35] cosa molto importante.
+[1:54:39] Facciamo un esempio pratico, dai.
+[1:54:40] ristorante di Milano accetta pagamenti
+[1:54:43] con carta tramite POS dalla propria
+[1:54:46] banca. Tecnicamente è soggetto al PC di
+[1:54:49] SS. In pratica, se usa il POS della
+[1:54:53] banca senza memorizzare dati di carta
+[1:54:56] nei propri sistemi,
+[1:54:58] la maggior parte degli obblighi è
+[1:55:00] gestita dalla banca stessa. Ok?
+[1:55:02] Se invece sviluppasse un proprio sistema
+[1:55:05] di gestione clienti che memorizza il
+[1:55:07] numero della carta, entrerebbe in un
+[1:55:10] mondo molto più complesso e costoso.
+[1:55:14] Ok? Quindi mettiamola così. Regola
+[1:55:16] d'oro, se non sei un'azienda
+[1:55:18] specializzata in pagamenti, non
+[1:55:21] memorizzare i dati di carta, lascia che
+[1:55:24] lo faccia il provider, la banca in
+[1:55:26] questione, nel caso. Ok? Quindi il
+[1:55:28] ristorante tipicamente non si conserva i
+[1:55:31] vostri numeri di data perché non
+[1:55:33] processa lui il pagamento, ma è la
+[1:55:35] banca.
+[1:55:37] Eh,
+[1:55:43] questo concetto però deve essere chiaro
+[1:55:45] perché non è
+[1:55:47] solo per le banche, eh, nel senso è per
+[1:55:49] chiunque tocchi i dati delle carte.
+[1:55:55] Eh, una violazione di questo PCI DSS che
+[1:55:59] porta un data bridge può costare molte
+[1:56:02] anche da da Vister, eh, quindi non è
+[1:56:04] solo lo Stato bla bla bla bla, ma anche
+[1:56:07] lo stesso fornitore del servizio
+[1:56:10] e si parla di decine di migliaia di
+[1:56:12] euro, eh, non multe da €500, oltre che
+[1:56:15] la revoca della possibilità di accettare
+[1:56:17] carte.
+[1:56:19] catastrofe gigantesca per un e-commerce
+[1:56:21] o per un ristorante. Chi quale
+[1:56:23] ristorante oggi potrebbe accettare solo
+[1:56:25] contanti?
+[1:56:27] costi di forensic qui, quindi costi di
+[1:56:31] eh controllo poi forense da parte dei
+[1:56:34] tecnici per verificare cosa è successo.
+[1:56:36] Notifica i clienti che la loro carta di
+[1:56:39] credito è stata i dati loro carta di
+[1:56:41] credit stati divulgati, presi e poi
+[1:56:45] ovviamente eventuale sanzione del
+[1:56:46] garante della privacy per non farci
+[1:56:48] mancare niente proprio.
+[1:56:50] Ok.
+[1:56:54] Ok.
+[1:56:56] Poi information, security, laws and
+[1:56:59] standard. Sempre abbiamo in questo caso
+[1:57:01] lo standard più importante del nostro
+[1:57:03] settore, qual è? Iso 27001,
+[1:57:08] ok? che è lo standard universale della
+[1:57:10] sicurezza sulle informazioni.
+[1:57:13] Quindi diciamo che se c'è una norma, una
+[1:57:16] normativa
+[1:57:18] che dovete memorizzare o comunque che vi
+[1:57:20] dovete guardare con attenzione è questa,
+[1:57:22] l'ISO 27001,
+[1:57:24] che è lo standard internazionale di
+[1:57:26] gestione della sicurezza delle
+[1:57:27] informazioni.
+[1:57:30] Eh, non è obbligatorio per legge, ok? è
+[1:57:34] uno standard, ma è il riferimento
+[1:57:38] globale per dimostrare di gestire
+[1:57:41] seriamente la sicurezza.
+[1:57:43] È richiesto contrattualmente da molti
+[1:57:46] grandi clienti, sia italiani che
+[1:57:48] internazionali
+[1:57:50] e requinquisito di accesso per molti
+[1:57:53] bandi pubblici, specialmente nell'ambito
+[1:57:56] della pubblica amministrazione digitale,
+[1:57:57] per capirci,
+[1:58:00] aiuta a dimostrare la compliance, no?
+[1:58:03] Quindi GDPR, NIS 2 e altre normative
+[1:58:06] e diciamo è la base di partenza poi per
+[1:58:09] fare certificazioni professionali anche
+[1:58:10] molto più importanti. Ok?
+[1:58:14] Che cosa fa in pratica
+[1:58:16] questo ISO 27001?
+[1:58:21] Definisce i requisiti
+[1:58:23] per costruire quello che viene chiamato
+[1:58:25] un ISMS che è l'information security
+[1:58:27] management system. Quindi cos'è? un
+[1:58:30] insieme strutturato di policy, processi
+[1:58:33] e controlli per gestire la sicurezza
+[1:58:35] delle informazioni in modo sistematico
+[1:58:38] anziché reattivo.
+[1:58:41] Ok? Quindi non reagire a danno fatto, ma
+[1:58:47] avere già su un insieme strutturato di
+[1:58:49] policy
+[1:58:50] per gestire la sicurezza delle
+[1:58:52] informazioni in maniera sistematica.
+[1:58:55] Quindi
+[1:58:57] la logica è il ciclo che l'acronimo
+[1:59:00] inglese chiama PDCA, sostanzialmente è
+[1:59:03] plan do check, quindi pianificare i
+[1:59:07] controlli sulla base di un'analisi del
+[1:59:09] rischio,
+[1:59:10] implementarli,
+[1:59:12] verificarne l'efficacia e correggere.
+[1:59:16] Quindi non è che facciamo le cose una
+[1:59:18] volta e abbiamo finito, è un ciclo che
+[1:59:20] gira continuamente.
+[1:59:25] Eh,
+[1:59:27] diciamo che per un'analogia nel mondo
+[1:59:30] magari della ristorazione, visto che
+[1:59:31] siamo sempre abbiamo fatto l'esempio
+[1:59:33] prima, l'ISO 27001
+[1:59:36] sta al sistema di sicurezza informatico
+[1:59:39] come l'HCCP e la ristorazione, no? Non
+[1:59:42] so se chi di voi ha bazzicato nel mondo
+[1:59:44] della ristorazione. Quindi la HCCP non
+[1:59:47] dice al cuoco quale ricetta cucinare,
+[1:59:50] dice come strutturare i controlli su
+[1:59:52] tutta la filiera, temperature, scadenze,
+[1:59:55] tracciabilità, formazione al personale
+[1:59:57] per garantire che il prodotto finale sia
+[1:59:59] sicuro.
+[2:00:01] La ISO 27001 fa lo stesso, non ti dice
+[2:00:04] quale firewall comprare, ti dice come
+[2:00:07] strutturare il sistema di gestione della
+[2:00:09] sicurezza per garantire un livello di
+[2:00:11] protezione affidabile e dimostrabile.
+[2:00:18] Ehm, il
+[2:00:19] Puoi ripetere quest'ultima cosa, Samuel?
+[2:00:22] Quindi la ISO 27001 sono un insieme di
+[2:00:25] strutture di policy che mi permettono di
+[2:00:27] mantenere e di stabilire, implementare e
+[2:00:30] sviluppare i sistemi di gestione.
+[2:00:33] Sì, esatto. Diciamo che ti permette
+[2:00:36] appunto di ehm
+[2:00:40] di
+[2:00:43] di gestire la sicurezza
+[2:00:44] dell'informazione in modo sistematico,
+[2:00:46] ok? Quindi non limitarti a reagire.
+[2:00:52] ha un'eventuale minaccia esterna o un
+[2:00:55] problema anche interno, non per forza
+[2:00:56] una minaccia esterna. Ok.
+[2:01:01] Ok. Trami ehm
+[2:01:06] in modo strutturato.
+[2:01:08] Esatto.
+[2:01:10] Quindi tramite le policy.
+[2:01:13] Tramite le policy. Esatto.
+[2:01:18] Ok.
+[2:01:19] Ok.
+[2:01:20] Ok.
+[2:01:21] eh il cuore operativo
+[2:01:23] di dello standard dell'allegato A che
+[2:01:27] elenca sostanzialmente 93 controlli.
+[2:01:30] Adesso non sto a tediare con tutti i 93
+[2:01:32] controlli, eh, però diciamo che sono
+[2:01:34] suddivisi in quattro temi, ok? Questi
+[2:01:38] quattro temi sono organizzativi, di
+[2:01:41] persone, fisici e tecnologici. Quindi
+[2:01:44] organizzativi
+[2:01:46] sono policy, ruoli, gestione degli
+[2:01:50] asset, classificazione delle
+[2:01:53] informazioni, contratti,
+[2:01:56] persone, quindi screening,
+[2:01:59] awareness,
+[2:02:02] quindi awareness intende di formazione,
+[2:02:05] gestione del cambiamento di ruolo,
+[2:02:09] boarding offboarding, eccetera e
+[2:02:12] processi disciplinari.
+[2:02:15] fisici, perimetro, accessi, sicurezza
+[2:02:19] fisica delle aree, smaltimento dei
+[2:02:21] supporti.
+[2:02:24] Tecnologici
+[2:02:26] possono essere l'endP, la rete, i
+[2:02:29] software,
+[2:02:31] eh sviluppare software sicuro,
+[2:02:35] politiche di log, monitoring e così via.
+[2:02:41] Eh, diciamo che nel contesto italiano la
+[2:02:44] ISO 27001
+[2:02:47] è molto diffusa nei settori finance,
+[2:02:51] telco, fornitori della pubblica pubblica
+[2:02:53] amministrazione, sanità privata, energia
+[2:02:56] e così via.
+[2:02:58] Ehm,
+[2:03:00] per farvi un'idea, un costo indicativo
+[2:03:03] per una piccola media impresa italiana,
+[2:03:07] diciamo anche media, che non so, a
+[2:03:08] 50-100 persone, per capirci, tra i 15 e
+[2:03:11] i €40.000
+[2:03:13] per il primo anno di percorso, quindi
+[2:03:15] cosa vuol dire? Consulenza più ente di
+[2:03:16] certificazione e poi per mantenerla,
+[2:03:20] come abamo detto, non basta solo farlo
+[2:03:21] una volta, una tantum tra i 5-10.000
+[2:03:24] all'anno, 5-10.000 000 allanno per il
+[2:03:26] mantenimento, per capirci, un'azienda di
+[2:03:28] 50-100 persone per darvi un anche un una
+[2:03:33] misura economica.
+[2:03:36] Oh, è mezzogiorno, direi che possiamo
+[2:03:37] fermarci qua per oggi. Se avete domande
+[2:03:39] ditemi voi.
+[2:03:44] Chiaro l'ISO 27001?
+[2:03:48] Ma queste cose che hai detto
+[2:03:49] sull'allegato A della ISO 27001
+[2:03:53] m
+[2:03:53] mh
+[2:03:54] bisogna saperle, bisogna ricordarle. È
+[2:03:57] questa slide che hai che hai messo
+[2:03:59] adesso?
+[2:04:00] Non penso.
+[2:04:02] No, no, no, no. Questo lo sto dando io
+[2:04:04] come informazione in più oltre alle
+[2:04:06] slide perché ripeto loro poi adesso
+[2:04:10] nella prossima lezione andiamo avanti
+[2:04:11] con l'ultima parte di queste slide prima
+[2:04:14] di passare poi alla parte informatica
+[2:04:16] più core e
+[2:04:18] sono un po' la spiegazione delle policy
+[2:04:20] delle delle normative anche americane o
+[2:04:22] inglesi, no? che l'esame sarà in inglese
+[2:04:25] e quindi le normative che loro andranno
+[2:04:27] a verificare la vostra formazione sarà
+[2:04:30] anche su quelle, non su quelle italiane.
+[2:04:31] Io vi sto facendo vi sto dando anche un
+[2:04:33] contesto italiano per per darmi
+[2:04:35] formazioni in più,
+[2:04:37] ok?
+[2:04:37] Capito? Per farvi capire bene anche per
+[2:04:39] voi cosa significa questa cosa.
+[2:04:42] Ok.
+[2:04:44] Ok. Comunque, per capirci, l'ISO 27001
+[2:04:46] non è italiano, eh, cioè anche si
+[2:04:49] rispetta a livello internazionale,
+[2:04:51] quindi non sono informazioni inutili per
+[2:04:53] il resto, sono informazioni utilissime.
+[2:04:57] Ok,
+[2:04:59] ok,
+[2:05:04] ok.
+[2:05:06] Queste cose in quanto che sono su questa
+[2:05:08] slide, nel senso mi sembra che tu non
+[2:05:10] l'abbia detti Samuel, giusto?
+[2:05:12] Queste cose qua non ancora, no?
+[2:05:14] No, no,
+[2:05:17] ci fermiamo qua, poi andiamo avanti. La
+[2:05:19] prossima volta
+[2:05:21] ci fermiamo slide 19.
+[2:05:26] Ci sono domande?
+[2:05:28] M no,
+[2:05:29] anche su tema di prima, eh, se non per
+[2:05:31] forza su questo. Se avete domande su
+[2:05:36] No, vabbè, diciamo di no, però
+[2:05:38] ricordarsi tutte le cose.
+[2:05:41] Eh,
+[2:05:42] eh, e infatti, cioè, io non l'ho detto,
+[2:05:44] ma
+[2:05:47] è un esame.
+[2:05:48] Non no, non si può fare tipo delle mini
+[2:05:51] simulazioni d'esame, nel senso per
+[2:05:53] esercitarsi e ricordare ricordare
+[2:05:56] ricordare. Tu sbagli, poi vai sulle
+[2:05:58] stesse cose che sbagli e rifai fino a
+[2:06:01] quando non sai tutto, una roba del
+[2:06:03] genere, sennò così difficile ricordarsi
+[2:06:05] tutto.
+[2:06:06] Eh, non non lo so questo. Adesso ci
+[2:06:08] ragiono e vediamo perché non saprei, non
+[2:06:10] potrei farvi io, cioè non lo siccome non
+[2:06:12] ve lo terrò io, non le creerò io le
+[2:06:14] domande per voi, quindi non bisognerà
+[2:06:16] vedere. Ci ci ragiono un attimo, poi
+[2:06:18] vediamo.
+[2:06:19] No, no, ma è solo per esercitarsi, solo
+[2:06:20] per quello.
+[2:06:21] Sì, sì, sì, capito.
+[2:06:25] Qualcun altro domande?
+[2:06:30] No.
+[2:06:31] Domandata. Vi siete annoiati? Vi sta
+[2:06:32] piacendo?
+[2:06:36] Eh, per adesso
+[2:06:37] tutto bello, bello, tutto bello.
+[2:06:40] Ok, meno male anche questa parte
+[2:06:43] iniziale, insomma, ma vedrete che si va
+[2:06:46] sempre. Vabbè, interessante.
+[2:06:49] Sono comunque argomenti che bisogna
+[2:06:50] conoscere a prescindere adesso
+[2:06:52] dall'esame.
+[2:06:58] Va bene ragazzi, se non ci sono domande
+[2:06:59] allora direi che ci possiamo vedere
+[2:07:01] giovedì prossimo. Caricherò le slide.
+[2:07:04] No, non è vero. Questa è ancora lo
+[2:07:05] stessa lo stesso malloppo, quindi no. E
+[2:07:08] niente, avete già tutto la registrazione
+[2:07:10] domenica mi sembra la potete rivedere
+[2:07:12] domenica sera adesso, come al solito,
+[2:07:14] non so, il giorno preciso in cui viene
+[2:07:15] caricata. se volete rivederla
+[2:07:18] e niente, ci sentiamo
+[2:07:21] e vi auguro.
+[2:07:22] Grazie mille, buona giornata a tutti.
+[2:07:24] Ciao
+[2:07:24] ciao ciao ciao ciao ciao
+[2:07:26] ciao
+[2:07:28] Samuel, scusami, posso farti delle
+[2:07:30] domande?
+[2:07:31] Dimmi.
+[2:07:35] E io sto vedendo nel senso ehm
+[2:07:39] annunciativi, no?
+[2:07:41] Sì.
+[2:07:44] Ehm,
+[2:07:46] cioè questo corso in sé per sé, da
+[2:07:48] quello che ho capito, ti dà una visione
+[2:07:49] a 360°, non ti specializza
+[2:07:52] esclusivamente su un determinato
+[2:07:54] settore?
+[2:07:57] Eh, sia un corso base, esatto. Non è non
+[2:07:59] hai una specializzazione perché le
+[2:08:02] specializzazioni vengono dopo. Come
+[2:08:04] dicevo, se tu vuoi poi specializzarti in
+[2:08:07] un determinato settore della cyber
+[2:08:08] security, che sia reverse engineering, o
+[2:08:11] lo sviluppo di, non so, mobile hacking o
+[2:08:15] webhacking, qualunque qualunque settore
+[2:08:17] tu scelga, eh poi ti devi specializzare
+[2:08:20] dopo, però devi avere le basi per
+[2:08:22] poterlo fare. Puoi partire da Reverse
+[2:08:24] Engineering.
+[2:08:26] Reverse Engineering, però nel senso che
+[2:08:28] si distaccano completamente, nel senso
+[2:08:30] dalle figure di networking, engineering,
+[2:08:34] ehm, queste figure qua, Cisco,
+[2:08:38] sì, sì, sono due lavori diversi.
+[2:08:42] M
+[2:08:43] dovrai scegliere tu quale ti piacerà.
+[2:08:46] Ma su questo corso, nel senso viene
+[2:08:48] fatto capire,
+[2:08:50] cioè le cose che nel senso che ti ho
+[2:08:52] detto precedentemente.
+[2:08:53] Sì, vengono trattati Sì, sì. Vengono
+[2:08:54] trattati gli argomenti in maniera
+[2:08:57] iniziale, chiaramente tutti questi temi,
+[2:09:00] in modo che tu poi potrai avrai le
+[2:09:03] nozioni per capire dove vorrai andare a
+[2:09:06] crescere, dove vorrai andare a lavorare,
+[2:09:08] dove su cosa vorrai specializzarti. Ok.
+[2:09:14] E è anche nel senso la certificazione
+[2:09:17] che ho sentito anche l'altra lezione, la
+[2:09:19] certificazione pure sulla difesa è molto
+[2:09:22] più specifica rispetto a questa che a
+[2:09:24] questo corso che stiamo facendo.
+[2:09:27] Eh, dipende adesso Sì, dipende se è se è
+[2:09:30] una certificazione entry level o se è
+[2:09:32] più avanzata. Se più avanzata sarà
+[2:09:33] sicuramente più specifica,
+[2:09:36] no? il proprio l'istituto, nel senso
+[2:09:37] c'era sia questo corso, il corso sul
+[2:09:40] cyber security specialist che la
+[2:09:42] certificazione sulla sulla parte
+[2:09:44] difensiva,
+[2:09:45] ok?
+[2:09:46] Tu sappia la parte difensiva, la
+[2:09:48] certificazione che l'istituto in quanto
+[2:09:49] proponeva sulla parte difensiva è entry
+[2:09:51] level o è specifica? Cioè, nel senso,
+[2:09:56] avrei le basi per poterla fare? Questa è
+[2:09:58] la mia domanda.
+[2:09:59] Io quella non la tengo io quel corso lì,
+[2:10:00] quindi non non so. Così dovrei vederlo
+[2:10:03] perché non lo tengo io, quindi non lo
+[2:10:04] so. Cio se tu avresti le basi.
+[2:10:06] Non so, dipende che lavoro hai fatto,
+[2:10:09] quanto sei,
+[2:10:11] che background hai, sostanzialmente,
+[2:10:13] però io non tenendola, io faccio fatica
+[2:10:15] a risponderti in questa cosa.
+[2:10:17] Mh.
+[2:10:18] Cioè, non vorrei dirti una cosa per
+[2:10:19] un'altra per quello.
+[2:10:21] Ok.
+[2:10:23] E va bene, dai. E allora niente,
+[2:10:26] ci vediamo giovedì prossimo.
+[2:10:28] Assolutamente. Ciao ragazzi.
+[2:10:31] Ciao Sam. Ciao. Ciao.
+[2:10:33] C.
